@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Équipement Drakantos : Guide de progression des artefacts et de l'équipement 2026",
+  description: "Maîtrisez le système d'équipement de Drakantos avec notre guide sur les artefacts, les orbes et les trophées. Apprenez à augmenter le score d'équipement et à optimiser les builds de héros pour 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Drakantos+Equipment+Guide",
+  date: "2026-05-23",
+  author: "Équipe Wiki de Drakantos"
+}
+
+<Callout type="info" title="Guide Rapide">
+- L'**équipement de Drakantos** s'articule autour des **Artefacts, Orbes et Trophées** plutôt que des ensembles d'armure traditionnels.
+- Le **Niveau de Puissance 460** est le premier jalon majeur requis pour débloquer les missions avancées et la quête de la monture.
+- Les **Artefacts** confèrent des capacités actives, telles que l'invocation d'alliés ou le déploiement d'armes secondaires comme les arbalètes de poing.
+- Les **Orbes** sont des objets spécifiques aux héros, utilisés pour modifier et améliorer les compétences existantes afin de personnaliser les styles de jeu.
+- Le **Scaling PvP** assure un environnement compétitif en normalisant les statistiques, se concentrant purement sur la stratégie et la sélection des compétences.
+</Callout>
+
+<Section icon={Map} title="Comprendre l'équipement et les niveaux de puissance de Drakantos">
+
+Dans le monde pixelisé de Drakantos, l'efficacité de votre héros est déterminée par un système d'équipement spécialisé qui s'éloigne des tropes traditionnels des MMORPG. Au lieu de gérer des emplacements individuels pour les bottes ou les gants, les joueurs se concentrent sur un score d'**équipement Drakantos** unifié appelé Niveau de Puissance. Cette métrique détermine votre éligibilité pour des aventures spécifiques et du contenu d'histoire de haut niveau. Au début de la progression, atteindre un Niveau de Puissance de 460 est essentiel pour dépasser le village de départ et accéder à la carte du monde plus vaste, y compris Casteron.
+
+**Points forts de la vidéo :**
+- **Premières impressions :** Aperçu de l'esthétique pixel-art et des designs de personnages inspirés de World of Warcraft.
+- **Mécaniques de combat :** Analyse des capacités verrouillées par l'animation et de l'importance du positionnement.
+- **Jalons de progression :** Atteindre le seuil de Niveau de Puissance 460 pour débloquer de nouveaux rangs de mission.
+- **Présentation d'artefact :** Démonstration de l'artefact arbalète de poing et de son impact sur les dégâts.
+
+<YouTubeEmbed videoId="eYLDl2_lHyE" title="Drakantos - Nouveau Gameplay et Critique du MMORPG Pixelisé" />
+
+L'équipement s'acquiert principalement via les aventures multijoueurs. Ces missions vous regroupent avec deux autres joueurs pour accomplir des objectifs, vous récompensant en XP, ressources et butin une fois terminées. À mesure que vous augmentez votre Rang d'Aventure, la difficulté augmente, nécessitant des scores d'équipement plus élevés mais offrant des récompenses bien meilleures.
+
+| Catégorie d'équipement | Fonction principale | Méthode d'acquisition |
+| :--- | :--- | :--- |
+| **Artefacts** | Confère de nouvelles compétences/invocations actives | Butins de mission, Boîtes Bêta |
+| **Orbes** | Modifie les capacités spécifiques aux héros | Butins ciblés par héros, Artisanat |
+| **Trophées** | Boosts de statistiques et passifs de fin de jeu | Aventures de haut rang, PvP |
+| **Ressources** | Utilisées pour améliorer l'équipement existant | Collecte en monde ouvert, Récupération |
+
+<Callout type="tip" title="Note de l'éditeur">
+N'ignorez pas les quêtes secondaires en début de partie. Bien que certains joueurs se concentrent uniquement sur l'histoire principale, les missions secondaires fournissent souvent les ressources spécifiques nécessaires pour dépasser le cap des 460 de Niveau de Puissance sans se heurter à un mur.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Artefacts, Orbes et Trophées : Le système de construction principal">
+
+Le cœur de la personnalisation de l'**équipement de Drakantos** réside dans trois types d'objets distincts. Ces objets vous permettent de transformer un héros standard en une puissance spécialisée. Parce que Drakantos n'utilise pas de système de classes traditionnel, ces objets sont le seul moyen de différencier votre build des autres joueurs utilisant le même héros.
+
+<CardGrid cols={3}>
+  <Card title="Artefacts">
+    - **Compétences actives** : Ajoute des boutons à votre barre de raccourcis.
+    - **Utilitaire** : Peut invoquer des PNJ (comme des Orcs) pour tanker à votre place.
+    - **Variété** : Inclut des armes comme des arbalètes de poing pour les héros de mêlée.
+  </Card>
+  <Card title="Orbes">
+    - **Augmentation de compétence** : Modifie le comportement des compétences de base.
+    - **Spécifique au héros** : Doit correspondre à votre héros actuel pour être efficace.
+    - **Personnalisation** : Essentiel pour passer des rôles DPS aux rôles de soutien.
+  </Card>
+  <Card title="Trophées">
+    - **Scaling de fin de jeu** : Fournit des augmentations de statistiques massives.
+    - **Effets passifs** : Offre des déclencheurs uniques pendant le combat.
+    - **Synergie de build** : Souvent la pièce finale d'un build compétitif.
+  </Card>
+</CardGrid>
+
+Les artefacts sont particulièrement efficaces pendant le processus de nivellement. Par exemple, un héros de mêlée qui a du mal avec le kiting peut équiper un artefact à distance pour infliger des dégâts tout en maintenant la distance. Les orbes, d'autre part, sont la clé de la maîtrise de haut niveau. En modifiant les temps de recharge ou les propriétés de zone d'effet (AoE) de votre héros, vous pouvez optimiser votre jeu en solo ou la synergie de groupe.
+
+| Type d'objet | Rareté | Impact de mise à l'échelle | Profondeur de personnalisation |
+| :--- | :--- | :--- | :--- |
+| **Orbe commun** | Faible | Mineur | Ajustements de compétences de base |
+| **Artefact rare** | Moyen | Élevé | Ajoute une capacité active |
+| **Trophée épique** | Élevé | Extrême | Multiplicateurs de statistiques significatifs |
+| **Boîte Légendaire** | Très élevée | Maximum | Choix d'équipement de fin de jeu de premier ordre |
+
+<Callout type="warning" title="Règle Critique des Orbes">
+Lorsque vous ouvrez une Boîte d'Orbes, assurez-vous toujours que vous jouez actuellement le héros que vous avez l'intention d'équiper. L'une des trois options d'une Boîte d'Orbes est garantie pour votre héros actif, évitant ainsi les tirages inutiles sur des personnages que vous n'utilisez pas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progression de l'équipement étape par étape">
+
+Naviguer dans le début de partie exige une approche disciplinée pour améliorer votre **équipement Drakantos**. La transition du village de départ vers la grande ville de Casteron est limitée par votre capacité à gérer les ressources et à accomplir des tâches spécifiques pour des PNJ comme Marcelo le forgeron.
+
+<Steps>
+  <Step num="1" title="Terminer les tâches initiales de la Guilde des Aventuriers">
+    Suivez l'histoire principale jusqu'à atteindre la Guilde des Aventuriers. Parlez au Maître de Guilde et accomplissez les premières missions d'introduction pour recevoir votre équipement de base.
+  </Step>
+  <Step num="2" title="Visiter la Forge de Marcelo">
+    Marcelo vous fournit votre premier artefact, souvent une arbalète de poing. Cet objet est essentiel pour augmenter vos dégâts en début de partie et atteindre les exigences initiales de Niveau de Puissance.
+  </Step>
+  <Step num="3" title="Atteindre le Niveau de Puissance 460">
+    Faites des missions de Rang d'Aventure 1. Concentrez-vous sur les missions offrant des "Récompenses Possibles" correspondant à vos emplacements d'équipement de plus bas niveau. Une fois que vous atteignez 460, le monde du jeu s'étend considérablement.
+  </Step>
+  <Step num="4" title="Débloquer les Capacités de Héros">
+    L'équipement ne se limite pas aux statistiques ; il s'agit de synergie. À mesure que vous montez de niveau (jalons aux niveaux 4, 8 et 12), assurez-vous que vos artefacts complètent vos capacités de héros nouvellement débloquées.
+  </Step>
+</Steps>
+
+| Phase de progression | Niveau de puissance cible | Déblocage clé | Activité recommandée |
+| :--- | :--- | :--- | :--- |
+| **Début de partie** | 0 - 460 | Quête de la monture | Aventures de rang 1 |
+| **Milieu de partie** | 460 - 1200 | Ville de Casteron | Missions de rang 2, Quêtes secondaires |
+| **Fin de partie** | 1200+ | Arènes PvP | PvP classé, Trophées d'élite |
+
+<Callout type="success" title="Conseil de Progression">
+Si vous trouvez une mission trop difficile en raison de la mise à l'échelle des ennemis, essayez de la faire en solo. Bien que Drakantos soit un jeu multijoueur, les aventures en solo empêchent les ennemis de bénéficier des bonus de santé et de dégâts associés au jeu en groupe.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Montures et Équipement Cosmétique">
+
+Bien qu'elles ne fournissent pas de statistiques de combat directes, les montures comme l'Âne sont considérées comme un **équipement Drakantos** essentiel pour naviguer dans le monde ouvert. Le processus d'obtention de votre première monture implique une série de défis qui mettront à l'épreuve votre patience et vos compétences mécaniques.
+
+<Checklist
+  id="mount-acquisition"
+  title="Liste de contrôle de la monture Âne :"
+  items={[
+    "Atteindre le niveau de puissance 460 pour débloquer la quête de Sally",
+    "Localiser l'âne perdu au sud des écuries",
+    "Ramener l'âne à l'enclos sans le laisser s'éloigner",
+    "Apprivoiser l'âne à l'aide de la corde (touche I) et de petits cailloux",
+    "Gagner la course contre Sally sur les lignes droites",
+    "Activer la licence de monture dans l'inventaire (touche B)"
+  ]}
+/>
+
+Les montures sont gérées dans l'onglet Cosmétiques de votre menu de personnage. Une fois qu'une licence est activée, vous pouvez invoquer votre monture en maintenant la touche F enfoncée. Des montures de niveau supérieur, comme les chevaux, sont disponibles plus tard dans le jeu et offrent des vitesses de déplacement plus rapides, bien que le processus d'acquisition reste similaire à la quête initiale de l'âne.
+
+<Callout type="info" title="Stratégie de Course de Montures">
+Pendant la course contre Sally, conservez votre sprint (barre d'espace) pour les sections droites du parcours. Sally a tendance à sprinter fortement au début et à la fin de la course ; rester légèrement devant elle pendant les sections intermédiaires est le moyen le plus fiable d'assurer une victoire.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Équipement PvP et Mécaniques de Mise à l'Échelle">
+
+Drakantos dispose d'un système PvP robuste qui gère l'**équipement Drakantos** différemment du mode PvE. Pour garantir une égalité des chances, le jeu utilise un système de mise à l'échelle dans l'Arène, qui propose des modes comme Contrôle, Escorte et Assaut (style MOBA).
+
+En PvP, tous les joueurs sont au niveau maximum avec un équipement et des compétences maximisés. Cependant, le choix des Artefacts et des Trophées reste important, car ces objets ne sont pas normalisés en termes de leurs effets uniques, mais seulement de leurs statistiques brutes. Cela permet des builds diversifiés sans le "fossé d'équipement" souvent rencontré dans d'autres MMORPG.
+
+| Caractéristique | Mode PvE | Arène PvP |
+| :--- | :--- | :--- |
+| **Mise à l'échelle des stats** | Basée sur le niveau d'équipement | Entièrement normalisée au Max |
+| **Utilisation d'artefacts** | Charges complètes disponibles | Charges réduites de 50% |
+| **Effets des capacités** | Durée complète | Durée réduite (équilibre des CC) |
+| **Progression** | Butins d'équipement et XP | Boîtes Bêta et Classement |
+
+<Callout type="tip" title="Stratégie de Build PvP">
+Puisque les statistiques sont égales en PvP, concentrez votre sélection de Trophées et d'Artefacts sur l'utilité et le contrôle des foules (CC). Les objets qui procurent des étourdissements, des ralentissements ou des déplacements sont bien plus précieux dans l'Arène que de simples modificateurs de dégâts.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ sur l'équipement de Drakantos">
+
+<FAQ items={[
+  {
+    question: "Comment augmenter rapidement mon Niveau de Puissance dans Drakantos ?",
+    answer: "Le moyen le plus rapide d'augmenter votre Niveau de Puissance est de terminer les aventures au rang le plus élevé que vous pouvez gérer. Concentrez-vous sur les missions qui récompensent les Artefacts et les Orbes, car ceux-ci offrent les plus grands sauts de score d'équipement par rapport aux butins de ressources de base."
+  },
+  {
+    question: "Puis-je utiliser le même équipement sur tous mes héros ?",
+    answer: "Les Artefacts et les Trophées peuvent souvent être partagés entre vos comptes, mais les Orbes sont spécifiques aux héros. Vous devrez farmer des Orbes uniques pour chaque héros afin d'optimiser pleinement leurs ensembles de compétences."
+  },
+  {
+    question: "Que sont les Boîtes Bêta et comment les obtenir ?",
+    answer: "Les Boîtes Bêta sont des conteneurs de récompenses spéciaux disponibles pendant les tests de jeu. Elles octroient des Trophées, Orbes et Artefacts de fin de jeu, permettant aux joueurs de tester des builds de haut niveau. Elles s'obtiennent via les activités PvP et PvE."
+  },
+  {
+    question: "Y a-t-il un moyen de faire les aventures en solo si je ne veux pas faire de groupe ?",
+    answer: "Oui, vous pouvez participer aux aventures en solo. C'est souvent préféré par les joueurs qui veulent explorer ou éviter la mise à l'échelle de la santé qui se produit lorsque d'autres joueurs rejoignent votre session."
+  }
+]} />
+
+<Callout type="success" title="Conseil Final">
+Vérifiez toujours la section "Récompenses possibles" de la carte d'aventure avant de commencer une mission. L'efficacité dans Drakantos vient du ciblage de missions spécifiques qui lâchent les Orbes ou Artefacts exacts dont votre héros a besoin pour son build actuel.
+</Callout>
+
+</Section>

@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Drakantos Open Beta: Everything You Need to Know",
+  description: "Dive into the Drakantos Open Beta with this comprehensive guide, covering new features, PvP modes, hero access, and essential tips for new players.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8d6e63/fff?text=Drakantos+Open+Beta",
+  date: "2026-05-23",
+  author: "Drakantos Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- The **Drakantos Open Beta** introduces full action combat and PvP.
+- Access to **15 heroes** is available from the start to test various builds.
+- Earn **special Beta Boxes** through PvP and PvE for endgame items.
+- All progress from the beta will be **wiped** before the full release.
+- Link your Twitch account for **exclusive rewards** during the test.
+</Callout>
+
+<Section icon={Swords} title="Drakantos Open Beta Overview">
+The highly anticipated **Drakantos Open Beta** is here, offering players a comprehensive look at the game's evolution. This beta focuses on significant gameplay improvements, including a transition to fully free movement and a revamped action combat system. Players can dive into both PvE content and, for the first time, experience Drakantos's thrilling PvP modes across 13 maps.
+
+**Video Highlights:**
+- Demonstrates ranged dwarf character gameplay.
+- Shows dungeon crawling and mob variety.
+- Highlights the early game grind for gear and experience.
+
+<YouTubeEmbed videoId="mXBreE4rqBM" title="Drakantos Closed Beta - 8 Hours Gameplay" />
+
+This test provides access to 15 unique heroes right from the start, allowing for extensive experimentation with different playstyles and builds. Server stability will be closely monitored, with a queue system in place if needed to ensure a smooth experience for all participants.
+
+<Callout type="tip" title="Beta Access & Friends">
+If you had access to the previous beta, you **still have access** and can invite up to 3 friends (if they've been Steam friends for at least 30 days). New invitations are sent gradually via the Steam page.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Major Gameplay Changes and Features">
+The **Drakantos Open Beta** brings forth a host of major gameplay changes designed to enhance the player experience. The most notable shifts include the move from tile-based movement to fully free, 360-degree movement, and a complete overhaul to a full action combat system. This means skills must now be aimed with the mouse, making combat more dynamic and engaging.
+
+<CardGrid cols={2}>
+  <Card title="Movement System">
+    - **Previous Beta**: Tile-based, limited movement.
+    - **Open Beta**: Fully free, 360° movement, including dashes.
+    - **Impact**: Smoother navigation and more fluid combat.
+  </Card>
+  <Card title="Combat System">
+    - **Previous Beta**: Hybrid combat with target system.
+    - **Open Beta**: Full action combat, no target system.
+    - **Impact**: Skills require aiming, increased player agency.
+  </Card>
+</CardGrid>
+
+These changes mean that even familiar heroes may feel significantly different, offering a fresh experience. For those less interested in PvP, the PvE content from the previous beta remains available, providing a stable environment to test these new core mechanics.
+
+<Callout type="warning" title="Progress Wipe Notice">
+Please be aware that all progress made during the **Drakantos Open Beta** will be **wiped** before the game's full release. This is standard practice for beta tests to ensure a fair and balanced launch.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Drakantos PvP Modes Explained">
+A significant addition to the **Drakantos Open Beta** is the introduction of PvP, featuring 13 maps across three distinct modes. These modes are designed to offer varied tactical experiences and reward competitive play. Players will have access to special Beta Boxes through both PvP and PvE activities, which grant endgame Trophies, Orbs, and Artifacts to test different builds.
+
+Here's a breakdown of the PvP modes:
+
+| PvP Mode | Objective                                            | Key Mechanics                                         | Rewards                                             |
+|:---------|:-----------------------------------------------------|:------------------------------------------------------|:----------------------------------------------------|
+| **Control** | Stand on control zones to earn progress.             | Capture and hold zones; first team to fully capture wins. | Faster achievements due to shorter matches.         |
+| **Escort** | Escort your crystal to the final point.              | Crystal moves with allies, stops near enemies.        | Faster achievements due to shorter matches.         |
+| **Assault** | Destroy enemy towers and core.                       | MOBA-like with shared tower health, minion priority.  | More rewards due to longer match duration.          |
+
+<Callout type="info" title="PvP Equipping & Scaling">
+In PvP, all players are set to max level with maxed equipment and skills. Trophies and Artifacts are also maximized, allowing you to focus purely on strategy and build synergy without the grind.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Heroes and Build Experimentation">
+The **Drakantos Open Beta** provides an excellent opportunity to explore the game's diverse hero roster. All players will have immediate access to 15 heroes, including Liam, Marly, Zeugladius, Reya, Yura, Ojore, Thomas, Byron, Iris, Ozul, Faendar, Arryn, Orbryn, Yuki, and Korz. This expansive selection encourages players to experiment with various class roles and build compositions.
+
+<Checklist
+  id="hero-access"
+  title="Available Heroes in Open Beta:"
+  items={[
+    "Liam (Melee DPS)",
+    "Marly (Support/Healer)",
+    "Zeugladius (Tank)",
+    "Reya (Ranged DPS)",
+    "Yura (Assassin)",
+    "Ojore (Bruiser)",
+    "Thomas (Utility)",
+    "Byron (Mage DPS)",
+    "Iris (Ranged Support)",
+    "Ozul (Tank/Control)",
+    "Faendar (Melee DPS/Off-Tank)",
+    "Arryn (Ranged DPS/Crowd Control)",
+    "Orbryn (Mage Support)",
+    "Yuki (Assassin/Burst)",
+    "Korz (Melee DPS/Initiator)"
+  ]}
+/>
+
+To further facilitate build experimentation, special Beta Boxes will be distributed through both PvP and PvE activities. These boxes contain endgame Trophies, Orbs, and Artifacts, which are crucial for shaping unique playstyles. When opening an Orb Box, ensure you are using the hero you want to receive an Orb for, as one option is guaranteed for your current hero.
+
+<Callout type="success" title="Optimize Your Orb Choices">
+When opening an Orb Box, strategically switch to the hero you intend to equip. This guarantees one of the three Orb options will be tailored to that specific character, maximizing your build potential in the **Drakantos Open Beta**.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Twitch Drops and Rewards">
+Participating in the **Drakantos Open Beta** can be even more rewarding through Twitch Drops. Players can earn exclusive in-game items by simply watching any channel streaming Drakantos in its designated category on Twitch. This is a great way to acquire temporary beta-exclusive items that can further enhance your testing experience.
+
+<Steps>
+  <Step num="1" title="Download Drakantos">
+    Ensure you have the Drakantos client installed and ready to play.
+  </Step>
+  <Step num="2" title="Link Twitch Account">
+    Within the game, navigate to **Settings > Account > Twitch** and link your Twitch account. This is a crucial step to ensure you receive your earned drops.
+  </Step>
+  <Step num="3" title="Watch Drakantos Streams">
+    Head over to Twitch and watch any streamer playing Drakantos in the game's category. The longer you watch, the more drops you can potentially earn.
+  </Step>
+  <Step num="4" title="Claim Rewards">
+    Claim your Twitch Drops directly through Twitch and they will be available in your Drakantos account.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Temporary Rewards">
+All items obtained through Twitch Drops during the **Drakantos Open Beta** are temporary and will be reset once the beta period concludes. They are intended to enhance the testing experience and do not carry over to the full release.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions about Drakantos Open Beta">
+
+<FAQ items={[
+  {
+    question: "When is the Drakantos Open Beta available?",
+    answer: "The Closed Beta ran from May 22 to 24, 2026. Keep an eye on official announcements for future open beta dates."
+  },
+  {
+    question: "Will my progress carry over from the Drakantos Open Beta to the full release?",
+    answer: "No, all progress made during the beta test will be wiped before the full release of Drakantos. This ensures a fresh start for all players."
+  },
+  {
+    question: "How can I get access to the Drakantos Open Beta?",
+    answer: "If you participated in a previous beta, your access remains active. New players can request access through the Drakantos Steam page, with invitations sent out gradually. You may also be able to invite friends if you have existing access."
+  },
+  {
+    question: "What are Beta Boxes in the Drakantos Open Beta?",
+    answer: "Beta Boxes are exclusive to the beta and provide endgame Trophies, Orbs, and Artifacts. They allow players to experiment with different builds and playstyles during the test, especially in PvP. They will not exist in the final game."
+  }
+]} />
+
+</Section>

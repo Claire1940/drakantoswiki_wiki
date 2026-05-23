@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Drakantos Open Beta : Tout ce que vous devez savoir",
+  description: "Plongez dans la Bêta Ouverte de Drakantos avec ce guide complet, couvrant les nouvelles fonctionnalités, les modes PvP, l'accès aux héros et les conseils essentiels pour les nouveaux joueurs.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8d6e63/fff?text=Drakantos+Open+Beta",
+  date: "2026-05-23",
+  author: "Équipe Wiki de Drakantos"
+}
+
+<Callout type="info" title="Guide rapide">
+- La **Bêta Ouverte de Drakantos** introduit un combat d'action complet et le PvP.
+- L'accès à **15 héros** est disponible dès le début pour tester diverses configurations.
+- Gagnez des **Boîtes Bêta spéciales** via le PvP et le PvE pour des objets de fin de jeu.
+- Toute la progression de la bêta sera **effacée** avant la sortie complète.
+- Liez votre compte Twitch pour des **récompenses exclusives** pendant le test.
+</Callout>
+
+<Section icon={Swords} title="Aperçu de la Bêta Ouverte de Drakantos">
+La très attendue **Bêta Ouverte de Drakantos** est arrivée, offrant aux joueurs un aperçu complet de l'évolution du jeu. Cette bêta se concentre sur d'importantes améliorations de gameplay, y compris une transition vers un mouvement entièrement libre et un système de combat d'action remanié. Les joueurs peuvent se plonger dans le contenu PvE et, pour la première fois, découvrir les modes PvP palpitants de Drakantos sur 13 cartes.
+
+**Points forts de la vidéo :**
+- Démontre le gameplay d'un personnage nain à distance.
+- Montre l'exploration de donjons et la variété des monstres.
+- Met en évidence le grind de début de partie pour l'équipement et l'expérience.
+
+<YouTubeEmbed videoId="mXBreE4rqBM" title="Drakantos Closed Beta - 8 Hours Gameplay" />
+
+Ce test offre un accès à 15 héros uniques dès le début, permettant une expérimentation approfondie avec différents styles de jeu et configurations. La stabilité du serveur sera étroitement surveillée, avec un système de file d'attente en place si nécessaire pour assurer une expérience fluide à tous les participants.
+
+<Callout type="tip" title="Accès à la bêta et amis">
+Si vous aviez accès à la bêta précédente, vous avez **toujours accès** et pouvez inviter jusqu'à 3 amis (s'ils sont amis Steam depuis au moins 30 jours). Les nouvelles invitations sont envoyées progressivement via la page Steam.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Changements et fonctionnalités majeurs du gameplay">
+La **Bêta Ouverte de Drakantos** apporte une multitude de changements majeurs au gameplay, conçus pour améliorer l'expérience du joueur. Les changements les plus notables incluent le passage d'un mouvement basé sur des tuiles à un mouvement entièrement libre à 360 degrés, et une refonte complète vers un système de combat d'action complet. Cela signifie que les compétences doivent maintenant être visées avec la souris, rendant le combat plus dynamique et engageant.
+
+<CardGrid cols={2}>
+  <Card title="Système de mouvement">
+    - **Bêta précédente** : Basé sur des tuiles, mouvement limité.
+    - **Bêta ouverte** : Entièrement libre, mouvement à 360°, y compris les dashs.
+    - **Impact** : Navigation plus fluide et combat plus fluide.
+  </Card>
+  <Card title="Système de combat">
+    - **Bêta précédente** : Combat hybride avec système de ciblage.
+    - **Bêta ouverte** : Combat d'action complet, pas de système de ciblage.
+    - **Impact** : Les compétences nécessitent de viser, plus grande autonomie du joueur.
+  </Card>
+</CardGrid>
+
+Ces changements signifient que même les héros familiers peuvent sembler significativement différents, offrant une nouvelle expérience. Pour ceux qui sont moins intéressés par le PvP, le contenu PvE de la bêta précédente reste disponible, offrant un environnement stable pour tester ces nouvelles mécaniques de base.
+
+<Callout type="warning" title="Avis d'effacement de la progression">
+Veuillez noter que toute la progression réalisée pendant la **Bêta Ouverte de Drakantos** sera **effacée** avant la sortie complète du jeu. C'est une pratique courante pour les tests bêta afin d'assurer un lancement juste et équilibré.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Modes PvP de Drakantos expliqués">
+Une addition significative à la **Bêta Ouverte de Drakantos** est l'introduction du PvP, avec 13 cartes réparties sur trois modes distincts. Ces modes sont conçus pour offrir des expériences tactiques variées et récompenser le jeu compétitif. Les joueurs auront accès à des Boîtes Bêta spéciales via les activités PvP et PvE, qui accordent des Trophées, des Orbes et des Artefacts de fin de jeu pour tester différentes configurations.
+
+Voici un aperçu des modes PvP :
+
+| Mode PvP | Objectif                                            | Mécaniques clés                                         | Récompenses                                             |
+|:---------|:----------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------------|
+| **Contrôle** | Tenez-vous sur des zones de contrôle pour progresser. | Capturez et maintenez des zones ; la première équipe à capturer entièrement gagne. | Accomplissements plus rapides grâce à des matchs plus courts. |
+| **Escorte** | Escortez votre cristal jusqu'au point final.        | Le cristal se déplace avec les alliés, s'arrête près des ennemis. | Accomplissements plus rapides grâce à des matchs plus courts. |
+| **Assaut** | Détruisez les tours et le cœur ennemis.             | Similaire à un MOBA avec des points de vie de tour partagés, priorité aux sbires. | Plus de récompenses grâce à une durée de match plus longue. |
+
+<Callout type="info" title="Équipement et mise à l'échelle PvP">
+En PvP, tous les joueurs sont au niveau maximum avec un équipement et des compétences maximisés. Les Trophées et les Artefacts sont également maximisés, ce qui vous permet de vous concentrer uniquement sur la stratégie et la synergie de construction sans le grind.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Héros et expérimentation de construction">
+La **Bêta Ouverte de Drakantos** offre une excellente occasion d'explorer la liste diversifiée des héros du jeu. Tous les joueurs auront un accès immédiat à 15 héros, dont Liam, Marly, Zeugladius, Reya, Yura, Ojore, Thomas, Byron, Iris, Ozul, Faendar, Arryn, Orbryn, Yuki et Korz. Cette sélection étendue encourage les joueurs à expérimenter divers rôles de classe et compositions de construction.
+
+<Checklist
+  id="hero-access"
+  title="Héros disponibles dans la Bêta Ouverte :"
+  items={[
+    "Liam (DPS au corps à corps)",
+    "Marly (Soutien/Soigneur)",
+    "Zeugladius (Tank)",
+    "Reya (DPS à distance)",
+    "Yura (Assassin)",
+    "Ojore (Cogneur)",
+    "Thomas (Utilitaire)",
+    "Byron (DPS Mage)",
+    "Iris (Soutien à distance)",
+    "Ozul (Tank/Contrôle)",
+    "Faendar (DPS au corps à corps/Off-Tank)",
+    "Arryn (DPS à distance/Contrôle de foule)",
+    "Orbryn (Soutien Mage)",
+    "Yuki (Assassin/Burst)",
+    "Korz (DPS au corps à corps/Initiateur)"
+  ]}
+/>
+
+Pour faciliter davantage l'expérimentation des constructions, des Boîtes Bêta spéciales seront distribuées via les activités PvP et PvE. Ces boîtes contiennent des Trophées, des Orbes et des Artefacts de fin de jeu, qui sont cruciaux pour façonner des styles de jeu uniques. Lors de l'ouverture d'une Boîte d'Orbe, assurez-vous d'utiliser le héros pour lequel vous souhaitez recevoir un Orbe, car une option est garantie pour votre héros actuel.
+
+<Callout type="success" title="Optimisez vos choix d'Orbe">
+Lors de l'ouverture d'une Boîte d'Orbe, passez stratégiquement au héros que vous avez l'intention d'équiper. Cela garantit que l'une des trois options d'Orbe sera adaptée à ce personnage spécifique, maximisant votre potentiel de construction dans la **Bêta Ouverte de Drakantos**.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Drops Twitch et récompenses">
+Participer à la **Bêta Ouverte de Drakantos** peut être encore plus gratifiant grâce aux Drops Twitch. Les joueurs peuvent gagner des objets exclusifs en jeu en regardant simplement n'importe quelle chaîne diffusant Drakantos dans sa catégorie désignée sur Twitch. C'est un excellent moyen d'acquérir des objets temporaires exclusifs à la bêta qui peuvent améliorer votre expérience de test.
+
+<Steps>
+  <Step num="1" title="Télécharger Drakantos">
+    Assurez-vous que le client Drakantos est installé et prêt à jouer.
+  </Step>
+  <Step num="2" title="Lier le compte Twitch">
+    Dans le jeu, naviguez vers **Paramètres > Compte > Twitch** et liez votre compte Twitch. C'est une étape cruciale pour vous assurer de recevoir vos drops gagnés.
+  </Step>
+  <Step num="3" title="Regarder les streams de Drakantos">
+    Rendez-vous sur Twitch et regardez n'importe quel streamer jouant à Drakantos dans la catégorie du jeu. Plus vous regardez longtemps, plus vous pouvez potentiellement gagner de drops.
+  </Step>
+  <Step num="4" title="Réclamer les récompenses">
+    Réclamez vos Drops Twitch directement via Twitch et ils seront disponibles sur votre compte Drakantos.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Récompenses temporaires">
+Tous les objets obtenus via les Drops Twitch pendant la **Bêta Ouverte de Drakantos** sont temporaires et seront réinitialisés une fois la période de bêta terminée. Ils sont destinés à améliorer l'expérience de test et ne sont pas transférés à la sortie complète.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Foire aux questions sur la Bêta Ouverte de Drakantos">
+
+<FAQ items={[
+  {
+    question: "Quand la Bêta Ouverte de Drakantos est-elle disponible ?",
+    answer: "La Bêta Fermée a eu lieu du 22 au 24 mai 2026. Gardez un œil sur les annonces officielles pour les futures dates de bêta ouverte."
+  },
+  {
+    question: "Ma progression de la Bêta Ouverte de Drakantos sera-t-elle transférée à la sortie complète ?",
+    answer: "Non, toute la progression réalisée pendant le test bêta sera effacée avant la sortie complète de Drakantos. Cela garantit un nouveau départ pour tous les joueurs."
+  },
+  {
+    question: "Comment puis-je obtenir l'accès à la Bêta Ouverte de Drakantos ?",
+    answer: "Si vous avez participé à une bêta précédente, votre accès reste actif. Les nouveaux joueurs peuvent demander l'accès via la page Steam de Drakantos, les invitations étant envoyées progressivement. Vous pourrez également inviter des amis si vous avez déjà accès."
+  },
+  {
+    question: "Que sont les Boîtes Bêta dans la Bêta Ouverte de Drakantos ?",
+    answer: "Les Boîtes Bêta sont exclusives à la bêta et fournissent des Trophées, des Orbes et des Artefacts de fin de jeu. Elles permettent aux joueurs d'expérimenter différentes constructions et styles de jeu pendant le test, en particulier en PvP. Elles n'existeront pas dans le jeu final."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,170 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Music } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Drakantos Thomas : Guide des capacités et de la construction du Barde",
+  description: "Maîtrisez Thomas, l'archétype du Barde dans Drakantos, avec ce guide détaillé sur ses capacités, les choix d'orbes optimaux et les stratégies de soutien pour 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8A2BE2/fff?text=Drakantos+Thomas+Guide",
+  date: "2026-05-23",
+  author: "Équipe Wiki de Drakantos"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Drakantos Thomas** est un archétype de Barde polyvalent axé sur les soins, le soutien et le contrôle de foule.
+- Sa capacité **Résonance** est cruciale pour les dégâts de zone et l'endormissement des ennemis.
+- La **Chanson de Guérison** offre des soins mobiles et continus pour toute l'équipe.
+- Priorisez les orbes qui améliorent l'utilité des compétences, comme la réduction des temps de recharge pour **Résonance**.
+- Thomas excelle dans les scénarios nécessitant un mouvement actif et un contrôle de foule efficace.
+</Callout>
+
+<Section icon={Music} title="Comprendre Drakantos Thomas : L'archétype du Barde">
+**Drakantos Thomas** est un archétype de Barde unique, reconnu pour son rôle multifacette de guérisseur, de soutien et de spécialiste du contrôle de foule. En tant que héros félin, Thomas apporte un mélange de prouesses musicales et d'utilité stratégique à toute équipe, ce qui en fait un choix populaire pour les joueurs qui aiment les rôles de soutien actifs. Ses capacités sont conçues à la fois pour infliger des dégâts et pour avoir un impact significatif sur le champ de bataille grâce à des buffs, des débuffs et des mélodies réparatrices.
+
+La boîte à outils de Thomas est particulièrement efficace dans les situations de combat dynamiques où la mobilité et l'adaptation aux mouvements ennemis sont essentielles. Son ultime de guérison, contrairement à de nombreuses alternatives statiques, lui permet de se déplacer avec l'équipe, assurant un soutien continu même lors de rencontres chaotiques. Cette mobilité, combinée à ses capacités de contrôle de foule, en fait un atout inestimable en PvE et en PvP.
+
+<Callout type="tip" title="Maîtriser le rythme du Barde">
+Le succès avec **Drakantos Thomas** repose sur la compréhension du rythme de ses capacités. Synchroniser correctement son contrôle de foule et ses soins peut changer le cours de la bataille, en particulier dans les situations de haute pression.
+</Callout>
+
+**Points forts de la vidéo :**
+- Analyse détaillée des capacités principales de Thomas.
+- Aperçus des sélections d'orbes optimales pour chaque compétence.
+- Démonstrations du contrôle de foule et des soins de Thomas en action.
+
+<YouTubeEmbed videoId="VWpud7KCs0M" title="Drakantos - Thomas's (Bard) Abilities - Closed Beta Test" />
+
+Les capacités de Thomas ont été affinées pendant la bêta fermée, avec des ajustements potentiels de l'ordre d'acquisition des compétences pour assurer des capacités de soutien plus précoces. Sa conception met l'accent sur l'habileté du joueur, en particulier avec des capacités comme Résonance, qui récompense une exécution précise par des effets puissants.
+
+</Section>
+
+<Section icon={Swords} title="Drakantos Thomas : Capacités principales et améliorations d'orbes">
+**Drakantos Thomas** possède un ensemble distinctif de capacités qui lui permettent de contrôler le champ de bataille, de soutenir ses alliés et même de contribuer aux dégâts. Chaque capacité peut être améliorée avec des Orbes, modifiant considérablement leur efficacité et leur utilité.
+
+**Aperçu des capacités de Thomas**
+
+| Nom de la capacité | Type | Description | Améliorations d'orbes (avantages clés) |
+|:-------------|:-----|:------------|:----------------------------|
+| **Glissade** | Mouvement | Effectue une glissade classique, accordant 5% de réduction de dégâts. | Charges augmentées, distance supplémentaire, bonus d'attaque/mouvement sur un timing parfait, bouclier de 15% de PV max. |
+| **Attaque de base** | Dégâts | Dégâts sur une seule cible. | Vitesse d'incantation augmentée (jusqu'à 25%). |
+| **Mélodie puissante** | Dégâts | Tire trois notes magiques sur la cible, orientable. | Notes supplémentaires sur un coup central précis, vitesse de visée plus rapide. |
+| **Garde musicale** | Soutien | Place une garde sur un allié pendant 4s, accordant une réduction de dégâts et infligeant des dégâts aux ennemis proches. | Ajoute une réduction de mouvement aux ennemis, l'activation secondaire repousse les ennemis. |
+| **Résonance** | CC/Dégâts | Joue une séquence de quatre accords ; une exécution parfaite inflige des dégâts et endort les ennemis. | Permet un accord manqué, **réduit le temps de recharge** en fonction de la vitesse d'exécution, ajoute un bouclier aux alliés dans la zone. |
+| **Chanson de Guérison** | Soin ultime | Joue un chef-d'œuvre pendant 8s, restaurant l'énergie des alliés proches (basé sur la proximité). | Soin mobile, permettant à Thomas de suivre l'équipe. |
+
+<Callout type="warning" title="Maîtrise de la Résonance">
+**Résonance** est une capacité à haut plafond de compétences. Bien que difficile, maîtriser sa séquence d'accords est très gratifiant, surtout avec l'orbe qui réduit son temps de recharge pour des exécutions rapides et parfaites. Cela en fait une source puissante de contrôle de foule et de dégâts répétables.
+</Callout>
+
+Sa **Garde musicale** est excellente pour protéger un allié clé tout en exerçant une pression sur les ennemis environnants. La possibilité de la réactiver pour un effet de repoussement offre un potentiel de désengagement crucial.
+
+</Section>
+
+<Section icon={Target} title="Choix optimaux d'orbes pour les builds de Thomas">
+Choisir les bons orbes pour **Drakantos Thomas** peut avoir un impact significatif sur ses performances et l'adapter à diverses compositions d'équipe et scénarios de combat. Voici une ventilation des priorités d'orbes recommandées pour différents styles de jeu.
+
+**Tableau de priorisation des orbes**
+
+| Capacité | Priorité | Orbe recommandé | Avantage | Focus du style de jeu |
+|:--------|:---------|:----------------|:--------|:----------------|
+| **Résonance** | Élevée | Orbe de réduction de temps de recharge (2ème) | Permet un contrôle de foule et des dégâts plus fréquents. | Soutien agressif, Spécialiste CC |
+| **Chanson de Guérison** | Élevée | Orbe de mouvement (Base) | Permet des soins continus tout en se repositionnant. | Guérisseur mobile, Soutien de raid |
+| **Garde musicale** | Moyenne | Orbe de repoussement (2ème) | Contrôle de foule amélioré, protège les alliés. | Soutien défensif, Éplucheur de tanks |
+| **Glissade** | Moyenne | Orbe de bouclier (4ème) | Augmentation de la survie de Thomas. | Soutien autonome |
+| **Mélodie puissante** | Faible | Orbe de vitesse de visée (2ème) | Amélioration mineure de la qualité de vie pour la visée. | Contribution aux dégâts |
+| **Attaque de base** | Faible | Orbe de vitesse d'incantation (1er) | Petit coup de pouce aux dégâts constants. | Utilité générale |
+
+<Callout type="success" title="Flexibilité de la construction">
+Bien que des orbes spécifiques soient recommandés, **Drakantos** encourage l'expérimentation. Les boîtes bêta offrent des opportunités de tester diverses constructions, en particulier en PvP, permettant aux joueurs de découvrir les synergies qui conviennent le mieux à leur style de jeu. Plus de détails sur les boîtes bêta peuvent être trouvés sur la [page de la communauté Steam de Drakantos](https://steamcommunity.com/app/2454980).
+</Callout>
+
+Pour les nouveaux joueurs, se concentrer d'abord sur les orbes de **Résonance** et de **Chanson de Guérison** aura l'impact le plus immédiat sur leurs capacités de soutien. La réduction du temps de recharge de Résonance, en particulier, la transforme en une capacité très spamable et percutante.
+
+</Section>
+
+<Section icon={Shield} title="Gameplay stratégique avec Drakantos Thomas">
+Jouer **Drakantos Thomas** efficacement nécessite une mentalité stratégique, équilibrant la pression offensive avec un soutien critique et un contrôle de foule. Son rôle n'est pas seulement de soigner, mais de gérer activement les positions ennemies et de permettre aux alliés.
+
+<Checklist
+  id="thomas-strategy"
+  title="Stratégies clés pour Thomas :"
+  items={[
+    "Positionnez-vous stratégiquement pour maximiser l'effet de la Chanson de Guérison.",
+    "Utilisez l'effet de sommeil de Résonance pour interrompre les capacités ennemies dangereuses ou regrouper les monstres.",
+    "Appliquez la Garde musicale aux alliés vulnérables, en particulier pendant les phases de dégâts élevés.",
+    "Utilisez la Glissade pour un repositionnement rapide ou pour atténuer les dégâts entrants.",
+    "Pratiquez la séquence d'accords de Résonance pour réduire constamment son temps de recharge.",
+    "Priorisez les cibles pour la Mélodie puissante afin de maintenir une production de dégâts constante."
+  ]}
+/>
+
+Dans les missions d'escorte, par exemple, la capacité de Thomas à endormir à plusieurs reprises les ennemis nouvellement apparus avec **Résonance** peut être incroyablement utile, gagnant un temps précieux pour l'équipe afin d'éliminer les menaces existantes et de protéger la cible d'escorte. Ses soins mobiles garantissent également que l'équipe peut rester en mouvement sans sacrifier le maintien.
+
+<Callout type="info" title="Considérations PvP">
+Dans Drakantos PvP, tous les héros sont au niveau maximum avec un équipement et des compétences au maximum. Cela signifie que la maîtrise des mécanismes fondamentaux de **Drakantos Thomas** et de la synchronisation de ses capacités devient encore plus critique. Son contrôle de foule et ses soins mobiles sont particulièrement puissants dans les modes Arène comme Contrôle et Escorte.
+</Callout>
+
+Le passage à un combat d'action complet dans Drakantos signifie que la visée et le mouvement sont primordiaux. Les capacités de Thomas, comme Mélodie puissante, nécessitent une visée précise, récompensant les joueurs qui peuvent suivre avec précision les cibles en mouvement.
+
+</Section>
+
+<Section icon={Trophy} title="Drakantos Thomas : Synergies et composition d'équipe">
+**Drakantos Thomas** brille dans les compositions d'équipe qui peuvent capitaliser sur son contrôle de foule et ses soins soutenus. Comprendre comment il synergise avec d'autres héros est crucial pour maximiser l'efficacité de l'équipe.
+
+**Matrice de synergie d'équipe**
+
+| Capacité de Thomas | Synergise bien avec | Avantage |
+|:-----------------|:--------------------|:--------|
+| **Résonance (Sommeil)** | Infligeants de dégâts à fort burst (ex : Mages, Assassins) | Met en place des fenêtres de burst faciles sur les cibles contrôlées. |
+| **Garde musicale** | Tanks de première ligne, DPS de mêlée | Réduit les dégâts entrants, fournit des dégâts de zone localisés. |
+| **Chanson de Guérison** | DPS mobiles (ex : Voleurs, Rangers), Toute équipe | Maintient les alliés rapides au maximum, permet un engagement dynamique. |
+| **Glissade (Bouclier)** | Tout héros, surtout l'arrière-garde vulnérable | Fournit à Thomas une auto-suffisance, lui permettant de soutenir plus longtemps. |
+| **CC général** | Infligeants de dégâts de zone (AoE) | Regroupe les ennemis pour un nettoyage efficace, interrompt les capacités ennemies. |
+
+<CardGrid cols={2}>
+  <Card title="Forces">
+    - **Soins mobiles** : Contrairement à certains guérisseurs, Thomas peut se déplacer tout en soignant, s'adaptant au flux du combat.
+    - **Contrôle de foule puissant** : L'effet de sommeil de Résonance peut neutraliser les menaces ou préparer des actions.
+    - **Réduction de dégâts** : La Garde musicale fournit des buffs défensifs cruciaux.
+    - **Soutien polyvalent** : Mélange efficacement les soins, les dégâts et le CC.
+  </Card>
+  <Card title="Considérations">
+    - **Dépend de la compétence** : Résonance nécessite de la pratique pour une performance optimale.
+    - **Soins de proximité** : La Chanson de Guérison profite aux alliés proches de Thomas.
+    - **Ajustements de la Bêta** : L'ordre des compétences peut changer pour un accès plus précoce au soutien.
+    - **Archétype félin** : Bien qu'attrayant pour certains, d'autres pourraient préférer des esthétiques différentes.
+  </Card>
+</CardGrid>
+
+L'utilité de Thomas s'étend au-delà des simples chiffres de guérison ; sa capacité à prévenir les dégâts et à désactiver les ennemis clés contribue souvent plus à une rencontre réussie que le rendement de guérison brut seul. Sa conception unique, mélangeant des thèmes musicaux avec des mécanismes de combat, offre une nouvelle approche du rôle de soutien dans **Drakantos**.
+
+</Section>
+
+<Section icon={Sparkles} title="Foire aux questions sur Drakantos Thomas">
+
+<FAQ items={[
+  {
+    question: "Quel est le rôle principal de Drakantos Thomas ?",
+    answer: "Drakantos Thomas est principalement un personnage de soutien, fonctionnant comme un archétype de Barde. Il excelle dans les soins, le contrôle de foule grâce aux effets de sommeil, et offre une réduction de dégâts aux alliés, ce qui en fait un atout polyvalent dans toute équipe."
+  },
+  {
+    question: "Comment fonctionne la capacité Résonance de Thomas ?",
+    answer: "Résonance exige que Thomas joue une séquence de quatre accords dans le bon ordre. Une exécution parfaite inflige des dégâts aux ennemis proches et les endort. Avec des améliorations d'orbes, elle peut également fournir un bouclier aux alliés et avoir son temps de recharge réduit en fonction de la vitesse d'exécution."
+  },
+  {
+    question: "La Chanson de Guérison de Thomas est-elle une capacité statique ?",
+    answer: "Non, la Chanson de Guérison de Thomas est un ultime mobile. Une fois activée, Thomas peut se déplacer pendant 8 secondes tout en soignant continuellement les alliés proches. Cela lui permet de suivre l'équipe et de fournir un soutien soutenu même dans des situations de combat dynamiques."
+  },
+  {
+    question: "Quel orbe est le plus important pour la capacité Résonance de Drakantos Thomas ?",
+    answer: "Le deuxième orbe pour Résonance, qui réduit son temps de recharge en fonction de la rapidité et de la perfection avec lesquelles les accords sont joués, est fortement recommandé. Cet orbe augmente considérablement la fréquence du puissant contrôle de foule et des dégâts de Thomas."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Drakantos Comment Jouer : Guide du Débutant et Conseils de Progression",
+  description: "Maîtrisez Drakantos avec ce guide essentiel pour apprendre à jouer, couvrant la sélection des personnages, le farming de donjons, la progression de l'équipement et les tactiques de combat pour les nouveaux joueurs.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8A2BE2/fff?text=Drakantos+Beginner+Guide",
+  date: "2026-05-23",
+  author: "Équipe Wiki de Drakantos"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Sélection des personnages** : Choisissez parmi divers héros, répartis en rôles de tanks, DPS et support.
+- **Concentration sur les donjons** : Gagnez de l'expérience et du butin principalement via les **donjons à trois joueurs**.
+- **Score d'équipement** : Votre **score d'équipement** est crucial pour la progression et l'efficacité globale.
+- **Orbes et Artefacts** : Priorisez la collecte d'**orbes** pour améliorer les compétences et d'**artefacts** pour personnaliser votre style de jeu.
+- **Monde Ouvert** : Utilisez le monde ouvert pour les **quêtes et la collecte de ressources**, pas pour l'XP principale.
+</Callout>
+
+<Section icon={Map} title="Débuter dans Drakantos : Bases du Personnage et du Monde">
+Bienvenue dans le monde de Drakantos, un MMORPG indépendant en 2D free-to-play qui mélange des visuels nostalgiques avec une action rapide. Comprendre les bases de comment jouer à Drakantos est la clé d'une aventure réussie. Contrairement à de nombreux MMORPG traditionnels, la création de personnage est axée sur la sélection de héros préconçus plutôt que sur une personnalisation poussée. Ces héros sont classés en rôles distincts : tanks, DPS et support, chacun offrant un style de jeu unique.
+
+**Points clés de la vidéo :**
+- Drakantos est un MMORPG indépendant en 2D free-to-play.
+- La sélection des personnages implique de choisir des héros préfabriqués, pas une personnalisation complète.
+- Les héros sont répartis en rôles de Tank, DPS et Support.
+
+<YouTubeEmbed videoId="kZaCM5KbVEA" title="Guide du Débutant Drakantos - À Quoi S'Attendre" />
+
+Bien qu'une personnalisation complète du personnage ne soit pas disponible, vous pouvez personnaliser votre héros grâce à un système de teinture pour l'armure et les cheveux, et éventuellement via des costumes. La structure du monde du jeu s'écarte également des MMORPG en monde ouvert typiques. Le monde ouvert sert principalement aux quêtes et à la collecte de ressources nécessaires aux améliorations d'équipement, plutôt qu'à un gain d'expérience direct par le farming de monstres.
+
+<Callout type="tip" title="Recommandation de Manette">
+Les développeurs recommandent de jouer à Drakantos avec une manette pour une expérience plus fluide et agréable. L'interface utilisateur est très compatible avec les manettes.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Tanks">
+    - **Grande Réserve de Santé**
+    - Se concentrent sur la défense et le contrôle des foules
+    - Idéal pour mener les donjons
+  </Card>
+  <Card title="DPS">
+    - **Potentiel de Dégâts Élevé**
+    - Se concentrent sur l'élimination rapide des ennemis
+    - Essentiel pour un nettoyage efficace des donjons
+  </Card>
+  <Card title="Support">
+    - **Soins et Buffs**
+    - Se concentrent sur l'assistance aux alliés
+    - Crucial pour la survie de l'équipe dans les contenus difficiles
+  </Card>
+</CardGrid>
+</Section>
+
+<Section icon={Swords} title="Exploration de Donjons et Mécaniques de Combat">
+Le cœur de la progression de Drakantos réside dans ses donjons à trois joueurs. Ces missions instanciées sont votre principale source d'expérience et de butin précieux. Vous pouvez vous mettre en file d'attente pour les donjons de n'importe où dans le monde, et les missions se rafraîchissent toutes les 20-30 minutes, offrant une variété d'objectifs tels que l'escorte, l'extermination ou la récupération d'objets. Pour maximiser vos récompenses, il est toujours préférable d'éliminer tous les monstres à l'intérieur d'un donjon.
+
+<Callout type="warning" title="Pénalité de Mort">
+Mourir pendant une mission de donjon entraînera une perte d'expérience, environ 5 % de votre expérience totale. Planifiez vos engagements avec soin !
+</Callout>
+
+Le combat dans Drakantos est décrit comme tactique, nécessitant un timing précis de vos compétences et de vos temps de recharge. Bien que le mouvement puisse sembler un peu rigide ou basé sur une grille au début, les joueurs s'adaptent rapidement. Chaque héros acquiert des compétences en montant de niveau, devenant pleinement défini vers le niveau 12 lorsque leurs capacités défensives ou de guérison principales se débloquent.
+
+| Type de Mission de Donjon | Objectif | Stratégie Clé | Récompenses |
+| :------------------- | :-------- | :----------- | :------ |
+| **Extermination**      | Vaincre tous les ennemis | Regrouper les monstres, utiliser l'AoE | XP, Équipement, Matériaux |
+| **Escorte**           | Protéger le PNJ jusqu'à destination | Dégager le chemin, défendre la cible | XP, Équipement, Matériaux |
+| **Chasse aux Objets**        | Trouver les objets dispersés | Explorer la carte en profondeur | XP, Équipement, Matériaux |
+
+<Callout type="info" title="Déverrouillage des Compétences">
+La plupart des classes définissent leur rôle principal et acquièrent leur compétence défensive ou de guérison principale vers le niveau 12. Cela a un impact significatif sur le gameplay.
+</Callout>
+</Section>
+
+<Section icon={Trophy} title="Systèmes de Progression : Équipement, Orbes et Artefacts">
+La progression dans Drakantos est fortement liée à votre score d'équipement et à l'utilisation stratégique des orbes et des artefacts. L'équipement se compose d'un chapeau, d'un haut, de chaussures et d'une arme, ainsi que de deux emplacements d'artefacts. Les artefacts sont des objets puissants qui confèrent des compétences uniques, permettant une personnalisation significative de votre style de jeu avec des effets tels que des dégâts sur la durée, des soins ou du contrôle des foules.
+
+<Steps>
+  <Step num="1" title="Prioriser les Orbes">
+    Collectez des orbes dans les donjons. Ces orbes sont utilisés pour améliorer des compétences spécifiques, offrant des bonus comme des dégâts accrus ou des capacités défensives. Une fois utilisée, une orbe est liée à cette compétence et à ce personnage.
+  </Step>
+  <Step num="2" title="Acquérir et Améliorer l'Équipement">
+    Concentrez-vous sur l'obtention du plus haut niveau d'équipement disponible dans les donjons. Utilisez les matériaux récoltés dans le monde ouvert pour renforcer et augmenter le score d'équipement de vos objets chez le forgeron.
+  </Step>
+  <Step num="3" title="Personnaliser avec des Artefacts">
+    Équipez deux artefacts pour modifier votre style de jeu. Expérimentez différentes combinaisons (par exemple, dégâts, soins, contrôle des foules) pour trouver ce qui convient le mieux à votre héros et à la composition de votre équipe. Les artefacts réinitialisent leurs compétences après chaque donjon.
+  </Step>
+  <Step num="4" title="Avancer dans les Niveaux de Donjons">
+    À mesure que votre score d'équipement et votre personnage se renforcent, affrontez des donjons de niveau supérieur. Ceux-ci offrent de plus grands défis mais rapportent une expérience et un butin supérieurs, propulsant ainsi votre progression.
+  </Step>
+</Steps>
+
+Votre score d'équipement est primordial ; il dicte environ 99 % de l'efficacité de votre personnage. Un score d'équipement plus élevé se traduit directement par plus de santé pour les tanks, et vraisemblablement plus de dégâts pour les DPS, ce qui en fait le facteur le plus critique pour progresser vers un contenu plus difficile.
+
+| Élément de Progression | But | Méthode d'Acquisition | Impact |
+| :------------------ | :------ | :----------------- | :----- |
+| **Équipement**            | Statistiques de base, niveaux supérieurs | Butins de donjon | **Augmentation massive du score d'équipement** |
+| **Orbes**            | Amélioration des compétences | Butins de donjon | Augmentation significative de la puissance des compétences |
+| **Artefacts**       | Capacités actives uniques | Butins de donjon, quêtes | Personnalisation du style de jeu |
+| **Matériaux**       | Renforcement de l'équipement | Collecte dans le monde ouvert | Augmente le score d'équipement des objets |
+
+<Callout type="success" title="Gestion Intelligente de l'Inventaire">
+Bien que l'équipement équipé ne puisse pas être transféré, l'équipement de niveau supérieur trouvé dans les donjons peut être stocké dans votre inventaire et utilisé par d'autres personnages, aidant ainsi à la progression des alts.
+</Callout>
+</Section>
+
+<Section icon={Shield} title="Activités en Monde Ouvert et Gestion des Ressources">
+Le monde ouvert dans Drakantos joue un rôle de soutien dans votre progression axée sur les donjons. C'est le lieu principal pour les quêtes, qui fournissent de l'histoire et des récompenses mineures, et plus important encore, pour la collecte de matériaux essentiels. Ces matériaux sont cruciaux pour renforcer votre équipement acquis en donjon, contribuant directement à votre score d'équipement.
+
+<Callout type="info" title="Guilde des Aventuriers">
+Visitez la Guilde des Aventuriers à l'auberge pour dépenser les pièces gagnées lors des missions. Vous pouvez acheter des tickets pour augmenter les gains de matériaux, l'expérience ou le butin, et même acquérir des objets de vanité.
+</Callout>
+
+Vous trouverez divers nœuds de ressources comme des arbres et des sites miniers, ainsi que des coffres à crocheter qui peuvent rapporter des matériaux et des tickets. Bien que le monde ouvert n'offre pas une expérience significative en combat, il est vital pour maintenir vos améliorations d'équipement.
+
+<Checklist
+  id="open-world-tasks"
+  title="Priorités en Monde Ouvert :"
+  items={[
+    "Accomplir des quêtes pour l'histoire et des récompenses mineures",
+    "Collecter des matériaux dans les nœuds miniers et les arbres",
+    "Crocheter des coffres pour des tickets et des ressources",
+    "Explorer des zones cachées et des événements potentiels",
+    "Acquérir des montures via des missions secondaires spécifiques"
+  ]}
+/>
+
+| Type de Ressource | Source | Utilisation | Importance |
+| :------------ | :----- | :---- | :--------- |
+| **Bois**      | Arbres | Artisanat, Renforcement d'Équipement | Élevée |
+| **Minerai**       | Nœuds Miniers | Artisanat, Renforcement d'Équipement | Élevée |
+| **Tickets**   | Coffres, Guilde des Aventuriers | Boosts pour XP, Butin, Matériaux | Moyenne |
+| **Pièces**     | Missions de Donjon | Achat de Tickets à la Guilde | Moyenne |
+
+</Section>
+
+<Section icon={Sparkles} title="Conseils Avancés et Perspectives Futures">
+En vous plongeant plus profondément dans Drakantos, rappelez-vous que le combat tactique et la progression efficace sont essentiels. Le jeu propose différents biomes avec des types d'ennemis uniques, chacun nécessitant des approches différentes. Esquiver et utiliser les compétences de dash spécifiques à chaque classe sont cruciaux pour la survie.
+
+<Callout type="tip" title="Combat Tactique">
+Ne vous attendez pas à un combat ultra-rapide. Drakantos met l'accent sur le timing de vos temps de recharge et votre positionnement. Apprendre les schémas des ennemis et utiliser les capacités uniques de votre héros mènera au succès.
+</Callout>
+
+Alors que le jeu est encore en évolution, les futures mises à jour devraient inclure des fonctionnalités telles qu'une arène pour le combat PvP, un marché des joueurs pour le commerce, la personnalisation des logements et un système de guilde robuste. Ces ajouts enrichiront davantage l'expérience Drakantos, offrant plus de possibilités d'interaction entre les joueurs et un engagement à long terme.
+
+| Fonctionnalité (À venir) | Description | Impact Attendu |
+| :----------------- | :---------- | :---------------- |
+| **Arène**          | Système de combat PvP | Gameplay compétitif, matchs classés |
+| **Marché**         | Commerce de joueur à joueur | Profondeur économique, échange d'objets |
+| **Logement**        | Maisons de joueurs personnalisables | Social, cosmétique, utilitaire |
+| **Système de Guilde**   | Création et gestion de guilde | Construction de communauté, activités de groupe |
+| **Événements Mondiaux**  | Mini-jeux et activités chronométrées | Brise la monotonie, récompenses uniques |
+
+<Callout type="warning" title="Limitations Actuelles">
+Lors de la dernière phase de test, des fonctionnalités telles que l'arène, la boutique en jeu et le commerce ne sont pas encore implémentées. Le monde ouvert sert principalement à la collecte de ressources, et l'interaction directe entre les joueurs en dehors des donjons est limitée.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Comment gagner de l'expérience dans Drakantos ?",
+    answer: "La principale façon de gagner de l'expérience dans Drakantos est de faire des donjons à trois joueurs. Le monde ouvert est principalement destiné aux quêtes et à la collecte de ressources."
+  },
+  {
+    question: "Puis-je personnaliser l'apparence de mon personnage ?",
+    answer: "Bien que vous ne puissiez pas créer entièrement votre personnage à partir de zéro, Drakantos propose un système de teinture pour l'armure et les cheveux, et des costumes seront disponibles à l'avenir pour la personnalisation."
+  },
+  {
+    question: "Quelle est l'importance du score d'équipement ?",
+    answer: "Le score d'équipement est extrêmement important dans Drakantos, dictant environ 99 % de l'efficacité globale de votre personnage. Un score d'équipement plus élevé est essentiel pour progresser vers des donjons et du contenu plus difficiles."
+  },
+  {
+    question: "À quoi servent les Orbes et les Artefacts ?",
+    answer: "Les Orbes sont utilisés pour améliorer des compétences spécifiques de votre personnage, les rendant plus puissantes. Les Artefacts sont des objets équipables qui confèrent des compétences uniques, vous permettant de personnaliser votre style de jeu et de vous adapter à différentes situations de combat."
+  }
+]} />
+</Section>

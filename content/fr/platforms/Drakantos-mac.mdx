@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Drakantos Mac: Guide de Configuration & Correctifs de Compatibilité 2026",
+  description: "Apprenez à jouer à Drakantos sur macOS en utilisant des couches de compatibilité. Guide de performance détaillé, exigences système et étapes de configuration pour les joueurs Mac.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Drakantos+Mac+Guide",
+  date: "2026-05-23",
+  author: "Équipe Wiki Drakantos"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Statut Drakantos Mac**: Aucun client macOS natif n'est actuellement disponible; les joueurs doivent utiliser des couches de traduction comme **CrossOver ou Whiskey**.
+- **Exigence clé**: Apple Silicon (puces M1, M2 ou M3) est fortement recommandé pour une **performance d'émulation 64 bits** stable.
+- **Meilleure stratégie**: Utilisez les **paramètres de compatibilité SteamOS/Linux** dans votre wrapper Mac pour contourner les goulots d'étranglement de l'API spécifiques à Windows.
+- **Conseil crucial**: Assurez-vous que votre macOS est mis à jour à au moins la **version 15.0 (Sequoia)** pour profiter des dernières fonctionnalités de Game Porting Toolkit 2.
+- **Meilleur choix**: **Whiskey** est l'outil gratuit préféré pour Drakantos en raison de sa faible surcharge et de sa facilité d'intégration Steam.
+</Callout>
+
+<Section icon={Shield} title="Aperçu de la Compatibilité Drakantos Mac">
+
+Drakantos, développé par Wingeon Game Studios LLC, est un MMO rapide qui combine des graphismes pixel art nostalgiques avec des mécanismes de combat modernes. Bien que les exigences système officielles ne listent actuellement que Windows 7+ et Linux 64 bits, la communauté des joueurs Mac a trouvé plusieurs moyens fiables de découvrir ce monde immersif. Parce que le jeu est conçu avec une approche indépendante et optimisé pour Steam Deck (Linux), les utilisateurs de macOS peuvent exploiter les couches de traduction modernes pour exécuter le jeu avec des performances quasi natives.
+
+Les visuels inspirés de la 2D du jeu sont moins exigeants en ressources GPU que les titres 3D modernes, rendant le gameplay de **Drakantos Mac** étonnamment fluide même sur les MacBooks de base. Cependant, comme le jeu propose un système PvP compétitif où "seules les compétences et la stratégie comptent", minimiser la latence d'entrée grâce à une configuration appropriée est essentiel.
+
+| Fonctionnalité | Support Officiel | Solution Mac | Impact sur les Performances |
+| :--- | :--- | :--- | :--- |
+| **OS** | Windows / Linux | macOS 14+ | Minimal via Traduction |
+| **Architecture** | x86_64 | ARM (Série M) | Rosetta 2 Requis |
+| **API Graphique** | DirectX 9.0c | Metal 3 | Coût de Traduction Modéré |
+| **Multijoueur** | Multiplateforme | Entièrement Supporté | Aucun |
+| **Anti-Triche** | Côté Serveur | Compatible | Haute Stabilité |
+
+<Callout type="warning" title="Limitations de la Plateforme">
+Bien que le jeu propose un multijoueur multiplateforme, les utilisateurs de Mac exécutant le jeu via des couches de traduction peuvent occasionnellement rencontrer des problèmes mineurs de mise à l'échelle de l'interface utilisateur. Vérifiez toujours les dernières mises à jour "Wine" dans votre logiciel wrapper choisi.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Comment Jouer à Drakantos sur Mac: Étape par Étape">
+
+Comme il n'y a pas d'installateur DMG natif, vous devrez créer une "Bouteille" ou un environnement virtuel pour exécuter l'exécutable Windows. Les étapes suivantes se concentrent sur l'utilisation de Whiskey, qui est actuellement la solution gratuite la plus optimisée pour les utilisateurs de **Drakantos Mac** en 2026.
+
+<Steps>
+  <Step num="1" title="Télécharger et Installer Whiskey">
+    Téléchargez la dernière version de Whiskey depuis son dépôt officiel. Faites glisser l'application dans votre dossier Applications et lancez-la pour initialiser les binaires Wine nécessaires.
+  </Step>
+  <Step num="2" title="Créer une Nouvelle Bouteille">
+    Cliquez sur l'icône "+" pour créer une nouvelle bouteille. Nommez-la "Drakantos" et assurez-vous que la "Version Windows" est définie sur Windows 10 ou 11. Cela garantit la compatibilité avec les dépendances Steam modernes du jeu.
+  </Step>
+  <Step num="3" title="Installer Steam pour Windows">
+    Téléchargez l'installateur Steam pour Windows (`SteamSetup.exe`). Dans Whiskey, cliquez sur "Exécuter" et sélectionnez l'installateur. Suivez les invites pour installer Steam dans votre nouvelle bouteille.
+  </Step>
+  <Step num="4" title="Configurer le Game Porting Toolkit">
+    Dans les paramètres de la bouteille, activez "DXVK" ou "D3DMetal". Puisque Drakantos utilise DirectX 9.0c, DXVK offre souvent les fréquences d'images les plus stables pour le rendu pixel-art 2D.
+  </Step>
+  <Step num="5" title="Lancer Drakantos">
+    Ouvrez Steam à l'intérieur de la bouteille, connectez-vous et recherchez Drakantos. Installez le jeu comme vous le feriez sur un PC. Utilisez le bouton "Jouer" dans Steam pour commencer votre aventure.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Optimisation des Performances">
+Si vous rencontrez des saccades lors de matchs PvP intenses, désactivez le "Mode Retina" dans les paramètres de votre bouteille. Cela réduit la résolution de rendu interne, augmentant considérablement les FPS sans affecter notablement la qualité du pixel art.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Exigences Matérielles et Niveaux de Performance">
+
+Drakantos est conçu pour être accessible, mais la surcharge des couches de traduction signifie que les utilisateurs de Mac devraient viser des spécifications légèrement supérieures aux exigences minimales de Windows. La dépendance du jeu aux "donjons dynamiques" et aux "événements mondiaux" signifie que la stabilité du CPU est tout aussi importante que la puissance du GPU.
+
+<CardGrid cols={3}>
+  <Card title="Niveau d'Entrée (MacBook Air M1/M2)">
+    - **Paramètres**: Moyen/Élevé
+    - **Résolution**: 1080p
+    - **Expérience**: Jeu solo fluide, légères baisses lors d'événements mondiaux de plus de 20 joueurs.
+  </Card>
+  <Card title="Niveau Pro (MacBook Pro M2/M3)">
+    - **Paramètres**: Ultra
+    - **Résolution**: Retina Native
+    - **Expérience**: Parfait pour le PvP classé et les guerres de guildes compétitives.
+  </Card>
+  <Card title="Bureau (Mac Studio/Mac Mini)">
+    - **Paramètres**: Maximum
+    - **Résolution**: Écran Externe 4K
+    - **Expérience**: Idéal pour les créateurs de contenu et les streamers utilisant le Programme Créateur.
+  </Card>
+</CardGrid>
+
+| Composant | Minimum (Émulation Mac) | Recommandé (Émulation Mac) |
+| :--- | :--- | :--- |
+| **Processeur** | Apple M1 (8 cœurs) | Apple M2 Pro ou supérieur |
+| **Mémoire** | 8 Go de Mémoire Unifiée | 16 Go de Mémoire Unifiée |
+| **Stockage** | 2 Go d'Espace Disponible | 5 Go (pour les mises à jour/cache) |
+| **Affichage** | Taux de Rafraîchissement 60 Hz | 120 Hz (ProMotion) |
+| **Manette** | Clavier/Souris | Manette PS5 ou Xbox |
+
+<Callout type="info" title="Prise en Charge des Manettes">
+Les développeurs recommandent de jouer à Drakantos avec une manette. macOS prend en charge nativement les manettes PlayStation et Xbox via Bluetooth, ce qui fonctionne parfaitement via Whiskey et CrossOver.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Programme Créateur Drakantos pour les Utilisateurs Mac">
+
+Pour les joueurs Mac qui sont également des créateurs de contenu, le **Programme Créateur Drakantos** offre une opportunité unique de s'impliquer tôt. Malgré le fait de jouer sur macOS, vous êtes éligible à tous les avantages tant que votre contenu répond aux normes de qualité. C'est un excellent moyen de montrer à quel point le jeu fonctionne bien sur le matériel Apple.
+
+**Exigences du Programme Créateur:**
+- **Streaming**: Minimum 25 spectateurs simultanés moyens (CCV).
+- **YouTube**: Minimum 1 000 vues moyennes par vidéo.
+- **Focus Contenu**: Gameplay de haute qualité, guides ou histoires axées sur la communauté.
+
+| Type d'Avantage | Description | Niveau d'Accès |
+| :--- | :--- | :--- |
+| **Clés** | Accès anticipé aux tests de jeu et aux bêtas | Tous les Créateurs Acceptés |
+| **Social** | Canal Discord privé & rôle unique | Tous les Créateurs Acceptés |
+| **Kit Média** | Actifs haute résolution, logos et superpositions | Tous les Créateurs Acceptés |
+| **Missions** | Futures campagnes exclusives | Statut de Partenaire |
+
+<Callout type="success" title="Conseil d'Application">
+Lors de votre candidature, mentionnez votre expérience avec la communauté **Drakantos Mac**. Le contenu de niche axé sur les configurations techniques et l'optimisation pour différentes plateformes est très apprécié par l'équipe Wingeon.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Fonctionnalités de Gameplay sur macOS">
+
+Drakantos s'éloigne des systèmes de classes MMORPG traditionnels, offrant des héros uniques avec des mécanismes distincts. Sur Mac, les commandes réactives permettent aux joueurs de maîtriser ces nuances efficacement.
+
+- **Personnalisation des Héros**: Modifiez les capacités avec des orbes et des artefacts pour changer votre style de jeu.
+- **Système de Logement**: Achetez des terrains et décorez votre propre espace. L'esthétique pixel art est magnifique sur les écrans Liquid Retina à contraste élevé de Mac.
+- **Marché**: Échangez des objets rares et des objets de collection avec une base de joueurs mondiale.
+- **Donjons Dynamiques**: Montez de niveau et obtenez des objets rares dans des missions qui changent au fil du temps avec différents ennemis et pièges.
+
+<Checklist
+  id="mac-launch-goals"
+  title="Votre Première Semaine sur Mac:"
+  items={[
+    "Configurez avec succès Whiskey ou CrossOver",
+    "Atteignez le niveau 20 avec votre premier Héros",
+    "Rejoignez une guilde pour participer aux guerres de territoire",
+    "Personnalisez les capacités de votre Héros en utilisant des Orbes",
+    "Terminez la quête d'introduction 'Donjon Dynamique'"
+  ]}
+/>
+
+<Callout type="tip" title="Stabilité du Réseau">
+Comme Drakantos est un MMO uniquement en ligne, les utilisateurs de Mac devraient préférer une connexion Ethernet filaire ou Wi-Fi 5 GHz. Les couches de traduction peuvent parfois amplifier les pics de ping causés par des signaux sans fil instables.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ Drakantos Mac">
+
+<FAQ items={[
+  {
+    question: "Une version native de Drakantos Mac est-elle prévue ?",
+    answer: "En mai 2026, le développeur Wingeon Game Studios LLC n'a pas officiellement annoncé de client macOS natif. Cependant, la compatibilité du jeu avec Linux/SteamOS le rend très fonctionnel grâce aux couches de traduction."
+  },
+  {
+    question: "Puis-je jouer à Drakantos sur un Mac basé sur Intel ?",
+    answer: "Oui, mais les performances seront nettement inférieures à celles des puces de la série M. Les Mac Intel devront utiliser Boot Camp pour exécuter le jeu nativement sous Windows pour de meilleurs résultats."
+  },
+  {
+    question: "Le Programme Créateur Drakantos prend-il en charge les streamers basés sur Mac ?",
+    answer: "Absolument. Le programme se concentre sur la qualité du contenu et l'engagement du public plutôt que sur le matériel spécifique que vous utilisez pour jouer au jeu."
+  },
+  {
+    question: "Ma progression sur Mac sera-t-elle synchronisée avec d'autres plateformes ?",
+    answer: "Oui, Drakantos utilise un système de compte centralisé. Votre progression sera sauvegardée sur votre compte et accessible que vous jouiez sur Windows, Linux ou via une solution de contournement Mac."
+  }
+]} />
+
+</Section>

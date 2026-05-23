@@ -1,0 +1,165 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Drakantos Yura: Habilidades Ronin e Estratégia de Combate",
+  description: "Domine o arquétipo Ronin de Drakantos, Yura, com este guia detalhado sobre suas habilidades, personalizações de orbes ideais e estratégias de combate eficazes para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/800080/fff?text=Drakantos+Yura+Guide",
+  date: "2026-05-23",
+  author: "Equipe Wiki Drakantos"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Drakantos Yura** é um arquétipo Ronin muito popular, excelente tanto em DPS de alvo único quanto em múltiplos alvos.
+- Sua habilidade **Dash** proporciona movimento com uma redução de dano de 5%, crucial para posicionamento e sobrevivência.
+- **Retaliate** e **Flash Jutsu** são habilidades de dano chave, com personalizações de orbes que aumentam sua eficácia.
+- A **Batau Stance** oferece um fluxo de combate único, acelerando ataques e permitindo golpes de acompanhamento poderosos.
+- **Kurasok** é o ultimate de Yura, concedendo invulnerabilidade para evitar danos estrategicamente durante momentos críticos.
+</Callout>
+
+<Section icon={Swords} title="Entendendo o Arquétipo Ronin de Yura em Drakantos">
+Yura, o arquétipo Ronin em Drakantos, é uma formidável causadora de dano conhecida por seus golpes rápidos de katana e habilidades versáteis de área de efeito. Ela oferece um estilo de jogo dinâmico que atrai jogadores que gostam de combate de alta mobilidade e uso estratégico de habilidades. Seu kit permite um significativo dano explosivo de alvo único e dano consistente em múltiplos alvos, tornando-a uma forte escolha para vários conteúdos, desde desafios solo até encontros em grupo.
+
+**Destaques do Vídeo:**
+- Yura é um arquétipo Ronin, especializado em dano baseado em katana.
+- Ela se destaca tanto em DPS de alvo único quanto em múltiplos alvos.
+- As habilidades são do teste beta fechado e estão sujeitas a alterações.
+
+<YouTubeEmbed videoId="b6NoKqddelg" title="Drakantos - Habilidades Ronin de Yura - Teste Beta Fechado" />
+
+<Callout type="tip" title="Dominando o Ronin">
+A eficácia de Yura depende muito de um timing preciso e da compreensão de suas personalizações de orbes. Experimente diferentes combinações de orbes para encontrar um estilo de jogo que melhor se adapte às suas necessidades, seja maximizando o dano explosivo ou aumentando a sobrevivência para conteúdo solo.
+</Callout>
+
+### Filosofia de Combate Central de Yura
+
+O design de Yura enfatiza o combate fluido, permitindo que ela entre e saia de engajamentos enquanto desfere golpes devastadores. Suas habilidades são projetadas para se complementar, criando combos sinérgicos que podem despachar inimigos rapidamente. Os jogadores devem aprender a gerenciar seus tempos de recarga e posicionar-se efetivamente para maximizar sua produção de dano e minimizar as ameaças recebidas.
+
+</Section>
+
+<Section icon={Target} title="Drakantos Yura: Detalhamento de Habilidades e Personalizações de Orbes">
+As habilidades de Yura podem ser significativamente alteradas e aprimoradas através de várias personalizações de orbes, permitindo diversas construções. Entender essas modificações é fundamental para liberar todo o seu potencial em Drakantos.
+
+### Movimento e Ataques Básicos
+
+| Habilidade     | Descrição                                                                 | Personalização de Orbe 1               | Personalização de Orbe 2                       | Personalização de Orbe 3 (Opcional)        |
+| :---------- | :-------------------------------------------------------------------------- | :-------------------------------- | :---------------------------------------- | :------------------------------------ |
+| **Dash**    | Salta para frente, concede 5% de redução de dano.                                  | +2 cargas, tempo de recarga maior.      | Distância aumentada, redução de dano.     | Escudo (25% HP máximo) em esquiva perfeita. |
+| **Ataque Básico** | Corta um único alvo para causar dano.                                         | +10% de velocidade de ataque.                | +25% de velocidade de ataque.                        | N/A                                   |
+
+### Habilidades Ofensivas
+
+| Habilidade       | Descrição                                                                                             | Personalização de Orbe 1                                                | Personalização de Orbe 2                                         | Personalização de Orbe 3 (Opcional)                           |
+| :------------ | :------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------- | :---------------------------------------------------------- | :------------------------------------------------------- |
+| **Retaliate** | Golpe frontal, causa dano aos inimigos.                                                                 | Adiciona componente de carga para cortes adicionais (1,5s de espera).            | Realiza até 8 cortes adicionais (em vez de 3).            | N/A                                                      |
+| **Flash Jutsu** | Movimento de katana varredor, causa dano a inimigos próximos, reduz a velocidade de movimento.                         | Muda para AOE em linha, avança através dos inimigos, reduz a velocidade de movimento.| Reduz o dano recebido em seguida, ataca de volta, pequeno escudo (HP máximo). | N/A                                                      |
+| **Batau Stance** | Salta para trás, embainha a katana, entra em postura. Ataques mais rápidos. Ao liberar, avança através do alvo, causa dano. | Aumenta o tamanho da área do ataque.                                 | Escudo (25% HP máximo) e acelera os próximos golpes de Retaliate. | Requer Orbe Silven para acelerar os golpes de Retaliate.       |
+| **Kurasok (Ultimate)** | Salta alto, corta o chão duas vezes, invulnerável, causa dano.                                              | N/A (Habilidades Ultimate frequentemente têm efeitos fixos ou personalização limitada) | N/A                                                         | N/A                                                      |
+
+<Callout type="warning" title="Aviso sobre Disponibilidade de Orbes">
+As habilidades e personalizações de orbes descritas são baseadas em informações do teste beta fechado e estão sujeitas a alterações antes do lançamento oficial de Drakantos. Alguns orbes, como o "Orbe Silven" para a Batau Stance, podem ter métodos de aquisição específicos ainda não totalmente detalhados.
+</Callout>
+
+### O Valor Estratégico da Batau Stance
+
+A **Batau Stance** é uma habilidade única que permite que Yura se reposicione defensivamente enquanto se prepara para um poderoso ataque ofensivo. A capacidade de manter a postura para focar em um alvo e depois avançar para o dano máximo, especialmente quando combinada com Orbes Silven para acelerar os golpes subsequentes de Retaliate, destaca seu potencial para dano explosivo e execução de combos.
+
+</Section>
+
+<Section icon={Shield} title="Drakantos Yura: Estratégias de Combate e Construções Recomendadas">
+Otimizar o desempenho de combate de Yura envolve entender seus pontos fortes em cenários de alvo único e múltiplos alvos, e adaptar suas escolhas de orbes para se adequar ao encontro.
+
+### Dicas Gerais de Combate para Yura
+
+<Checklist
+  id="yura-combat-tips"
+  title="Princípios Chave de Combate:"
+  items={[
+    "Utilize **Dash** para manobras evasivas e reposicionamento para evitar ataques pesados ou fechar lacunas.",
+    "Encadeie **Retaliate** com seu componente carregado para dano sustentado em alvos únicos ou inimigos agrupados.",
+    "Empregue **Flash Jutsu** para controle de área e enfraquecer múltiplos inimigos, especialmente com o orbe de AOE em linha.",
+    "Cronometre as liberações da **Batau Stance** para dano máximo e para configurar sequências aceleradas de **Retaliate**.",
+    "Guarde **Kurasok** para momentos críticos para evitar mecânicas de chefes ou desferir um surto final de dano enquanto invulnerável."
+  ]}
+/>
+
+### Combinações de Orbes Recomendadas
+
+Diferentes situações exigem diferentes configurações de orbes. Aqui estão algumas combinações recomendadas para Drakantos Yura:
+
+<CardGrid cols={2}>
+  <Card title="Construção DPS de Alvo Único">
+    - **Dash**: +2 cargas (para mobilidade)
+    - **Ataque Básico**: +25% velocidade de ataque (para dano sustentado)
+    - **Retaliate**: 8 cortes adicionais (para dano explosivo)
+    - **Flash Jutsu**: Redução de dano + escudo (para sobrevivência durante lutas contra chefes)
+    - **Batau Stance**: Acelera o próximo Retaliate (para execução de combo)
+  </Card>
+  <Card title="Construção de Múltiplos Alvos e Controle de Multidão">
+    - **Dash**: Distância aumentada (para engajamento/desengajamento rápido)
+    - **Ataque Básico**: +10% velocidade de ataque (para pressão consistente)
+    - **Retaliate**: Componente carregado (para cobertura de área mais ampla)
+    - **Flash Jutsu**: AOE em linha (para limpar grupos)
+    - **Batau Stance**: Tamanho da área aumentado (para atingir mais inimigos)
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Sinergia com Orbes Silven">
+Se você adquirir Orbes Silven, priorizar seu uso com a **Batau Stance** pode aumentar significativamente o potencial de dano de Yura ao encadear rapidamente os golpes de **Retaliate**. Essa sinergia é particularmente potente para alvos de alto valor ou durante janelas de dano apertadas.
+</Callout>
+
+### Adaptando-se a PvE e PvP
+
+O kit versátil de Yura permite que ela se adapte tanto ao conteúdo Player versus Environment (PvE) quanto ao Player versus Player (PvP). Em PvE, concentre-se em maximizar o dano consistente e usar seus frames de invulnerabilidade estrategicamente. Em PvP, sua mobilidade e potencial de explosão tornam-se ainda mais críticos para engajar e desengajar de alvos.
+
+</Section>
+
+<Section icon={Sparkles} title="Otimizando sua Jogabilidade com Drakantos Yura">
+Além do uso de habilidades, vários fatores contribuem para maximizar o desempenho de Yura em Drakantos.
+
+### Equipamento e Prioridade de Atributos
+
+Embora os detalhes específicos do equipamento ainda estejam evoluindo, os princípios gerais de RPG se aplicam:
+- **Atributos Primários**: Foque em Força/Destreza (dependendo da escalada final) para poder de ataque.
+- **Atributos Secundários**: Taxa Crítica, Dano Crítico, Velocidade de Ataque e Redução de Tempo de Recarga aumentarão significativamente o desempenho de Yura.
+- **Atributos Defensivos**: Uma abordagem equilibrada com alguma Vitalidade ou porcentagens defensivas pode melhorar a sobrevivência sem sacrificar muito dano.
+
+### A Importância do Posicionamento
+
+Como uma DPS corpo a corpo, Yura prospera quando pode atingir alvos consistentemente enquanto evita o dano recebido. Use **Dash** e **Batau Stance** não apenas para ofensiva, mas também para posicionamento inteligente. Flanquear inimigos ou sair rapidamente de zonas vermelhas são habilidades cruciais para um jogador de Yura.
+
+<Callout type="info" title="Feedback da Comunidade">
+Durante o beta fechado, Yura foi uma escolha popular, e muitos jogadores a consideraram uma forte causadora de dano. As discussões da comunidade frequentemente giravam em torno da otimização de suas escolhas de orbes e do impacto dos Orbes Silven em seu teto de dano geral. Fique atento aos canais oficiais de Drakantos e aos fóruns da comunidade para as últimas informações sobre o meta e refinamentos de construções.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="FAQ: Drakantos Yura">
+
+<FAQ items={[
+  {
+    question: "Qual é o papel principal de Drakantos Yura?",
+    answer: "Drakantos Yura é principalmente uma personagem de dano por segundo (DPS), destacando-se tanto em cenários de combate de alvo único quanto de múltiplos alvos com suas habilidades de katana."
+  },
+  {
+    question: "As habilidades de Yura foram finalizadas no beta fechado?",
+    answer: "Não, as habilidades do teste beta fechado, incluindo as de Yura, estão sujeitas a alterações. Os desenvolvedores podem ajustar escalonamentos, efeitos e personalizações de orbes antes do lançamento oficial."
+  },
+  {
+    question: "Como a Batau Stance de Yura funciona com Retaliate?",
+    answer: "A Batau Stance permite que Yura salte para trás e entre em uma postura onde outros ataques são mais rápidos. Se liberada no momento certo, ela pode acelerar os golpes de acompanhamento subsequentes de Retaliate, especialmente com a ajuda dos Orbes Silven."
+  },
+  {
+    question: "Yura é boa para conteúdo solo em Drakantos?",
+    answer: "Sim, Yura pode ser muito eficaz em conteúdo solo. Seu **Flash Jutsu** com a redução de dano e o orbe de escudo pode proporcionar sobrevivência crucial, e sua produção geral de dano permite que ela conclua o conteúdo de forma eficiente."
+  }
+]} />
+
+</Section>

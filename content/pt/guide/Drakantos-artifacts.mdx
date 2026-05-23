@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Fish, RefreshCw, ShoppingCart } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Artefatos de Drakantos: Guia de Progressão de Equipamentos e Novos Itens de 2026",
+  description: "Domine o sistema de artefatos de Drakantos com nosso guia de 2026. Aprenda sobre os oito novos artefatos, como farmar inimigos corrompidos e sinergia de builds.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Drakantos+Artifacts+Guide",
+  date: "2026-05-23",
+  author: "Equipe Wiki de Drakantos"
+}
+
+<Callout type="info" title="Guia Rápido">
+- Os **artefatos de Drakantos** foram completamente reformulados em 2026, apresentando oito itens novos que substituem equipamentos legados desatualizados.
+- **Inimigos corrompidos** são a principal fonte de drops de artefatos de alto nível, oferecendo desafio e recompensa aumentados.
+- A **sinergia de suporte** é crítica; artefatos que aumentam a velocidade de conjuração e a potência de cura são essenciais para arquétipos como Faendar.
+- **Sistemas de comércio** agora permitem que os jogadores troquem artefatos diretamente, com um mercado de comércio dedicado chegando em uma atualização futura.
+- O **posicionamento estratégico** continua vital no combate, pois o bloqueio de corpo ainda se aplica aos inimigos, mesmo que tenha sido removido para aliados.
+</Callout>
+
+<Section icon={Map} title="A Reformulação dos Artefatos de 2026: O Que Mudou?">
+
+O cenário de progressão neste MMOARPG 2D mudou significativamente com as últimas atualizações da Wingeon Game Studios. A introdução dos **artefatos de Drakantos** serve como a pedra angular da personalização de personagens, permitindo que os jogadores ajustem suas builds além da simples escala de nível. No patch mais recente de 2026, os desenvolvedores removeram vários artefatos desatualizados para abrir espaço para oito novos itens de alto impacto, projetados para se adequar ao meta moderno de ação rápida e posicionamento tático.
+
+**Destaques do Vídeo:**
+- **Arquétipo de Faendar**: Uma visão sobre o papel de suporte focado em conjurador do Arquidruida.
+- **Controle de Multidão**: Demonstração de espinhos, raízes e lentidões usados para gerenciar o movimento inimigo.
+- **Mecânicas de Cura**: Análise da Bênção de Helier e seus efeitos restauradores graduais.
+- **Utilidade de Movimento**: Apresentando a Forma de Coruja para redução de dano e aumento de velocidade.
+
+<YouTubeEmbed videoId="LkKFDsNDQzc" title="Drakantos - Habilidades de Faendar (Arquidruida) - Teste Beta Fechado" />
+
+<Callout type="tip" title="Visão do Desenvolvedor">
+A remoção do bloqueio de corpo para membros do grupo e animais de estimação é uma enorme melhoria na qualidade de vida. Você não precisa mais se preocupar em ficar preso atrás de um Treant amigável ou de outro jogador durante lutas intensas contra chefes como Caladrax.
+</Callout>
+
+| Atualização de Artefato | Status | Impacto Principal |
+| :--- | :--- | :--- |
+| **Artefatos Legados** | Removidos | Substituídos por versões de 2026 mais versáteis |
+| **Novos Artefatos** | 8 Adicionados | Foco em buffs e utilidades específicas de habilidades |
+| **Drops Corrompidos** | Ativo | Artefatos de maior raridade agora caem de variantes Corrompidas |
+| **Comércio** | Habilitado | Artefatos agora podem ser trocados entre jogadores |
+
+</Section>
+
+<Section icon={Swords} title="Farmando Artefatos de Drakantos: Inimigos Corrompidos e Pesca">
+
+Adquirir os melhores **artefatos de Drakantos** exige uma abordagem multifacetada. Enquanto a exploração de masmorras padrão fornece equipamentos básicos, o meta de 2026 gira em torno da caça a inimigos Corrompidos. Esses spawns raros possuem habilidades aprimoradas e pontos de vida significativamente maiores, mas agem como os principais guardiões dos oito novos artefatos adicionados ao jogo.
+
+Além do combate, a introdução da atividade de pesca oferece uma alternativa não-combatente para coletar componentes de artefatos. Os jogadores agora podem passar tempo em vários corpos d'água para pescar materiais raros que são essenciais para a criação ou atualização de peças de equipamento específicas.
+
+<Callout type="warning" title="Aviso de Combate">
+Inimigos corrompidos não devem ser subestimados. Eles frequentemente aparecem com "Auras Corrompidas" que podem enraizar ou lentificar jogadores, tornando o posicionamento ainda mais crítico agora que o bloqueio de corpo aliado foi desativado.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Caça Corrompida">
+    - **Alto Risco**: Inimigos causam 40% mais dano.
+    - **Melhores Recompensas**: Acesso exclusivo aos 8 novos artefatos.
+    - **Taxa de Spawn**: Aumentada durante eventos regionais.
+  </Card>
+  <Card title="Atividade de Pesca">
+    - **Foco em Recursos**: Colete fragmentos de artefatos únicos.
+    - **Ritmo Relaxado**: Perfeito para o tempo de inatividade entre raids.
+    - **Progressão**: Nivelar a pesca desbloqueia iscas melhores para drops mais raros.
+  </Card>
+  <Card title="Comércio de Jogadores">
+    - **Acesso ao Mercado**: Compre artefatos específicos que você não consegue encontrar.
+    - **Economia**: Artefatos se tornaram a principal moeda de alto valor.
+    - **Comércio Direto**: O comércio seguro 1v1 agora está totalmente funcional.
+  </Card>
+</CardGrid>
+
+| Método de Farm | Dificuldade | Potencial de Raridade de Artefato | Nível Recomendado |
+| :--- | :--- | :--- | :--- |
+| **Dungeons Padrão** | Baixa/Média | Comum a Raro | 1 - 50 |
+| **Spawns Corrompidos** | Alta | Épico a Lendário | 40+ |
+| **Pesca de Maestria** | Baixa | Raro a Épico (Fragmentos) | Qualquer |
+| **Mercado de Comércio** | N/A | Variável (Impulsionado pelo Usuário) | Qualquer |
+
+</Section>
+
+<Section icon={Target} title="Como Otimizar a Sinergia dos Artefatos">
+
+A escolha dos **artefatos de Drakantos** certos depende muito do papel do seu personagem. Por exemplo, um personagem de suporte como Faendar (o Arquidruida) se beneficia imensamente de artefatos que reduzem os tempos de recarga ou aumentam a duração de efeitos de controle de multidão como raízes e lentidões. Como a ultimate de Faendar, Bênção de Helier, é uma cura gradual em vez de uma cura explosiva, artefatos que aumentam a eficiência de "Cura ao Longo do Tempo" (HoT) são obrigatórios para conteúdo de alto nível.
+
+<Steps>
+  <Step num="1" title="Identifique a Escala Principal">
+    Determine se seu personagem escala melhor com dano bruto, velocidade de conjuração ou utilidade. Para Faendar, a velocidade de conjuração é vital para seus ataques básicos e Agarrar Vinha.
+  </Step>
+  <Step num="2" title="Selecione Artefatos de Utilidade">
+    Equipe pelo menos um artefato que forneça utilidade defensiva. O artefato "Graça da Coruja", por exemplo, complementa a habilidade de movimento de Faendar adicionando uma redução de dano extra.
+  </Step>
+  <Step num="3" title="Foque no Controle de Multidão">
+    Em 2026, o meta favorece as durações de "Enraizar" e "Lentidão". Procure artefatos que estendam a raiz de 3 segundos de Espinhos Mortais para maximizar as janelas de dano da equipe.
+  </Step>
+  <Step num="4" title="Atualize via Fragmentos">
+    Use os fragmentos obtidos da pesca e de inimigos corrompidos para aprimorar as estatísticas base do artefato no ferreiro da cidade.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Estratégia Meta">
+Ao jogar com Faendar, concentre-se em artefatos que aumentam a saúde de seus Treants invocados. Embora o bloqueio de corpo seja removido para aliados, os Treants ainda bloqueiam inimigos, fornecendo uma "parede" estratégica que pode proteger sua linha de fundo.
+</Callout>
+
+| Nome da Habilidade | Foco da Sinergia de Artefato | Buff Resultante |
+| :--- | :--- | :--- |
+| **Forma de Coruja** | Redução de Dano / Velocidade | Sobrevivência aprimorada durante a fuga |
+| **Agarrar Vinha** | Redução do Tempo de Segurar | Conjuração mais rápida para raízes instantâneas de 1s |
+| **Espinhos Mortais** | Área de Efeito / Duração | Zonas maiores e lentidões de movimento mais longas |
+| **Chamado da Natureza** | Saúde / Ataque de Invocação | Treants se tornam "tanques" mais duráveis |
+| **Bênção de Helier** | Potência de Rejuvenescimento | Cura gradual mais forte para o grupo |
+
+</Section>
+
+<Section icon={Sparkles} title="Personalização Avançada de Artefatos">
+
+A profundidade dos **artefatos de Drakantos** vai além de simples aumentos de atributos. Cada um dos oito novos artefatos possui "Slots de Orbes" que permitem aos jogadores personalizar comportamentos de habilidades específicas. Este sistema espelha os orbes de habilidade vistos no beta fechado, onde manter uma habilidade pressionada poderia mudar sua propriedade fundamental — como transformar três pequenos Treants em um Ent massivo que esmaga o chão.
+
+Ao encaixar gemas de artefato específicas, você pode refinar ainda mais essas mecânicas de "Tempo Perfeito". Para Faendar, isso pode significar aumentar o debuff de redução de ataque aplicado por sua invocação de Ent ou reduzir o tempo de espera necessário para sua habilidade Agarrar Vinha.
+
+<Checklist
+  id="artifact-optimization"
+  title="Lista de Verificação de Artefatos para 2026:"
+  items={[
+    "Obtenha pelo menos 3 dos 8 novos artefatos para sua função principal",
+    "Alcance o nível 20 em Pesca para desbloquear componentes de fragmentos raros",
+    "Participe de duelos 1v1 para testar procs de artefatos em PvP",
+    "Localize um spawn Corrompido na névoa de guerra do seu mapa",
+    "Desbloqueie o acesso ao 'Mercado de Comércio' completando a linha de missões de comércio"
+  ]}
+/>
+
+<Callout type="info" title="Dica Profissional">
+Não ignore a "Névoa de Guerra" em seus mapas. Inimigos corrompidos e baús de artefatos escondidos frequentemente aparecem em áreas inexploradas, encorajando os jogadores a se aventurarem fora do caminho batido.
+</Callout>
+
+| Tipo de Gema de Artefato | Efeito em Faendar | Viabilidade PvP |
+| :--- | :--- | :--- |
+| **Gema Crono** | Reduz o tempo de espera de Agarrar Vinha | Alta (CC Rápido) |
+| **Gema de Vitalidade** | Aumenta o raio da Bênção de Helier | Média (Jogo em Grupo) |
+| **Gema Espinhosa** | Adiciona reflexão de dano a Espinhos Mortais | Alta (Anti-corpo a corpo) |
+| **Gema de Agilidade** | Aumenta o bônus de velocidade da Forma de Coruja | Baixa (Principalmente fuga) |
+
+</Section>
+
+<Section icon={Trophy} title="Comércio e Economia de Artefatos">
+
+A introdução do comércio jogador-a-jogador revolucionou a forma como os jogadores adquirem **artefatos de Drakantos**. Você não está mais estritamente à mercê do RNG (Random Number Generation). Se você encontrar um artefato de alto nível que não se encaixa na sua build de Arquidruida, agora você pode trocá-lo por um que se encaixe.
+
+O plano do desenvolvedor de adicionar um mercado de comércio centralizado estabilizará ainda mais a economia. Atualmente, os jogadores usam solicitações de duelo 1v1 e centros sociais da cidade para facilitar essas trocas. Artefatos com bônus de "Tempo Perfeito" são atualmente os itens de maior valor no mercado de 2026.
+
+<Callout type="warning" title="Dica de Segurança">
+Sempre verifique novamente as estatísticas de um artefato na janela de comércio antes de confirmar. Alguns artefatos legados parecem semelhantes às novas versões de 2026, mas têm níveis de poder significativamente mais baixos.
+</Callout>
+
+| Item do Mercado | Valor Médio de Comércio | Nível de Demanda |
+| :--- | :--- | :--- |
+| **Novos Artefatos de 2026** | Muito Alto | Máximo |
+| **Fragmentos Corrompidos** | Médio | Alto (Criação) |
+| **Componentes de Peixes Raros** | Baixo/Médio | Moderado |
+| **Artefatos Legados** | Baixo | Muito Baixo (Apenas Colecionadores) |
+
+</Section>
+
+<Section icon={Shield} title="FAQ: Artefatos de Drakantos e Progressão">
+
+<FAQ items={[
+  {
+    question: "Onde posso encontrar os 8 novos artefatos de Drakantos?",
+    answer: "Esses artefatos são principalmente dropados por inimigos Corrompidos que aparecem aleatoriamente nos mapas. Eles também podem ser obtidos através de recompensas de pesca de alto nível e comércio de jogadores."
+  },
+  {
+    question: "Como a remoção do bloqueio de corpo afeta minhas invocações?",
+    answer: "Suas invocações (como os Treants de Faendar) não bloquearão mais você ou seus aliados. No entanto, eles ainda fornecem bloqueio de corpo contra inimigos, permitindo que você os use como barreiras estratégicas em combate."
+  },
+  {
+    question: "Os artefatos antigos ainda são úteis no meta de 2026?",
+    answer: "A maioria dos artefatos legados foi superada pelos novos itens. Embora ainda funcionem, é altamente recomendável fazer a transição para os novos artefatos de 2026 para permanecer competitivo no conteúdo de endgame."
+  },
+  {
+    question: "Posso trocar artefatos com outros jogadores diretamente?",
+    answer: "Sim, o comércio jogador-a-jogador agora está totalmente funcional. Você pode encontrar outros jogadores em centros sociais para trocar artefatos e materiais diretamente."
+  }
+]} />
+
+<Callout type="success" title="Nota Final">
+À medida que Drakantos continua a evoluir, manter-se atualizado sobre as mudanças nos artefatos é a melhor maneira de manter uma build de alto nível. Fique de olho nas entradas do bestiário e na névoa de guerra do seu mapa para os spawns corrompidos mais recentes!
+</Callout>
+
+</Section>

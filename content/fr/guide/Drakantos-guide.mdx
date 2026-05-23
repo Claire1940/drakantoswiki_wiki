@@ -1,0 +1,229 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guide Drakantos : Conseils pour débutants et progression en 2026",
+  description: "Maîtrisez Drakantos avec notre guide 2026. Apprenez la sélection des héros, l'optimisation du score d'équipement, les stratégies de donjon et les tactiques d'arène PvP pour ce MMORPG en pixels.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Drakantos+Beginner+Guide",
+  date: "2026-05-23",
+  author: "Équipe Wiki Drakantos"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Guide Drakantos** : Ce MMORPG pixelisé en 2D se concentre sur des **héros prédéfinis** plutôt que sur des personnages personnalisables, mettant l'accent sur le combat tactique basé sur les rôles.
+- **Système de combat** : Récemment mis à jour pour un **combat d'action complet** avec un mouvement à 360 degrés et des compétences visées à la souris, remplaçant l'ancien système basé sur des tuiles.
+- **Boucle de progression** : Concentrez-vous sur le **score d'équipement** via des donjons à 3 joueurs (Aventures) et la collecte de ressources dans le monde ouvert pour améliorer l'équipement.
+- **Mécanique clé** : Utilisez des **Orbes** pour améliorer de manière permanente les compétences des héros et des **Artefacts** pour ajouter des capacités actives uniques comme le soin ou le contrôle de foule.
+- **Contenu PvP** : L'Arène propose trois modes — **Contrôle, Escorte et Assaut** — où l'équipement est normalisé pour un équilibre compétitif.
+</Callout>
+
+<Section icon={Map} title="Drakantos 2026 : Un aperçu de la frontière pixelisée">
+
+Drakantos est un MMORPG 2D gratuit, nostalgique mais moderne, qui combine un art pixelisé de haute fidélité avec un combat d'action rapide. En 2026, le jeu a considérablement évolué depuis ses premières phases bêta, notamment en passant d'un système de mouvement rigide basé sur des tuiles à un système d'action fluide et à mouvement libre. Contrairement aux MMO traditionnels où vous créez un avatar vierge, Drakantos propose plus de 20 héros uniques, chacun avec ses propres histoires doublées, ses ensembles de compétences spécifiques et ses chemins de progression distincts.
+
+**Points forts de la vidéo :**
+- **Premières impressions** : Un aperçu du style artistique 2D soigné et de l'ambiance "Isekai" de l'anime du Hall de la Guilde.
+- **Mécaniques des héros** : Comprendre que les personnages sont des individus définis avec des noms et des histoires uniques.
+- **Mode Aventure** : Une présentation de l'expérience de donjon de bas niveau et du jeu en groupe.
+- **Monde ouvert** : Exploration de la carte pour la collecte et l'interaction sociale.
+
+<YouTubeEmbed videoId="bonbSpe1HAQ" title="Drakantos | Nouveau joueur, Premières impressions" />
+
+Le monde du jeu est divisé entre un monde ouvert vibrant utilisé pour les quêtes et la collecte, et des "Aventures" instanciées qui servent de source principale d'expérience et de butin de haut niveau.
+
+| Caractéristique | Description |
+| :--- | :--- |
+| **Style artistique** | Art pixelisé 2D de haute qualité avec des animations détaillées |
+| **Combat** | Combat d'action complet (non ciblé, visé à la souris) |
+| **Nombre de joueurs** | Massivement multijoueur avec des villes partagées et des zones ouvertes |
+| **Plateformes** | PC (Steam) avec prise en charge complète de la manette |
+| **Monétisation** | Free-to-Play avec des options cosmétiques et de confort |
+
+<Callout type="success" title="Mise à jour 2026">
+La version 2026 de Drakantos propose désormais des commandes de souris entièrement retravaillées et un mouvement à 360 degrés, rendant le combat significativement plus réactif que le système hybride original.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Sélection des héros et spécialisation des rôles">
+
+Choisir votre héros est la décision la plus critique dans Drakantos. Puisque vous ne pouvez pas personnaliser la classe de base d'un héros, vous devez choisir parmi la liste des personnages prédéfinis. Chaque héros s'inscrit dans l'un des trois rôles principaux : Tank, DPS ou Support. En 2026, la liste comprend des favoris des fans comme **Orbryn** (le nain tanky), **Marly** (la roublarde agile) et **Liam**.
+
+<CardGrid cols={3}>
+  <Card title="Tanks">
+    - **Points de vie élevés**
+    - Compétences de mitigation des dégâts
+    - Essentiel pour les boss de haut niveau
+    - Exemple : **Orbryn**
+  </Card>
+  <Card title="DPS">
+    - **Dégâts d'éclatement et soutenus**
+    - Outils de mobilité et de kiting
+    - Styles de jeu "glass cannon"
+    - Exemple : **Marly**
+  </Card>
+  <Card title="Support">
+    - **Guérison et buffs**
+    - Utilitaire de contrôle de foule (CC)
+    - Forte demande pour le jeu en groupe
+    - Exemple : **Arryn**
+  </Card>
+</CardGrid>
+
+Chaque héros progresse séparément. Bien que vous puissiez changer de héros à tout moment, votre équipement et votre niveau ne sont pas transférés. Cependant, les héros de haut niveau peuvent trouver de l'équipement pour vos alts, ce qui rend le "alt-grind" beaucoup plus fluide.
+
+| Nom du héros | Rôle principal | Mécanique clé |
+| :--- | :--- | :--- |
+| **Orbryn** | Tank | Blocage de bouclier et provocations de dégâts |
+| **Marly** | DPS | Tir rapide à l'arbalète et pièges |
+| **Liam** | DPS | Attaques physiques à fort éclatement |
+| **Arryn** | Support | Sorts de guérison et buffs de zone sacrée |
+| **Yuki** | Support | Contrôle de foule basé sur la glace et boucliers |
+
+<Callout type="tip" title="Conseil de pro">
+Si vous aimez jouer en solo, considérez les héros avec du **vol de vie** ou de fortes capacités de kiting. Des héros comme le guerrier orc offrent une grande durabilité lorsqu'un soigneur dédié n'est pas disponible.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Systèmes de progression : Score d'équipement et Orbes">
+
+La progression dans Drakantos est une approche à deux volets : faire monter votre héros en niveau et augmenter votre **score d'équipement**. Le score d'équipement est le principal gardien du contenu ; même un héros de haut niveau aura du mal dans les donjons avancés si son équipement est obsolète.
+
+**Le système d'équipement**
+Votre personnage équipe quatre pièces principales : un chapeau, un haut, des chaussures et une arme. Ces objets sont trouvés dans les donjons et peuvent être renforcés à la Forge en utilisant des matériaux collectés dans le monde ouvert (comme le bois et le minerai).
+
+**Orbes et amélioration des compétences**
+Les Orbes sont des objets uniques trouvés pendant les Aventures qui vous permettent d'améliorer de manière permanente des compétences spécifiques. Par exemple, un "Orbe d'attaque lourde" pourrait vous permettre de maintenir votre bouton d'attaque de base enfoncé pour un bonus de dégâts massif.
+
+| Objet de progression | Source | Objectif |
+| :--- | :--- | :--- |
+| **Équipement** | Donjons (Aventures) | Augmente les statistiques de base et le score d'équipement |
+| **Matériaux** | Collecte en monde ouvert | Utilisé pour renforcer et améliorer l'équipement |
+| **Orbes** | Butins rares des donjons | Modifie et améliore les compétences de manière permanente |
+| **Artefacts** | Boss / Boîtes Bêta | Accorde des capacités actives uniques |
+
+<Steps>
+  <Step num="1" title="Atteindre le niveau 12">
+    La plupart des héros débloquent leur compétence de classe emblématique (comme les soins ultimes ou les blocages) au niveau 12. Priorisez l'atteinte de ce jalon.
+  </Step>
+  <Step num="2" title="Faire les donjons de Tier 1">
+    Nettoyez le Nid d'Araignées ou des zones de bas niveau similaires pour obtenir votre premier ensemble complet d'équipement de niveau bleu.
+  </Step>
+  <Step num="3" title="Collecter des ressources">
+    Rendez-vous dans la forêt ou les mines pour collecter du bois et de la pierre. Utilisez-les à la Forge pour renforcer votre équipement de Tier 1.
+  </Step>
+  <Step num="4" title="Insérer vos Orbes">
+    Vérifiez votre menu de compétences et insérez tous les Orbes que vous avez trouvés pour augmenter vos dégâts ou vos capacités défensives.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Note importante">
+L'équipement est spécifique au héros. Vous ne pouvez pas transférer l'armure équipée de votre Tank à votre DPS, alors concentrez vos matériaux de renforcement sur votre personnage principal en premier.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mode Aventure PvE : La boucle de gameplay">
+
+Le cœur de Drakantos est le **Mode Aventure**. Ce sont des donjons instanciés à 3 joueurs qui tournent toutes les 20 à 30 minutes. Chaque donjon a des objectifs et des tables de butin spécifiques, vous permettant de cibler les matériaux dont vous avez besoin.
+
+**Objectifs de donjon courants :**
+- **Exterminer** : Tuer un pourcentage défini de monstres dans la zone.
+- **Escorter** : Protéger un PNJ ou un objet pendant qu'il se déplace sur la carte.
+- **Collecter** : Trouver des ingrédients rares ou des vestiges dispersés dans la zone.
+- **Chasse au boss** : Traquer et vaincre un puissant champion à la fin de la grotte.
+
+| Type d'objectif | Meilleure stratégie | Récompenses courantes |
+| :--- | :--- | :--- |
+| **Exterminer** | Regrouper les monstres pour les dégâts de zone | Expérience et Or |
+| **Escorter** | Le tank reste près de l'objectif, le DPS déblaie le chemin | Matériaux d'amélioration |
+| **Collecter** | Se séparer pour trouver les objets plus rapidement | Composants d'artisanat rares |
+| **Chasse au boss** | Se concentrer sur l'esquive des télégraphes et du CC | Équipement et Orbes de haut niveau |
+
+<YouTubeEmbed videoId="kZaCM5KbVEA" title="Drakantos Beginner's Guide - What To Expect" />
+
+<Callout type="info" title="Mise à l'échelle des donjons">
+Si vous ne trouvez pas de groupe complet, le jeu vous permet d'entrer en solo. La difficulté s'adapte légèrement, mais avoir un groupe équilibré (Tank/DPS/Support) est toujours le moyen le plus efficace de terminer le contenu.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Arène PvP : Modes et mécaniques">
+
+Pour les joueurs qui préfèrent la compétition, Drakantos propose un système d'Arène PvP robuste. Dans l'Arène, tous les joueurs sont au niveau maximum avec un équipement normalisé pour assurer un terrain de jeu équitable. En 2026, il existe trois modes principaux sur 13 cartes différentes.
+
+**Répartition des modes PvP :**
+1. **Contrôle** : Les équipes se battent pour tenir des zones spécifiques. La progression est gagnée en restant dans la zone, même si des ennemis sont présents.
+2. **Escorte** : Un mode de type "bras de fer" où vous devez déplacer un cristal vers la base ennemie tout en arrêtant le leur.
+3. **Assaut** : Un mode inspiré des MOBA avec des tours et un noyau central. Les tours priorisent les sbires mais cibleront les héros qui attaquent des alliés sous la tour.
+
+| Mode PvP | Objectif | Mécanique clé |
+| :--- | :--- | :--- |
+| **Contrôle** | Capturer 1-2 zones | La première équipe à 100 % de progression gagne |
+| **Escorte** | Déplacer le cristal vers la destination | Le cristal s'arrête si des ennemis sont à proximité |
+| **Assaut** | Détruire le noyau ennemi | Les tours ont 80 % de défense sans sbires |
+
+<Callout type="tip" title="Stratégie PvP">
+En **mode Assaut**, un puissant buff de dégâts apparaît au centre de la carte toutes les 3:30. Sécuriser ce bonus d'attaque de 25 % est souvent la clé pour percer les défenses des tours ennemies.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Objectifs quotidiens et conseils avancés">
+
+Pour maximiser votre efficacité dans Drakantos, vous devriez vous engager avec la Guilde des Aventuriers et les systèmes sociaux. Le jeu récompense la cohérence et l'exploration au-delà du simple grind de monstres.
+
+<Checklist
+  id="drakantos-dailies"
+  title="Liste de contrôle quotidienne 2026 :"
+  items={[
+    "Vérifier la Guilde des Aventuriers pour les missions à haute récompense",
+    "Collecter au moins 50 unités de bois/minerai pour le renforcement de l'équipement",
+    "Participer à 3 matchs d'Arène pour les récompenses de la Boîte Bêta",
+    "Lier le compte Twitch pour des drops de boost temporaires",
+    "Explorer le monde ouvert pour les coffres cachés et les opportunités de crochetage"
+  ]}
+/>
+
+**Synergies d'artefacts**
+Les artefacts sont des objets actifs qui peuvent changer votre style de jeu. Vous pouvez en équiper deux à la fois.
+- **Tonneau de bière** : Fait que les ennemis s'attaquent mutuellement (Idéal pour le jeu en solo).
+- **Nid de guêpes** : Fournit des dégâts soutenus dans le temps (Meilleur pour les boss).
+- **Gourde** : Un soin personnel fiable pour les héros DPS.
+
+<Callout type="success" title="Jetons de guilde">
+Utilisez les jetons gagnés lors des missions pour acheter des **Tickets de croissance**. Ceux-ci offrent un bonus d'XP de 100 %, réduisant considérablement le temps nécessaire pour atteindre le jeu final.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ Drakantos">
+
+<FAQ items={[
+  {
+    question: "Puis-je personnaliser l'apparence de mon héros dans Drakantos ?",
+    answer: "Vous ne pouvez pas changer le modèle de base, mais il existe un système de teinture pour l'armure et les cheveux, ainsi que divers costumes disponibles dans la boutique."
+  },
+  {
+    question: "Drakantos est-il pay-to-win ?",
+    answer: "En 2026, le jeu est free-to-play avec un accent sur les cosmétiques et les objets de confort. Le PvP est normalisé, ce qui signifie que l'équipement payant ne donne pas d'avantage dans l'Arène."
+  },
+  {
+    question: "Comment augmenter rapidement mon score d'équipement ?",
+    answer: "Concentrez-vous sur la réalisation d'Aventures qui donnent le niveau d'équipement spécifique dont vous avez besoin, puis utilisez les ressources collectées dans le monde ouvert pour renforcer cet équipement à la Forge."
+  },
+  {
+    question: "Quel est le meilleur héros pour les débutants ?",
+    answer: "Orbryn (Tank) est fortement recommandé en raison de sa grande survivabilité, tandis que Marly (DPS) est idéal pour les joueurs qui préfèrent le combat à distance et le kiting."
+  }
+]} />
+
+</Section>

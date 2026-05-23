@@ -1,0 +1,148 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Combate de Drakantos: Dominando el Nuevo Sistema de Acción (2026)",
+  description: "Sumérgete en el sistema de combate de acción renovado de Drakantos, con movimiento libre, habilidades apuntadas con el ratón y ataques básicos estratégicos. Aprende consejos para teclado y mando.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Drakantos+Combat+Guide",
+  date: "2026-05-23",
+  author: "Equipo Wiki de Drakantos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El **combate de Drakantos** ha transitado a un sistema totalmente basado en la acción con movimiento libre.
+- Las habilidades ahora se apuntan con el ratón, requiriendo una puntería precisa.
+- Los ataques básicos operan con un sistema similar a la resistencia, permitiendo su uso fuera del tiempo de reutilización.
+- El mando ofrece un movimiento de 360° más fluido, mientras que el teclado/ratón proporciona una mayor facilidad general.
+- Los modos PvP como Control, Escolta y Asalto muestran las nuevas mecánicas de combate.
+</Callout>
+
+<Section icon={Swords} title="Entendiendo el Nuevo Sistema de Combate de Drakantos">
+El mundo de Drakantos ha experimentado cambios significativos, particularmente en sus mecánicas de combate. Los jugadores que regresen de fases beta anteriores encontrarán un sistema completamente renovado, pasando de un enfoque híbrido basado en casillas a una experiencia de combate totalmente basada en la acción. Esta actualización, introducida en la Beta Cerrada de mayo de 2026, se centra en la fluidez, la habilidad del jugador y los enfrentamientos dinámicos.
+
+Este nuevo sistema enfatiza el movimiento libre y el control directo, permitiendo a los jugadores atacar libremente en cualquier dirección. Las habilidades ahora requieren una puntería precisa con el ratón, exigiendo una participación más activa en cada encuentro. Este cambio tiene como objetivo crear una sensación de combate más atractiva y receptiva, ya sea navegando desafíos PvE o chocando en las nuevas arenas PvP.
+
+<Callout type="tip" title="Principio Clave del Combate">
+Dominar el nuevo sistema de **combate de Drakantos** gira en torno a la puntería precisa con el ratón para las habilidades y la comprensión de la mecánica similar a la resistencia para los ataques básicos. La práctica es clave para adaptarse a este juego más dinámico.
+</Callout>
+
+### Resumen de los Cambios Fundamentales en el Combate
+
+Aquí hay un desglose de los cambios fundamentales introducidos en el sistema de combate de Drakantos:
+
+| Característica | Sistema Anterior | Nuevo Combate de Acción | Impacto en la Jugabilidad |
+|---|---|---|---|
+| **Movimiento** | Basado en casillas | Movimiento totalmente libre | Mayor movilidad, posicionamiento estratégico |
+| **Estilo de Combate** | Híbrido (parcialmente acción) | Totalmente basado en la acción | Control más directo, habilidades dependientes de la puntería |
+| **Selección de objetivo** | Sistema de selección de objetivo | Sin sistema de selección de objetivo | Requiere puntería manual para todos los ataques |
+| **Uso de Habilidades** | Auto-objetivo/direccional | Apuntado con el ratón | Mayor techo de habilidad, la precisión es recompensada |
+| **Ataques Básicos** | Basado en tiempo de reutilización | Similar a la resistencia, uso fuera del tiempo de reutilización | Daño más continuo, el momento sigue siendo óptimo |
+| **Soporte para Mando** | Limitado a 8 direcciones | Movimiento suave de 360° | Mayor fluidez para los jugadores con mando |
+
+</Section>
+
+<Section icon={Target} title="Dominando los Controles: Teclado, Ratón y Mando">
+Adaptarse al nuevo esquema de control es crucial para sobresalir en el **combate de Drakantos**. Los desarrolladores han puesto un esfuerzo considerable en refinar tanto las entradas de teclado/ratón como las del mando para proporcionar experiencias de juego distintas pero efectivas. Comprender los matices de cada uno te ayudará a elegir tu método preferido y maximizar tu efectividad en la batalla.
+
+Para los usuarios de teclado y ratón, la experiencia está diseñada para sentirse intuitiva y receptiva. El clic izquierdo sirve como tu ataque básico, mientras que el clic derecho está dedicado a tu ataque especial, a menudo con un efecto mejorado si se mantiene presionado. Tu personaje ahora mira automáticamente en la dirección de tu ratón al atacar, agilizando el proceso de puntería.
+
+<Callout type="success" title="Optimizando tu Estilo de Juego">
+Experimenta con teclado/ratón y mando para encontrar lo que mejor se adapte a tu estilo de juego individual. Aunque el teclado y el ratón pueden parecer más fáciles de aprender inicialmente, el movimiento fluido de 360° que ofrece un mando puede proporcionar una ventaja significativa en ciertas situaciones, especialmente para esquivar y reposicionarse.
+</Callout>
+
+### Desglose del Esquema de Control
+
+| Aspecto del Control | Teclado y Ratón | Mando | Beneficios Clave |
+|---|---|---|---|
+| **Movimiento** | 8 direcciones, WASD | Stick analógico de 360° completo | Mando: Fluidez superior, dashes precisos |
+| **Ataque Básico** | Clic izquierdo | Botón frontal (ej. A/X) | Ambos: Similar a la resistencia, compromiso continuo |
+| **Ataque Especial** | Clic derecho (mantener para mejorar) | Gatillo/botón superior | Ambos: Uso estratégico de habilidades poderosas |
+| **Apuntar Habilidades** | Cursor del ratón | Stick analógico derecho (dirección de giro) | Ratón: Apuntar y hacer clic directo; Mando: Puntería direccional |
+| **Orientación del Personaje** | Se orienta automáticamente hacia el ratón | Controlado por el stick analógico derecho | Ratón: Combate simplificado; Mando: Control total sobre la orientación |
+
+</Section>
+
+<Section icon={Sparkles} title="Técnicas y Consejos Avanzados de Combate">
+Más allá de los controles básicos, hay varias técnicas y consideraciones avanzadas que pueden elevar tu rendimiento en el **combate de Drakantos**. Comprender cómo interactúan los ataques básicos, las habilidades e incluso las mecánicas específicas de los héroes dentro del nuevo sistema es vital para un juego de alto nivel.
+
+Un cambio significativo es cómo funcionan los ataques básicos. Aunque ahora se pueden usar fuera de su tiempo de reutilización, operan con un sistema similar a la resistencia. Esto significa que puedes atacar continuamente, pero cronometrar tu daño alrededor del intervalo anterior de 2 segundos sigue siendo el enfoque más óptimo para una producción sostenida. Los ataques cuerpo a cuerpo ofrecen un poco más de tolerancia con las cargas, lo que permite enfrentamientos más agresivos.
+
+<Callout type="warning" title="Gestión de la Resistencia">
+Aunque los ataques básicos se pueden usar con más libertad, spamearlos continuamente sin considerar el intervalo óptimo de 2 segundos puede llevar a una producción de daño menos efectiva. Aprende a entrelazar tus ataques estratégicamente.
+</Callout>
+
+### Lista de Verificación de Combate Estratégico
+
+<Checklist
+  id="combat-strategies"
+  title="Estrategias de Combate Esenciales:"
+  items={[
+    "Practica habilidades apuntadas con el ratón para una puntería precisa.",
+    "Aprende el momento óptimo para los ataques básicos dentro de su sistema de resistencia.",
+    "Utiliza el movimiento de 360° para esquivar y reposicionarte eficazmente.",
+    "Comprende las mecánicas específicas de los héroes y cómo interactúan con el combate de acción.",
+    "Experimenta con diferentes combinaciones de construcción usando Orbes, Artefactos y Trofeos."
+  ]}
+/>
+
+### Adaptación de Héroes y Experimentación de Builds
+
+Los nuevos cambios de movimiento y combate significan que muchos héroes se sentirán significativamente diferentes en comparación con las iteraciones beta anteriores. Esto proporciona una experiencia fresca incluso con contenido familiar. Los jugadores tendrán acceso a 15 héroes desde el principio, incluidos Liam, Marly, Zeugladius, Reya y Yura, entre otros.
+
+Durante la beta, las Cajas Beta especiales que otorgan Trofeos, Orbes y Artefactos de endgame permiten una amplia experimentación de construcciones. Estos elementos son cruciales para dar forma a tu estilo de juego y expandir las posibilidades de juego, especialmente en PvP.
+
+</Section>
+
+<Section icon={Trophy} title="Combate de Drakantos en PvP: Modos y Mecánicas">
+La Beta de mayo de 2026 introduce a los jugadores al PvP de Drakantos por primera vez, presentando 13 mapas en tres modos distintos. Estos modos están diseñados para poner a prueba tu destreza en combate, pensamiento estratégico y trabajo en equipo dentro del nuevo sistema de acción. El PvP también es una vía viable para la progresión, permitiendo a los jugadores subir de nivel y ganar recompensas fuera de las aventuras PvE tradicionales.
+
+En PvP, todos los jugadores se establecen al nivel máximo con equipo y habilidades al máximo. Los Trofeos y Artefactos también se maximizan, aunque no se desbloquean en el sentido tradicional. Esto asegura un campo de juego nivelado centrado en la habilidad y las elecciones de construcción.
+
+<Callout type="info" title="Ecualización PvP">
+Todos los participantes en PvP se establecen automáticamente al nivel máximo con equipo, habilidades, trofeos y artefactos al máximo. Esto asegura que los partidos se determinen por la habilidad del jugador y las elecciones estratégicas de construcción, no por el farmeo.
+</Callout>
+
+### Desglose de Modos PvP
+
+| Modo PvP | Objetivo | Mecánicas Clave | Enfoque Estratégico |
+|---|---|---|---|
+| **Control** | Mantenerse en zonas de control para ganar progreso | Progreso ganado independientemente de la presencia enemiga; los mapas tienen 1-2 puntos | Control de zona, coordinación de equipo, rotación rápida |
+| **Escolta** | Escortar tu cristal hasta el punto final | El cristal se mueve con los aliados, se detiene cerca de los enemigos | Protección del cristal, interrupción enemiga, trazado de rutas |
+| **Asalto** | Similar a un MOBA con torres y un núcleo | Las torres comparten salud, priorizan a los súbditos; el núcleo queda expuesto después de las torres | Destrucción de torres, asalto al núcleo, control de buffs |
+
+**Consideraciones Adicionales de PvP:**
+*   Los modos de Asalto otorgan más recompensas debido a la mayor duración de las partidas.
+*   Las cargas de artefactos se reducen a la mitad en los modos Control y Escolta.
+*   Las habilidades y artefactos con efectos de "hasta X segundos" suelen reducirse contra jugadores o jefes para equilibrar.
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes sobre el Combate de Drakantos">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el mayor cambio en el combate de Drakantos en comparación con las betas anteriores?",
+    answer: "El mayor cambio es la transición del movimiento basado en casillas y un sistema de combate híbrido a un movimiento totalmente libre y un sistema de combate 100% basado en la acción, donde todas las habilidades deben apuntarse con el ratón."
+  },
+  {
+    question: "¿Cómo funcionan los ataques básicos en el nuevo sistema?",
+    answer: "Los ataques básicos ahora operan con un sistema similar a la resistencia, permitiendo su uso fuera de su tiempo de reutilización. Sin embargo, cronometrar tu daño alrededor de un intervalo de 2 segundos sigue siendo el enfoque más óptimo para un daño consistente."
+  },
+  {
+    question: "¿Es mejor usar teclado y ratón o mando para el combate de Drakantos?",
+    answer: "El teclado y el ratón generalmente se sienten más fáciles de jugar en general debido a la puntería directa con el ratón. Sin embargo, los mandos ofrecen un movimiento de 360° mucho más fluido, lo que puede ser ventajoso para un movimiento fluido y para apuntar los dashes en cualquier dirección. La mejor elección depende de la preferencia personal."
+  },
+  {
+    question: "¿Hay cambios de equilibrio específicos para el combate PvP?",
+    answer: "Sí, en PvP, todos los jugadores se establecen automáticamente al nivel máximo con equipo, habilidades, trofeos y artefactos al máximo para garantizar una competencia justa. Además, las cargas de artefactos se reducen a la mitad en los modos Control y Escolta, y algunos efectos de habilidad se reducen contra jugadores para equilibrar."
+  }
+]} />
+
+</Section>

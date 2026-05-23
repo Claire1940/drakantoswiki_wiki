@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Fish, RefreshCw, ShoppingCart } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Artéfacts de Drakantos : Progression d'équipement et guide des nouveaux objets 2026",
+  description: "Maîtrisez le système d'artéfacts de Drakantos avec notre guide 2026. Découvrez les huit nouveaux artéfacts, comment farmer les ennemis corrompus et créer des synergies.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Drakantos+Artifacts+Guide",
+  date: "2026-05-23",
+  author: "Équipe Wiki Drakantos"
+}
+
+<Callout type="info" title="Guide Rapide">
+- Les **artéfacts de Drakantos** ont été entièrement remaniés en 2026, avec huit nouveaux objets qui remplacent l'équipement hérité obsolète.
+- Les **ennemis corrompus** sont la principale source de butin d'artéfacts de haut niveau, offrant un défi et une récompense accrus.
+- La **synergie de soutien** est essentielle ; les artéfacts qui augmentent la vitesse d'incantation et la puissance de guérison sont cruciaux pour des archétypes comme Faendar.
+- Les **systèmes d'échange** permettent désormais aux joueurs d'échanger directement des artéfacts, avec un marché d'échange dédié qui arrivera dans une future mise à jour.
+- Le **positionnement stratégique** reste vital en combat car le blocage corporel s'applique toujours aux ennemis, même s'il a été supprimé pour les alliés.
+</Callout>
+
+<Section icon={Map} title="La refonte des artéfacts de 2026 : Qu'est-ce qui a changé ?">
+
+Le paysage de la progression dans ce MMOARPG en 2D a considérablement changé avec les dernières mises à jour de Wingeon Game Studios. L'introduction des **artéfacts de Drakantos** constitue la pierre angulaire de la personnalisation des personnages, permettant aux joueurs d'affiner leurs builds au-delà de la simple mise à l'échelle des niveaux. Dans le patch 2026 le plus récent, les développeurs ont supprimé plusieurs artéfacts obsolètes pour faire place à huit nouveaux objets à fort impact, conçus pour s'adapter à la méta moderne d'action rapide et de positionnement tactique.
+
+**Points forts de la vidéo :**
+- **Archétype de Faendar** : Aperçu du rôle de support axé sur l'incantation de l'Archidruide.
+- **Contrôle de foule** : Démonstration des épines, racines et ralentissements utilisés pour gérer les mouvements ennemis.
+- **Mécaniques de guérison** : Analyse de la Bénédiction de Helier et de ses effets restaurateurs graduels.
+- **Utilitaire de mouvement** : Présentation de la Forme de hibou pour la réduction des dégâts et les bonus de vitesse.
+
+<YouTubeEmbed videoId="LkKFDsNDQzc" title="Drakantos - Faendar's (Archdruid) Abilities - Closed Beta Test" />
+
+<Callout type="tip" title="Aperçu du développeur">
+La suppression du blocage corporel pour les membres du groupe et les familiers est une amélioration massive de la qualité de vie. Vous n'avez plus à vous soucier de rester bloqué derrière un Tréant amical ou un autre joueur lors de combats de boss intenses comme Caladrax.
+</Callout>
+
+| Mise à jour des artéfacts | Statut | Impact principal |
+| :--- | :--- | :--- |
+| **Artéfacts hérités** | Supprimés | Remplacés par des versions 2026 plus polyvalentes |
+| **Nouveaux artéfacts** | 8 ajoutés | Accent sur les buffs et l'utilité spécifiques aux compétences |
+| **Drops corrompus** | Actifs | Les artéfacts de rareté supérieure proviennent désormais des variantes corrompues |
+| **Échange** | Activé | Les artéfacts peuvent désormais être échangés entre joueurs |
+
+</Section>
+
+<Section icon={Swords} title="Farm des artéfacts de Drakantos : Ennemis corrompus et Pêche">
+
+L'acquisition des meilleurs **artéfacts de Drakantos** nécessite une approche multifacette. Tandis que l'exploration de donjons standard fournit de l'équipement de base, la méta 2026 tourne autour de la chasse aux ennemis corrompus. Ces apparitions rares possèdent des capacités améliorées et des points de vie considérablement plus élevés, mais agissent comme les principaux gardiens des huit nouveaux artéfacts ajoutés au jeu.
+
+Au-delà du combat, l'introduction de l'activité de pêche offre une alternative non-combattante pour la collecte de composants d'artéfacts. Les joueurs peuvent désormais passer du temps près de divers plans d'eau pour pêcher des matériaux rares essentiels à la fabrication ou à l'amélioration de pièces d'équipement spécifiques.
+
+<Callout type="warning" title="Avertissement de combat">
+Les ennemis corrompus ne doivent pas être pris à la légère. Ils apparaissent souvent avec des « Auras Corrompues » qui peuvent enraciner ou ralentir les joueurs, rendant le positionnement encore plus critique maintenant que le blocage corporel allié a été désactivé.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Chasse aux corrompus">
+    - **Risque Élevé** : Les ennemis infligent 40 % de dégâts supplémentaires.
+    - **Meilleures Récompenses** : Accès exclusif aux 8 nouveaux artéfacts.
+    - **Taux d'apparition** : Augmenté lors des événements régionaux.
+  </Card>
+  <Card title="Activité de Pêche">
+    - **Accent sur les ressources** : Collectez des éclats d'artéfacts uniques.
+    - **Rythme Détendu** : Parfait pour les temps morts entre les raids.
+    - **Progression** : Le nivellement de la pêche débloque de meilleurs appâts pour des drops plus rares.
+  </Card>
+  <Card title="Échange entre joueurs">
+    - **Accès au Marché** : Achetez des artéfacts spécifiques que vous ne trouvez pas.
+    - **Économie** : Les artéfacts sont devenus la principale monnaie de grande valeur.
+    - **Échange Direct** : Le commerce sécurisé en 1v1 est désormais entièrement fonctionnel.
+  </Card>
+</CardGrid>
+
+| Méthode de farm | Difficulté | Potentiel de rareté d'artéfact | Niveau recommandé |
+| :--- | :--- | :--- | :--- |
+| **Donjons standards** | Faible/Moyenne | Commun à Rare | 1 - 50 |
+| **Apparitions corrompues** | Élevée | Épique à Légendaire | 40+ |
+| **Pêche de Maître** | Faible | Rare à Épique (Éclats) | Tout |
+| **Marché d'échange** | N/A | Variable (Dirigé par l'utilisateur) | Tout |
+
+</Section>
+
+<Section icon={Target} title="Comment optimiser la synergie des artéfacts">
+
+Choisir les bons **artéfacts de Drakantos** dépend fortement du rôle de votre personnage. Par exemple, un personnage de soutien comme Faendar (l'Archidruide) bénéficie énormément des artéfacts qui réduisent les temps de recharge ou augmentent la durée des effets de contrôle de foule comme les racines et les ralentissements. Puisque l'ultime de Faendar, la Bénédiction de Helier, est une guérison progressive plutôt qu'une guérison instantanée, les artéfacts qui augmentent l'efficacité des "Soins sur la durée" (HoT) sont obligatoires pour le contenu de haut niveau.
+
+<Steps>
+  <Step num="1" title="Identifier l'échelle principale">
+    Déterminez si votre personnage évolue mieux avec les dégâts bruts, la vitesse d'incantation ou l'utilité. Pour Faendar, la vitesse d'incantation est vitale pour ses attaques de base et son Étreinte de vigne.
+  </Step>
+  <Step num="2" title="Sélectionner les artéfacts utilitaires">
+    Équipez au moins un artéfact qui offre une utilité défensive. L'artéfact "Grâce du hibou", par exemple, complète la capacité de mouvement de Faendar en ajoutant une réduction de dégâts supplémentaire.
+  </Step>
+  <Step num="3" title="Mettre l'accent sur le contrôle de foule">
+    En 2026, la méta favorise les durées de "Racine" et de "Ralentissement". Recherchez des artéfacts qui prolongent la racine de 3 secondes des Épines mortelles pour maximiser les fenêtres de dégâts de l'équipe.
+  </Step>
+  <Step num="4" title="Améliorer via les éclats">
+    Utilisez les éclats obtenus de la pêche et des ennemis corrompus pour améliorer les statistiques de base de l'artéfact chez le forgeron de la ville.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Stratégie Méta">
+Lorsque vous jouez Faendar, concentrez-vous sur les artéfacts qui augmentent la santé de vos Tréants invoqués. Même si le blocage corporel est supprimé pour les alliés, les Tréants bloquent toujours les ennemis, offrant un "mur" stratégique qui peut protéger votre arrière-garde.
+</Callout>
+
+| Nom de la capacité | Axe de synergie de l'artéfact | Buff résultant |
+| :--- | :--- | :--- |
+| **Forme de hibou** | Réduction des dégâts / Vitesse | Survie améliorée pendant l'évasion |
+| **Étreinte de vigne** | Réduction du temps de maintien | Incantation plus rapide pour des racines instantanées de 1s |
+| **Épines mortelles** | Zone d'effet / Durée | Zones plus grandes et ralentissements de mouvement plus longs |
+| **Appel de la nature** | Santé / Attaque de l'invocation | Les Tréants deviennent des "tanks" plus durables |
+| **Bénédiction de Helier** | Potentiel de régénération | Soins graduels plus puissants pour le groupe |
+
+</Section>
+
+<Section icon={Sparkles} title="Personnalisation avancée des artéfacts">
+
+La profondeur des **artéfacts de Drakantos** va au-delà des simples augmentations de statistiques. Chacun des huit nouveaux artéfacts dispose de "Slots d'Orbes" qui permettent aux joueurs de personnaliser des comportements de compétences spécifiques. Ce système reflète les orbes de capacité vus dans la bêta fermée, où maintenir une compétence pouvait changer sa propriété fondamentale — comme transformer trois petits Tréants en un Ent massif qui écrase le sol.
+
+En insérant des gemmes d'artéfact spécifiques, vous pouvez affiner davantage ces mécaniques de "Timing Parfait". Pour Faendar, cela pourrait signifier augmenter le débuff de réduction d'attaque appliqué par son invocation d'Ent ou réduire le temps de maintien requis pour sa capacité Étreinte de vigne.
+
+<Checklist
+  id="artifact-optimization"
+  title="Liste de contrôle des artéfacts pour 2026 :"
+  items={[
+    "Obtenez au moins 3 des 8 nouveaux artéfacts pour votre rôle principal",
+    "Atteignez le niveau 20 en Pêche pour débloquer des composants d'éclats rares",
+    "Participez à des duels 1v1 pour tester les procs d'artéfacts en PvP",
+    "Localisez une apparition corrompue dans le brouillard de guerre sur votre carte",
+    "Débloquez l'accès au 'Marché d'échange' en complétant la quête d'échange"
+  ]}
+/>
+
+<Callout type="info" title="Astuce de Pro">
+N'ignorez pas le "Brouillard de guerre" sur vos cartes. Les ennemis corrompus et les coffres d'artéfacts cachés apparaissent souvent dans des zones inexplorées, encourageant les joueurs à s'aventurer hors des sentiers battus.
+</Callout>
+
+| Type de gemme d'artéfact | Effet sur Faendar | Viabilité PvP |
+| :--- | :--- | :--- |
+| **Gemme Chrono** | Réduit le temps de maintien de l'Étreinte de vigne | Élevée (CC rapide) |
+| **Gemme de Vitalité** | Augmente le rayon de la Bénédiction de Helier | Moyenne (Jeu en groupe) |
+| **Gemme Épineuse** | Ajoute un reflet de dégâts aux Épines mortelles | Élevée (Anti-mêlée) |
+| **Gemme de Rapidité** | Augmente le bonus de vitesse de la Forme de hibou | Faible (Principalement évasion) |
+
+</Section>
+
+<Section icon={Trophy} title="Échange d'artéfacts et économie">
+
+L'introduction du commerce entre joueurs a révolutionné la façon dont les joueurs acquièrent les **artéfacts de Drakantos**. Vous n'êtes plus strictement à la merci de l'aléatoire (RNG). Si vous trouvez un artéfact de haut niveau qui ne correspond pas à votre build d'Archidruide, vous pouvez désormais l'échanger contre un qui vous convient.
+
+Le plan des développeurs d'ajouter un marché d'échange centralisé stabilisera davantage l'économie. Actuellement, les joueurs utilisent les demandes de duel 1v1 et les hubs sociaux de la ville pour faciliter ces échanges. Les artéfacts avec des bonus de "Timing Parfait" sont actuellement les objets les plus précieux sur le marché de 2026.
+
+<Callout type="warning" title="Conseil de sécurité">
+Vérifiez toujours les statistiques d'un artéfact dans la fenêtre d'échange avant de confirmer. Certains artéfacts hérités ressemblent aux nouvelles versions de 2026 mais ont des niveaux de puissance significativement inférieurs.
+</Callout>
+
+| Article du marché | Valeur d'échange moyenne | Niveau de demande |
+| :--- | :--- | :--- |
+| **Nouveaux artéfacts 2026** | Très élevée | Maximum |
+| **Éclats corrompus** | Moyenne | Élevée (Fabrication) |
+| **Composants de poisson rares** | Faible/Moyenne | Modérée |
+| **Artéfacts hérités** | Faible | Très faible (Collectionneurs uniquement) |
+
+</Section>
+
+<Section icon={Shield} title="FAQ : Artéfacts de Drakantos et Progression">
+
+<FAQ items={[
+  {
+    question: "Où puis-je trouver les 8 nouveaux artéfacts de Drakantos ?",
+    answer: "Ces artéfacts sont principalement lâchés par les ennemis corrompus qui apparaissent aléatoirement sur les cartes. Ils peuvent également être obtenus via des récompenses de pêche de haut niveau et le commerce entre joueurs."
+  },
+  {
+    question: "Comment la suppression du blocage corporel affecte-t-elle mes invocations ?",
+    answer: "Vos invocations (comme les Tréants de Faendar) ne vous bloqueront plus, vous ou vos alliés. Cependant, elles continuent de bloquer les ennemis, vous permettant de les utiliser comme barrières stratégiques en combat."
+  },
+  {
+    question: "Les anciens artéfacts sont-ils toujours utiles dans la méta 2026 ?",
+    answer: "La plupart des artéfacts hérités ont été dépassés par les nouveaux objets. Bien qu'ils fonctionnent toujours, il est fortement recommandé de passer aux nouveaux artéfacts de 2026 pour rester compétitif dans le contenu de fin de jeu."
+  },
+  {
+    question: "Puis-je échanger des artéfacts directement avec d'autres joueurs ?",
+    answer: "Oui, le commerce de joueur à joueur est désormais entièrement fonctionnel. Vous pouvez rencontrer d'autres joueurs dans les hubs sociaux pour échanger directement des artéfacts et des matériaux."
+  }
+]} />
+
+<Callout type="success" title="Note finale">
+Alors que Drakantos continue d'évoluer, rester informé des changements d'artéfacts est le meilleur moyen de maintenir un build de premier ordre. Gardez un œil sur les entrées du bestiaire et le brouillard de guerre de votre carte pour les dernières apparitions corrompues !
+</Callout>
+
+</Section>

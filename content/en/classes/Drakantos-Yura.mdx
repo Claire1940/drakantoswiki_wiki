@@ -1,0 +1,165 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Drakantos Yura: Ronin Abilities & Combat Strategy",
+  description: "Master Drakantos' Ronin archetype, Yura, with this detailed guide on her abilities, optimal orb customizations, and effective combat strategies for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/800080/fff?text=Drakantos+Yura+Guide",
+  date: "2026-05-23",
+  author: "Drakantos Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Drakantos Yura** is a highly popular Ronin archetype, excelling in both single-target and multi-target DPS.
+- Her **Dash** ability provides movement with a 5% damage reduction, crucial for positioning and survivability.
+- **Retaliate** and **Flash Jutsu** are key damage abilities, with orb customizations enhancing their effectiveness.
+- The **Batau Stance** offers a unique combat flow, speeding up attacks and enabling powerful follow-up slashes.
+- **Kurasok** is Yura's ultimate, granting invulnerability for strategic damage avoidance during critical moments.
+</Callout>
+
+<Section icon={Swords} title="Understanding Yura's Ronin Archetype in Drakantos">
+Yura, the Ronin archetype in Drakantos, is a formidable damage dealer known for her swift katana strikes and versatile area-of-effect abilities. She offers a dynamic playstyle that appeals to players who enjoy high-mobility combat and strategic ability usage. Her kit allows for significant single-target burst and consistent multi-target damage, making her a strong choice for various content, from solo challenges to group encounters.
+
+**Video Highlights:**
+- Yura is a Ronin archetype, specializing in katana-based damage.
+- She excels in both single-target and multi-target DPS.
+- Abilities are from the closed beta test and subject to change.
+
+<YouTubeEmbed videoId="b6NoKqddelg" title="Drakantos - Yura's Ronin Abilities - Closed Beta Test" />
+
+<Callout type="tip" title="Mastering the Ronin">
+Yura's effectiveness heavily relies on precise timing and understanding her orb customizations. Experiment with different orb combinations to find a playstyle that best suits your needs, whether it's maximizing burst damage or enhancing survivability for solo content.
+</Callout>
+
+### Yura's Core Combat Philosophy
+
+Yura's design emphasizes fluid combat, allowing her to weave in and out of engagements while delivering devastating blows. Her abilities are designed to complement each other, creating synergistic combos that can quickly dispatch enemies. Players must learn to manage her cooldowns and position effectively to maximize her damage output and minimize incoming threats.
+
+</Section>
+
+<Section icon={Target} title="Drakantos Yura: Ability Breakdown and Orb Customizations">
+Yura's abilities can be significantly altered and empowered through various orb customizations, allowing for diverse build paths. Understanding these modifications is key to unlocking her full potential in Drakantos.
+
+### Movement and Basic Attacks
+
+| Ability     | Description                                                                 | Orb Customization 1               | Orb Customization 2                       | Orb Customization 3 (Optional)        |
+| :---------- | :-------------------------------------------------------------------------- | :-------------------------------- | :---------------------------------------- | :------------------------------------ |
+| **Dash**    | Jumps forward, grants 5% damage reduction.                                  | +2 charges, longer cooldown.      | Increased distance, damage reduction.     | Shield (25% max HP) on perfect dodge. |
+| **Basic Attack** | Slashes a single target for damage.                                         | +10% attack speed.                | +25% attack speed.                        | N/A                                   |
+
+### Offensive Abilities
+
+| Ability       | Description                                                                                             | Orb Customization 1                                                | Orb Customization 2                                         | Orb Customization 3 (Optional)                           |
+| :------------ | :------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------- | :---------------------------------------------------------- | :------------------------------------------------------- |
+| **Retaliate** | Frontal slash, deals damage to enemies.                                                                 | Adds charge component for additional cuts (1.5s hold).            | Performs up to 8 additional cuts (instead of 3).            | N/A                                                      |
+| **Flash Jutsu** | Sweeping katana motion, deals damage to nearby enemies, reduces movement speed.                         | Changes to line AOE, dashes through enemies, reduces movement speed.| Reduces damage taken next, attacks back, small shield (max HP). | N/A                                                      |
+| **Batau Stance** | Jumps backward, sheathes katana, enters stance. Faster attacks. On release, dashes through target, deals damage. | Increases area size of the attack.                                 | Shield (25% max HP) and speeds up next Retaliate slashes. | Requires Silven Orb to speed up Retaliate slashes.       |
+| **Kurasok (Ultimate)** | Jumps high, cuts ground twice, invulnerable, deals damage.                                              | N/A (Ultimate abilities often have fixed effects or limited customization) | N/A                                                         | N/A                                                      |
+
+<Callout type="warning" title="Orb Availability Disclaimer">
+The abilities and orb customizations described are based on closed beta test information and are subject to change before the official release of Drakantos. Some orbs, like the "Silven Orb" for Batau Stance, may have specific acquisition methods yet to be fully detailed.
+</Callout>
+
+### The Strategic Value of Batau Stance
+
+The **Batau Stance** is a unique ability that allows Yura to reposition defensively while preparing for a powerful offensive strike. The ability to hold the stance to focus on a target and then dash through for maximum damage, especially when combined with Silven Orbs to speed up subsequent Retaliate slashes, highlights its potential for burst damage and combo execution.
+
+</Section>
+
+<Section icon={Shield} title="Drakantos Yura: Combat Strategies and Recommended Builds">
+Optimizing Yura's combat performance involves understanding her strengths in both single-target and multi-target scenarios, and tailoring her orb choices to fit the encounter.
+
+### General Combat Tips for Yura
+
+<Checklist
+  id="yura-combat-tips"
+  title="Key Combat Principles:"
+  items={[
+    "Utilize **Dash** for evasive maneuvers and repositioning to avoid heavy attacks or close gaps.",
+    "Chain **Retaliate** with its charged component for sustained damage on single targets or grouped enemies.",
+    "Employ **Flash Jutsu** for area control and softening up multiple foes, especially with the line AOE orb.",
+    "Time **Batau Stance** releases for maximum damage and to set up accelerated **Retaliate** follow-ups.",
+    "Save **Kurasok** for critical moments to avoid boss mechanics or deliver a final burst of damage while invulnerable."
+  ]}
+/>
+
+### Recommended Orb Combinations
+
+Different situations call for different orb setups. Here are a few recommended combinations for Drakantos Yura:
+
+<CardGrid cols={2}>
+  <Card title="Single-Target DPS Build">
+    - **Dash**: +2 charges (for mobility)
+    - **Basic Attack**: +25% attack speed (for sustained damage)
+    - **Retaliate**: 8 additional cuts (for burst)
+    - **Flash Jutsu**: Damage reduction + shield (for survivability during boss fights)
+    - **Batau Stance**: Speed up next Retaliate (for combo execution)
+  </Card>
+  <Card title="Multi-Target & Crowd Control Build">
+    - **Dash**: Increased distance (for quick engagement/disengagement)
+    - **Basic Attack**: +10% attack speed (for consistent pressure)
+    - **Retaliate**: Charged component (for wider area coverage)
+    - **Flash Jutsu**: Line AOE (for clearing groups)
+    - **Batau Stance**: Increased area size (for hitting more enemies)
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Synergy with Silven Orbs">
+If you acquire Silven Orbs, prioritizing their use with **Batau Stance** can significantly boost Yura's damage potential by rapidly chaining **Retaliate** slashes. This synergy is particularly potent for high-value targets or during tight damage windows.
+</Callout>
+
+### Adapting to PvE and PvP
+
+Yura's versatile kit allows her to adapt to both Player versus Environment (PvE) and Player versus Player (PvP) content. In PvE, focus on maximizing consistent damage and using her invulnerability frames strategically. In PvP, her mobility and burst potential become even more critical for engaging and disengaging from targets.
+
+</Section>
+
+<Section icon={Sparkles} title="Optimizing Your Drakantos Yura Gameplay">
+Beyond ability usage, several factors contribute to maximizing Yura's performance in Drakantos.
+
+### Gear and Stat Priority
+
+While specific gear details are still evolving, general RPG principles apply:
+- **Primary Stats**: Focus on Strength/Dexterity (depending on final scaling) for attack power.
+- **Secondary Stats**: Critical Rate, Critical Damage, Attack Speed, and Cooldown Reduction will significantly enhance Yura's output.
+- **Defensive Stats**: A balanced approach with some Vitality or defensive percentages can improve survivability without sacrificing too much damage.
+
+### The Importance of Positioning
+
+As a melee DPS, Yura thrives when she can consistently hit targets while avoiding incoming damage. Use **Dash** and **Batau Stance** not just for offense, but also for intelligent positioning. Flanking enemies or quickly moving out of red zones are crucial skills for a Yura player.
+
+<Callout type="info" title="Community Feedback">
+During the closed beta, Yura was a popular choice, and many players found her to be a strong damage dealer. Community discussions often revolved around optimizing her orb choices and the impact of Silven Orbs on her overall damage ceiling. Keep an eye on official Drakantos channels and community forums for the latest meta insights and build refinements.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="FAQ: Drakantos Yura">
+
+<FAQ items={[
+  {
+    question: "What is Drakantos Yura's primary role?",
+    answer: "Drakantos Yura is primarily a damage-per-second (DPS) character, excelling in both single-target and multi-target combat scenarios with her katana abilities."
+  },
+  {
+    question: "Are Yura's abilities finalized from the closed beta?",
+    answer: "No, abilities from the closed beta test, including Yura's, are subject to change. Developers may adjust scaling, effects, and orb customizations before the official launch."
+  },
+  {
+    question: "How does Yura's Batau Stance work with Retaliate?",
+    answer: "Batau Stance allows Yura to jump backward and enter a stance where other attacks are faster. If released at the right time, it can speed up subsequent Retaliate follow-up slashes, especially with the help of Silven Orbs."
+  },
+  {
+    question: "Is Yura good for solo content in Drakantos?",
+    answer: "Yes, Yura can be very effective in solo content. Her **Flash Jutsu** with the damage reduction and shield orb can provide crucial survivability, and her overall damage output allows her to clear content efficiently."
+  }
+]} />
+
+</Section>

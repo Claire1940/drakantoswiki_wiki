@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Build Drakantos : Guide de personnalisation des orbes, artefacts et compétences",
+  description: "Maîtrisez les builds Drakantos en comprenant la personnalisation des orbes, des artefacts et des compétences pour des performances PvP et PvE optimales. Apprenez à créer des configurations de héros uniques.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B5CF6/fff?text=Drakantos+Build+Guide",
+  date: "2026-05-23",
+  author: "Équipe Wiki Drakantos"
+}
+
+<Callout type="info" title="Guide Rapide">
+- Maîtriser un **build Drakantos** implique une **personnalisation stratégique des orbes et des artefacts** pour chaque héros.
+- Le jeu met l'accent sur la **personnalisation des compétences** pour adapter les héros à différents styles de jeu et scénarios de combat.
+- Les boîtes bêta fournissent des **objets en jeu** cruciaux pour expérimenter diverses constructions, en particulier en PvP.
+- Les modes PvP présentent des **statistiques équilibrées**, rendant la synergie de build et l'habileté du joueur primordiales.
+- Comprendre le **mouvement libre** et le combat d'action est essentiel pour utiliser efficacement n'importe quel build.
+</Callout>
+
+<Section icon={Sparkles} title="Comprendre les Fondations du Build Drakantos">
+Drakantos se distingue comme un MMO qui combine des visuels nostalgiques avec une action rapide. Un aspect fondamental de la maîtrise du jeu réside dans le développement de **builds Drakantos** efficaces pour vos héros. Contrairement aux MMORPG traditionnels avec des systèmes de classes rigides, Drakantos permet une personnalisation étendue grâce aux orbes, aux artefacts et aux modifications de compétences. Cette flexibilité garantit que chaque héros peut être adapté à divers scénarios de combat, rendant chaque partie unique. Les récents tests bêta ont souligné l'importance de ces options de personnalisation, en particulier dans l'environnement PvP où l'habileté du joueur et la synergie du build sont primordiales.
+
+Le passage du jeu au mouvement libre et au combat entièrement basé sur l'action améliore encore la profondeur de la création de builds. N'étant plus contraints par une grille basée sur des tuiles, les joueurs peuvent désormais positionner stratégiquement leurs héros et exécuter des attaques avec une plus grande précision. Ce changement signifie qu'un build bien pensé doit prendre en compte non seulement les statistiques brutes, mais aussi la manière dont il complète les mouvements et les schémas d'attaque du héros.
+
+**Points forts de la vidéo :**
+- La 2e bêta fermée de Drakantos se concentre sur le PvP et les nouvelles mécaniques de base.
+- Les changements majeurs de gameplay incluent le mouvement libre et le combat entièrement basé sur l'action.
+- Les boîtes bêta offrent des orbes, des artefacts et des objets pour tester divers builds.
+- Les modes PvP présentent des statistiques équilibrées, mettant l'accent sur l'habileté du joueur plutôt que sur le farm d'équipement.
+- Les 15 mêmes héros de la première bêta sont disponibles, avec une sensation actualisée grâce au nouveau système de combat.
+
+<YouTubeEmbed videoId="styGBXf_FXM" title="Drakantos -Prochaine Phase- Le 2e test bêta commence !" />
+
+Pendant la bêta, des "boîtes bêta" spéciales ont été distribuées pour aider les joueurs à expérimenter différents builds. Ces boîtes contiennent une variété d'orbes, d'artefacts et d'autres objets en jeu conçus pour faciliter les tests et l'ajustement des configurations de héros. Bien que ces objets soient temporaires pour la bêta, ils offrent un aperçu de la profondeur de personnalisation disponible dans la version finale.
+
+<Callout type="tip" title="Maximiser les Builds en Début de Partie">
+Concentrez-vous sur des composants de **build Drakantos** polyvalents qui peuvent s'adapter à la fois au contenu PvE (qui est resté cohérent par rapport à la première bêta) et aux nouveaux défis PvP. Expérimentez différentes combinaisons d'orbes et d'artefacts pour trouver ce qui convient le mieux à votre héros préféré et à votre style de jeu.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Composants Clés d'un Build Drakantos">
+La création d'un **build Drakantos** optimal s'articule autour de trois éléments principaux : les Orbes, les Artefacts et la Personnalisation des Compétences. Chaque élément joue un rôle crucial dans la définition des forces et des faiblesses de votre héros, et comprendre leur synergie est la clé du succès.
+
+### Orbes
+Les orbes sont de puissantes améliorations qui peuvent modifier les capacités d'un héros. Elles sont un élément fondamental pour adapter votre héros à des rôles ou des styles de jeu spécifiques.
+
+| Type d'Orbe | Effet Principal                               | Effet Secondaire                               | Cas d'Utilisation Recommandé                      |
+| :---------- | :-------------------------------------------- | :--------------------------------------------- | :------------------------------------------------ |
+| **Attaque** | Augmente les dégâts infligés                  | Améliore les chances de coup critique          | Gros dégâts, styles de jeu offensifs              |
+| **Défense** | Augmente la santé et l'armure                | Réduit les dégâts entrants                     | Tanks, héros de première ligne, focalisation sur la survie |
+| **Utilitaire** | Fournit un contrôle des foules, une vitesse de déplacement | Réduit les temps de recharge, ajoute des effets de soutien | Héros de soutien, jeu tactique, utilité d'équipe |
+| **Hybride** | Offense et défense équilibrées                 | Offre des boosts mineurs à plusieurs statistiques | Builds polyvalents, rôles adaptables             |
+
+<Callout type="warning" title="Avertissement sur l'Application des Orbes">
+Lorsque vous ouvrez des boîtes d'orbes, assurez-vous de les appliquer au héros prévu. Les orbes sont liés au personnage sur lequel ils sont utilisés et ne peuvent pas être facilement transférés à un autre personnage. Ceci est crucial pour optimiser votre **build Drakantos**.
+</Callout>
+
+### Artefacts
+Les artefacts offrent des bonus uniques et des effets passifs qui peuvent modifier considérablement les performances d'un héros. Ils complètent souvent les orbes et les compétences pour créer de puissantes combinaisons.
+
+| Type d'Artefact | Catégorie d'Effet                         | Bonus Communs                                      | Impact Stratégique                                 |
+| :-------------- | :---------------------------------------- | :------------------------------------------------- | :------------------------------------------------- |
+| **Relique**     | Amélioration des statistiques de base     | % d'augmentation de stat (par exemple, Attaque, Santé, Mana) | Fondement de tout build, boost de puissance constant |
+| **Équipement**  | Modification de capacité                  | Augmentation des dégâts de compétence, extension de portée, nouveaux effets | Modifie les capacités de base du héros, crée de nouveaux combos |
+| **Trophée**     | Buffs situationnels                       | Effets à l'élimination, réduction des dégâts à faible PV | Améliore des moments de jeu spécifiques, potentiel de retour |
+
+### Personnalisation des Compétences
+La flexibilité du **build Drakantos** est encore étendue grâce à la personnalisation des compétences. Chaque héros possède des capacités uniques qui peuvent être modifiées avec des orbes et des artefacts, permettant des styles de jeu diversifiés même avec le même personnage. Ce système rompt avec les rôles de classe rigides, encourageant les joueurs à expérimenter.
+
+</Section>
+
+<Section icon={Target} title="Concevoir Votre Build Drakantos Idéal">
+Développer un **build Drakantos** puissant nécessite une approche systématique, en particulier avec le nouveau système de combat d'action et le mouvement libre du jeu. Voici un guide étape par étape pour vous aider à optimiser votre héros.
+
+<Steps>
+  <Step num="1" title="Comprendre le Kit de Base de Votre Héros">
+    Familiarisez-vous avec les capacités fondamentales de votre héros choisi, leur portée, leurs temps de recharge et leurs types de dégâts. Le nouveau système de combat signifie que les héros peuvent sembler différents des tests bêta précédents, alors réévaluez leurs mécanismes de base. Déterminez s'ils sont principalement au corps à corps ou à distance, et quelle est leur principale source de dégâts.
+  </Step>
+  <Step num="2" title="Définir Votre Rôle et Votre Style de Jeu">
+    Décidez si vous voulez vous concentrer sur les dégâts, le tanking, le soutien ou un rôle hybride. Êtes-vous agressif, défensif ou tactique ? Le rôle choisi guidera vos sélections d'orbes et d'artefacts. Par exemple, un joueur PvP agressif pourrait privilégier les Orbes d'Attaque et les Artefacts d'Équipement qui améliorent les dégâts des compétences.
+  </Step>
+  <Step num="3" title="Sélectionner les Orbes pour la Synergie">
+    Choisissez des orbes qui complètent le kit de base de votre héros et votre style de jeu souhaité. Si votre héros a de fortes compétences de zone d'effet (AoE), envisagez des orbes qui augmentent les dégâts d'AoE ou réduisent leurs temps de recharge. Pour un héros de dégâts en rafale à cible unique, concentrez-vous sur les coups critiques ou les augmentations de dégâts bruts.
+  </Step>
+  <Step num="4" title="Équiper les Artefacts Stratégiquement">
+    Les artefacts offrent souvent des effets uniques qui peuvent modifier radicalement un build. Recherchez des artefacts qui synergisent avec vos orbes et compétences sélectionnés. Par exemple, si vous avez des orbes qui augmentent la vitesse d'attaque, un artefact qui déclenche un effet après un certain nombre d'attaques de base pourrait être très puissant. N'oubliez pas qu'en PvP, les charges d'artefacts sont souvent réduites.
+  </Step>
+  <Step num="5" title="Tester et Affiner en PvP/PvE">
+    Les boîtes bêta offrent une excellente occasion de tester divers builds. N'ayez pas peur d'expérimenter. Jouez au contenu PvE pour comprendre les fonctionnalités de base, puis plongez dans les modes PvP comme Contrôle, Escorte ou Assaut pour voir comment votre build se comporte contre d'autres joueurs. Ajustez vos choix d'orbes et d'artefacts en fonction des performances.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Avantage du Build PvP">
+Dans les modes PvP, tous les personnages sont au niveau maximum avec l'équipement et les compétences maximum. Cela crée un terrain de jeu équitable où vos choix de **build Drakantos** et l'exécution stratégique comptent le plus, plutôt que le farm d'équipement. Concentrez-vous sur la synergie des compétences et la contre-construction.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Optimisation pour les Modes PvP de Drakantos">
+Le deuxième test bêta de Drakantos s'est fortement concentré sur le PvP, introduisant plusieurs modes de jeu distincts. Chaque mode bénéficie de considérations spécifiques de **build Drakantos**, mettant l'accent sur différents aspects du kit d'un héros.
+
+### Considérations de Build pour les Modes PvP
+
+| Mode PvP | Objectif                                 | Focus de Build Recommandé                               | Stratégies Clés                                           |
+| :------- | :--------------------------------------- | :------------------------------------------------------ | :-------------------------------------------------------- |
+| **Contrôle** | Maintenir le contrôle d'une zone         | Survie, déni de zone, contrôle des foules               | Dégâts soutenus, artefacts défensifs, fortes capacités AoE |
+| **Escorte** | Protéger un cristal jusqu'à sa destination | Mobilité, burst à cible unique, soutien défensif        | Protection du cristal, engagement/désengagement, protection des alliés |
+| **Assaut** | Détruire les tours et le cœur ennemis (type MOBA) | Potentiel de siège, nettoyage de vagues, utilité en teamfight, contrôle d'objectifs | Dégâts élevés, destruction de tourelles, engagement de combats d'équipe |
+
+<CardGrid cols={2}>
+  <Card title="Équilibre des Compétences PvP">
+    Certaines compétences et artefacts indiquent "jusqu'à X secondes", ce qui signifie que leurs effets peuvent être réduits contre les joueurs ou les boss pour des raisons d'équilibre. Sachez que votre **build Drakantos** pourrait fonctionner différemment en PvP qu'en PvE.
+  </Card>
+  <Card title="Mouvement et Contrôles">
+    Le nouveau mouvement libre et le combat d'action sont cruciaux. Pour la souris et le clavier, visez avec la souris (clic gauche pour l'attaque de base, clic droit pour l'attaque spéciale). Pour les contrôleurs, utilisez le stick analogique droit pour viser. Entraînez-vous à ces contrôles pour maximiser l'efficacité de votre build.
+  </Card>
+</CardGrid>
+
+### Conseils Généraux pour les Builds PvP
+
+<Checklist
+  id="pvp-tips"
+  title="Liste de Contrôle du Build PvP :"
+  items={[
+    "Priorisez le contrôle des foules et la mobilité pour le mode Contrôle.",
+    "Assurez-vous que votre build a de forts dégâts en rafale ou un bon sustain pour le mode Escorte.",
+    "Incluez le nettoyage de vagues et les dégâts d'objectifs dans votre build pour le mode Assaut.",
+    "Testez différents timings d'attaque de base ; ils fonctionnent désormais sur un système de type endurance.",
+    "Utilisez les boîtes bêta pour des combinaisons diverses d'orbes et d'artefacts."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Avenir des Builds et de la Personnalisation dans Drakantos">
+Drakantos est un MMO en évolution, et les développeurs s'engagent à introduire de nouveaux héros et fonctionnalités à chaque mise à jour. Cela signifie que le paysage des **builds Drakantos** s'étendra continuellement, offrant de nouvelles stratégies et dynamiques aux joueurs à explorer et à maîtriser. L'accent mis sur la personnalisation des compétences avec des orbes et des artefacts garantit que même les héros existants peuvent être réinventés avec de nouveaux builds.
+
+L'engagement du jeu envers les retours de la communauté, en particulier pendant les tests bêta, suggère que l'équilibrage des builds et les nouvelles options de personnalisation seront une priorité. Les joueurs peuvent s'attendre à une méta dynamique qui encourage l'expérimentation et la réflexion stratégique plutôt qu'une approche statique du "meilleur en slot".
+
+<Callout type="info">
+Les développeurs ont mentionné que le contenu PvE continuera de progresser, avec de nouveaux éléments d'histoire et personnages. Bien que la bêta se soit concentrée sur le PvP, le jeu complet offrira sans aucun doute une riche expérience PvE qui nécessitera également des **builds Drakantos** diversifiés et optimisés.
+</Callout>
+
+### Fonctionnalités de Drakantos Impactant les Builds
+
+| Fonctionnalité          | Pertinence pour les Builds                               | Notes                                                      |
+| :---------------------- | :------------------------------------------------------- | :--------------------------------------------------------- |
+| **Personnalisation des Compétences** | Essentiel pour modifier les capacités du héros avec des orbes/artefacts | Permet des styles de jeu variés avec le même héros.        |
+| **Logement**            | Indirect ; potentiel pour des stations d'artisanat/buffs | Pourrait influencer la collecte de ressources pour les matériaux de build. |
+| **Marché**              | Échange d'objets rares et de collectibles               | Clé pour acquérir des orbes/artefacts spécifiques pour les builds. |
+| **Système de Guilde**   | Activités de groupe, potentiels buffs de guilde          | Builds coordonnés au sein d'une guilde pour les raids/PvP. |
+| **Événements Mondiaux** | Mini-jeux et défis spéciaux                              | Peut nécessiter des builds spécifiques pour des performances/récompenses optimales. |
+
+À mesure que Drakantos se rapproche de sa sortie complète, la profondeur de son système de build sera un attrait majeur pour les joueurs qui aiment la théorie-crafting et l'adaptation de leurs héros aux divers défis. Garder un œil sur les annonces officielles et les discussions de la communauté sera vital pour rester en tête dans le monde en constante évolution des builds Drakantos. Pour plus d'informations, consultez la page Steam officielle de Drakantos : [Drakantos sur Steam](https://store.steampowered.com/app/2454980/Drakantos/)
+</Section>
+
+<Section icon={Swords} title="FAQ sur les Builds Drakantos">
+
+<FAQ items={[
+  {
+    question: "Quels sont les principaux composants d'un build Drakantos ?",
+    answer: "Un build Drakantos se compose principalement d'Orbes, d'Artefacts et de Personnalisation des Compétences. Ces éléments se combinent pour définir les capacités de votre héros et ses performances au combat."
+  },
+  {
+    question: "Comment les Orbes et les Artefacts affectent-ils un build Drakantos ?",
+    answer: "Les Orbes modifient directement les capacités et les statistiques d'un héros, tandis que les Artefacts offrent des bonus passifs et des effets uniques. Ensemble, ils créent de puissantes synergies qui peuvent modifier radicalement le style de jeu et l'efficacité d'un héros."
+  },
+  {
+    question: "Les builds Drakantos sont-ils différents pour le PvP et le PvE ?",
+    answer: "Oui, bien que certains éléments de base puissent se chevaucher, les modes PvP dans Drakantos présentent des statistiques équilibrées, rendant la synergie du build et l'habileté du joueur plus critiques. Les charges d'artefacts sont également réduites dans certains modes PvP, nécessitant des ajustements spécifiques à votre stratégie de build."
+  },
+  {
+    question: "Puis-je modifier le build de mon héros après l'avoir créé ?",
+    answer: "Drakantos met l'accent sur la personnalisation des compétences avec des orbes et des artefacts, permettant une certaine flexibilité. Vous pouvez modifier ces composants pour adapter le build de votre héros au besoin. Cependant, soyez attentif lors de l'application des orbes car ils sont souvent liés au héros sur lequel ils sont utilisés."
+  }
+]} />
+
+</Section>

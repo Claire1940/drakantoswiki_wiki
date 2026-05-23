@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Drakantos Open Beta: Todo lo que necesitas saber",
+  description: "Sumérgete en la Beta Abierta de Drakantos con esta guía completa, que cubre nuevas características, modos PvP, acceso a héroes y consejos esenciales para nuevos jugadores.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8d6e63/fff?text=Drakantos+Open+Beta",
+  date: "2026-05-23",
+  author: "Equipo Wiki de Drakantos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La **Beta Abierta de Drakantos** introduce combate de acción completo y PvP.
+- Acceso a **15 héroes** disponible desde el principio para probar varias configuraciones.
+- Gana **Cajas Beta especiales** a través de PvP y PvE para objetos de juego final.
+- Todo el progreso de la beta será **borrado** antes del lanzamiento completo.
+- Vincula tu cuenta de Twitch para **recompensas exclusivas** durante la prueba.
+</Callout>
+
+<Section icon={Swords} title="Resumen de la Beta Abierta de Drakantos">
+La tan esperada **Beta Abierta de Drakantos** ya está aquí, ofreciendo a los jugadores una visión completa de la evolución del juego. Esta beta se centra en mejoras significativas en la jugabilidad, incluyendo una transición a movimiento completamente libre y un sistema de combate de acción renovado. Los jugadores pueden sumergirse tanto en el contenido PvE como, por primera vez, experimentar los emocionantes modos PvP de Drakantos en 13 mapas.
+
+**Puntos destacados del video:**
+- Demuestra la jugabilidad del personaje enano a distancia.
+- Muestra el rastreo de mazmorras y la variedad de monstruos.
+- Destaca el progreso inicial del juego para conseguir equipo y experiencia.
+
+<YouTubeEmbed videoId="mXBreE4rqBM" title="Drakantos Closed Beta - 8 Horas de Juego" />
+
+Esta prueba proporciona acceso a 15 héroes únicos desde el principio, lo que permite una experimentación exhaustiva con diferentes estilos de juego y configuraciones. La estabilidad del servidor se supervisará de cerca, con un sistema de cola en su lugar si es necesario para garantizar una experiencia fluida para todos los participantes.
+
+<Callout type="tip" title="Acceso a la Beta y Amigos">
+Si tuviste acceso a la beta anterior, **aún tienes acceso** y puedes invitar hasta 3 amigos (si han sido amigos de Steam durante al menos 30 días). Las nuevas invitaciones se envían gradualmente a través de la página de Steam.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Principales cambios y características de la jugabilidad">
+La **Beta Abierta de Drakantos** trae consigo una serie de cambios importantes en la jugabilidad diseñados para mejorar la experiencia del jugador. Los cambios más notables incluyen el paso del movimiento basado en casillas a un movimiento completamente libre de 360 grados, y una revisión completa a un sistema de combate de acción total. Esto significa que las habilidades ahora deben ser apuntadas con el ratón, haciendo el combate más dinámico y atractivo.
+
+<CardGrid cols={2}>
+  <Card title="Sistema de Movimiento">
+    - **Beta Anterior**: Basado en casillas, movimiento limitado.
+    - **Beta Abierta**: Movimiento completamente libre de 360°, incluyendo dashes.
+    - **Impacto**: Navegación más fluida y combate más dinámico.
+  </Card>
+  <Card title="Sistema de Combate">
+    - **Beta Anterior**: Combate híbrido con sistema de objetivo.
+    - **Beta Abierta**: Combate de acción total, sin sistema de objetivo.
+    - **Impacto**: Las habilidades requieren puntería, mayor agencia del jugador.
+  </Card>
+</CardGrid>
+
+Estos cambios significan que incluso los héroes familiares pueden sentirse significativamente diferentes, ofreciendo una experiencia fresca. Para aquellos menos interesados en el PvP, el contenido PvE de la beta anterior sigue estando disponible, proporcionando un entorno estable para probar estas nuevas mecánicas centrales.
+
+<Callout type="warning" title="Aviso de Borrado de Progreso">
+Tenga en cuenta que todo el progreso realizado durante la **Beta Abierta de Drakantos** será **borrado** antes del lanzamiento completo del juego. Esta es una práctica estándar para las pruebas beta para garantizar un lanzamiento justo y equilibrado.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Modos PvP de Drakantos Explicados">
+Una adición significativa a la **Beta Abierta de Drakantos** es la introducción del PvP, con 13 mapas en tres modos distintos. Estos modos están diseñados para ofrecer experiencias tácticas variadas y recompensar el juego competitivo. Los jugadores tendrán acceso a Cajas Beta especiales a través de actividades PvP y PvE, que otorgan Trofeos, Orbes y Artefactos de juego final para probar diferentes configuraciones.
+
+Aquí tienes un desglose de los modos PvP:
+
+| Modo PvP | Objetivo                                            | Mecánicas Clave                                       | Recompensas                                         |
+|:---------|:----------------------------------------------------|:------------------------------------------------------|:----------------------------------------------------|
+| **Control** | Mantente en zonas de control para ganar progreso.   | Captura y mantén zonas; el primer equipo en capturar completamente gana. | Logros más rápidos debido a partidas más cortas.    |
+| **Escolta** | Escolta tu cristal hasta el punto final.             | El cristal se mueve con aliados, se detiene cerca de enemigos. | Logros más rápidos debido a partidas más cortas.    |
+| **Asalto** | Destruye las torres y el núcleo enemigo.             | Tipo MOBA con salud de torre compartida, prioridad de súbditos. | Más recompensas debido a la mayor duración del partido. |
+
+<Callout type="info" title="Equipamiento y Escala en PvP">
+En PvP, todos los jugadores están al nivel máximo con equipo y habilidades al máximo. Los trofeos y artefactos también están maximizados, lo que te permite concentrarte puramente en la estrategia y la sinergia de construcción sin tener que grindear.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Héroes y Experimentación de Builds">
+La **Beta Abierta de Drakantos** ofrece una excelente oportunidad para explorar la diversa lista de héroes del juego. Todos los jugadores tendrán acceso inmediato a 15 héroes, incluyendo a Liam, Marly, Zeugladius, Reya, Yura, Ojore, Thomas, Byron, Iris, Ozul, Faendar, Arryn, Orbryn, Yuki y Korz. Esta amplia selección anima a los jugadores a experimentar con varias funciones de clase y composiciones de equipo.
+
+<Checklist
+  id="hero-access"
+  title="Héroes disponibles en la Beta Abierta:"
+  items={[
+    "Liam (DPS Cuerpo a Cuerpo)",
+    "Marly (Apoyo/Sanador)",
+    "Zeugladius (Tanque)",
+    "Reya (DPS a Distancia)",
+    "Yura (Asesino)",
+    "Ojore (Luchador)",
+    "Thomas (Utilidad)",
+    "Byron (DPS Mago)",
+    "Iris (Apoyo a Distancia)",
+    "Ozul (Tanque/Control)",
+    "Faendar (DPS Cuerpo a Cuerpo/Off-Tanque)",
+    "Arryn (DPS a Distancia/Control de Masas)",
+    "Orbryn (Apoyo Mago)",
+    "Yuki (Asesino/Ráfaga)",
+    "Korz (DPS Cuerpo a Cuerpo/Iniciador)"
+  ]}
+/>
+
+Para facilitar aún más la experimentación con las configuraciones, se distribuirán Cajas Beta especiales a través de actividades PvP y PvE. Estas cajas contienen trofeos, orbes y artefactos de juego final, que son cruciales para dar forma a estilos de juego únicos. Al abrir una Caja de Orbes, asegúrate de estar usando el héroe para el que deseas recibir un Orbe, ya que una opción está garantizada para tu héroe actual.
+
+<Callout type="success" title="Optimiza tus Elecciones de Orbes">
+Al abrir una Caja de Orbes, cambia estratégicamente al héroe que pretendes equipar. Esto garantiza que una de las tres opciones de Orbe se adapte a ese personaje específico, maximizando tu potencial de construcción en la **Beta Abierta de Drakantos**.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Twitch Drops y Recompensas">
+Participar en la **Beta Abierta de Drakantos** puede ser aún más gratificante a través de los Twitch Drops. Los jugadores pueden ganar objetos exclusivos dentro del juego simplemente viendo cualquier canal que transmita Drakantos en su categoría designada en Twitch. Esta es una excelente manera de adquirir objetos temporales exclusivos de la beta que pueden mejorar aún más tu experiencia de prueba.
+
+<Steps>
+  <Step num="1" title="Descargar Drakantos">
+    Asegúrate de tener el cliente de Drakantos instalado y listo para jugar.
+  </Step>
+  <Step num="2" title="Vincular Cuenta de Twitch">
+    Dentro del juego, navega a **Configuración > Cuenta > Twitch** y vincula tu cuenta de Twitch. Este es un paso crucial para asegurarte de recibir tus drops ganados.
+  </Step>
+  <Step num="3" title="Ver Transmisiones de Drakantos">
+    Dirígete a Twitch y mira a cualquier streamer jugando Drakantos en la categoría del juego. Cuanto más tiempo veas, más drops podrás ganar.
+  </Step>
+  <Step num="4" title="Reclamar Recompensas">
+    Reclama tus Twitch Drops directamente a través de Twitch y estarán disponibles en tu cuenta de Drakantos.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Recompensas Temporales">
+Todos los objetos obtenidos a través de Twitch Drops durante la **Beta Abierta de Drakantos** son temporales y se restablecerán una vez que concluya el período de beta. Están destinados a mejorar la experiencia de prueba y no se transfieren al lanzamiento completo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes sobre la Beta Abierta de Drakantos">
+
+<FAQ items={[
+  {
+    question: "¿Cuándo está disponible la Beta Abierta de Drakantos?",
+    answer: "La Beta Cerrada se llevó a cabo del 22 al 24 de mayo de 2026. Mantente atento a los anuncios oficiales para futuras fechas de la beta abierta."
+  },
+  {
+    question: "¿Mi progreso se transferirá de la Beta Abierta de Drakantos al lanzamiento completo?",
+    answer: "No, todo el progreso realizado durante la prueba beta se borrará antes del lanzamiento completo de Drakantos. Esto asegura un nuevo comienzo para todos los jugadores."
+  },
+  {
+    question: "¿Cómo puedo obtener acceso a la Beta Abierta de Drakantos?",
+    answer: "Si participaste en una beta anterior, tu acceso sigue activo. Los nuevos jugadores pueden solicitar acceso a través de la página de Steam de Drakantos, con invitaciones enviadas gradualmente. También puedes invitar a amigos si ya tienes acceso."
+  },
+  {
+    question: "¿Qué son las Cajas Beta en la Beta Abierta de Drakantos?",
+    answer: "Las Cajas Beta son exclusivas de la beta y proporcionan Trofeos, Orbes y Artefactos de juego final. Permiten a los jugadores experimentar con diferentes configuraciones y estilos de juego durante la prueba, especialmente en PvP. No existirán en el juego final."
+  }
+]} />
+
+</Section>

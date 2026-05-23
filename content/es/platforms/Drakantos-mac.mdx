@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Drakantos Mac: Guía de Configuración y Soluciones de Compatibilidad 2026",
+  description: "Aprende a jugar Drakantos en macOS usando capas de compatibilidad. Guía detallada de rendimiento, requisitos del sistema y pasos de configuración para jugadores de Mac.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Drakantos+Mac+Guide",
+  date: "2026-05-23",
+  author: "Equipo Wiki de Drakantos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Estado de Drakantos en Mac**: Actualmente no hay un cliente nativo de macOS disponible; los jugadores deben usar capas de traducción como **CrossOver o Whiskey**.
+- **Requisito clave**: Se recomienda encarecidamente Apple Silicon (chips M1, M2 o M3) para un rendimiento estable de emulación de **64 bits**.
+- **Mejor estrategia**: Utiliza la **configuración de compatibilidad de SteamOS/Linux** dentro de tu wrapper de Mac para evitar cuellos de botella de API específicos de Windows.
+- **Consejo crítico**: Asegúrate de que tu macOS esté actualizado al menos a la **versión 15.0 (Sequoia)** para aprovechar las últimas características de Game Porting Toolkit 2.
+- **Opción principal**: **Whiskey** es la herramienta gratuita preferida para Drakantos debido a su bajo consumo de recursos y facilidad de integración con Steam.
+</Callout>
+
+<Section icon={Shield} title="Descripción General de Compatibilidad de Drakantos en Mac">
+
+Drakantos, desarrollado por Wingeon Game Studios LLC, es un MMO de ritmo rápido que combina el nostálgico arte de píxeles con mecánicas de combate modernas. Aunque los requisitos oficiales del sistema actualmente solo mencionan Windows 7+ y Linux de 64 bits, la comunidad de jugadores de Mac ha encontrado varias formas confiables de experimentar este mundo inmersivo. Debido a que el juego está construido con un enfoque indie y optimizado para Steam Deck (Linux), los usuarios de macOS pueden aprovechar las capas de traducción modernas para ejecutar el juego con un rendimiento casi nativo.
+
+Los gráficos inspirados en 2D del juego son menos exigentes para los recursos de la GPU en comparación con los títulos 3D modernos, lo que hace que el juego de **Drakantos en Mac** sea sorprendentemente fluido incluso en MacBooks de modelo básico. Sin embargo, dado que el juego presenta un sistema PvP competitivo donde "solo las habilidades y la estrategia importan", minimizar la latencia de entrada mediante una configuración adecuada es esencial.
+
+| Característica | Soporte Oficial | Solución Alternativa para Mac | Impacto en el Rendimiento |
+| :--- | :--- | :--- | :--- |
+| **SO** | Windows / Linux | macOS 14+ | Mínimo a través de Traducción |
+| **Arquitectura** | x86_64 | ARM (Serie M) | Se requiere Rosetta 2 |
+| **API de Gráficos** | DirectX 9.0c | Metal 3 | Costo de Traducción Moderado |
+| **Multijugador** | Multiplataforma | Totalmente Compatible | Ninguno |
+| **Anti-Cheat** | Lado del servidor | Compatible | Alta Estabilidad |
+
+<Callout type="warning" title="Limitaciones de la Plataforma">
+Aunque el juego cuenta con multijugador multiplataforma, los usuarios de Mac que ejecuten el juego a través de capas de traducción pueden experimentar ocasionalmente pequeños problemas de escalado de la interfaz de usuario. Consulta siempre las últimas actualizaciones de "Wine" dentro del software de wrapper elegido.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Cómo Jugar Drakantos en Mac: Paso a Paso">
+
+Dado que no hay un instalador nativo DMG, necesitarás crear una "Bottle" o un entorno virtual para ejecutar el ejecutable de Windows. Los siguientes pasos se centran en el uso de Whiskey, que actualmente es la solución gratuita más optimizada para los usuarios de **Drakantos en Mac** en 2026.
+
+<Steps>
+  <Step num="1" title="Descargar e Instalar Whiskey">
+    Descarga la última versión de Whiskey desde su repositorio oficial. Arrastra la aplicación a tu carpeta de Aplicaciones y ejecútala para inicializar los binarios de Wine necesarios.
+  </Step>
+  <Step num="2" title="Crear una Nueva Bottle">
+    Haz clic en el icono "+" para crear una nueva bottle. Nómbrala "Drakantos" y asegúrate de que la "Versión de Windows" esté configurada en Windows 10 u 11. Esto garantiza la compatibilidad con las dependencias modernas de Steam del juego.
+  </Step>
+  <Step num="3" title="Instalar Steam para Windows">
+    Descarga el instalador de Steam para Windows (`SteamSetup.exe`). En Whiskey, haz clic en "Ejecutar" y selecciona el instalador. Sigue las instrucciones para instalar Steam dentro de tu nueva bottle.
+  </Step>
+  <Step num="4" title="Configurar Game Porting Toolkit">
+    Dentro de la configuración de la bottle, activa "DXVK" o "D3DMetal". Dado que Drakantos utiliza DirectX 9.0c, DXVK a menudo proporciona las velocidades de fotogramas más estables para la renderización de arte de píxeles en 2D.
+  </Step>
+  <Step num="5" title="Iniciar Drakantos">
+    Abre Steam dentro de la bottle, inicia sesión y busca Drakantos. Instala el juego como lo harías en una PC. Usa el botón "Jugar" dentro de Steam para comenzar tu aventura.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Optimización del Rendimiento">
+Si experimentas tartamudeo durante los partidos PvP de alta acción, desactiva el "Modo Retina" en la configuración de tu bottle. Esto reduce la resolución de renderizado interna, aumentando significativamente los FPS sin afectar notablemente la calidad del arte de píxeles.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Requisitos de Hardware y Niveles de Rendimiento">
+
+Drakantos está diseñado para ser accesible, pero la sobrecarga de las capas de traducción significa que los usuarios de Mac deben apuntar a especificaciones ligeramente más altas que los requisitos mínimos de Windows. La dependencia del juego de "mazmorras dinámicas" y "eventos globales" significa que la estabilidad de la CPU es tan importante como la potencia de la GPU.
+
+<CardGrid cols={3}>
+  <Card title="Nivel Básico (MacBook Air M1/M2)">
+    - **Configuración**: Media/Alta
+    - **Resolución**: 1080p
+    - **Experiencia**: Juego en solitario fluido, caídas menores en eventos globales de más de 20 jugadores.
+  </Card>
+  <Card title="Nivel Pro (MacBook Pro M2/M3)">
+    - **Configuración**: Ultra
+    - **Resolución**: Retina Nativa
+    - **Experiencia**: Perfecto para PvP clasificado y guerras de gremios competitivas.
+  </Card>
+  <Card title="Escritorio (Mac Studio/Mac Mini)">
+    - **Configuración**: Máxima
+    - **Resolución**: Pantalla externa 4K
+    - **Experiencia**: Ideal para creadores de contenido y streamers que utilizan el Programa de Creadores.
+  </Card>
+</CardGrid>
+
+| Componente | Mínimo (Emulación Mac) | Recomendado (Emulación Mac) |
+| :--- | :--- | :--- |
+| **Procesador** | Apple M1 (8 núcleos) | Apple M2 Pro o superior |
+| **Memoria** | 8 GB de Memoria Unificada | 16 GB de Memoria Unificada |
+| **Almacenamiento** | 2 GB de espacio disponible | 5 GB (para actualizaciones/caché) |
+| **Pantalla** | Frecuencia de actualización de 60 Hz | 120 Hz (ProMotion) |
+| **Controlador** | Teclado/Ratón | Mando de PS5 o Xbox |
+
+<Callout type="info" title="Soporte de Controlador">
+Los desarrolladores recomiendan jugar Drakantos con un controlador. macOS tiene soporte nativo para controladores de PlayStation y Xbox a través de Bluetooth, que funciona sin problemas con Whiskey y CrossOver.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Programa de Creadores de Drakantos para Usuarios de Mac">
+
+Para los jugadores de Mac que también son creadores de contenido, el **Programa de Creadores de Drakantos** ofrece una oportunidad única para involucrarse temprano. A pesar de jugar en macOS, eres elegible para todos los beneficios siempre que tu contenido cumpla con los estándares de calidad. Esta es una excelente manera de mostrar lo bien que funciona el juego en hardware de Apple.
+
+**Requisitos del Programa de Creadores:**
+- **Streaming**: Mínimo 25 espectadores concurrentes promedio (CCV).
+- **YouTube**: Mínimo 1,000 vistas promedio por video.
+- **Enfoque del Contenido**: Jugabilidad de alta calidad, guías o historias impulsadas por la comunidad.
+
+| Tipo de Beneficio | Descripción | Nivel de Acceso |
+| :--- | :--- | :--- |
+| **Claves** | Acceso anticipado a pruebas de juego y betas | Todos los Creadores Aceptados |
+| **Social** | Canal privado de Discord y rol único | Todos los Creadores Aceptados |
+| **Kit de Medios** | Activos de alta resolución, logotipos y superposiciones | Todos los Creadores Aceptados |
+| **Misiones** | Futuras campañas exclusivas | Estado de Socio |
+
+<Callout type="success" title="Consejo para la Solicitud">
+Al postularte, menciona tu experiencia con la comunidad de **Drakantos en Mac**. El contenido de nicho centrado en configuraciones técnicas y optimización para diferentes plataformas es muy valorado por el equipo de Wingeon.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Características del Juego en macOS">
+
+Drakantos se aleja de los sistemas de clases tradicionales de MMORPG, ofreciendo héroes únicos con mecánicas distintas. En Mac, los controles responsivos permiten a los jugadores dominar estos matices de manera efectiva.
+
+- **Personalización de Héroes**: Modifica habilidades con orbes y artefactos para cambiar tu estilo de juego.
+- **Sistema de Vivienda**: Compra terrenos y decora tu propio espacio. La estética de arte de píxeles se ve impresionante en las pantallas Liquid Retina de alto contraste de Mac.
+- **Mercado**: Intercambia objetos raros y coleccionables con una base de jugadores global.
+- **Mazmorras Dinámicas**: Sube de nivel y consigue objetos raros en misiones que cambian con el tiempo con diferentes enemigos y trampas.
+
+<Checklist
+  id="mac-launch-goals"
+  title="Tu Primera Semana en Mac:"
+  items={[
+    "Configura Whiskey o CrossOver con éxito",
+    "Alcanza el Nivel 20 con tu primer Héroe",
+    "Únete a un Gremio para participar en guerras territoriales",
+    "Personaliza las habilidades de tu Héroe usando Orbes",
+    "Completa la misión introductoria de 'Mazmorra Dinámica'"
+  ]}
+/>
+
+<Callout type="tip" title="Estabilidad de la Red">
+Dado que Drakantos es un MMO solo en línea, los usuarios de Mac deben preferir una conexión Ethernet por cable o Wi-Fi de 5 GHz. Las capas de traducción a veces pueden amplificar los picos de ping causados por señales inalámbricas inestables.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes de Drakantos en Mac">
+
+<FAQ items={[
+  {
+    question: "¿Está prevista una versión nativa de Drakantos para Mac?",
+    answer: "A partir de mayo de 2026, el desarrollador Wingeon Game Studios LLC no ha anunciado oficialmente un cliente nativo de macOS. Sin embargo, la compatibilidad del juego con Linux/SteamOS lo hace altamente funcional a través de capas de traducción."
+  },
+  {
+    question: "¿Puedo jugar Drakantos en un Mac basado en Intel?",
+    answer: "Sí, pero el rendimiento será significativamente menor que con los chips de la serie M. Los Macs Intel necesitarán usar Boot Camp para ejecutar el juego de forma nativa en Windows para obtener los mejores resultados."
+  },
+  {
+    question: "¿El Programa de Creadores de Drakantos es compatible con streamers basados en Mac?",
+    answer: "Absolutamente. El programa se centra en la calidad del contenido y la participación de la audiencia, en lugar del hardware específico que uses para jugar."
+  },
+  {
+    question: "¿Mi progreso en Mac se sincronizará con otras plataformas?",
+    answer: "Sí, Drakantos utiliza un sistema de cuentas centralizado. Tu progreso se guardará en tu cuenta y será accesible tanto si juegas en Windows, Linux o mediante una solución alternativa para Mac."
+  }
+]} />
+
+</Section>

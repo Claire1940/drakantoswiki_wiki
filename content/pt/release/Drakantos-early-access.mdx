@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Acesso Antecipado a Drakantos: Seu Guia para o Beta Fechado",
+  description: "Mergulhe no acesso antecipado de Drakantos com nosso guia completo para o beta fechado, incluindo mudanças na jogabilidade, modos PvP e como participar.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8B5CF6/fff?text=Drakantos+Early+Access",
+  date: "2026-05-23",
+  author: "Equipe Wiki Drakantos"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O **acesso antecipado a Drakantos** foca em novas mecânicas de jogabilidade e modos PvP.
+- O segundo beta fechado introduz **movimento livre** e combate de ação.
+- Jogadores do primeiro beta recebem acesso automaticamente; outros podem **solicitar acesso no Steam**.
+- Novos modos PvP incluem **Controle, Escolta e Assalto**.
+- Personagens estão no **nível máximo e equipados** no PvP para um jogo justo.
+</Callout>
+
+<Section icon={Map} title="Entendendo o Acesso Antecipado e as Fases Beta de Drakantos">
+Drakantos, um MMO inspirado em RPGs clássicos, está avançando em direção ao seu lançamento oficial com vários testes beta. Essas fases de acesso antecipado são cruciais para os desenvolvedores coletarem feedback e refinarem a experiência de jogo antes de seu lançamento completo. Os testes beta fechados, em particular, oferecem um vislumbre das mecânicas e conteúdos em evolução, permitindo que um grupo seleto de jogadores contribua para seu desenvolvimento.
+
+O segundo teste beta fechado, realizado de 22 a 24 de maio de 2026, trouxe mudanças significativas e um forte foco no conteúdo jogador contra jogador (PvP). Esta fase foi projetada para testar novas mecânicas centrais, especialmente os sistemas de movimento e combate atualizados.
+
+**Destaques do Vídeo:**
+- O segundo beta fechado focou no conteúdo PvP.
+- As principais mudanças na jogabilidade incluem o movimento livre substituindo o sistema de grade baseado em tiles.
+- Jogadores do primeiro beta mantêm o acesso automaticamente.
+- Novos modos PvP como Controle, Escolta e Assalto foram introduzidos.
+- Caixas beta estavam disponíveis para testar várias construções durante o período beta.
+
+<YouTubeEmbed videoId="styGBXf_FXM" title="Drakantos -Próxima Fase- 2º Teste Beta Começa!" />
+
+<Callout type="tip" title="Como Entrar no Beta">
+Se você participou do primeiro beta fechado, você tem acesso automaticamente aos testes subsequentes. Novos jogadores interessados no acesso antecipado de Drakantos podem solicitar acesso através da página do jogo no Steam. O acesso é concedido aleatoriamente, embora um programa de criadores de conteúdo também exista para uma possível entrada.
+</Callout>
+
+### Datas Principais do Teste Beta
+
+| Fase Beta         | Datas (2026)      | Foco                | Método de Acesso                                       |
+|:------------------|:------------------|:--------------------|:-------------------------------------------------------|
+| Primeiro Beta Fechado | (Anterior)        | Jogabilidade Inicial, PvE | Aleatório via Solicitação Steam, Programa de Criadores |
+| Segundo Beta Fechado | 22 a 24 de maio   | PvP, Novas Mecânicas | Automático para participantes anteriores, Aleatório via Solicitação Steam |
+
+</Section>
+
+<Section icon={Swords} title="Novas Mecânicas de Combate e Movimento">
+Uma das atualizações mais significativas no beta de acesso antecipado de Drakantos foi a reformulação dos sistemas de movimento e combate. O sistema original de grade baseado em tiles, que às vezes parecia lento e restritivo, foi substituído por um movimento mais fluido e livre. Essa mudança visa proporcionar uma experiência de combate mais fluida e intuitiva para os jogadores.
+
+### Evolução do Movimento e Combate
+
+| Característica        | Beta Anterior (Baseado em Tiles) | Segundo Beta (Livre)      | Impacto na Jogabilidade                               |
+|:----------------------|:---------------------------------|:--------------------------|:------------------------------------------------------|
+| **Movimento**         | Baseado em grade, tiles quadrados | Livre em 360 graus         | Movimento mais fluido e menos restritivo.             |
+| **Sistema de Combate** | Híbrido, baseado em alvo        | Combate de ação completo, sem sistema de alvo | Mira direta, uso de habilidades mais dinâmico.        |
+| **Controles do Mouse**| Mira indireta                    | Mira direta com o mouse    | Precisão aprimorada para ataques e habilidades.       |
+| **Suporte a Controle**| Menos otimizado                  | Movimento mais suave, em 360 graus | Fluidez aprimorada para jogadores de controle.        |
+| **Ataques Básicos**   | Dependente de recarga            | Sistema tipo estamina, fora de recarga | Permite ação contínua, gerenciamento estratégico de estamina. |
+
+<Callout type="warning" title="Adaptando-se aos Novos Controles">
+Para jogadores acostumados ao sistema anterior baseado em tiles, o novo movimento livre e combate de ação exigirão algum ajuste. Os heróis podem parecer diferentes de jogar, então dedique tempo para reaprender e experimentar os controles e o fluxo de combate atualizados.
+</Callout>
+
+### Comparação de Métodos de Entrada
+
+<CardGrid cols={2}>
+  <Card title="Mouse e Teclado">
+    - **Mira**: Use o mouse para ataques e habilidades direcionais.
+    - **Ataque Básico**: Clique esquerdo.
+    - **Ataque Especial**: Clique direito.
+    - O personagem vira automaticamente na direção do mouse ao atacar.
+    - Geralmente mais fácil para mira precisa.
+  </Card>
+  <Card title="Controle">
+    - **Movimento**: Analógico esquerdo (360 graus).
+    - **Mira**: Analógico direito para direção de ataque.
+    - Requer segurar uma direção específica para ataques direcionados.
+    - Oferece movimento mais suave e fluido, semelhante a um jogo de tiro twin-stick.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Trophy} title="Explorando Novos Modos PvP">
+O segundo beta de acesso antecipado de Drakantos enfatizou fortemente o PvP, introduzindo vários modos de jogo distintos para testar a habilidade e estratégia do jogador. Esses modos oferecem objetivos e experiências variados para jogadores competitivos.
+
+### Visão Geral dos Modos PvP
+
+| Modo      | Objetivo                                          | Recompensas             | Estratégia                                            |
+|:----------|:--------------------------------------------------|:------------------------|:------------------------------------------------------|
+| **Controle** | Manter o controle sobre uma zona circular designada. | Moderadas, conquistas mais rápidas | Negação de área, presença sustentada, coordenação de equipe. |
+| **Escolta**  | Proteger um cristal enquanto ele se move por um caminho definido. | Moderadas, conquistas mais rápidas | Posicionamento defensivo, controle de multidão, priorização de alvos. |
+| **Assalto** | Destruir torres e núcleos inimigos (tipo MOBA).    | Recompensas mais altas, partidas mais longas | Empurrar lanes, controle de objetivos, team fights.     |
+
+<Callout type="info" title="Jogo Justo no PvP">
+Nos modos PvP, todos os personagens são definidos para o nível máximo com equipamento e habilidades máximas. Isso garante um campo de jogo nivelado onde a habilidade individual e a execução estratégica são os principais determinantes da vitória, em vez da vantagem de equipamento.
+</Callout>
+
+### Caixas Beta e Teste de Builds
+Durante o beta, os jogadores receberam "caixas beta" especiais contendo orbes, artefatos e itens do jogo. Estes foram projetados para facilitar o teste de diferentes builds de heróis e estratégias, particularmente no PvP. Esses itens são temporários e não serão transferidos para o jogo final.
+
+| Tipo de Caixa Beta | Conteúdo                                      | Propósito                                        |
+|:-------------------|:----------------------------------------------|:-------------------------------------------------|
+| **Caixa de Orbe**  | Vários orbes para personalização de habilidades. | Experimentar diferentes aprimoramentos de habilidade. |
+| **Caixa de Artefato**| Diversos artefatos para modificar a jogabilidade. | Testar efeitos passivos e ativos únicos.         |
+| **Caixa de Troféu**| Itens específicos, provavelmente para cosméticos ou pequenos impulsos. | Aprimorar a personalização estética ou utilidade menor. |
+
+</Section>
+
+<Section icon={Shield} title="Conteúdo PvE e Progressão">
+Enquanto o segundo beta focou no PvP, o conteúdo PvE permaneceu em grande parte o mesmo do primeiro beta. Os desenvolvedores optaram por não introduzir novos elementos de história para evitar spoilers, garantindo que os jogadores experimentassem a narrativa completa no lançamento. No entanto, isso não significa que o desenvolvimento PvE esteja estagnado; a equipe está trabalhando ativamente em novos conteúdos nos bastidores.
+
+<Callout type="success" title="Foco do Desenvolvedor">
+Os desenvolvedores estão trabalhando ativamente no conteúdo PvE, incluindo progressão da história e novos desafios. Embora não tenha sido mostrado no segundo beta, espere atualizações significativas nas futuras fases de acesso antecipado de Drakantos ou no lançamento.
+</Callout>
+
+### Sistema de Progressão
+O ciclo de jogo principal em Drakantos envolve selecionar um herói, subir de rank através do sistema de guilda e melhorar seu "poder" obtendo equipamentos melhores, fundindo e reforçando equipamentos existentes. Missões e aventuras são centrais para adquirir equipamentos de nível superior.
+
+<Checklist
+  id="progression-path"
+  title="Caminho de Progressão Típico:"
+  items={[
+    "Selecione e personalize seu herói.",
+    "Complete missões e aventuras para ganhar equipamentos.",
+    "Aumente seu nível de 'poder' através de melhorias de equipamento.",
+    "Desbloqueie missões e tarefas mais difíceis para melhores recompensas."
+  ]}
+/>
+
+### Considerações para o Acesso Antecipado
+O feedback dos jogadores durante o acesso antecipado e os testes beta é inestimável. Problemas como UI pouco intuitiva, latência de combate e escalonamento injusto de monstros, conforme destacado por alguns testadores beta, são pontos cruciais para os desenvolvedores abordarem. O potencial de Drakantos ser um sucesso é alto, especialmente com sua bela arte pixelizada e vibração de MMO nostálgica, mas o refinamento é fundamental.
+
+| Aspecto           | Feedback do Beta                                   | Objetivo do Desenvolvedor (Implícito)                      |
+|:------------------|:---------------------------------------------------|:-----------------------------------------------------------|
+| **Interface do Usuário** | Básica, pouco intuitiva, prejudica os visuais.     | Aprimorar o apelo visual e a usabilidade.                  |
+| **Latência de Combate**| Lento, sem resposta, especialmente para conjuração de feitiços. | Reduzir a latência, melhorar a responsividade para um combate mais suave. |
+| **Dificuldade dos Monstros**| Inconsistente (muito fácil ou nível Dark Souls). | Equilibrar a curva de dificuldade para um desafio consistente. |
+| **Escalonamento de Grupo**| Missões mais fáceis solo do que com um grupo.     | Ajustar o escalonamento de monstros para jogo cooperativo. |
+| **Gerenciamento de Mana**| Limitado, incentiva o spam de recargas.           | Introduzir um gerenciamento de recursos mais estratégico.   |
+| **Usos de Artefatos**| Usos limitados por missão.                        | Reavaliar as mecânicas de artefatos para melhor utilidade. |
+| **Vozes da IA**   | Desagradáveis, prejudicam a imersão.              | Melhorar a qualidade da dublagem ou explorar alternativas. |
+
+</Section>
+
+<Section icon={Sparkles} title="Programa de Criadores de Drakantos e Engajamento da Comunidade">
+Drakantos se engaja ativamente com sua comunidade através de vários programas, incluindo um Programa de Criadores dedicado. Esta iniciativa visa envolver streamers, criadores de vídeo e outros criadores de conteúdo na jornada do jogo, desde o acesso antecipado até o lançamento.
+
+### Vantagens do Programa de Criadores
+Juntar-se ao Programa de Criadores de Drakantos oferece benefícios exclusivos, promovendo um forte relacionamento entre os desenvolvedores e a comunidade de criação de conteúdo.
+
+| Categoria de Vantagem | Detalhes                                          |
+|:----------------------|:--------------------------------------------------|
+| **Acesso Antecipado**  | Possibilidade de chaves de playtest, acesso antecipado ao jogo. |
+| **Suporte de Conteúdo**| Acesso a futuras campanhas e missões, kit de mídia. |
+| **Acesso à Comunidade**| Canal privado no Discord, função exclusiva no servidor. |
+| **Benefícios Futuros**| Mais vantagens estão planejadas à medida que o projeto evolui. |
+
+Você pode se inscrever no Programa de Criadores de Drakantos através da página oficial de criadores: [Drakantos Creator Program](https://creators.drakantos.com/)
+
+<Callout type="info" title="Twitch Drops">
+Durante os testes beta, Drakantos frequentemente oferece Twitch Drops, permitindo que os espectadores ganhem recompensas no jogo, como caixas beta, vinculando suas contas e assistindo a streamers participantes. Fique atento aos anúncios oficiais para essas oportunidades.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Perguntas Frequentes Sobre o Acesso Antecipado de Drakantos">
+
+<FAQ items={[
+  {
+    question: "Como obtenho acesso antecipado a Drakantos?",
+    answer: "Você pode solicitar acesso ao beta fechado através da página de Drakantos no Steam. Se você participou de um beta anterior, seu acesso geralmente é transferido automaticamente."
+  },
+  {
+    question: "Quais foram as datas do segundo beta fechado de Drakantos?",
+    answer: "O segundo teste beta fechado para Drakantos ocorreu de 22 a 24 de maio de 2026."
+  },
+  {
+    question: "Qual foi o foco principal do segundo teste beta?",
+    answer: "O segundo teste beta focou principalmente em testar novas mecânicas de jogabilidade, como movimento livre e combate de ação, e introduzir novos modos PvP como Controle, Escolta e Assalto."
+  },
+  {
+    question: "Meu progresso do beta será transferido para o jogo completo?",
+    answer: "Não, itens como caixas beta e o progresso dos testes beta são geralmente temporários e não serão incluídos na versão final do jogo. Isso permite que os jogadores experimentem livremente sem afetar sua futura experiência de jogo."
+  }
+]} />
+
+</Section>

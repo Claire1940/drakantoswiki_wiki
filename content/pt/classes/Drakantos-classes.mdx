@@ -1,0 +1,224 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Classes de Drakantos: Sistema de Heróis e Variedade de Builds Explicados",
+  description: "Explore o sistema único de heróis em Drakantos, entendendo como os personagens funcionam no lugar das classes tradicionais e como personalizar sua build.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Drakantos+Heroes",
+  date: "2026-05-23",
+  author: "Equipe Wiki Drakantos"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Drakantos** apresenta um **sistema de Heróis** em vez de classes ou raças tradicionais.
+- Os jogadores escolhem entre 21 **heróis** únicos, cada um com mecânicas e histórias distintas.
+- A **personalização de habilidades** é alcançada através de Orbes e Artefatos para modificar as habilidades.
+- Avance com qualquer herói trocando-o na cidade, permitindo diversos estilos de jogo.
+- O jogo enfatiza o **combate de ação** e a variedade de builds para PvE e PvP.
+</Callout>
+
+<Section icon={Swords} title="Compreendendo o Sistema de Heróis de Drakantos">
+Drakantos, um MMORPG que está por vir, aborda a progressão de personagens de uma forma inovadora, abandonando as **classes** e raças tradicionais de Drakantos em favor de um sistema único de heróis. Em vez de selecionar uma classe como Guerreiro ou Mago, os jogadores escolhem entre uma lista de heróis distintos, cada um com seu próprio conjunto de habilidades, mecânicas e história. Este sistema permite uma experiência de jogo mais personalizada e flexível, afastando-se dos arquétipos de classe rígidos.
+
+De acordo com as últimas informações, Drakantos contará com 21 heróis únicos no lançamento, com 15 heróis disponíveis durante os testes beta recentes. Esses heróis não são apenas skins cosméticas; eles representam estilos de jogo fundamentais que os jogadores podem explorar e dominar. A ideia central é que você não cria um personagem e depois escolhe uma classe; você *é* o herói, e sua progressão está ligada a esse herói específico. Essa escolha de design promove uma conexão mais profunda com os personagens individuais e suas histórias dentro do mundo de Eldras.
+
+**Destaques do Vídeo:**
+- Drakantos apresenta um estilo de arte old-school com combate de ação incrível.
+- O jogo não possui classes ou raças tradicionais, mas sim heróis únicos.
+- Eventualmente, haverá 21 heróis únicos, com 12-15 atualmente conhecidos.
+- Heróis como Yura (Samurai), Zeugladius (Paladino de Martelo) e Iris (Arcano) oferecem estilos de jogo variados.
+- A personalização inclui mudança de cabelo, pele e roupas, com mais opções planejadas.
+
+<YouTubeEmbed videoId="1Gf9GJ_mCIw" title="TUDO O Que Sabemos sobre Drakantos em 2026! Novas Chaves Beta!" />
+
+<Callout type="tip">
+Não se apegue demais a um único herói inicialmente. O sistema incentiva a experimentação com diferentes heróis, pois você pode alternar entre eles na cidade e progredir com cada um. Essa flexibilidade é fundamental para encontrar seu estilo de jogo preferido.
+</Callout>
+
+### Principais Diferenças: Heróis vs. Classes Tradicionais
+
+O sistema de heróis em Drakantos oferece várias vantagens e aspectos únicos em comparação com as estruturas de classes padrão de MMORPGs.
+
+| Característica       | Heróis de Drakantos                                  | Classes Tradicionais de MMORPG                                |
+| :------------ | :--------------------------------------------------- | :------------------------------------------------------------ |
+| **Identidade**  | Personagens nomeados específicos com lore única      | Arquétipos genéricos (Guerreiro, Mago, Ladino)                |
+| **Seleção** | Escolha um herói diretamente, sem seleção de classe posterior | Crie um personagem, depois escolha uma classe (muitas vezes com limites de raça) |
+| **Progressão** | Progressão individual do herói                       | Progressão baseada em classes, muitas vezes compartilhada entre personagens |
+| **Personalização** | Personalização visual do herói, modificação de habilidades | Criação extensiva de personagens, variação limitada de habilidades por classe |
+| **Flexibilidade** | Troque de heróis na cidade para mudar o estilo de jogo | Geralmente exige um novo personagem para uma classe diferente |
+
+</Section>
+
+<Section icon={Map} title="Conheça os Heróis de Drakantos: Uma Visão Geral dos Estilos de Jogo">
+Embora a lista completa de 21 heróis ainda esteja sendo revelada, vários **classes de Drakantos** proeminentes (ou heróis, como são realmente chamados) foram destacados. Cada herói traz um sabor distinto ao combate, atendendo a diversas preferências dos jogadores. Compreender esses heróis é crucial para planejar sua jornada por Eldras.
+
+Aqui está uma olhada em alguns dos heróis confirmados para estarem disponíveis durante o beta e discutidos pelos desenvolvedores:
+
+| Nome do Herói     | Função Principal      | Habilidades/Mecânicas Chave                               | Traços Únicos                                     |
+| :------------ | :---------------- | :------------------------------------------------------ | :------------------------------------------------ |
+| **Yura**        | DPS Corpo a Corpo         | Ataques de espada inspirados em samurais                  | Alta mobilidade, golpes de precisão                  |
+| **Zeugladius**  | Tanque/DPS Corpo a Corpo    | Paladino empunhando martelo, presença semelhante a Arthas           | Posturas defensivas, poderosos ataques em área         |
+| **Andar**       | Suporte/Conjurador    | Druida, usa vinhas, transe, transformações animais         | Magia da natureza, controle de multidão, metamorfose        |
+| **Hore**        | DPS Corpo a Corpo/Tanque    | Magia da terra, cria pedras, escudos protetores de terra      | Geomancia, defesas fortes, ataques de terra à distância   |
+| **Iris**        | DPS à Distância/Conjurador | Poder arcano, clonagem, feitiços de desintegração              | Alto dano explosivo, duplicação de feitiços              |
+| **Raya**        | DPS Corpo a Corpo/Utilidade | Mestre da lança, ataques de raio, teletransporte            | Atordoa inimigos, alta mobilidade, dano elétrico   |
+| **Thomas**      | Suporte/Conjurador    | Gato bardo, usa canções para confundir inimigos                 | Suporte único, estética encantadora               |
+| **Liam**        | DPS Corpo a Corpo         | Personagem masculino empunhando espada grande                      | Arquétipo obrigatório de "espada grande", ataques fortes  |
+| **Yuki**        | DPS à Distância/Utilidade | Personagem de nove caudas, magia de gelo, inimigos congelantes      | Alta mobilidade, controle de multidão, dano elemental    |
+| **Irha & Mary** | DPS Corpo a Corpo/Suporte | Mestra de lâminas duplas com sacerdote acompanhante              | Empunhadura dupla, habilidades sinérgicas, cura     |
+
+<Callout type="warning" title="Disponibilidade de Heróis Beta">
+Durante os testes beta, nem todos os 21 heróis planejados podem estar disponíveis. O beta mais recente contou com 15 heróis, incluindo Liam, Marly, Zeugladius, Reya, Yura, Ojore, Thomas, Byron, Iris, Ozul, Faendar, Arryn, Orbryn, Yuki e Korz.
+</Callout>
+
+### Como a Seleção de Heróis Influencia a Jogabilidade
+
+Escolher seu herói é a decisão mais significativa que você tomará em Drakantos, pois ela dita seu estilo de jogo fundamental.
+
+<CardGrid cols={2}>
+  <Card title="Foco Ofensivo">
+    Heróis como **Yura** e **Iris** se destacam em causar alto dano. Yura oferece ataques corpo a corpo rápidos e mobilidade, enquanto Iris libera feitiços arcanos devastadores à distância. Jogadores que gostam de estar na linha de frente do combate ou de causar dano explosivo acharão esses heróis atraentes.
+  </Card>
+  <Card title="Foco Defensivo e de Suporte">
+    **Zeugladius** e **Andar** fornecem capacidades defensivas e suporte cruciais. Zeugladius pode tankar dano e controlar grupos de inimigos, lembrando um paladino clássico. Andar, o druida, pode curar, aplicar controle de multidão e até se transformar, oferecendo suporte versátil.
+  </Card>
+  <Card title="Utilidade e Controle">
+    Heróis como **Raya** e **Yuki** combinam dano com utilidade significativa. Os ataques de raio de Raya podem atordoar e seu teletransporte oferece excelente posicionamento. A magia de gelo de Yuki pode congelar inimigos, fornecendo controle de multidão crucial em encontros PvE e PvP.
+  </Card>
+  <Card title="Estilos de Jogo Únicos">
+    **Thomas**, o gato bardo, se destaca com suas habilidades de confusão baseadas em canções, oferecendo uma experiência de suporte verdadeiramente única. **Irha & Mary** combinam uma mestra de lâminas duplas com um sacerdote, sugerindo um estilo de jogo sinérgico que equilibra ataque e sustentação.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Personalizando Seu Herói: Além das Classes Básicas">
+Um dos aspectos mais empolgantes de Drakantos é a profundidade da personalização de heróis, que efetivamente substitui o sistema tradicional de **classes de Drakantos**. Em vez de ficarem presos a uma árvore de habilidades rígida, os jogadores podem alterar significativamente as habilidades e o estilo de jogo de seus heróis através de Orbes, Artefatos e Troféus. Este sistema garante uma grande variedade de builds e permite experimentação contínua.
+
+<Callout type="success" title="Variedade de Builds é Fundamental">
+Os desenvolvedores enfatizaram que haverá uma vasta quantidade de variedade de builds. Isso significa que, mesmo que dois jogadores escolham o mesmo herói, seu estilo de combate real pode ser drasticamente diferente com base nos Orbes, Artefatos e Troféus escolhidos.
+</Callout>
+
+### O Processo de Personalização: Passos para Criar Sua Build
+
+Construir seu herói ideal em Drakantos envolve várias camadas de personalização.
+
+<Steps>
+  <Step num="1" title="Selecione Seu Herói">
+    Comece escolhendo um dos heróis únicos. Essa escolha inicial define as habilidades principais e o foco temático do seu herói. Lembre-se, você pode trocar de heróis na cidade, então sinta-se à vontade para experimentar.
+  </Step>
+  <Step num="2" title="Equipe Itens e Suba o Nível das Habilidades">
+    Ao jogar, você adquirirá equipamentos que aprimoram as estatísticas do seu herói. Simultaneamente, as habilidades básicas do seu herói subirão de nível, aumentando sua potência.
+  </Step>
+  <Step num="3" title="Integre Orbes">
+    Orbes são modificadores cruciais para as habilidades do seu herói. Você pode encaixá-los em suas habilidades para mudar seus efeitos. Por exemplo, um ataque básico pode ser transformado em um ataque de espada flamejante aplicando um Orbe específico. Esses Orbes podem frequentemente ser trocados entre jogadores, fomentando uma economia dinâmica no jogo.
+  </Step>
+  <Step num="4" title="Utilize Artefatos">
+    Artefatos fornecem buffs significativos e efeitos únicos que podem alterar drasticamente o desempenho do seu herói. São itens poderosos que complementam seus Orbes e estilo de jogo escolhidos. Durante o beta, Caixas Beta especiais permitiram que os jogadores testassem vários Artefatos de endgame.
+  </Step>
+  <Step num="5" title="Colete Troféus">
+    Troféus são itens passivos que concedem vários bônus ao seu herói. Eles podem variar de aumentos de estatísticas a efeitos passivos únicos que refinam ainda mais sua build e sinergizam com suas habilidades ativas e artefatos.
+  </Step>
+</Steps>
+
+### Exemplo de Impacto da Personalização
+
+Considere a heroína Iris, conhecida por seu poder arcano.
+- **Habilidade Base**: Explosão Arcana (um ataque à distância padrão).
+- **Com Orbe**: Um Orbe pode transformar a Explosão Arcana em "Estilhaço Arcano Explosivo", fazendo com que cause dano em área ao impacto.
+- **Com Artefato**: Um Artefato pode conceder "Poder Ecoante", fazendo com que cada terceira habilidade Arcana seja lançada duas vezes.
+- **Com Troféu**: Um Troféu pode fornecer "Fluxo de Mana", aumentando o dano mágico com base na porcentagem de mana atual.
+
+A combinação desses elementos permite builds altamente especializadas, transformando um simples conjurador à distância em um mago de AoE devastador com potencial de explosão.
+
+</Section>
+
+<Section icon={Trophy} title="Progressão e Fim de Jogo com Seu Herói Escolhido">
+O sistema de progressão em Drakantos é projetado para suportar a jogabilidade centrada no herói, garantindo que sua jornada com cada personagem seja recompensadora. Ao contrário das **classes de Drakantos** tradicionais que podem ter funções fixas, a progressão e a viabilidade do seu herói no fim de jogo são fortemente influenciadas pelas suas escolhas de build.
+
+### Caminhos de Progressão
+
+Drakantos oferece várias vias de progressão, atendendo tanto a entusiastas de PvE quanto de PvP.
+
+| Tipo de Progressão | Descrição                                           | Atividades Chave                                                 | Recompensas e Benefícios                                             |
+| :--------------- | :---------------------------------------------------- | :------------------------------------------------------------- | :------------------------------------------------------------- |
+| **Nivelamento de Herói** | Ganhar experiência para aumentar as estatísticas base e desbloquear pontos de habilidade | Completar missões, masmorras, derrotar monstros                | Aumento de HP, dano, acesso a novos níveis de habilidade              |
+| **Equipamento**    | Adquirir e aprimorar armas, armaduras e acessórios | Drops de masmorras, criação, comércio no mercado, recompensas de missões         | Bônus de estatísticas, bônus de conjunto, efeitos passivos únicos              |
+| **Orbes**         | Encontrar e aplicar Orbes para modificar habilidades do herói    | Drops de chefes, recompensas de PvP, comércio                               | Transformar habilidades, criar interações de habilidades únicas          |
+| **Artefatos**    | Obter itens poderosos com efeitos ativos/passivos significativos | Conteúdo de fim de jogo, modos PvP, eventos especiais (caixas beta)       | Grandes aumentos de dano, utilidade ou capacidade de sobrevivência              |
+| **Troféus**     | Obter bônus passivos que aprimoram a build do seu herói | Conquistas, encontros específicos com chefes, recompensas de PvP            | Buffs passivos permanentes, sinergia de build                         |
+| **Progressão PvP** | Ganhar classificações e recompensas através de jogo competitivo    | Modos de Arena (Controle, Escolta, Assalto)                         | Equipamento exclusivo, cosméticos, recursos para aprimoramento do herói      |
+
+<Callout type="info">
+Nos modos PvP, todos os jogadores são definidos para o nível máximo com equipamentos e habilidades maximizados. Troféus e Artefatos também são maximizados (embora não desbloqueados por padrão) para garantir um ambiente competitivo justo focado na habilidade e sinergia da build.
+</Callout>
+
+### Conteúdo de Fim de Jogo e Viabilidade de Heróis
+
+Drakantos visa uma rica experiência de fim de jogo com exploração, masmorras e provavelmente raides. A flexibilidade do sistema de heróis e a personalização da build significam que muitos heróis podem ser viáveis no conteúdo de fim de jogo, desde que sejam construídos de forma eficaz. A capacidade de trocar de heróis e adaptar builds permite aos jogadores enfrentar diversos desafios.
+
+<Checklist
+  id="endgame-preparation"
+  title="Lista de Verificação para o Fim de Jogo:"
+  items={[
+    "Domine as mecânicas principais do seu herói escolhido",
+    "Experimente várias combinações de Orbes para habilidades ótimas",
+    "Adquira Artefatos poderosos para aprimorar seu estilo de jogo",
+    "Colete Troféus sinérgicos para vantagens passivas",
+    "Participe de PvE e PvP para maximizar recompensas e experiência"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Futuro dos Heróis de Drakantos: O Que Esperar em 2026">
+Os desenvolvedores de Drakantos estão comprometidos em evoluir o sistema de heróis e expandir o mundo do jogo. Com um total planejado de 21 heróis únicos, ainda há muito a esperar em 2026 e além.
+
+### Conteúdo e Recursos Futuros
+
+O jogo ainda está em desenvolvimento ativo, com planos futuros incluindo:
+- **Novos Heróis**: Mais heróis únicos serão introduzidos, expandindo a gama de estilos de jogo e opções estratégicas.
+- **Pesca**: Uma nova atividade para os jogadores desfrutarem, oferecendo relaxamento e potenciais recursos.
+- **Mais Masmorras**: Masmorras adicionais fornecerão novos desafios, inimigos e saques para os heróis conquistarem.
+- **Sistemas Refinados**: Melhorias contínuas no combate, movimento e sistemas de personalização de heróis com base no feedback dos jogadores.
+- **Engajamento da Comunidade**: Os desenvolvedores estão ansiosos para ouvir sua base de jogadores para garantir uma experiência equilibrada e agradável.
+
+<Callout type="tip">
+Fique atento aos anúncios oficiais da Wingeon Game Studios para obter as informações mais recentes sobre novos heróis, atualizações de conteúdo e futuros testes beta. O kit de imprensa deles menciona 21 heróis diferentes como um recurso central.
+</Callout>
+
+### Filosofia do Desenvolvedor
+
+Os desenvolvedores expressaram o desejo de lançar o jogo apenas quando estiver realmente pronto, priorizando a qualidade e a experiência do jogador em vez de lançamentos apressados. Essa abordagem é um bom presságio para a saúde a longo prazo do jogo e seu sistema de heróis. O foco no combate de ação, na variedade de builds e em um mundo online rico sugere um futuro vibrante para Drakantos e seu elenco diversificado de heróis.
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ: Heróis e Classes de Drakantos">
+
+<FAQ items={[
+  {
+    question: "Drakantos tem classes tradicionais como Guerreiro ou Mago?",
+    answer: "Não, Drakantos não usa classes tradicionais. Em vez disso, os jogadores escolhem entre uma lista de 'heróis' únicos, cada um com suas próprias habilidades e estilo de jogo distintos."
+  },
+  {
+    question: "Quantos heróis estão planejados para Drakantos?",
+    answer: "Drakantos está planejado para apresentar 21 heróis únicos no lançamento completo. Durante os testes beta recentes, 15 heróis estavam disponíveis para os jogadores experimentarem."
+  },
+  {
+    question: "Posso personalizar as habilidades do meu herói em Drakantos?",
+    answer: "Sim, a personalização extensiva de habilidades é uma característica central. Você pode modificar as habilidades do seu herói usando Orbes, aprimorar seu desempenho com Artefatos e obter bônus passivos através de Troféus. Isso permite uma variedade significativa de builds."
+  },
+  {
+    question: "O que acontece se eu quiser experimentar um herói diferente depois de escolher um?",
+    answer: "Você pode alternar entre qualquer um dos heróis disponíveis quando estiver na cidade. Isso permite que você progrida com vários heróis e experimente diferentes estilos de jogo sem precisar criar uma nova conta ou personagem do zero."
+  }
+]} />
+
+</Section>

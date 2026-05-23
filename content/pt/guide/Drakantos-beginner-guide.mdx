@@ -1,0 +1,210 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Gem } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia para Iniciantes de Drakantos: Dicas Essenciais para Novos Jogadores",
+  description: "Mergulhe em Drakantos com nosso guia completo para iniciantes, cobrindo seleção de personagens, progressão, dicas de combate e muito mais para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/3B82F6/fff?text=Drakantos+Beginner+Guide",
+  date: "2026-05-23",
+  author: "Equipe Wiki Drakantos"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Guia para iniciantes de Drakantos**: Comece entendendo os papéis dos personagens e os caminhos de progressão.
+- **Seleção de personagens**: Escolha entre heróis DPS, Tanque ou Suporte, cada um com habilidades únicas.
+- **Grinding de masmorras**: Concentre-se em masmorras de 3 jogadores para XP e itens primários.
+- **Importância do nível de equipamento**: Priorize a atualização de equipamentos com materiais coletados no mundo aberto.
+- **Artefatos e Orbes**: Personalize seu estilo de jogo e aprimore habilidades com esses itens cruciais.
+</Callout>
+
+<Section icon={Sparkles} title="Bem-vindo a Drakantos: Primeiros Passos para Novos Aventureiros">
+Drakantos é um MMORPG 2D pixel-art gratuito que combina visuais nostálgicos com ação rápida. Como um novo jogador, entender as mecânicas centrais e os sistemas de progressão é crucial para um início tranquilo. Ao contrário de muitos MMORPGs tradicionais, Drakantos apresenta um sistema único baseado em heróis, onde você seleciona personagens pré-projetados em vez de criar o seu próprio do zero.
+
+Este guia o acompanhará por tudo o que você precisa saber para começar sua jornada, desde a escolha do seu primeiro herói até o domínio de masmorras e a otimização do seu equipamento.
+
+**Destaques do Vídeo:**
+- Drakantos é um MMO 2D de pixel com jogadores reais em um mundo aberto.
+- Você joga com personagens pré-definidos, não personalizados, cada um com habilidades únicas.
+- A progressão envolve missões, combater monstros e subir o nível dos personagens.
+- O jogo apresenta um modo aventura para adquirir itens e materiais de criação.
+- O combate é baseado no teclado, não em cliques do mouse, exigindo engajamento tático.
+
+<YouTubeEmbed videoId="bonbSpe1HAQ" title="Drakantos | Novo Jogador, Primeiras Impressões" />
+
+O estilo de arte do jogo, embora pixelizado, é frequentemente elogiado por sua execução detalhada e cheia de alma, fazendo o mundo parecer imersivo apesar de sua natureza 2D. Não deixe que os gráficos retrô o dissuadam; há uma experiência profunda e envolvente esperando.
+
+</Section>
+
+<Section icon={Swords} title="Escolhendo Seu Primeiro Herói: Papéis e Habilidades">
+Em Drakantos, você não cria um personagem personalizado. Em vez disso, você seleciona de uma lista de heróis únicos, cada um com seu próprio nome, história e habilidades distintas. Esses heróis se encaixam nos arquétipos típicos de MMORPG: DPS, Tanque e Suporte. Entender esses papéis é fundamental para selecionar um herói que corresponda ao seu estilo de jogo preferido.
+
+<Callout type="tip">
+Experimente alguns heróis diferentes no início. Como o progresso é específico do personagem, você sempre pode mudar e tentar outro se sua escolha inicial não parecer certa.
+</Callout>
+
+O jogo geralmente desbloqueia todo o potencial de um herói, incluindo sua habilidade suprema, por volta do nível 12. É quando a identidade única de sua classe realmente brilha.
+
+**Arquétipos e Exemplos de Heróis:**
+
+| Arquétipo | Descrição | Características do Herói Exemplo | Estilo de Jogo |
+| :-------- | :------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------- |
+| **DPS**   | Foca em causar alto dano aos inimigos. Geralmente possui habilidades para controle de multidões ou movimento. | Atirador de longo alcance com besta de fogo, jetpack para kite, minas terrestres, torres. (por exemplo, Orberin) | Agressivo, focado no posicionamento, depende de ataques rápidos e rotações de habilidades. |
+| **Tanque**  | Especializa-se em absorver dano e proteger aliados. Pode provocar inimigos e reduzir o dano recebido. | Espada e escudo para bloquear, habilidades de provocação, grande quantidade de vida. (por exemplo, Zeugladius) | Linha de frente, defensivo, controle de multidões, requer forte gerenciamento de ameaças. |
+| **Suporte** | Fornece cura, buffs e debuffs para auxiliar a equipe. Essencial para combate sustentado. | Curas em área, feitiços sagrados, habilidades de utilidade. (por exemplo, Reya) | Linha de trás, reativo, foca na proteção de aliados e lançamento estratégico de feitiços. |
+
+Cada herói possui um conjunto único de habilidades que são desbloqueadas à medida que sobem de nível. Por exemplo, um DPS de longo alcance pode obter um jetpack para mobilidade, enquanto um tanque pode ganhar poderosas posturas defensivas.
+
+</Section>
+
+<Section icon={Target} title="Progressão e Ciclo de Jogo Principal">
+A progressão central em Drakantos gira em torno de correr masmorras de 3 jogadores, coletar recursos no mundo aberto e aprimorar seu equipamento. Ao contrário de muitos MMORPGs, o ganho de experiência é principalmente de masmorras, não de grind de monstros no mundo aberto.
+
+<Callout type="warning">
+Embora o mundo aberto seja vasto, derrotar monstros lá não concederá experiência significativa. Seu principal propósito é a coleta de recursos para aprimoramentos de equipamentos e a conclusão de missões.
+</Callout>
+
+### Correndo Masmorras
+Masmorras são missões instanciadas para 3 jogadores que fornecem a maior parte da sua experiência e itens. Elas são atualizadas a cada 20-30 minutos, oferecendo uma variedade de tipos de missão.
+
+**Tipos de Missões de Masmorra:**
+
+| Tipo de Missão      | Objetivo                                                                        | Recompensas                                                                                              |
+| :---------------- | :------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------- |
+| **Exterminar**   | Limpar todos os monstros dentro da masmorra.                                               | Alta XP, drops de equipamentos variados, materiais de criação.                                                      |
+| **Escolta**        | Proteger um cristal ou NPC até um ponto designado.                                  | XP moderada, peças de equipamento específicas, artefatos únicos.                                                 |
+| **Caça ao Item**     | Localizar e coletar itens espalhados pelo mapa.                           | XP menor, ingredientes de criação raros, potencial para impulsionadores de experiência.                              |
+
+Para maximizar suas recompensas de masmorra, procure eliminar todos os monstros. Morrer em uma missão acarreta uma perda de experiência (cerca de 5% por morte), então jogue com cuidado.
+
+### Atividades no Mundo Aberto
+O mundo aberto em Drakantos serve como um centro para missões e coleta de recursos. Você encontrará nós de mineração, árvores para madeira e baús para arrombar, tudo fornecendo materiais para o reforço de equipamentos.
+
+<Callout type="tip">
+Explore regularmente o mundo aberto em busca de baús escondidos. Estes podem conter itens valiosos como impulsionadores de experiência ou componentes de criação raros, o que pode acelerar significativamente sua progressão.
+</Callout>
+
+</Section>
+
+<Section icon={Gem} title="Equipamento, Artefatos e Orbes: Aprimorando Seu Herói">
+O poder do seu herói depende em grande parte do nível do seu equipamento, artefatos e orbes. Esses sistemas são cruciais para tornar seu personagem mais forte e personalizar seu estilo de jogo.
+
+### Sistema de Equipamento
+O equipamento em Drakantos é direto, consistindo em chapéu, parte superior, sapatos e uma arma. O nível do equipamento é primordial; um nível de equipamento mais alto significa melhor desempenho, independentemente do nível real do seu personagem.
+
+**Etapas de Progressão do Equipamento:**
+
+<Steps>
+  <Step num="1" title="Obter Equipamento Base">
+    Adquira peças de equipamento iniciais em masmorras ou missões iniciais. Concentre-se em obter um conjunto completo de equipamento básico.
+  </Step>
+  <Step num="2" title="Coletar Materiais">
+    Aventure-se no mundo aberto para coletar materiais como madeira, minério e outros recursos de nós de mineração, árvores e baús.
+  </Step>
+  <Step num="3" title="Reforçar Equipamento">
+    Visite o ferreiro ou NPC designado para usar seus materiais coletados e reforçar seu equipamento. Isso aumenta seu nível de equipamento e estatísticas.
+  </Step>
+  <Step num="4" title="Progredir para Níveis Superiores">
+    À medida que seu nível de equipamento aumenta, você terá acesso a masmorras mais difíceis que dropam equipamentos de nível superior, repetindo o ciclo.
+  </Step>
+</Steps>
+
+<Callout type="success">
+Sempre reforce seu equipamento sempre que possível. O nível do equipamento impacta diretamente sua eficácia nas masmorras, tornando o conteúdo mais fácil e recompensador.
+</Callout>
+
+### Artefatos e Orbes
+Artefatos são itens especiais que concedem habilidades únicas, permitindo uma personalização significativa do estilo de jogo. Você pode equipar dois artefatos por vez. Orbes são outra forma de progressão que se encaixam em habilidades específicas, impulsionando seus efeitos.
+
+**Exemplos de Artefatos:**
+
+| Nome do Artefato | Efeito                                                               | Impacto no Estilo de Jogo                                                                                                 |
+| :------------ | :------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------- |
+| **Barril de Cerveja**  | Faz com que os inimigos ataquem uns aos outros.                                     | Excelente para controle de multidões e redução de dano recebido, especialmente em grandes grupos.                             |
+| **Ninho de Vespas** | Causa dano contínuo aos inimigos.                                   | Bom para dano consistente, particularmente contra chefes ou inimigos mais resistentes.                                    |
+| **Correntes**    | Prende os inimigos ao seu personagem, limitando seu movimento.           | Útil para manter os inimigos agrupados para ataques em área ou impedi-los de alcançar aliados mais frágeis.             |
+| **Frasco de Cura** | Fornece uma explosão de cura ao longo do tempo.                           | Essencial para a sobrevivência, especialmente durante encontros difíceis ou ao jogar sozinho.                             |
+| **Besta Atordoante** | Atira em um inimigo, atordoando-o.                                  | Ótimo para interromper habilidades perigosas dos inimigos ou criar aberturas para dano explosivo.                          |
+
+Os Orbes são encontrados durante as corridas de masmorra e são vinculados ao personagem uma vez usados. Eles fornecem aprimoramentos diretos para habilidades específicas, como permitir que você segure um ataque para mais dano ou aumentar a potência de uma habilidade defensiva.
+
+</Section>
+
+<Section icon={Shield} title="Combate e Movimento: Adaptando-se ao Estilo de Drakantos">
+Drakantos apresenta um sistema de combate e movimento distinto ao qual os novos jogadores precisarão se adaptar. O jogo fez a transição do movimento baseado em blocos para o movimento totalmente livre, e os controles agora são baseados em ação, permitindo mirar habilidades com o mouse.
+
+### Mecânicas de Combate
+O combate é orientado para a ação, exigindo que você mire suas habilidades. O clique esquerdo é para ataques básicos, e o clique direito para ataques especiais (que muitas vezes podem ser mantidos para efeitos aprimorados).
+
+<Callout type="info">
+Embora o jogo apresente combate de ação, o movimento pode parecer rígido ou "baseado em grade" inicialmente. Isso é intencional e adiciona uma camada tática, exigindo posicionamento preciso e tempo de habilidades.
+</Callout>
+
+**Dicas Essenciais de Combate:**
+- **Controlado pelo teclado:** O combate é principalmente controlado pelo teclado, com mira pelo mouse. Acostume-se a essa configuração para um desempenho ideal.
+- **Tempo de habilidade:** Preste atenção aos tempos de recarga e à natureza tática do combate. Não é um jogo de apertar botões.
+- **Esquivar:** Muitas classes têm habilidades de dash que podem ser usadas para evitar ataques inimigos, o que é crucial para a sobrevivência.
+- **Sinergia de grupo:** Nas masmorras, coordene com sua equipe (Tanque, DPS, Suporte) para maximizar a eficiência e minimizar as mortes.
+
+### Movimento
+O movimento em Drakantos pode inicialmente parecer um pouco desajeitado devido às suas raízes baseadas em grade, mas os desenvolvedores o refinaram para uma experiência mais fluida, especialmente com suporte a controle.
+
+**Opções de Movimento:**
+
+| Tipo de Controle      | Estilo de Movimento                                                                  | Vantagens                                                                                                | Desvantagens                                                                     |
+| :---------------- | :------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------- |
+| **Teclado**      | Limitado a 8 direções inicialmente, mas agora oferece mais liberdade com combate de ação. | Familiar para jogadores de PC, preciso para mirar habilidades.                                                        | Pode parecer menos fluído do que o controle para movimento.                                 |
+| **Controle**    | Movimento em 360°, mais suave e fluido.                                    | Ideal para personagens ágeis, permite melhor posicionamento e esquiva.                                     | Pode levar tempo para se adaptar se você for um jogador tradicional de teclado/mouse.             |
+
+<Callout type="warning">
+Se você está tendo dificuldades com o movimento, considere tentar um controle. Muitos jogadores acham que ele oferece uma experiência mais fluida e responsiva, especialmente para personagens com dash.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Comunidade e Futuro de Drakantos">
+Drakantos é um jogo impulsionado pela comunidade, atualmente em beta fechado com muito potencial. Os desenvolvedores estão ativamente engajados com os jogadores e constantemente refinando o jogo com base no feedback.
+
+<Checklist
+  id="community-engagement"
+  title="Mantenha-se Conectado:"
+  items={[
+    "Junte-se ao Discord oficial de Drakantos para anúncios e interação com a comunidade.",
+    "Siga Drakantos no Steam para as últimas notícias e atualizações beta.",
+    "Participe dos testes de jogo para fornecer feedback e ganhar recompensas.",
+    "Assista às transmissões da Twitch para drops e para ver jogabilidade avançada."
+  ]}
+/>
+
+O jogo é gratuito, tornando-o acessível a um público amplo. Os planos futuros incluem arenas PvP e potencialmente mais conteúdo de mundo aberto. Embora o jogo ainda esteja evoluindo, sua forte base e desenvolvimento ativo prometem uma experiência recompensadora para novos jogadores.
+
+</Section>
+
+<Section icon={Target} title="Guia para Iniciantes de Drakantos: Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Posso personalizar a aparência do meu personagem em Drakantos?",
+    answer: "Embora você não possa personalizar totalmente seu personagem do zero, Drakantos oferece um sistema de tintura para armadura e cabelo, e trajes estarão disponíveis no futuro. Você joga com heróis pré-projetados com identidades únicas."
+  },
+  {
+    question: "Como ganho experiência e subo de nível meu personagem em Drakantos?",
+    answer: "A principal forma de ganhar experiência e subir de nível em Drakantos é completando masmorras de 3 jogadores. As atividades do mundo aberto são principalmente para coletar recursos e completar missões, não para um ganho significativo de XP."
+  },
+  {
+    question: "Drakantos é gratuito e meu progresso do beta será transferido?",
+    answer: "Sim, Drakantos é um MMORPG gratuito. No entanto, todo o progresso feito durante os testes beta é geralmente apagado antes do lançamento completo do jogo, conforme declarado pelos desenvolvedores na página da Comunidade Steam."
+  },
+  {
+    question: "Qual a importância do nível de equipamento em Drakantos?",
+    answer: "O nível de equipamento é extremamente importante em Drakantos. Ele dita aproximadamente 99% da força geral do seu personagem. Um nível de equipamento mais alto significa que você terá um desempenho significativamente melhor em combate, mesmo que o nível do seu personagem seja inferior ao de outros."
+  }
+]} />
+
+</Section>

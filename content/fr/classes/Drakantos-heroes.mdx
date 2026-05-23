@@ -1,0 +1,143 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, User } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Héros de Drakantos : Débloquez les 21 personnages jouables",
+  description: "Explorez les 21 héros de Drakantos, leurs mécaniques de jeu uniques, leurs histoires et comment personnaliser leurs capacités pour des performances optimales en PvE et PvP.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B5CF6/fff?text=Drakantos+Heroes",
+  date: "2026-05-23",
+  author: "Équipe Wiki de Drakantos"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Héros de Drakantos** : Il y a **21 héros uniques** disponibles, chacun avec un gameplay distinct.
+- **Personnalisation** : Modifiez les capacités des héros à l'aide d'**Orbes et d'Artéfacts** pour adapter les styles de jeu.
+- **Accent sur le PvP** : Les tests bêta ont mis en évidence 15 héros pour le **combat PvP basé sur l'action**.
+- **Histoires** : Chaque héros possède une **histoire bien développée** pour une immersion plus profonde.
+- **Accessibilité** : Tous les joueurs ont eu accès à 15 héros pendant la **Bêta Fermée pour les tests**.
+</Callout>
+
+<Section icon={User} title="Découverte des héros de Drakantos">
+Drakantos présente une riche liste de **21 héros différents**, chacun apportant ses propres mécaniques de jeu uniques et une histoire profonde au monde d'Eldras. Dès la Bêta Fermée initiale en mai 2026, les joueurs ont eu l'occasion d'expérimenter une partie importante de cette gamme, spécifiquement 15 héros, pour tester le système de combat d'action et de mouvement remanié du jeu. Cette accessibilité a permis une exploration approfondie de divers styles de jeu et compositions d'équipe.
+
+**Points forts de la vidéo :**
+- Démontre plusieurs héros en action, y compris une Prêtresse, un Paladin et un Lance-Tempête.
+- Présente diverses capacités et animations de combat pour différents types de héros.
+- Offre un aperçu de la conception visuelle diversifiée de la liste des personnages de Drakantos.
+
+<YouTubeEmbed videoId="q3WTyTqFiZg" title="Drakantos est le MMORPG en pixel art que nous attendions" />
+
+La philosophie de conception derrière les héros de Drakantos met l'accent sur la diversité et la profondeur stratégique. Les joueurs peuvent s'attendre à un large éventail de rôles, des tanks de première ligne et des distributeurs de dégâts agiles aux soigneurs de soutien et aux contrôleurs de foule perturbateurs. Comprendre le kit de chaque héros et la façon dont ils interagissent avec le système unique de personnalisation des Orbes et des Artéfacts du jeu est crucial pour maîtriser le jeu, que vous vous engagiez dans des batailles PvP intenses ou des donjons PvE stimulants.
+
+<Callout type="tip" title="Maîtriser votre héros">
+Expérimentez différentes capacités de héros, Orbes et Artéfacts au début du jeu. Cela vous aidera à trouver un style de jeu qui vous convient le mieux et vous préparera au contenu PvP compétitif et PvE stimulant de Drakantos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Liste des héros et archétypes">
+La version complète de Drakantos promet 21 héros distincts, garantissant une expérience de combat diversifiée. Pendant la Bêta Fermée, 15 héros ont été mis à disposition, offrant un aperçu solide de la diversité des personnages du jeu. Ceux-ci comprenaient Liam, Marly, Zeugladius, Reya, Yura, Ojore, Thomas, Byron, Iris, Ozul, Faendar, Arryn, Orbryn, Yuki et Korz. Chacun de ces héros appartient à des archétypes différents, répondant à diverses préférences stratégiques.
+
+Voici une ventilation des archétypes de héros courants auxquels vous pouvez vous attendre dans Drakantos, basée sur les rôles typiques des MMORPG et le gameplay observé :
+
+| Archétype        | Caractéristiques clés                                | Exemples de héros (Bêta) | Capacités communes                                    |
+| :--------------- | :-------------------------------------------------- | :-------------------- | :---------------------------------------------------- |
+| **Tank**         | PV élevés, compétences défensives, contrôle de foule | Zeugladius, Korz      | Provocations, Boucliers, Étourdissements, Réduction des dégâts |
+| **DPS Mêlée**    | Dégâts d'éclatement élevés, combat rapproché, mobilité | Liam, Marly           | Charges, Coups critiques élevés, Saignements, Coups de grâce |
+| **DPS à distance** | Dégâts soutenus, attaques à longue portée, kiting    | Yura, Faendar         | Projectiles, Sorts de zone, Pièges, Ralentissements   |
+| **Soutien/Soigneur** | Soin, buffs, débuffs, utilité                      | Iris, Reya            | Soins sur la durée, Boucliers, Dissipation, Buffs de vitesse |
+| **Hybride**      | Mélange de rôles, style de jeu adaptable           | Thomas, Byron         | Auto-sustain, CC mineur, Dégâts/utilité flexibles     |
+
+<Callout type="warning" title="Changements des héros en Bêta">
+En raison de refontes importantes du gameplay, y compris le mouvement libre et le combat d'action, de nombreux héros peuvent sembler radicalement différents par rapport aux versions bêta précédentes. Réévaluez toujours leurs kits.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Personnalisation des capacités des héros avec des Orbes et des Artéfacts">
+Une caractéristique essentielle du système de héros de Drakantos est la possibilité de personnaliser et d'améliorer leurs capacités grâce aux Orbes et aux Artéfacts. Ce système permet aux joueurs d'adapter les performances de leur héros à leur style de jeu préféré ou de contrer des adversaires spécifiques en PvP. Cette personnalisation approfondie garantit que même avec un ensemble fixe de héros, les possibilités stratégiques restent vastes.
+
+<Steps>
+  <Step num="1" title="Acquérir des Boîtes de Bêta">
+    Pendant la Bêta Fermée, les joueurs ont obtenu des Boîtes de Bêta spéciales via des activités PvP et PvE. Ces boîtes contenaient des Orbes, des Artéfacts et des Trophées, essentiels pour tester différentes constructions. Bien que ces boîtes spécifiques soient exclusives à la bêta, le jeu complet offrira des méthodes de progression similaires.
+  </Step>
+  <Step num="2" title="Ouvrir les Boîtes d'Orbes de manière stratégique">
+    Lorsque vous ouvrez une Boîte d'Orbes, il est crucial de jouer le héros pour lequel vous souhaitez recevoir un Orbe. L'une des trois options fournies dans la boîte est garantie d'être spécifiquement pour votre héros actuel, vous assurant d'obtenir des améliorations pertinentes.
+  </Step>
+  <Step num="3" title="Équiper et expérimenter avec des Artéfacts">
+    Les Artéfacts offrent des effets puissants qui peuvent changer radicalement le style de jeu d'un héros. Expérimentez différentes combinaisons d'Artéfacts pour trouver des constructions synergiques. N'oubliez pas que certains effets de compétences et d'artéfacts peuvent être réduits contre les joueurs ou les boss pour des raisons d'équilibre.
+  </Step>
+  <Step num="4" title="Modifier les capacités">
+    Les Orbes permettent une modification directe des capacités existantes d'un héros, ajoutant potentiellement de nouveaux effets, augmentant les dégâts ou réduisant les temps de recharge. C'est là que vous pouvez vraiment affiner le kit de votre héros.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Aperçu de la personnalisation en fin de jeu">
+Les Boîtes de Bêta ont été conçues pour donner aux joueurs un aperçu de la personnalisation en fin de jeu. Dans la version complète, l'obtention de ces objets puissants fera partie d'un système de progression à plus long terme dans le cadre du MMORPG.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Impact du PvP sur la sélection des héros">
+Drakantos met fortement l'accent sur le combat PvP, offrant divers modes où le choix et la personnalisation des héros sont primordiaux. Le jeu permet aux joueurs de progresser et de monter en niveau via le PvP, rendant la maîtrise des héros essentielle pour le succès compétitif. Lors des matchs PvP, tous les héros sont au niveau maximum avec un équipement et des compétences maximisés, ce qui signifie que l'avantage stratégique vient de la compréhension des kits de héros, des choix de construction (Orbes, Artéfacts, Trophées) et de l'habileté du joueur.
+
+| Mode PvP       | Objectif                                         | Considérations sur les héros                        | Échelle de récompense  |
+| :------------- | :----------------------------------------------- | :-------------------------------------------------- | :--------------------- |
+| **Contrôle**   | Se tenir sur et capturer des zones de contrôle.  | Déni de zone, mobilité, survie pour le maintien de zone. | Standard               |
+| **Escorte**    | Escorter votre cristal, empêcher l'escorte ennemie. | Contrôle de foule, dégâts d'éclatement pour arrêter la poussée ennemie, protection du porteur de cristal. | Standard               |
+| **Assaut**     | Détruire les tours ennemies et le noyau (type MOBA). | Potentiel de siège, nettoyage de vagues, héros de duel puissants. | Plus élevé (en raison de la durée du match) |
+
+<Callout type="success" title="Équilibre PvP">
+En PvP, les artéfacts et les trophées sont maximisés, mais leurs effets peuvent être équilibrés. Par exemple, les charges d'artéfacts sont réduites de moitié dans les modes Contrôle et Escorte, et certains effets "jusqu'à X secondes" sont réduits contre les joueurs.
+</Callout>
+
+<Checklist
+  id="pvp-hero-preparation"
+  title="Préparer votre héros pour le PvP :"
+  items={[
+    "Comprendre le nouveau système de combat basé sur l'action et viser manuellement les compétences.",
+    "Expérimenter différentes combinaisons d'Orbes et d'Artéfacts pour des constructions PvP optimales.",
+    "Vous familiariser avec les forces et les faiblesses des héros dans les 3 modes PvP.",
+    "Pratiquer le mouvement et la visée, surtout si vous passez du clavier à la manette.",
+    "Utiliser les Twitch Drops pendant les phases bêta pour des récompenses temporaires afin de tester les constructions."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Target} title="L'avenir des héros de Drakantos">
+Avec 21 héros prévus pour la version complète et un système de personnalisation dynamique, Drakantos est prêt à offrir une expérience de personnage riche et évolutive. Les développeurs se sont engagés à affiner continuellement les mécanismes de jeu et à équilibrer les héros, garantissant une expérience nouvelle même avec des personnages familiers. L'accent mis sur les retours des joueurs, en particulier pendant les phases bêta, indique une approche réactive du développement des héros et de l'équilibre du jeu.
+
+Attendez-vous à des mises à jour continues qui introduiront de nouveaux héros, rééquilibreront les personnages existants et élargiront le pool d'Orbes et d'Artéfacts. Ce processus de développement itératif est essentiel pour maintenir un environnement de jeu dynamique et compétitif, en gardant les joueurs engagés avec de nouvelles stratégies et constructions de personnages.
+
+</Section>
+
+<Section icon={Shield} title="Foire aux questions sur les héros de Drakantos">
+
+<FAQ items={[
+  {
+    question: "Combien de héros y a-t-il dans Drakantos ?",
+    answer: "Il y a 21 héros différents prévus pour Drakantos, chacun avec des mécaniques de jeu et des histoires uniques."
+  },
+  {
+    question: "Puis-je personnaliser les capacités de mes héros de Drakantos ?",
+    answer: "Oui, vous pouvez personnaliser les capacités de votre héros en les modifiant avec des Orbes et des Artéfacts, permettant des styles de jeu diversifiés."
+  },
+  {
+    question: "Tous les 21 héros de Drakantos étaient-ils disponibles pendant la Bêta Fermée ?",
+    answer: "Non, pendant la Bêta Fermée, les joueurs ont eu accès à 15 héros spécifiques (Liam, Marly, Zeugladius, Reya, Yura, Ojore, Thomas, Byron, Iris, Ozul, Faendar, Arryn, Orbryn, Yuki et Korz) pour tester de nouvelles mécaniques de jeu."
+  },
+  {
+    question: "Comment fonctionne la progression des héros en PvP ?",
+    answer: "En PvP, tous les héros sont au niveau maximum avec un équipement et des compétences maximisés. La progression et l'avantage stratégique proviennent de votre choix d'Orbes, d'Artéfacts et de Trophées, ainsi que de votre habileté à utiliser le kit de votre héros."
+  }
+]} />
+
+</Section>

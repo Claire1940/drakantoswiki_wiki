@@ -1,1 +1,9 @@
-{}
+{
+  "nav": {
+    "beta": "Beta",
+    "release": "Release",
+    "platforms": "Platforms",
+    "classes": "Classes",
+    "guide": "Guide"
+  }
+}

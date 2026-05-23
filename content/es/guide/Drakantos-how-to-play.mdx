@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cómo Jugar Drakantos: Guía para Principiantes y Consejos de Progresión",
+  description: "Domina Drakantos con esta guía esencial de cómo jugar, cubriendo selección de personajes, farmeo en mazmorras, progresión de equipo y tácticas de combate para nuevos jugadores.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8A2BE2/fff?text=Drakantos+Beginner+Guide",
+  date: "2026-05-23",
+  author: "Equipo Wiki de Drakantos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Selección de Personajes**: Elige entre diversos héroes, divididos en roles de tanque, DPS y soporte.
+- **Enfoque en Mazmorras**: Gana experiencia y botín principalmente a través de **mazmorras de tres jugadores**.
+- **Puntuación de Equipo (Gear Score)**: Tu **puntuación de equipo** es crucial para la progresión y la efectividad general.
+- **Orbes y Artefactos**: Prioriza la recolección de **orbes** para potenciar habilidades y **artefactos** para personalizar el estilo de juego.
+- **Mundo Abierto**: Utiliza el mundo abierto para **misiones y recolección de recursos**, no para XP principal.
+</Callout>
+
+<Section icon={Map} title="Comenzando en Drakantos: Fundamentos de Personaje y Mundo">
+Bienvenido al mundo de Drakantos, un MMORPG indie 2D gratuito que combina imágenes nostálgicas con acción trepidante. Comprender los fundamentos de cómo jugar Drakantos es clave para una aventura exitosa. A diferencia de muchos MMORPG tradicionales, la creación de personajes se centra en seleccionar héroes prediseñados en lugar de una personalización profunda. Estos héroes se clasifican en roles distintos: tanques, DPS y soporte, cada uno ofreciendo un estilo de juego único.
+
+**Puntos Destacados del Video:**
+- Drakantos es un MMORPG indie 2D gratuito.
+- La selección de personajes implica elegir héroes preestablecidos, no una personalización completa.
+- Los héroes se dividen en roles de Tanque, DPS y Soporte.
+
+<YouTubeEmbed videoId="kZaCM5KbVEA" title="Drakantos Beginner's Guide - What To Expect" />
+
+Aunque no hay una personalización completa del personaje, puedes personalizar a tu héroe a través de un sistema de tintes para armaduras y cabello, y eventualmente a través de disfraces. La estructura del mundo del juego también se desvía de los MMORPG de mundo abierto típicos. El mundo abierto sirve principalmente para misiones y recolección de recursos necesarios para las mejoras de equipo, en lugar de para la ganancia directa de experiencia al eliminar monstruos.
+
+<Callout type="tip" title="Recomendación de Mando">
+Los desarrolladores recomiendan jugar Drakantos con un mando para una experiencia más fluida y agradable. La interfaz de usuario es muy amigable con los mandos.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Tanques">
+    - **Gran cantidad de Salud**
+    - Enfocados en defensa y control de masas
+    - Ideales para liderar incursiones en mazmorras
+  </Card>
+  <Card title="DPS">
+    - **Alto Daño de Salida**
+    - Enfocados en eliminar enemigos rápidamente
+    - Esenciales para una limpieza eficiente de mazmorras
+  </Card>
+  <Card title="Soporte">
+    - **Curación y Mejoras**
+    - Enfocados en asistir a los aliados
+    - Cruciales para la supervivencia del equipo en contenido desafiante
+  </Card>
+</CardGrid>
+</Section>
+
+<Section icon={Swords} title="Exploración de Mazmorras y Mecánicas de Combate">
+El núcleo de la progresión de Drakantos reside en sus mazmorras para tres jugadores. Estas misiones instanciadas son tu principal fuente de experiencia y valioso botín. Puedes unirte a la cola de mazmorras desde cualquier lugar del mundo, y las misiones se actualizan cada 20-30 minutos, ofreciendo una variedad de objetivos como escolta, exterminio o recuperación de objetos. Para maximizar tus recompensas, siempre es mejor eliminar a todos los monstruos dentro de una mazmorra.
+
+<Callout type="warning" title="Penalización por Muerte">
+Morir durante una misión de mazmorra resultará en una pérdida de experiencia, aproximadamente el 5% de tu experiencia total. ¡Planifica tus enfrentamientos cuidadosamente!
+</Callout>
+
+El combate en Drakantos se describe como táctico, requiriendo una sincronización precisa de tus habilidades y tiempos de reutilización. Si bien el movimiento puede sentirse un poco rígido o basado en cuadrículas inicialmente, los jugadores se adaptan rápidamente. Cada héroe adquiere habilidades a medida que sube de nivel, definiéndose completamente alrededor del nivel 12, cuando se desbloquean sus habilidades defensivas o de curación principales.
+
+| Tipo de Misión de Mazmorra | Objetivo | Estrategia Clave | Recompensas |
+| :------------------- | :-------- | :----------- | :------ |
+| **Exterminar**      | Derrotar a todos los enemigos | Agrupar monstruos, usar AoE | XP, Equipo, Materiales |
+| **Escolta**           | Proteger al PNJ hasta el destino | Despejar el camino, defender el objetivo | XP, Equipo, Materiales |
+| **Búsqueda de Objetos**        | Encontrar objetos dispersos | Explorar el mapa a fondo | XP, Equipo, Materiales |
+
+<Callout type="info" title="Desbloqueo de Habilidades">
+La mayoría de las clases definen su rol principal y obtienen su habilidad defensiva o curativa primaria alrededor del nivel 12. Esto impacta significativamente el juego.
+</Callout>
+</Section>
+
+<Section icon={Trophy} title="Sistemas de Progresión: Equipo, Orbes y Artefactos">
+La progresión en Drakantos está fuertemente ligada a tu puntuación de equipo y al uso estratégico de orbes y artefactos. El equipo consiste en un sombrero, una parte superior, zapatos y un arma, junto con dos ranuras para artefactos. Los artefactos son objetos poderosos que otorgan habilidades únicas, permitiendo una personalización significativa de tu estilo de juego con efectos como daño a lo largo del tiempo, curación o control de masas.
+
+<Steps>
+  <Step num="1" title="Priorizar Orbes">
+    Recolecta orbes de las mazmorras. Estos orbes se usan para mejorar habilidades específicas, proporcionando bonificaciones como mayor daño o capacidades defensivas. Una vez usado, un orbe se vincula a esa habilidad y personaje.
+  </Step>
+  <Step num="2" title="Adquirir y Mejorar Equipo">
+    Concéntrate en conseguir el equipo del nivel más alto disponible en las mazmorras. Usa los materiales recolectados del mundo abierto para reforzar y aumentar la puntuación de equipo de tus objetos en la herrería.
+  </Step>
+  <Step num="3" title="Personalizar con Artefactos">
+    Equipa dos artefactos para modificar tu estilo de juego. Experimenta con diferentes combinaciones (ej. daño, curación, control de masas) para encontrar lo que mejor se adapte a tu héroe y composición de equipo. Los artefactos refrescan sus habilidades después de cada incursión en la mazmorra.
+  </Step>
+  <Step num="4" title="Avanzar en Niveles de Mazmorra">
+    A medida que tu puntuación de equipo y tu personaje se fortalezcan, afronta mazmorras de mayor nivel. Estas ofrecen mayores desafíos pero otorgan experiencia y botín superiores, impulsando aún más tu progresión.
+  </Step>
+</Steps>
+
+Tu puntuación de equipo es primordial; dicta aproximadamente el 99% de la efectividad de tu personaje. Una puntuación de equipo más alta se traduce directamente en más salud para los tanques, y presumiblemente más daño para los DPS, lo que la convierte en el factor más crítico para avanzar a contenido más difícil.
+
+| Elemento de Progresión | Propósito | Método de Adquisición | Impacto |
+| :------------------ | :------ | :----------------- | :----- |
+| **Equipo**            | Estadísticas base, niveles superiores | Botín de mazmorras | **Impulso masivo de Puntuación de Equipo** |
+| **Orbes**            | Mejora de habilidades | Botín de mazmorras | Aumento significativo del poder de habilidad |
+| **Artefactos**       | Habilidades activas únicas | Botín de mazmorras, misiones | Personalización del estilo de juego |
+| **Materiales**       | Refuerzo de equipo | Recolección en mundo abierto | Aumenta la Puntuación de Equipo de los objetos |
+
+<Callout type="success" title="Gestión Inteligente del Inventario">
+Si bien el equipo equipado no se puede transferir, el equipo de mayor nivel encontrado en las mazmorras se puede almacenar en tu inventario y ser utilizado por otros personajes, ayudando en la progresión de personajes secundarios.
+</Callout>
+</Section>
+
+<Section icon={Shield} title="Actividades de Mundo Abierto y Gestión de Recursos">
+El mundo abierto en Drakantos juega un papel de apoyo en tu progresión centrada en mazmorras. Es la ubicación principal para las misiones, que proporcionan historia y recompensas menores, y lo que es más importante, para la recolección de materiales esenciales. Estos materiales son cruciales para reforzar tu equipo adquirido en mazmorras, contribuyendo directamente a tu puntuación de equipo.
+
+<Callout type="info" title="Gremio de Aventureros">
+Visita el Gremio de Aventureros en la posada para gastar las monedas obtenidas en las misiones. Puedes comprar boletos para aumentar las ganancias de materiales, experiencia o botín, e incluso adquirir objetos de vanidad.
+</Callout>
+
+Encontrarás varios nodos de recursos como árboles y puntos de minería, junto con cofres que se pueden abrir con ganzúas y que pueden otorgar materiales y boletos. Si bien el mundo abierto no ofrece una experiencia significativa del combate, es vital para mantener tus mejoras de equipo.
+
+<Checklist
+  id="open-world-tasks"
+  title="Prioridades del Mundo Abierto:"
+  items={[
+    "Completar misiones para la historia y recompensas menores",
+    "Recolectar materiales de nodos de minería y árboles",
+    "Abrir cofres con ganzúas para boletos y recursos",
+    "Explorar áreas ocultas y posibles eventos",
+    "Adquirir monturas a través de misiones secundarias específicas"
+  ]}
+/>
+
+| Tipo de Recurso | Fuente | Uso | Importancia |
+| :------------ | :----- | :---- | :--------- |
+| **Madera**      | Árboles | Artesanía, Refuerzo de Equipo | Alta |
+| **Mineral**       | Nodos de Minería | Artesanía, Refuerzo de Equipo | Alta |
+| **Boletos**   | Cofres, Gremio de Aventureros | Mejoras para XP, Botín, Materiales | Media |
+| **Monedas**     | Misiones de Mazmorra | Comprar Boletos en el Gremio | Media |
+
+</Section>
+
+<Section icon={Sparkles} title="Consejos Avanzados y Perspectivas Futuras">
+A medida que te adentras en Drakantos, recuerda que el combate táctico y la progresión eficiente son clave. El juego presenta varios biomas con tipos de enemigos únicos, cada uno requiriendo diferentes enfoques. Esquivar y utilizar las habilidades de carrera específicas de cada clase son cruciales para la supervivencia.
+
+<Callout type="tip" title="Combate Táctico">
+No esperes un combate súper rápido. Drakantos enfatiza la sincronización de tus tiempos de reutilización y el posicionamiento. Aprender los patrones de los enemigos y utilizar las habilidades únicas de tu héroe te llevará al éxito.
+</Callout>
+
+Aunque el juego todavía está evolucionando, se espera que futuras actualizaciones incluyan características como una arena para combate PvP, un mercado de jugadores para comerciar, personalización de viviendas y un sólido sistema de gremios. Estas adiciones enriquecerán aún más la experiencia de Drakantos, ofreciendo más vías para la interacción del jugador y el compromiso a largo plazo.
+
+| Característica (Próximamente) | Descripción | Impacto Esperado |
+| :----------------- | :---------- | :---------------- |
+| **Arena**          | Sistema de combate PvP | Jugabilidad competitiva, partidas clasificatorias |
+| **Mercado**         | Comercio entre jugadores | Profundidad económica, intercambio de objetos |
+| **Vivienda**        | Casas de jugadores personalizables | Social, cosmético, utilidad |
+| **Sistema de Gremios**   | Creación y gestión de gremios | Construcción de comunidad, actividades grupales |
+| **Eventos Globales**  | Minijuegos y actividades temporizadas | Rompe la monotonía, recompensas únicas |
+
+<Callout type="warning" title="Limitaciones Actuales">
+A partir de la última prueba de juego, características como la arena, la tienda dentro del juego y el comercio aún no están implementadas. El mundo abierto sirve principalmente para la recolección de recursos, y la interacción directa entre jugadores fuera de las mazmorras es limitada.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cómo gano experiencia en Drakantos?",
+    answer: "La forma principal de ganar experiencia en Drakantos es completando mazmorras para tres jugadores. El mundo abierto es principalmente para misiones y recolección de recursos."
+  },
+  {
+    question: "¿Puedo personalizar la apariencia de mi personaje?",
+    answer: "Aunque no puedes crear tu personaje completamente desde cero, Drakantos ofrece un sistema de tintes para armaduras y cabello, y en el futuro estarán disponibles disfraces para la personalización."
+  },
+  {
+    question: "¿Cuál es la importancia de la Puntuación de Equipo?",
+    answer: "La Puntuación de Equipo es extremadamente importante en Drakantos, dictando aproximadamente el 99% de la efectividad general de tu personaje. Una Puntuación de Equipo más alta es esencial para progresar a mazmorras y contenido más difíciles."
+  },
+  {
+    question: "¿Para qué sirven los Orbes y los Artefactos?",
+    answer: "Los Orbes se usan para potenciar habilidades específicas de tu personaje, haciéndolas más poderosas. Los Artefactos son objetos equipables que otorgan habilidades únicas, permitiéndote personalizar tu estilo de juego y adaptarte a diferentes situaciones de combate."
+  }
+]} />
+</Section>

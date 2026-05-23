@@ -1,0 +1,210 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Gem } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guide du débutant Drakantos : Conseils essentiels pour les nouveaux joueurs",
+  description: "Plongez dans Drakantos avec notre guide complet pour débutants, couvrant la sélection des personnages, la progression, les conseils de combat et plus encore pour 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/3B82F6/fff?text=Drakantos+Beginner+Guide",
+  date: "2026-05-23",
+  author: "Équipe du Wiki Drakantos"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Guide du débutant Drakantos** : Commencez par comprendre les rôles des personnages et les voies de progression.
+- **Sélection des personnages** : Choisissez entre des héros DPS, Tank ou Soutien, chacun ayant des capacités uniques.
+- **Grind de donjons** : Concentrez-vous sur les donjons à 3 joueurs pour l'XP principale et le butin.
+- **Importance du score d'équipement** : Priorisez l'amélioration de l'équipement avec des matériaux collectés dans le monde ouvert.
+- **Artefacts et Orbes** : Personnalisez votre style de jeu et boostez vos compétences avec ces objets cruciaux.
+</Callout>
+
+<Section icon={Sparkles} title="Bienvenue dans Drakantos : Premiers pas pour les nouveaux aventuriers">
+Drakantos est un MMORPG en pixel-art 2D gratuit qui mélange des visuels nostalgiques avec une action rapide. En tant que nouveau joueur, comprendre les mécaniques de base et les systèmes de progression est crucial pour un bon départ. Contrairement à de nombreux MMORPG traditionnels, Drakantos propose un système unique basé sur les héros où vous sélectionnez des personnages pré-conçus plutôt que de créer le vôtre de toutes pièces.
+
+Ce guide vous accompagnera à travers tout ce que vous devez savoir pour commencer votre voyage, du choix de votre premier héros à la maîtrise des donjons et à l'optimisation de votre équipement.
+
+**Points forts de la vidéo :**
+- Drakantos est un MMO 2D en pixels avec de vrais joueurs dans un monde ouvert.
+- Vous incarnez des personnages définis, et non personnalisés, chacun ayant des capacités uniques.
+- La progression implique des quêtes, le combat contre des monstres et la montée en niveau des personnages.
+- Le jeu propose un mode aventure pour acquérir du butin et des matériaux d'artisanat.
+- Le combat se joue au clavier, et non au clic de souris, nécessitant un engagement tactique.
+
+<YouTubeEmbed videoId="bonbSpe1HAQ" title="Drakantos | Nouveau joueur, premières impressions" />
+
+Le style artistique du jeu, bien que pixélisé, est souvent loué pour son exécution détaillée et expressive, rendant le monde immersif malgré sa nature 2D. Ne laissez pas les graphismes rétro vous décourager ; une expérience profonde et engageante vous attend.
+
+</Section>
+
+<Section icon={Swords} title="Choisir votre premier héros : Rôles et capacités">
+Dans Drakantos, vous ne créez pas de personnage personnalisé. À la place, vous choisissez parmi une liste de héros uniques, chacun ayant son propre nom, son histoire et des capacités distinctes. Ces héros se répartissent dans les archétypes typiques des MMORPG : DPS, Tank et Soutien. Comprendre ces rôles est essentiel pour choisir un héros qui correspond à votre style de jeu préféré.
+
+<Callout type="tip">
+Expérimentez avec quelques héros différents au début. Comme la progression est spécifique à chaque personnage, vous pouvez toujours changer et en essayer un autre si votre choix initial ne vous convient pas.
+</Callout>
+
+Le jeu débloque généralement tout le potentiel d'un héros, y compris sa capacité ultime, vers le niveau 12. C'est à ce moment que l'identité unique de leur classe brille véritablement.
+
+**Archétypes de héros et exemples :**
+
+| Archétype | Description | Traits d'exemple du héros | Style de jeu |
+| :-------- | :------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------- |
+| **DPS**   | Se concentre sur l'infliction de dégâts élevés aux ennemis. A souvent des capacités de contrôle de foule ou de mouvement. | Attaquant à distance avec arbalète incendiaire, jetpack pour le kiting, mines terrestres, tourelles. (ex : Orberin) | Agressif, axé sur le positionnement, repose sur des attaques rapides et des rotations de compétences. |
+| **Tank**  | Spécialisé dans l'absorption des dégâts et la protection des alliés. Peut provoquer les ennemis et réduire les dégâts entrants. | Épée et bouclier pour bloquer, capacités de provocation, points de vie élevés. (ex : Zeugladius) | Première ligne, défensif, contrôle de foule, nécessite une forte gestion de la menace. |
+| **Soutien** | Fournit des soins, des buffs et des débuffs pour aider l'équipe. Essentiel pour les combats prolongés. | Soins de zone, sorts sacrés, compétences utilitaires. (ex : Reya) | Arrière-garde, réactif, se concentre sur la protection des alliés et le lancement stratégique de sorts. |
+
+Chaque héros possède un ensemble unique de compétences qui se débloquent au fur et à mesure qu'il monte en niveau. Par exemple, un DPS à distance pourrait obtenir un jetpack pour la mobilité, tandis qu'un tank pourrait gagner des postures défensives puissantes.
+
+</Section>
+
+<Section icon={Target} title="Progression et boucle de gameplay principale">
+La progression centrale dans Drakantos tourne autour de l'exploration de donjons à 3 joueurs, de la collecte de ressources dans le monde ouvert et de l'amélioration de votre équipement. Contrairement à de nombreux MMORPG, le gain d'expérience provient principalement des donjons, et non du grind de monstres en monde ouvert.
+
+<Callout type="warning">
+Bien que le monde ouvert soit vaste, tuer des monstres là-bas ne vous rapportera pas beaucoup d'expérience. Son but principal est la collecte de ressources pour les améliorations d'équipement et l'accomplissement de quêtes.
+</Callout>
+
+### Exploration de donjons
+Les donjons sont des missions instanciées pour 3 joueurs qui fournissent la majeure partie de votre expérience et de votre butin. Ils se renouvellent toutes les 20 à 30 minutes, offrant une variété de types de missions.
+
+**Types de missions de donjon :**
+
+| Type de mission   | Objectif                                                                        | Récompenses                                                                                              |
+| :---------------- | :------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------- |
+| **Exterminer**   | Éliminer tous les monstres à l'intérieur du donjon.                                               | XP élevée, butins d'équipement variés, matériaux d'artisanat.                                                      |
+| **Escorte**        | Protéger un cristal ou un PNJ jusqu'à un point désigné.                                  | XP modérée, pièces d'équipement spécifiques, artefacts uniques.                                                 |
+| **Chasse d'objets**| Localiser et collecter des objets éparpillés sur la carte.                           | XP plus faible, ingrédients d'artisanat rares, potentiel de boosters d'expérience.                              |
+
+Pour maximiser vos récompenses de donjon, visez à éliminer tous les monstres. Mourir dans une mission entraîne une perte d'expérience (environ 5 % par mort), alors jouez prudemment.
+
+### Activités en monde ouvert
+Le monde ouvert de Drakantos sert de plaque tournante pour les quêtes et la collecte de ressources. Vous y trouverez des gisements miniers, des arbres pour le bois et des coffres à crocheter, tous fournissant des matériaux pour le renforcement de l'équipement.
+
+<Callout type="tip">
+Explorez régulièrement le monde ouvert à la recherche de coffres cachés. Ceux-ci peuvent contenir des objets précieux comme des boosters d'expérience ou des composants d'artisanat rares, ce qui peut considérablement accélérer votre progression.
+</Callout>
+
+</Section>
+
+<Section icon={Gem} title="Équipement, Artefacts et Orbes : Renforcer votre héros">
+La puissance de votre héros dépend largement de son score d'équipement, de ses artefacts et de ses orbes. Ces systèmes sont cruciaux pour rendre votre personnage plus fort et personnaliser votre style de jeu.
+
+### Système d'équipement
+L'équipement dans Drakantos est simple, composé d'un chapeau, d'un haut, de chaussures et d'une arme. Le score d'équipement est primordial ; un score plus élevé signifie de meilleures performances, quel que soit le niveau réel de votre personnage.
+
+**Étapes de progression de l'équipement :**
+
+<Steps>
+  <Step num="1" title="Obtenir l'équipement de base">
+    Acquérez les premières pièces d'équipement dans les premiers donjons ou quêtes. Concentrez-vous sur l'obtention d'un ensemble complet d'équipement de base.
+  </Step>
+  <Step num="2" title="Collecter les matériaux">
+    Aventurez-vous dans le monde ouvert pour collecter des matériaux comme du bois, du minerai et d'autres ressources provenant des gisements miniers, des arbres et des coffres.
+  </Step>
+  <Step num="3" title="Renforcer l'équipement">
+    Visitez le forgeron ou le PNJ désigné pour utiliser vos matériaux collectés et renforcer votre équipement. Cela augmente son score d'équipement et ses statistiques.
+  </Step>
+  <Step num="4" title="Progresser vers les paliers supérieurs">
+    À mesure que votre score d'équipement augmente, vous aurez accès à des donjons plus difficiles qui lâchent de l'équipement de palier supérieur, répétant ainsi le cycle.
+  </Step>
+</Steps>
+
+<Callout type="success">
+Renforcez toujours votre équipement dès que possible. Le score d'équipement impacte directement votre efficacité dans les donjons, rendant le contenu plus facile et plus gratifiant.
+</Callout>
+
+### Artefacts et Orbes
+Les artefacts sont des objets spéciaux qui confèrent des capacités uniques, permettant une personnalisation importante du style de jeu. Vous pouvez équiper deux artefacts à la fois. Les orbes sont une autre forme de progression qui s'insère dans des compétences spécifiques, boostant leurs effets.
+
+**Exemples d'artefacts :**
+
+| Nom de l'artefact | Effet                                                               | Impact sur le style de jeu                                                                                                 |
+| :------------ | :------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------- |
+| **Tonneau de bière** | Force les ennemis à s'attaquer entre eux.                                     | Excellent pour le contrôle de foule et la réduction des dégâts entrants, surtout lors de gros regroupements.                             |
+| **Nid de guêpes** | Inflige des dégâts sur la durée aux ennemis.                                   | Bon pour une production de dégâts constante, particulièrement contre les boss ou les ennemis robustes.                                    |
+| **Chaînes**    | Enchaîne les ennemis à votre personnage, limitant leur mouvement.           | Utile pour garder les ennemis groupés pour les attaques de zone ou les empêcher d'atteindre les alliés fragiles.             |
+| **Flasque de soin** | Fournit une vague de soins sur la durée.                           | Essentiel pour la survie, surtout lors de rencontres difficiles ou en jouant en solo.                             |
+| **Arbalète étourdissante** | Tire sur un ennemi, l'étourdissant.                                  | Idéal pour interrompre les capacités ennemies dangereuses ou créer des ouvertures pour des dégâts explosifs.                          |
+
+Les orbes se trouvent lors des explorations de donjons et sont liés au personnage une fois utilisés. Ils fournissent des améliorations directes à des compétences spécifiques, comme permettre de maintenir une attaque pour plus de dégâts ou augmenter la puissance d'une capacité défensive.
+
+</Section>
+
+<Section icon={Shield} title="Combat et mouvement : S'adapter au style de Drakantos">
+Drakantos présente un système de combat et de mouvement distinct auquel les nouveaux joueurs devront s'adapter. Le jeu est passé d'un mouvement basé sur des tuiles à un mouvement totalement libre, et les commandes sont désormais basées sur l'action, permettant de viser les compétences avec la souris.
+
+### Mécaniques de combat
+Le combat est orienté action, vous obligeant à viser vos compétences. Le clic gauche sert aux attaques de base, et le clic droit aux attaques spéciales (qui peuvent souvent être maintenues pour des effets accrus).
+
+<Callout type="info">
+Bien que le jeu propose un combat d'action, le mouvement peut sembler rigide ou "basé sur une grille" au début. C'est intentionnel et ajoute une couche tactique, nécessitant un positionnement précis et un bon timing des capacités.
+</Callout>
+
+**Conseils clés pour le combat :**
+- **Contrôlé par clavier :** Le combat est principalement contrôlé via le clavier, avec une visée à la souris. Habituez-vous à cette configuration pour des performances optimales.
+- **Timing des compétences :** Faites attention aux temps de recharge et à la nature tactique du combat. Ce n'est pas un jeu où l'on martèle les touches.
+- **Esquive :** De nombreuses classes ont des compétences de ruée qui peuvent être utilisées pour éviter les attaques ennemies, ce qui est crucial pour la survie.
+- **Synergie de groupe :** Dans les donjons, coordonnez-vous avec votre équipe (Tank, DPS, Soutien) pour maximiser l'efficacité et minimiser les morts.
+
+### Mouvement
+Le mouvement dans Drakantos peut initialement sembler un peu lourd en raison de ses racines basées sur une grille, mais les développeurs l'ont affiné pour une expérience plus fluide, notamment avec le support des manettes.
+
+**Options de mouvement :**
+
+| Type de contrôle  | Style de mouvement                                                                  | Avantages                                                                                                | Inconvénients                                                                     |
+| :---------------- | :------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------- |
+| **Clavier**      | Limité à 8 directions initialement, mais offre désormais plus de liberté avec le combat d'action. | Familier pour les joueurs PC, précis pour viser les compétences.                                                        | Peut sembler moins fluide que la manette pour le mouvement.                                 |
+| **Manette**    | Mouvement complet à 360°, plus fluide et souple.                                    | Idéal pour les personnages agiles, permet un meilleur positionnement et de meilleures esquives.                                     | Peut prendre du temps pour s'adapter si vous êtes un joueur traditionnel clavier/souris.             |
+
+<Callout type="warning">
+Si vous avez du mal avec le mouvement, envisagez d'essayer une manette. De nombreux joueurs trouvent qu'elle offre une expérience plus fluide et réactive, surtout pour les personnages disposant de ruées.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Communauté et futur de Drakantos">
+Drakantos est un jeu axé sur la communauté, actuellement en bêta fermée avec beaucoup de potentiel. Les développeurs s'engagent activement auprès des joueurs et affinent constamment le jeu en fonction des retours.
+
+<Checklist
+  id="community-engagement"
+  title="Restez connecté :"
+  items={[
+    "Rejoignez le Discord officiel de Drakantos pour les annonces et l'interaction avec la communauté.",
+    "Suivez Drakantos sur Steam pour les dernières nouvelles et les mises à jour de la bêta.",
+    "Participez aux tests de jeu pour fournir des commentaires et gagner des récompenses.",
+    "Regardez les streams Twitch pour les drops et pour voir du gameplay avancé."
+  ]}
+/>
+
+Le jeu est gratuit, ce qui le rend accessible à un large public. Les plans futurs incluent des arènes PvP et potentiellement plus de contenu en monde ouvert. Bien que le jeu soit encore en évolution, ses bases solides et son développement actif promettent une expérience enrichissante pour les nouveaux joueurs.
+
+</Section>
+
+<Section icon={Target} title="Guide du débutant Drakantos : Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Puis-je personnaliser l'apparence de mi personaje dans Drakantos ?",
+    answer: "Bien que vous ne puissiez pas entièrement personnaliser votre personnage de toutes pièces, Drakantos propose un système de teinture pour l'armure et les cheveux, et des costumes seront disponibles à l'avenir. Vous incarnez des héros pré-conçus avec des identités uniques."
+  },
+  {
+    question: "Comment puis-je gagner de l'expérience et faire monter mon personnage en niveau dans Drakantos ?",
+    answer: "Le principal moyen de gagner de l'expérience et de monter en niveau dans Drakantos est de parcourir des donjons à 3 joueurs. Les activités en monde ouvert servent principalement à collecter des ressources et à accomplir des quêtes, et non à un gain d'XP significatif."
+  },
+  {
+    question: "Drakantos est-il gratuit, et ma progression de la bêta sera-t-elle conservée ?",
+    answer: "Oui, Drakantos est un MMORPG gratuit. Cependant, toute la progression réalisée pendant les tests bêta est généralement effacée avant la sortie complète du jeu, comme l'ont indiqué les développeurs sur la page de la communauté Steam."
+  },
+  {
+    question: "Quelle est l'importance du score d'équipement dans Drakantos ?",
+    answer: "Le score d'équipement est extrêmement important dans Drakantos. Il dicte environ 99 % de la force globale de votre personnage. Un score d'équipement plus élevé signifie que vous serez nettement plus performant au combat, même si le niveau de votre personnage est inférieur à celui des autres."
+  }
+]} />
+
+</Section>

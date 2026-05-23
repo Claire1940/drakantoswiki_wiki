@@ -10,7 +10,13 @@
       "twitterDescription": "Drakantos Wiki covers heroes, builds, dungeons, PvP maps, artifacts, and closed beta updates for Steam players."
     }
   },
-  "nav": {},
+  "nav": {
+    "beta": "Beta",
+    "release": "Release",
+    "platforms": "Platforms",
+    "classes": "Classes",
+    "guide": "Guide"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -725,125 +731,105 @@
     "reddit": "Reddit"
   },
   "pages": {
-    "guides": {
-      "title": "Drakantos Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Drakantos Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Drakantos guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "beta": {
+      "title": "Drakantos Beta",
+      "description": "Track Drakantos beta waves, playtest access steps, and event windows so you can join each testing phase quickly.",
+      "metaTitle": "Drakantos Beta - Access, Waves, and Playtest Windows",
+      "metaDescription": "Follow Drakantos beta access, playtest enrollment steps, invite rules, and event schedules for each testing wave.",
+      "categoryLabel": "BETA ACCESS",
+      "whatIs": "What is Drakantos Beta?",
+      "whatIsDescription": "Drakantos Beta covers every limited testing phase before full launch, including Steam playtest enrollment, region setup, invite eligibility, queue behavior, and wipe expectations.",
+      "why": "Why read Drakantos Beta guides?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Join Tests Faster",
+        "step1Description": "Use clear enrollment and invite steps to avoid missing active test windows.",
+        "step2Title": "Prepare Before Login",
+        "step2Description": "Confirm region choices, account requirements, and expected queue timing before events start.",
+        "step3Title": "Plan Around Wipes",
+        "step3Description": "Understand temporary progression and beta resets so your testing goals stay realistic."
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All Beta Articles"
     },
-    "crafting": {
-      "title": "Drakantos Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Drakantos Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Drakantos Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "release": {
+      "title": "Drakantos Release",
+      "description": "Follow Drakantos release timing, roadmap milestones, and launch-readiness signals from official channels.",
+      "metaTitle": "Drakantos Release - Launch Date, Roadmap, and Status",
+      "metaDescription": "Track Drakantos release date updates, roadmap checkpoints, and launch-status signals from official announcements.",
+      "categoryLabel": "RELEASE STATUS",
+      "whatIs": "What is Drakantos Release coverage?",
+      "whatIsDescription": "Drakantos Release articles explain launch timing, early-access milestones, developer roadmap priorities, and status shifts from testing to public release.",
+      "why": "Why follow Drakantos Release updates?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Track Launch Signals",
+        "step1Description": "See when release messaging changes from playtest focus to launch preparation.",
+        "step2Title": "Understand Timeline Risks",
+        "step2Description": "Review roadmap dependencies that can affect release windows and feature readiness.",
+        "step3Title": "Prepare for Day One",
+        "step3Description": "Plan your account, hero choices, and progression goals before public launch."
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Release Articles"
     },
-    "items": {
-      "title": "Drakantos Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Drakantos Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Drakantos including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "platforms": {
+      "title": "Drakantos Platforms",
+      "description": "Find Drakantos platform availability, download paths, system access notes, and compatibility updates across devices.",
+      "metaTitle": "Drakantos Platforms - Download, Device Support, and Access",
+      "metaDescription": "Check Drakantos platform support, Steam download status, mobile and console references, and current access requirements.",
+      "categoryLabel": "PLATFORM ACCESS",
+      "whatIs": "What are Drakantos Platforms guides?",
+      "whatIsDescription": "Drakantos Platforms content tracks where and how the game can be accessed, including storefront status, device support scope, and setup expectations per platform.",
+      "why": "Why check Drakantos Platforms first?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Confirm Availability",
+        "step1Description": "Verify whether your target device currently supports playtest or release access.",
+        "step2Title": "Use Correct Download Path",
+        "step2Description": "Follow the right storefront steps to install and launch without account or client errors.",
+        "step3Title": "Avoid Compatibility Surprises",
+        "step3Description": "Review platform limits early so you can plan backups if support is still pending."
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Platform Articles"
     },
-    "biomes": {
-      "title": "Drakantos Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Drakantos Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Drakantos biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "classes": {
+      "title": "Drakantos Classes",
+      "description": "Learn Drakantos hero classes, role matchups, tier discussions, and progression paths for PvE and PvP.",
+      "metaTitle": "Drakantos Classes - Hero Roles, Tier Views, and Builds",
+      "metaDescription": "Explore Drakantos classes and heroes with role analysis, tier perspectives, and practical setup guidance for each playstyle.",
+      "categoryLabel": "HERO CLASSES",
+      "whatIs": "What are Drakantos Classes guides?",
+      "whatIsDescription": "Drakantos Classes coverage focuses on hero archetypes, role identity, skill priorities, and roster decisions that shape both PvE efficiency and PvP impact.",
+      "why": "Why read Drakantos Classes guides?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Pick Better Starters",
+        "step1Description": "Choose heroes that match your preferred combat pace and team role.",
+        "step2Title": "Improve Team Synergy",
+        "step2Description": "Understand class interactions so your party comp handles objectives more reliably.",
+        "step3Title": "Scale Into Endgame",
+        "step3Description": "Use role-specific progression plans to keep heroes effective as content difficulty rises."
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Class Articles"
     },
-    "building": {
-      "title": "Drakantos Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Drakantos Building - Qualia & Base Construction",
-      "metaDescription": "Master Drakantos building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "guide": {
+      "title": "Drakantos Guide",
+      "description": "Master Drakantos fundamentals with practical walkthroughs for combat flow, builds, equipment, and daily progression.",
+      "metaTitle": "Drakantos Guide - Beginner Walkthroughs and Core Systems",
+      "metaDescription": "Read complete Drakantos guide content for beginner onboarding, combat flow, equipment choices, builds, and steady progression.",
+      "categoryLabel": "GAME GUIDE",
+      "whatIs": "What is the Drakantos Guide section?",
+      "whatIsDescription": "Drakantos Guide is the core learning track for new and returning players, covering controls, progression loops, build decisions, and mission readiness.",
+      "why": "Why use Drakantos Guide articles?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Build Strong Basics",
+        "step1Description": "Learn core combat and progression systems before branching into specialized content.",
+        "step2Title": "Reduce Early Mistakes",
+        "step2Description": "Follow tested setup paths to avoid inefficient resource and gear decisions.",
+        "step3Title": "Progress With Structure",
+        "step3Description": "Use step-based walkthroughs to move from first login to advanced content smoothly."
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
-    },
-    "support": {
-      "title": "Drakantos Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Drakantos Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Drakantos including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Guide Articles"
     }
   }
 }

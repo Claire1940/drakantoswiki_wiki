@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Drakantos How to Play: Beginner's Guide & Progression Tips",
+  description: "Master Drakantos with this essential how-to-play guide, covering character selection, dungeon grinding, gear progression, and combat tactics for new players.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8A2BE2/fff?text=Drakantos+Beginner+Guide",
+  date: "2026-05-23",
+  author: "Drakantos Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Character Selection**: Choose from diverse heroes, split into tanks, DPS, and support roles.
+- **Dungeon Focus**: Gain experience and loot primarily through **three-man dungeons**.
+- **Gear Score**: Your **gear score** is crucial for progression and overall effectiveness.
+- **Orbs & Artifacts**: Prioritize collecting **orbs** to boost skills and **artifacts** to customize playstyle.
+- **Open World**: Utilize the open world for **questing and resource gathering**, not primary XP.
+</Callout>
+
+<Section icon={Map} title="Getting Started in Drakantos: Character & World Basics">
+Welcome to the world of Drakantos, a 2D free-to-play indie MMORPG that blends nostalgic visuals with fast-paced action. Understanding the fundamentals of how to play Drakantos is key to a successful adventure. Unlike many traditional MMORPGs, character creation is focused on selecting pre-designed heroes rather than deep customization. These heroes are categorized into distinct roles: tanks, DPS, and support, each offering a unique playstyle.
+
+**Video Highlights:**
+- Drakantos is a 2D free-to-play indie MMORPG.
+- Character selection involves choosing pre-made heroes, not full customization.
+- Heroes are split into Tank, DPS, and Support roles.
+
+<YouTubeEmbed videoId="kZaCM5KbVEA" title="Drakantos Beginner's Guide - What To Expect" />
+
+While full character customization isn't available, you can personalize your hero through a dye system for armor and hair, and eventually through costumes. The game's world structure also deviates from typical open-world MMORPGs. The open world serves primarily for questing and gathering resources necessary for gear upgrades, rather than for direct experience gain from mob grinding.
+
+<Callout type="tip" title="Controller Recommendation">
+The developers recommend playing Drakantos with a controller for a more fluid and enjoyable experience. The UI is highly controller-friendly.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Tanks">
+    - **High Health Pool**
+    - Focus on defense and crowd control
+    - Ideal for leading dungeon runs
+  </Card>
+  <Card title="DPS">
+    - **High Damage Output**
+    - Focus on eliminating enemies quickly
+    - Essential for efficient dungeon clearing
+  </Card>
+  <Card title="Support">
+    - **Healing & Buffs**
+    - Focus on assisting allies
+    - Crucial for team survival in challenging content
+  </Card>
+</CardGrid>
+</Section>
+
+<Section icon={Swords} title="Dungeon Crawling & Combat Mechanics">
+The core of Drakantos' progression lies within its three-man dungeons. These instanced missions are your primary source of experience and valuable loot. You can queue for dungeons from anywhere in the world, and missions refresh every 20-30 minutes, offering a variety of objectives such as escort, extermination, or item retrieval. To maximize your rewards, it's always best to clear all mobs within a dungeon.
+
+<Callout type="warning" title="Death Penalty">
+Dying during a dungeon mission will result in an experience loss, approximately 5% of your total experience. Plan your engagements carefully!
+</Callout>
+
+Combat in Drakantos is described as tactical, requiring precise timing of your skills and cooldowns. While movement can feel a bit stiff or grid-based initially, players quickly adapt. Each hero gains skills as they level up, becoming fully defined around level 12 when their core defensive or healing abilities unlock.
+
+| Dungeon Mission Type | Objective | Key Strategy | Rewards |
+| :------------------- | :-------- | :----------- | :------ |
+| **Exterminate**      | Defeat all enemies | Group mobs, use AoE | XP, Gear, Materials |
+| **Escort**           | Protect NPC to destination | Clear path, defend target | XP, Gear, Materials |
+| **Item Hunt**        | Find scattered items | Explore map thoroughly | XP, Gear, Materials |
+
+<Callout type="info" title="Skill Unlocking">
+Most classes define their core role and gain their primary defensive or healing skill around level 12. This significantly impacts gameplay.
+</Callout>
+</Section>
+
+<Section icon={Trophy} title="Progression Systems: Gear, Orbs & Artifacts">
+Progression in Drakantos is heavily tied to your gear score and the strategic use of orbs and artifacts. Gear consists of a hat, top, shoes, and a weapon, alongside two artifact slots. Artifacts are powerful items that grant unique skills, allowing for significant customization of your playstyle with effects like damage over time, healing, or crowd control.
+
+<Steps>
+  <Step num="1" title="Prioritize Orbs">
+    Collect orbs from dungeons. These orbs are used to enhance specific skills, providing bonuses like increased damage or defensive capabilities. Once used, an orb is bound to that skill and character.
+  </Step>
+  <Step num="2" title="Acquire & Upgrade Gear">
+    Focus on getting the highest tier of gear available from dungeons. Use materials gathered from the open world to reinforce and boost the gear score of your items at the blacksmith.
+  </Step>
+  <Step num="3" title="Customize with Artifacts">
+    Equip two artifacts to modify your playstyle. Experiment with different combinations (e.g., damage, healing, crowd control) to find what suits your hero and team composition best. Artifacts refresh their skills after each dungeon run.
+  </Step>
+  <Step num="4" title="Advance Dungeon Tiers">
+    As your gear score and character strengthen, tackle higher-tier dungeons. These offer greater challenges but yield superior experience and loot, propelling your progression further.
+  </Step>
+</Steps>
+
+Your gear score is paramount; it dictates roughly 99% of your character's effectiveness. A higher gear score directly translates to more health for tanks, and presumably more damage for DPS, making it the most critical factor for advancing to more difficult content.
+
+| Progression Element | Purpose | Acquisition Method | Impact |
+| :------------------ | :------ | :----------------- | :----- |
+| **Gear**            | Base stats, higher tiers | Dungeon drops | **Massive Gear Score boost** |
+| **Orbs**            | Skill enhancement | Dungeon drops | Significant skill power increase |
+| **Artifacts**       | Unique active abilities | Dungeon drops, quests | Playstyle customization |
+| **Materials**       | Gear reinforcement | Open world gathering | Increases Gear Score of items |
+
+<Callout type="success" title="Smart Inventory Management">
+While equipped gear cannot be transferred, higher-level gear found in dungeons can be stored in your inventory and used by other characters, aiding in alt progression.
+</Callout>
+</Section>
+
+<Section icon={Shield} title="Open World Activities & Resource Management">
+The open world in Drakantos plays a supportive role to your dungeon-focused progression. It's the primary location for questing, which provides lore and minor rewards, and more importantly, for gathering essential materials. These materials are crucial for reinforcing your dungeon-acquired gear, directly contributing to your gear score.
+
+<Callout type="info" title="Adventurer's Guild">
+Visit the Adventurer's Guild in the inn to spend coins earned from missions. You can buy tickets to boost material gains, experience, or loot, and even acquire vanity items.
+</Callout>
+
+You'll find various resource nodes like trees and mining spots, along with lockpickable chests that can yield materials and tickets. While the open world doesn't offer significant experience from combat, it's vital for sustaining your gear upgrades.
+
+<Checklist
+  id="open-world-tasks"
+  title="Open World Priorities:"
+  items={[
+    "Complete quests for lore and minor rewards",
+    "Gather materials from mining nodes and trees",
+    "Lockpick chests for tickets and resources",
+    "Explore for hidden areas and potential events",
+    "Acquire mounts through specific side missions"
+  ]}
+/>
+
+| Resource Type | Source | Usage | Importance |
+| :------------ | :----- | :---- | :--------- |
+| **Wood**      | Trees | Crafting, Gear Reinforcement | High |
+| **Ore**       | Mining Nodes | Crafting, Gear Reinforcement | High |
+| **Tickets**   | Chests, Adventurer's Guild | Boosts for XP, Loot, Materials | Medium |
+| **Coins**     | Dungeon Missions | Purchase Tickets at Guild | Medium |
+
+</Section>
+
+<Section icon={Sparkles} title="Advanced Tips & Future Outlook">
+As you delve deeper into Drakantos, remember that tactical combat and efficient progression are key. The game features various biomes with unique enemy types, each requiring different approaches. Dodging and utilizing class-specific dash skills are crucial for survival.
+
+<Callout type="tip" title="Tactical Combat">
+Don't expect super fast-paced combat. Drakantos emphasizes timing your cooldowns and positioning. Learning enemy patterns and utilizing your hero's unique abilities will lead to success.
+</Callout>
+
+While the game is still evolving, future updates are expected to include features like an arena for PvP combat, a player market for trading, housing customization, and a robust guild system. These additions will further enrich the Drakantos experience, offering more avenues for player interaction and long-term engagement.
+
+| Feature (Upcoming) | Description | Expected Impact |
+| :----------------- | :---------- | :---------------- |
+| **Arena**          | PvP combat system | Competitive gameplay, ranked matches |
+| **Market**         | Player-to-player trading | Economic depth, item exchange |
+| **Housing**        | Personalizable player homes | Social, cosmetic, utility |
+| **Guild System**   | Guild creation and management | Community building, group activities |
+| **Global Events**  | Minigames and timed activities | Breaks monotony, unique rewards |
+
+<Callout type="warning" title="Current Limitations">
+As of the latest playtest, features like the arena, in-game store, and trading are not yet implemented. The open world primarily serves for resource gathering, and direct player interaction outside of dungeons is limited.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "How do I gain experience in Drakantos?",
+    answer: "The primary way to gain experience in Drakantos is by running three-man dungeons. The open world is mainly for quests and gathering resources."
+  },
+  {
+    question: "Can I customize my character's appearance?",
+    answer: "While you cannot fully create your character from scratch, Drakantos offers a dye system for armor and hair, and costumes will be available in the future for personalization."
+  },
+  {
+    question: "What is the importance of Gear Score?",
+    answer: "Gear Score is extremely important in Drakantos, dictating approximately 99% of your character's overall effectiveness. A higher Gear Score is essential for progressing to tougher dungeons and content."
+  },
+  {
+    question: "What are Orbs and Artifacts for?",
+    answer: "Orbs are used to boost specific skills on your character, making them more powerful. Artifacts are equippable items that grant unique skills, allowing you to customize your playstyle and adapt to different combat situations."
+  }
+]} />
+</Section>
