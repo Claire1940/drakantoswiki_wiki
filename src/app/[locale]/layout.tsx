@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { NextIntlClientProvider } from 'next-intl'
-import { getMessages, getTranslations } from 'next-intl/server'
+import { getMessages } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { routing, type Locale } from '@/i18n/routing'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
@@ -37,14 +37,29 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.lucidblocks.wiki";
-
-  // 获取 SEO 翻译
-  const t = await getTranslations("seo.home");
+    process.env.NEXT_PUBLIC_SITE_URL || "https://drakantoswiki.wiki";
+  const heroImageUrl = new URL("/images/hero.webp", siteUrl).toString();
+  const title = "Drakantos Wiki - Heroes, PvP Maps & Builds";
+  const description =
+    "Drakantos Wiki with heroes, PvP maps, builds, dungeons, artifacts, orbs, quests, housing, market tips, beta updates, and beginner guides for Steam players.";
 
   return {
-    title: t("title"),
-    description: t("description"),
+    title,
+    description,
+    keywords: [
+      "Drakantos",
+      "Drakantos Wiki",
+      "Steam",
+      "free-to-play MMORPG",
+      "pixel art RPG",
+      "heroes",
+      "PvP maps",
+      "builds",
+      "dungeons",
+      "artifacts",
+      "orbs",
+      "beta",
+    ],
     robots: {
       index: true,
       follow: true,
@@ -60,24 +75,24 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "website",
       locale: locale,
       url: locale === "en" ? siteUrl : `${siteUrl}/${locale}`,
-      siteName: "Lucid Blocks Wiki",
-      title: t("ogTitle"),
-      description: t("ogDescription"),
+      siteName: "Drakantos Wiki",
+      title,
+      description,
       images: [
         {
-          url: `${siteUrl}/images/hero.webp`,
+          url: heroImageUrl,
           width: 1920,
           height: 1080,
-          alt: "Lucid Blocks - Surreal Voxel Sandbox",
+          alt: "Drakantos Wiki - Heroes, PvP Maps, and Builds",
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      title: t("twitterTitle"),
-      description: t("twitterDescription"),
-      images: [`${siteUrl}/images/hero.webp`],
-      creator: "@lucidblocks",
+      title,
+      description,
+      images: [heroImageUrl],
+      creator: "@PlayDrakantos",
     },
     icons: {
       icon: [

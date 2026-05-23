@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Free-to-Play Pixel Art MMORPG",
+    "title": "Drakantos Wiki",
+    "description": "Explore Drakantos, a free-to-play pixel art MMORPG with unique heroes, fast action combat, PvP modes, dungeons, artifacts, orbs, housing, market trading, and beta updates.",
+    "getFreeCodesCTA": "View Hero Builds",
+    "playOnSteamCTA": "Play Drakantos on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "21",
+        "label": "Playable Heroes"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "150+",
+        "label": "Enemy Types"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "13",
+        "label": "PvP Maps"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "May 22-24",
+        "label": "Closed Beta"
       }
     }
   },
@@ -785,14 +785,14 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Explore Drakantos?",
+    "description": "Join the official Drakantos Discord and jump into the latest gameplay, hero, and PvP discussions.",
+    "joinCommunity": "Join Drakantos Discord",
+    "joinGame": "Play Drakantos on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Drakantos Wiki",
+    "description": "Your complete Drakantos hub for heroes, builds, PvP maps, dungeons, artifacts, and beta updates.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
@@ -804,8 +804,10 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
-    "disclaimer": "Unofficial fan-made resource website."
+    "copyright": "© 2026 Drakantos Wiki. Not affiliated with Wingeon Game Studios.",
+    "disclaimer": "Unofficial fan-made resource website.",
+    "youtube": "YouTube",
+    "reddit": "Reddit"
   },
   "pages": {
     "guides": {
