@@ -20,6 +20,7 @@ import { SidebarAd } from "@/components/ads/SidebarAd";
 import { scrollToSection } from "@/lib/scrollToSection";
 import { DynamicIcon } from "@/components/ui/DynamicIcon";
 import type { ContentItemWithType } from "@/lib/getLatestArticles";
+import type { ModuleLinkMap } from "@/lib/buildModuleLinkMap";
 
 // Lazy load heavy components
 const HeroStats = lazy(() => import("@/components/home/HeroStats"));
@@ -33,6 +34,7 @@ const LoadingPlaceholder = ({ height = "h-64" }: { height?: string }) => (
 interface HomePageClientProps {
   latestArticles: ContentItemWithType[];
   locale: string;
+  moduleLinkMap: ModuleLinkMap;
 }
 
 const SECTION_IDS = [
@@ -46,13 +48,37 @@ const SECTION_IDS = [
   "pvp-guide",
 ] as const;
 
-export default function HomePageClient({ latestArticles, locale }: HomePageClientProps) {
+export default function HomePageClient({ latestArticles, locale, moduleLinkMap }: HomePageClientProps) {
   const t = useMessages() as any;
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://drakantoswiki.wiki";
   const heroImageUrl = new URL("/images/hero.webp", siteUrl).toString();
   const mobileBannerAd = getPreferredMobileBannerSelection();
 
   const [missionExpanded, setMissionExpanded] = useState<number | null>(null);
+
+  const getLocalizedHref = (href: string) => {
+    if (locale === "en") return href;
+    return `/${locale}${href}`;
+  };
+
+  const renderLinkedModuleTitle = (moduleKey: string, title: string) => {
+    const link = moduleLinkMap[moduleKey];
+    if (!link?.url) {
+      return <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">{title}</h2>;
+    }
+
+    return (
+      <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">
+        <Link
+          href={getLocalizedHref(link.url)}
+          className="hover:text-[hsl(var(--nav-theme-light))] transition-colors underline-offset-4 hover:underline"
+          title={link.title || title}
+        >
+          {title}
+        </Link>
+      </h2>
+    );
+  };
 
   const structuredData = {
     "@context": "https://schema.org",
@@ -308,7 +334,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
       <section id="release-date-and-beta-access" className="scroll-mt-24 px-4 py-14 md:py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-8 md:mb-12 scroll-reveal">
-            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">{t.modules.drakantosReleaseDateAndBetaAccess.title}</h2>
+            {renderLinkedModuleTitle("drakantosReleaseDateAndBetaAccess", t.modules.drakantosReleaseDateAndBetaAccess.title)}
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">{t.modules.drakantosReleaseDateAndBetaAccess.intro}</p>
           </div>
 
@@ -343,7 +369,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
       <section id="codes-and-rewards" className="scroll-mt-24 px-4 py-14 md:py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-8 md:mb-12 scroll-reveal">
-            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">{t.modules.drakantosCodesAndRewards.title}</h2>
+            {renderLinkedModuleTitle("drakantosCodesAndRewards", t.modules.drakantosCodesAndRewards.title)}
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">{t.modules.drakantosCodesAndRewards.intro}</p>
           </div>
 
@@ -367,7 +393,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
       <section id="beginner-guide" className="scroll-mt-24 px-4 py-14 md:py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-8 md:mb-12 scroll-reveal">
-            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">{t.modules.drakantosBeginnerGuide.title}</h2>
+            {renderLinkedModuleTitle("drakantosBeginnerGuide", t.modules.drakantosBeginnerGuide.title)}
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">{t.modules.drakantosBeginnerGuide.intro}</p>
           </div>
 
@@ -391,7 +417,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
       <section id="heroes-guide" className="scroll-mt-24 px-4 py-14 md:py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-8 md:mb-12 scroll-reveal">
-            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">{t.modules.drakantosHeroesGuide.title}</h2>
+            {renderLinkedModuleTitle("drakantosHeroesGuide", t.modules.drakantosHeroesGuide.title)}
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">{t.modules.drakantosHeroesGuide.intro}</p>
           </div>
 
@@ -414,7 +440,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
       <section id="hero-tier-list" className="scroll-mt-24 px-4 py-14 md:py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-8 md:mb-12 scroll-reveal">
-            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">{t.modules.drakantosHeroTierList.title}</h2>
+            {renderLinkedModuleTitle("drakantosHeroTierList", t.modules.drakantosHeroTierList.title)}
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">{t.modules.drakantosHeroTierList.intro}</p>
           </div>
 
@@ -443,7 +469,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
       <section id="builds-and-skills-guide" className="scroll-mt-24 px-4 py-14 md:py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-8 md:mb-12 scroll-reveal">
-            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">{t.modules.drakantosBuildsAndSkillsGuide.title}</h2>
+            {renderLinkedModuleTitle("drakantosBuildsAndSkillsGuide", t.modules.drakantosBuildsAndSkillsGuide.title)}
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">{t.modules.drakantosBuildsAndSkillsGuide.intro}</p>
           </div>
 
@@ -483,7 +509,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
       <section id="dungeons-and-missions-guide" className="scroll-mt-24 px-4 py-14 md:py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-8 md:mb-12 scroll-reveal">
-            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">{t.modules.drakantosDungeonsAndMissionsGuide.title}</h2>
+            {renderLinkedModuleTitle("drakantosDungeonsAndMissionsGuide", t.modules.drakantosDungeonsAndMissionsGuide.title)}
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">{t.modules.drakantosDungeonsAndMissionsGuide.intro}</p>
           </div>
 
@@ -509,7 +535,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
       <section id="pvp-guide" className="scroll-mt-24 px-4 py-14 md:py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-8 md:mb-12 scroll-reveal">
-            <h2 className="text-3xl md:text-5xl font-bold mb-3 md:mb-4">{t.modules.drakantosPvpGuide.title}</h2>
+            {renderLinkedModuleTitle("drakantosPvpGuide", t.modules.drakantosPvpGuide.title)}
             <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">{t.modules.drakantosPvpGuide.intro}</p>
           </div>
 
