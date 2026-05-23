@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Drakantos Illusionist: 2026 Hero Guide & Best Build Strategies",
+  description: "Master the Drakantos Illusionist with our 2026 guide. Learn about skill customization, orb builds, and how to navigate the challenging dungeons of Eldras.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Drakantos+Illusionist+Guide",
+  date: "2026-05-23",
+  author: "Drakantos Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Drakantos Illusionist** excels at battlefield control and deceptive magic, making them a top-tier choice for tactical players.
+- **Power Leveling** is tied directly to your gear score, which is increased through smelting and reinforcing equipment.
+- **Skill Customization** allows you to modify hero abilities using orbs and artifacts to fit specific dungeon requirements.
+- **Combat Difficulty** in Drakantos ranges from simple encounters to "Dark Souls" level challenges, requiring precise movement.
+- **Team Synergy** is vital for high-level quests, especially those requiring taunts or massive area-of-effect (AoE) damage.
+</Callout>
+
+<Section icon={Map} title="Introduction to the Illusionist Archetype">
+
+The **Drakantos Illusionist** represents a shift away from traditional MMORPG class systems. In the world of Eldras, heroes are defined by their unique mechanics and personal stories rather than rigid archetypes. The Illusionist focuses on manipulating the environment and the minds of enemies, utilizing high-precision pixel art animations that nail the old-school RPG vibe. As a free-to-play title, Drakantos emphasizes hero mastery and strategic progression through the Adventurer's Guild.
+
+**Video Highlights:**
+- Detailed look at the stunning pixel art and animation quality.
+- Analysis of the core gameplay loop: Questing, Power leveling, and Gear acquisition.
+- Critical feedback on movement latency and combat difficulty spikes.
+- Discussion on the current state of UI and voice acting in the beta.
+
+<YouTubeEmbed videoId="0vQ-tfqpAGU" title="Drakantos Pixel Art MMO?! Closed Beta Review" />
+
+| Feature | Description | Impact on Gameplay |
+| :--- | :--- | :--- |
+| **Hero Type** | Unique Mechanic Specialist | High skill ceiling, varied playstyles |
+| **Primary Resource** | Mana/Cooldown Management | Requires tactical timing of abilities |
+| **Art Style** | High-fidelity Pixel Art | Immersive visual experience |
+| **Progression** | Power Score (Gear-based) | Gated access to harder missions |
+
+<Callout type="tip" title="Developer Insight">
+While the current UI is functional, developers are expected to update it to a more "fantasy-inspired" look based on community feedback regarding its current AI-generated appearance.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat Mechanics and Skill Customization">
+
+Combat for a **Drakantos Illusionist** is a delicate balance of timing and positioning. Unlike modern action-RPGs that favor button-mashing, Drakantos leans into a deliberate, almost turn-based cadence within a real-time environment. This "old-school" feel means that every spell cast and movement command carries significant weight. Players must manage cooldowns effectively, as there is currently a lack of complex mana management, turning most encounters into a test of cooldown rotation.
+
+The customization of your hero is handled through two primary systems: Orbs and Artifacts. These items allow you to tweak your abilities to suit either solo play or group dynamics.
+
+| Item Type | Function | Usage Limitation |
+| :--- | :--- | :--- |
+| **Orbs** | Modify existing skill properties | Permanent until swapped |
+| **Artifacts** | Provide active utility/items | Limited charges per mission |
+| **Equipment** | Increases base Power score | Requires smelting to upgrade |
+
+<CardGrid cols={2}>
+  <Card title="Solo Play Strategy">
+    - Focus on **AoE control** to manage mob aggro.
+    - Prioritize movement speed to avoid "one-shot" traps.
+    - Use orbs that reduce cooldowns for faster rotations.
+  </Card>
+  <Card title="Group Play Strategy">
+    - Coordinate with a **Tank/Taunter** for difficult escort quests.
+    - Equip artifacts that provide team-wide buffs.
+    - Focus high-damage spells on burrowing or high-threat targets.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Combat Latency">
+Be aware of slight movement and spell-casting latency. In high-difficulty missions, this can make reacting to "Dark Souls" level bosses significantly harder.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progression and Power Leveling">
+
+To advance as a **Drakantos Illusionist**, you must climb the ranks of the Adventurer's Guild. Your rank is directly tied to your "Power" score, which functions similarly to an item level or gear score. Progression is not just about level; it is about the quality and reinforcement of your equipment.
+
+<Steps>
+  <Step num="1" title="Complete Guild Quests">
+    Start with Rank 1 and 2 missions to gather basic green and blue gear.
+  </Step>
+  <Step num="2" title="Smelting and Reinforcement">
+    Visit the forge to smelt unwanted items and use the resources to reinforce your primary gear.
+  </Step>
+  <Step num="3" title="Artifact Acquisition">
+    Collect artifacts to fill your utility slots, providing poison barrels or health recovery.
+  </Step>
+  <Step num="4" title="Rank Advancement">
+    Once your Power reaches the required threshold, complete the rank-up trial to unlock harder dungeons.
+  </Step>
+</Steps>
+
+| Gear Rarity | Drop Source | Smelting Value |
+| :--- | :--- | :--- |
+| **Common (White)** | Standard Mobs | Low |
+| **Uncommon (Green)** | Rank 1+ Missions | Medium |
+| **Rare (Blue)** | Rank 2+ Missions | High |
+| **Epic (Purple)** | Special Events/Bosses | Very High |
+
+<Callout type="success" title="Efficiency Tip">
+Soloing missions often scales monster HP lower than in a full party, making it a faster way to farm gear if your Power score is slightly above the requirement.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Navigating Dungeons and Hazard Management">
+
+Dungeons in Drakantos are dynamic, meaning the set of enemies, traps, and objectives can change with every playthrough. For an Illusionist, awareness of the environment is as important as combat prowess. Traps like falling boulders, cave bats, and beehives are notorious for killing players in a single hit if they are triggered accidentally.
+
+<Checklist
+  id="dungeon-safety"
+  title="Dungeon Survival Checklist:"
+  items={[
+    "Scan for floor pressure plates and overhead boulders",
+    "Identify burrowing bugs before they break aggro",
+    "Maintain high health to avoid drop rate penalties upon death",
+    "Keep artifact charges for the final boss encounter",
+    "Check for day/night cycle effects on enemy strength"
+  ]}
+/>
+
+| Hazard Type | Visual Cue | Best Reaction |
+| :--- | :--- | :--- |
+| **Boulder Trap** | Shadow on the ground | Immediate dash |
+| **Burrowing Bug** | Dirt mounds | Wait for emergence AoE |
+| **Beehive** | Hanging objects | Ranged attack from distance |
+| **Frogs** | Long tongue animation | Side-step movement |
+
+<Callout type="warning" title="Death Penalties">
+Dying during an adventure reduces your total points, which in turn lowers the drop rate percentage for high-quality items at the end of the mission.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="PvP and Endgame Competitions">
+
+For those who have mastered the **Drakantos Illusionist** in PvE, the PvP system offers a balanced battleground. Inspired by competitive titles like League of Legends and Brawl Stars, Drakantos PvP normalizes stats so that only skill and strategy matter. This ensures that a player with higher Power doesn't have an unfair advantage over a more skilled opponent.
+
+- **Ranked System:** Climb the ladders to earn exclusive titles and skins.
+- **Weekly Tournaments:** Participate in guild-based or solo tournaments for rare collectibles.
+- **Game Modes:** Features various modes including team deathmatch and objective-based maps.
+
+| PvP Mode | Team Size | Focus |
+| :--- | :--- | :--- |
+| **Arena** | 1v1 / 3v3 | Pure combat skill |
+| **Objective** | 3v3 | Map control and strategy |
+| **Tournament** | Variable | Bracket-style elimination |
+
+<Callout type="info" title="Skill Expression">
+The Illusionist's ability to displace enemies and create decoys makes them a high-value asset in 3v3 objective modes where area denial is key.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Drakantos FAQ">
+
+<FAQ items={[
+  {
+    question: "How do I increase my Power score as an Illusionist?",
+    answer: "You increase your Power by obtaining better equipment from quests and using the smelting/reinforcement system to upgrade your current gear."
+  },
+  {
+    question: "Are the limited artifact charges permanent?",
+    answer: "No, artifact charges are limited per mission. You should save them for difficult encounters or bosses as they do not currently have a cooldown-based unlimited use system."
+  },
+  {
+    question: "Is Drakantos better played solo or in a group?",
+    answer: "While advertised as a 3-player co-op, scaling issues currently make solo play easier for some. However, specific quests like the desert escort are almost impossible without a group tank."
+  },
+  {
+    question: "What is the primary gameplay loop of the Drakantos Illusionist?",
+    answer: "The loop involves completing guild quests, ranking up your Power score through gear, and delving into harder dynamic dungeons for rare rewards."
+  }
+]} />
+
+</Section>

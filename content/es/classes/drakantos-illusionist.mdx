@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Drakantos Ilusionista: Guía de Héroes 2026 y Mejores Estrategias de Construcción",
+  description: "Domina al Ilusionista de Drakantos con nuestra guía de 2026. Aprende sobre la personalización de habilidades, construcciones de orbes y cómo navegar por las desafiantes mazmorras de Eldras.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Drakantos+Illusionist+Guide",
+  date: "2026-05-23",
+  author: "Equipo Wiki de Drakantos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El **Ilusionista de Drakantos** sobresale en el control del campo de batalla y la magia engañosa, lo que lo convierte en una opción de primer nivel para jugadores tácticos.
+- La **subida de nivel de poder** está directamente ligada a tu puntuación de equipo, que se aumenta mediante la fundición y el refuerzo del equipo.
+- La **personalización de habilidades** te permite modificar las habilidades del héroe usando orbes y artefactos para adaptarse a los requisitos específicos de la mazmorra.
+- La **dificultad del combate** en Drakantos va desde encuentros simples hasta desafíos al nivel de "Dark Souls", que requieren movimientos precisos.
+- La **sinergia de equipo** es vital para las misiones de alto nivel, especialmente aquellas que requieren provocaciones o daño masivo de área de efecto (AoE).
+</Callout>
+
+<Section icon={Map} title="Introducción al Arquetipo de Ilusionista">
+
+El **Ilusionista de Drakantos** representa un cambio con respecto a los sistemas de clases tradicionales de los MMORPG. En el mundo de Eldras, los héroes se definen por sus mecánicas únicas e historias personales en lugar de arquetipos rígidos. El Ilusionista se centra en manipular el entorno y las mentes de los enemigos, utilizando animaciones de pixel art de alta precisión que clavan la vibra de los RPG de la vieja escuela. Como título free-to-play, Drakantos enfatiza la maestría del héroe y la progresión estratégica a través del Gremio de Aventureros.
+
+**Destacados del Video:**
+- Un vistazo detallado a la impresionante calidad del pixel art y la animación.
+- Análisis del ciclo de juego principal: Misiones, Subida de nivel de poder y Adquisición de equipo.
+- Retroalimentación crítica sobre la latencia de movimiento y los picos de dificultad en combate.
+- Discusión sobre el estado actual de la interfaz de usuario y el doblaje en la beta.
+
+<YouTubeEmbed videoId="0vQ-tfqpAGU" title="¿Drakantos Pixel Art MMO?! Reseña de la Beta Cerrada" />
+
+| Característica | Descripción | Impacto en la Jugabilidad |
+| :--- | :--- | :--- |
+| **Tipo de Héroe** | Especialista en Mecánicas Únicas | Alto techo de habilidad, estilos de juego variados |
+| **Recurso Principal** | Gestión de Maná/Enfriamiento | Requiere un tiempo táctico de las habilidades |
+| **Estilo Artístico** | Pixel Art de Alta Fidelidad | Experiencia visual inmersiva |
+| **Progresión** | Puntuación de Poder (Basada en el Equipo) | Acceso restringido a misiones más difíciles |
+
+<Callout type="tip" title="Información del Desarrollador">
+Aunque la interfaz de usuario actual es funcional, se espera que los desarrolladores la actualicen a un aspecto más "inspirado en la fantasía" basándose en los comentarios de la comunidad sobre su apariencia actual generada por IA.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de Combate y Personalización de Habilidades">
+
+El combate para un **Ilusionista de Drakantos** es un delicado equilibrio de tiempo y posicionamiento. A diferencia de los ARPG modernos que favorecen el machaque de botones, Drakantos se inclina hacia una cadencia deliberada, casi por turnos, dentro de un entorno en tiempo real. Esta sensación de "vieja escuela" significa que cada hechizo lanzado y cada comando de movimiento tienen un peso significativo. Los jugadores deben gestionar los enfriamientos de manera efectiva, ya que actualmente hay una falta de gestión compleja de maná, lo que convierte la mayoría de los encuentros en una prueba de rotación de enfriamientos.
+
+La personalización de tu héroe se maneja a través de dos sistemas principales: Orbes y Artefactos. Estos elementos te permiten ajustar tus habilidades para adaptarse tanto al juego en solitario como a la dinámica de grupo.
+
+| Tipo de Objeto | Función | Limitación de Uso |
+| :--- | :--- | :--- |
+| **Orbes** | Modifican propiedades de habilidades existentes | Permanentes hasta que se intercambian |
+| **Artefactos** | Proporcionan utilidad/objetos activos | Cargas limitadas por misión |
+| **Equipo** | Aumenta la puntuación base de Poder | Requiere fundición para mejorar |
+
+<CardGrid cols={2}>
+  <Card title="Estrategia de Juego en Solitario">
+    - Concéntrate en el **control de AoE** para gestionar el aggro de los mobs.
+    - Prioriza la velocidad de movimiento para evitar trampas de "un solo golpe".
+    - Usa orbes que reducen los enfriamientos para rotaciones más rápidas.
+  </Card>
+  <Card title="Estrategia de Juego en Grupo">
+    - Coordínate con un **Tanque/Provocador** para misiones de escolta difíciles.
+    - Equipa artefactos que proporcionen mejoras para todo el equipo.
+    - Concentra hechizos de alto daño en objetivos que se entierran o de alta amenaza.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Latencia en Combate">
+Ten en cuenta la ligera latencia de movimiento y lanzamiento de hechizos. En misiones de alta dificultad, esto puede hacer que reaccionar a jefes al nivel de "Dark Souls" sea significativamente más difícil.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progresión y Subida de Nivel de Poder">
+
+Para avanzar como **Ilusionista de Drakantos**, debes ascender en los rangos del Gremio de Aventureros. Tu rango está directamente ligado a tu puntuación de "Poder", que funciona de manera similar a un nivel de objeto o puntuación de equipo. La progresión no se trata solo de nivel; se trata de la calidad y el refuerzo de tu equipo.
+
+<Steps>
+  <Step num="1" title="Completa Misiones de Gremio">
+    Comienza con misiones de Rango 1 y 2 para recolectar equipo básico verde y azul.
+  </Step>
+  <Step num="2" title="Fundición y Refuerzo">
+    Visita la forja para fundir objetos no deseados y usa los recursos para reforzar tu equipo principal.
+  </Step>
+  <Step num="3" title="Adquisición de Artefactos">
+    Recolecta artefactos para llenar tus ranuras de utilidad, proporcionando barriles de veneno o recuperación de salud.
+  </Step>
+  <Step num="4" title="Avance de Rango">
+    Una vez que tu Poder alcance el umbral requerido, completa la prueba de ascenso de rango para desbloquear mazmorras más difíciles.
+  </Step>
+</Steps>
+
+| Rareza del Equipo | Fuente de Caída | Valor de Fundición |
+| :--- | :--- | :--- |
+| **Común (Blanco)** | Mobs Estándar | Bajo |
+| **Poco Común (Verde)** | Misiones de Rango 1+ | Medio |
+| **Raro (Azul)** | Misiones de Rango 2+ | Alto |
+| **Épico (Púrpura)** | Eventos/Jefes Especiales | Muy Alto |
+
+<Callout type="success" title="Consejo de Eficiencia">
+Completar misiones en solitario a menudo reduce la salud de los monstruos en comparación con un grupo completo, lo que lo convierte en una forma más rápida de farmear equipo si tu puntuación de Poder está ligeramente por encima del requisito.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Navegación por Mazmorras y Gestión de Peligros">
+
+Las mazmorras en Drakantos son dinámicas, lo que significa que el conjunto de enemigos, trampas y objetivos puede cambiar con cada partida. Para un Ilusionista, la conciencia del entorno es tan importante como la destreza en combate. Trampas como rocas que caen, murciélagos de cueva y colmenas son conocidas por matar jugadores de un solo golpe si se activan accidentalmente.
+
+<Checklist
+  id="dungeon-safety"
+  title="Lista de Verificación de Supervivencia en Mazmorras:"
+  items={[
+    "Busca placas de presión en el suelo y rocas colgantes",
+    "Identifica bichos excavadores antes de que rompan el aggro",
+    "Mantén una salud alta para evitar penalizaciones de tasa de caída al morir",
+    "Guarda las cargas de artefactos para el encuentro final con el jefe",
+    "Verifica los efectos del ciclo día/noche en la fuerza del enemigo"
+  ]}
+/>
+
+| Tipo de Peligro | Pista Visual | Mejor Reacción |
+| :--- | :--- | :--- |
+| **Trampa de Roca** | Sombra en el suelo | Dash inmediato |
+| **Bicho Excavador** | Montículos de tierra | Esperar a la emergencia de AoE |
+| **Colmena** | Objetos colgantes | Ataque a distancia |
+| **Ranas** | Animación de lengua larga | Movimiento lateral |
+
+<Callout type="warning" title="Penalizaciones por Muerte">
+Morir durante una aventura reduce tus puntos totales, lo que a su vez disminuye el porcentaje de tasa de caída de objetos de alta calidad al final de la misión.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="PvP y Competiciones de End Game">
+
+Para aquellos que han dominado al **Ilusionista de Drakantos** en PvE, el sistema PvP ofrece un campo de batalla equilibrado. Inspirado en títulos competitivos como League of Legends y Brawl Stars, el PvP de Drakantos normaliza las estadísticas para que solo la habilidad y la estrategia importen. Esto asegura que un jugador con mayor Poder no tenga una ventaja injusta sobre un oponente más hábil.
+
+- **Sistema Clasificatorio:** Sube en las tablas de clasificación para ganar títulos y skins exclusivos.
+- **Torneos Semanales:** Participa en torneos de gremio o en solitario para obtener coleccionables raros.
+- **Modos de Juego:** Presenta varios modos, incluyendo deathmatch por equipos y mapas basados en objetivos.
+
+| Modo PvP | Tamaño de Equipo | Enfoque |
+| :--- | :--- | :--- |
+| **Arena** | 1v1 / 3v3 | Habilidad de combate pura |
+| **Objetivo** | 3v3 | Control del mapa y estrategia |
+| **Torneo** | Variable | Eliminación por brackets |
+
+<Callout type="info" title="Expresión de Habilidad">
+La habilidad del Ilusionista para desplazar enemigos y crear señuelos los convierte en un activo de alto valor en los modos de objetivo 3v3, donde la negación de área es clave.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes de Drakantos">
+
+<FAQ items={[
+  {
+    question: "¿Cómo aumento mi puntuación de Poder como Ilusionista?",
+    answer: "Aumentas tu Poder obteniendo mejor equipo de las misiones y usando el sistema de fundición/refuerzo para mejorar tu equipo actual."
+  },
+  {
+    question: "¿Las cargas limitadas de artefactos son permanentes?",
+    answer: "No, las cargas de artefactos están limitadas por misión. Debes guardarlas para encuentros difíciles o jefes, ya que actualmente no tienen un sistema de uso ilimitado basado en enfriamiento."
+  },
+  {
+    question: "¿Es mejor jugar Drakantos en solitario o en grupo?",
+    answer: "Aunque se anuncia como un cooperativo de 3 jugadores, los problemas de escalado actualmente hacen que el juego en solitario sea más fácil para algunos. Sin embargo, misiones específicas como la escolta en el desierto son casi imposibles sin un tanque en grupo."
+  },
+  {
+    question: "¿Cuál es el ciclo de juego principal del Ilusionista de Drakantos?",
+    answer: "El ciclo implica completar misiones de gremio, subir tu puntuación de Poder a través del equipo y adentrarte en mazmorras dinámicas más difíciles para obtener recompensas raras."
+  }
+]} />
+
+</Section>

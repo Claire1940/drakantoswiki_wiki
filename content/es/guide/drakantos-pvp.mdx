@@ -1,0 +1,211 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Drakantos PvP: Modos Competitivos 2026 y Estrategias de Arena",
+  description: "Domina Drakantos PvP con nuestra guía sobre estadísticas equilibradas, roles de héroe y estrategias de artefactos para la temporada competitiva 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Drakantos+PvP+Guide",
+  date: "2026-05-23",
+  author: "Equipo de la Wiki de Drakantos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Drakantos PvP** presenta estadísticas equilibradas para garantizar un entorno competitivo justo y basado en la habilidad.
+- **Los Roles de Héroe** se dividen en Tanques, DPS y Soportes, cada uno con mecánicas e historias únicas.
+- **Los Artefactos y Orbes** son la forma principal de personalizar tu build y obtener una ventaja táctica.
+- **El Nivel 12** es un hito crítico, ya que desbloquea habilidades esenciales de curación y provocación para la mayoría de los héroes.
+- **Los Modos de Juego** como Asalto y Control ofrecen objetivos variados inspirados en populares hero shooters y MOBAs.
+</Callout>
+
+<Section icon={Swords} title="Introducción a las mecánicas de Drakantos PvP">
+
+El panorama competitivo de **drakantos pvp** está diseñado para priorizar la habilidad del jugador sobre el "grindeo" puro. A diferencia de las mazmorras PvE donde los niveles de poder del equipo dictan el éxito, el entorno de la arena equilibra las estadísticas base. Esto significa que un héroe de nivel 15 y uno de nivel 50 entran en el combate en relativa igualdad de condiciones en cuanto a salud y daño, trasladando el enfoque al timing de las habilidades, el posicionamiento y la sinergia del equipo. Este enfoque, inspirado en títulos como Overwatch y League of Legends, asegura que cada combate sea una prueba de estrategia en lugar de inversión de tiempo.
+
+**Aspectos destacados del vídeo:**
+- Descripción general del proceso de selección de héroes y arquetipos de roles.
+- Demostración de los modos competitivos "Asalto" y "Control".
+- Perspectiva sobre la importancia del desbloqueo de habilidades de Nivel 12.
+- Explicación de cómo artefactos como la fogata proporcionan sustento en la batalla.
+
+<YouTubeEmbed videoId="_GNZTOMdJAE" title="Gameplay de Drakantos - Primeras impresiones, actualización y PVP" />
+
+<Callout type="info" title="Recordatorio de requisitos del sistema">
+Antes de lanzarte al PvP de alto nivel, asegúrate de que tu sistema cumple con los requisitos mínimos: Windows 7+, Intel Core i3 y al menos 4 GB de RAM para una experiencia fluida de 60 FPS.
+</Callout>
+
+### Los pilares fundamentales del combate
+
+El éxito en la arena requiere más que simplemente machacar botones. Debido a que el juego se ha alejado de un sistema de movimiento estricto basado en cuadrícula, la puntería manual y el "bloqueo corporal" (body blocking) se han convertido en tácticas esenciales. Los tanques pueden interponerse físicamente en el camino de los proyectiles o del movimiento enemigo para proteger a sus compañeros más vulnerables, añadiendo una capa de profundidad al combate pixel-art en 2D.
+
+| Característica | Implementación en PvP | Impacto en el juego |
+| :--- | :--- | :--- |
+| **Estadísticas** | Equilibradas | La habilidad y la estrategia superan al nivel de equipo |
+| **Movimiento** | Forma libre (sin cuadrícula) | Mejor esquiva y puntería manual |
+| **Bloqueo Corporal** | Habilitado | Los tanques pueden proteger físicamente a los aliados |
+| **Habilidades** | 4-5 habilidades activas | Requiere una gestión precisa de los enfriamientos |
+| **Artefactos** | Consumibles activos | Proporciona utilidad única como invocaciones |
+
+</Section>
+
+<Section icon={Target} title="Modos de juego competitivos y estrategias">
+
+Drakantos ofrece múltiples formas de poner a prueba tu valía contra otros jugadores. La Beta Cerrada de 2026 se centra principalmente en dos modos principales: Asalto y Control. Cada uno requiere una mentalidad y una composición de equipo diferentes para dominar la clasificación.
+
+<CardGrid cols={2}>
+  <Card title="Modo Asalto">
+    - **Objetivo**: Empuja hacia la torre enemiga mientras defiendes la tuya.
+    - **Estrategia clave**: Usa artefactos de invocación (osos/orcos) para crear un "enjambre" en la línea frontal que absorba el fuego de la torre.
+    - **Mejores roles**: Héroes de alto DPS como el Berserker o héroes de denegación de área como el Enano con torretas.
+  </Card>
+  <Card title="Modo Control">
+    - **Objetivo**: Captura y mantén un punto central para acumular puntuación.
+    - **Estrategia clave**: Conciencia del mapa y "campear" el punto con artefactos basados en el sustento como la Fogata.
+    - **Mejores roles**: Paladines e Ilusionistas que pueden mitigar el daño y mantener la línea.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Posicionamiento Estratégico">
+En el modo Control, no te limites a quedarte en el centro. Usa el entorno para romper la línea de visión de los atacantes a distancia enemigos mientras permaneces dentro de la zona de captura.
+</Callout>
+
+### Comparación de modos y objetivos
+
+Comprender los matices de cada modo es vital para la progresión en el ranking. Mientras que Asalto se siente más como un "empuje de carril" de un MOBA, Control es una prueba pura de desgaste y capacidad de lucha en equipo.
+
+| Modo | Tamaño del equipo | Condición de victoria | Artefactos recomendados |
+| :--- | :--- | :--- | :--- |
+| **Asalto** | 3v3 | Destruir la base enemiga | Invocación de oso, Esbirros orcos |
+| **Control** | 3v3 | Alcanzar límite de puntuación | Fogata, Colmena |
+| **Ranked** | 3v3 | Puntos de temporada | Builds dependientes del meta |
+| **Torneos** | Variable | Eliminación por llaves | Equipamientos de alta sinergia |
+
+</Section>
+
+<Section icon={Shield} title="Roles de héroe y el umbral del nivel 12">
+
+Con 21 héroes diferentes disponibles, la composición del equipo es la piedra angular de **drakantos pvp**. Sin embargo, los jugadores a menudo encuentran el juego temprano algo limitado porque muchos héroes no desbloquean sus habilidades de utilidad más impactantes hasta el nivel 12. Por ejemplo, un Paladín es principalmente un atacante básico hasta que desbloquea sus habilidades dedicadas de curación o provocación.
+
+<Steps>
+  <Step num="1" title="Nivelación inicial">
+    Concéntrate en las mazmorras PvE para alcanzar el nivel 12 rápidamente. Esto asegura que tu héroe tenga su conjunto completo de habilidades disponible para el juego competitivo.
+  </Step>
+  <Step num="2" title="Personalización de habilidades">
+    Usa Orbes para modificar tus habilidades. Por ejemplo, algunos Orbes pueden cambiar la dirección de un ataque giratorio o aumentar la velocidad de lanzamiento.
+  </Step>
+  <Step num="3" title="Identificación de roles">
+    Determina si tu héroe es un Tanque principal, un Tanque secundario (Off-Tank) o un DPS puro. Esto dicta tu posicionamiento en la arena.
+  </Step>
+  <Step num="4" title="Pruebas de sinergia">
+    Entra en la cola con amigos para probar cómo interactúan tus habilidades de nivel 12, como la provocación de un Tanque atrayendo a los enemigos al área de efecto (AoE) de un Mago.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Aviso sobre la progresión">
+Cambiar de héroe es gratis, pero los nuevos héroes comienzan en el nivel 1. Perderás el acceso a la utilidad de PvP de alto nivel hasta que subas a ese héroe específico de nuevo al nivel 12.
+</Callout>
+
+### Desglose de roles y efectividad
+
+| Rol | Función principal | Nivel PvP (2026) | Mecánica clave |
+| :--- | :--- | :--- | :--- |
+| **Tanque** | Control de masas / Escudos | **S-Tier** | Bloqueo corporal y provocaciones |
+| **DPS** | Ráfaga / Daño sostenido | **A-Tier** | Precisión en habilidades de disparo |
+| **Soporte** | Curación / Potenciación | **S-Tier** | Vital para combates largos de Control |
+| **Especialista** | Invocaciones / Trampas | **B-Tier** | Excelente para empujes en Asalto |
+
+<Checklist
+  id="pvp-readiness"
+  title="Lista de verificación de preparación para PvP:"
+  items={[
+    "Alcanzar el nivel 12 con tu héroe principal",
+    "Equipar al menos dos Orbes relevantes para modificadores de habilidades",
+    "Seleccionar un Artefacto que complemente tu rol (ej. Fogata para Soporte)",
+    "Configurar tus teclas de acceso rápido de habilidades en un diseño cómodo",
+    "Personalizar el color de tu héroe para destacar en el caos"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="El poder de los Artefactos y Orbes">
+
+Dado que las estadísticas base están equilibradas en **drakantos pvp**, tu "ventaja" proviene de los Artefactos y Orbes. Estos sistemas permiten una profunda personalización de la build, convirtiendo a un héroe estándar en una amenaza especializada. Los Artefactos actúan como objetos activos con enfriamientos largos que se reponen después de cada combate o misión.
+
+<CardGrid cols={3}>
+  <Card title="Artefactos de invocación">
+    Invoca osos, orcos o serpientes. Estos son enormes en PvP para distraer a las torres o abrumar a los oponentes en un 3 contra 1.
+  </Card>
+  <Card title="Artefactos de sustento">
+    La Fogata es el estándar de oro, proporcionando una curación localizada en el tiempo que puede cambiar el rumbo durante una disputa por un punto de captura.
+  </Card>
+  <Card title="Artefactos de utilidad">
+    Objetos como la Colmena proporcionan denegación de área, dificultando que los enemigos permanezcan en los objetivos sin recibir daño constante.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="La ventaja del Orbe">
+Los orbes son modificadores pasivos. Si encuentras que la preparación de tu héroe es demasiado lenta, busca orbes de "Velocidad de lanzamiento" para que tus combos sean más difíciles de esquivar en la arena.
+</Callout>
+
+### Equipamientos de artefactos recomendados
+
+| Estrategia | Artefacto principal | Artefacto secundario | Consejo de sinergia |
+| :--- | :--- | :--- | :--- |
+| **La Muralla** | Fogata | Orbe de escudo | Ideal para Paladines que mantienen puntos |
+| **El Enjambre** | Invocación de oso | Esbirros orcos | Úsalo en Asalto para asaltar torres |
+| **El Asesino** | Orbe de velocidad | Trampa de serpiente | Úsalo para aislar y eliminar soportes |
+| **El Controlador** | Colmena | Orbe de lentitud | Perfecto para magos con hechizos de área |
+
+</Section>
+
+<Section icon={Trophy} title="Progresión de clasificación y recompensas">
+
+Participar en **drakantos pvp** no es solo por la gloria; es un camino viable para la progresión del personaje. Ganar combates recompensa a los jugadores con experiencia, equipo y desbloqueos cosméticos exclusivos. El sistema de clasificación presenta reinicios estacionales y torneos semanales, proporcionando un flujo constante de desafíos para la base de jugadores dedicados.
+
+| Rango | Requisito | Recompensas de temporada |
+| :--- | :--- | :--- |
+| **Bronce** | Nivel de entrada | Emoticonos básicos, Cobre |
+| **Plata** | Calificación 1000+ | Aspectos de Nivel 1, Plata |
+| **Oro** | Calificación 2000+ | Títulos únicos, Orbes raros |
+| **Platino** | Calificación 3000+ | Iconos animados, Oro |
+| **Diamante+** | Top 500 | Monturas exclusivas, Objetos de trofeo |
+
+<Callout type="tip" title="Desbloqueos cosméticos">
+Ganar combates PvP puede desbloquear "Orbes de Color" que te permiten cambiar la paleta del traje de tu héroe, asegurando que luzcas único en los centros sociales.
+</Callout>
+
+### Progresión PvP vs. PvE
+
+Si bien el PvE es necesario para la nivelación inicial (especialmente el obstáculo del nivel 12), el PvP ofrece una forma más dinámica de ganar "Trofeos", una nueva ranura de equipo introducida en la actualización de 2026. Los trofeos proporcionan bonificaciones pasivas únicas que funcionan en ambos modos de juego, lo que convierte a la arena en una parada obligatoria para los min-maxers.
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es Drakantos PvP pay-to-win?",
+    answer: "No. El juego utiliza un sistema de estadísticas equilibradas en los modos PvP. Aunque puedes personalizar tu build con artefactos y orbes, el poder bruto del equipo se neutraliza para asegurar un entorno competitivo."
+  },
+  {
+    question: "¿Cómo desbloqueo más héroes para la arena?",
+    answer: "Puedes cambiar de héroe libremente desde el menú principal, pero cada héroe tiene su propio nivel y progresión de equipo por separado. Necesitarás subirlos al nivel 12 para desbloquear su conjunto competitivo completo."
+  },
+  {
+    question: "¿Tienen los artefactos un número limitado de usos?",
+    answer: "Los artefactos son consumibles en cuanto a su activación durante un combate, pero se reponen automáticamente una vez que termina el combate o la mazmorra. No necesitas 'volver a comprarlos'."
+  },
+  {
+    question: "¿Puedo jugar PvP solo o necesito un equipo?",
+    answer: "Puedes entrar en la cola solo para los modos casual y clasificatorio, y el juego te emparejará con compañeros de equipo. Sin embargo, los equipos coordinados de 3 personas generalmente rinden mejor en el juego clasificatorio de alto nivel."
+  }
+]} />
+
+</Section>

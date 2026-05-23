@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Movimento Drakantos: Reformas, Controles e Impacto na Jogabilidade",
+  description: "Explore as mudanças significativas no movimento de Drakantos, incluindo a remoção da grade de tiles, controles aprimorados e seu efeito no combate e estratégia em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Drakantos+Movement",
+  date: "2026-05-23",
+  author: "Equipe Wiki de Drakantos"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O **movimento de Drakantos** foi completamente reformulado, removendo a antiga grade de tiles 8x8 para um controle fluido.
+- Novos controles incluem **suporte para mouse** para mira precisa, semelhante a ARPGs como Diablo.
+- O **movimento com controle** agora oferece liberdade de 360 graus com mira de dois analógicos.
+- Essa reformulação impacta significativamente o **combate, a colisão de mapa e a IA de monstros**, aprimorando a profundidade estratégica.
+- As mudanças, embora atrasando o desenvolvimento, são consideradas **válidas** para uma experiência de jogo moderna.
+</Callout>
+
+<Section icon={Sparkles} title="Movimento Drakantos: Uma Evolução Fluida">
+O mundo de Drakantos testemunhou uma mudança monumental em suas mecânicas de jogabilidade centrais, especificamente em relação ao **movimento de Drakantos**. Os desenvolvedores empreenderam uma reformulação abrangente, fazendo a transição de um sistema rígido baseado em tiles 8x8 para uma abordagem muito mais fluida e moderna. Essa mudança aborda diretamente o feedback dos jogadores do beta fechado, onde o sistema anterior frequentemente parecia desajeitado e levava a percepções de atraso de entrada.
+
+Anteriormente, os personagens tinham que se mover para o centro de um tile antes de executar ações, o que prejudicava a capacidade de resposta e a precisão. O novo sistema permite movimento contínuo e preciso, melhorando significativamente a sensação geral do jogo e aprimorando o controle do jogador. Esta foi uma tarefa gigantesca, exigindo que os desenvolvedores reconstruíssem o sistema de movimento, a IA inimiga e o pathfinding, e retrabalhassem cada mapa do jogo.
+
+**Destaques do Vídeo:**
+- Demonstra a diferença significativa entre o antigo movimento baseado em tiles e o novo movimento fluido.
+- Mostra como o movimento aprimorado impacta a capacidade de resposta do combate e a precisão dos ataques.
+- Explica a introdução do suporte para mouse para mira e direcionamento de habilidades.
+- Destaca a experiência aprimorada do controle com movimento de 360 graus.
+- Discute as implicações para a IA de monstros e a estratégia geral do jogo.
+
+<YouTubeEmbed videoId="AyjjHxIKc9c" title="Drakantos - Movement Showcase... And More!!"/>
+
+<Callout type="tip">
+A transição para o movimento fluido em Drakantos foi uma resposta direta ao feedback dos jogadores, visando eliminar a sensação de "atraso artificial" do antigo sistema baseado em tiles. Esse aprimoramento é crucial para uma experiência de jogo mais responsiva e envolvente.
+</Callout>
+
+Essa mudança fundamental visa proporcionar uma experiência mais intuitiva e competitiva, especialmente em conteúdo PvP e PvE de alto nível. Embora tenha estendido o cronograma de desenvolvimento, os desenvolvedores acreditam que a fluidez e o controle aprimorados levarão, em última análise, a um jogo superior.
+
+</Section>
+
+<Section icon={Swords} title="Combate e Mira Aprimorados">
+O sistema reformulado de **movimento de Drakantos** impacta profundamente o combate, tornando os engajamentos mais dinâmicos e estratégicos. Com a remoção da restritiva grade de tiles, os jogadores agora têm maior precisão no posicionamento e na mira de seus ataques.
+
+### Mira Precisa com Suporte para Mouse
+A adição mais significativa ao controle de combate é a introdução do suporte total para mouse. Isso alinha Drakantos com ARPGs modernos como Path of Exile e Diablo, oferecendo uma maneira mais direta e intuitiva de mirar habilidades.
+
+| Ação de Controle | Sistema Anterior | Novo Suporte para Mouse | Benefícios |
+|---|---|---|---|
+| **Ataque Básico** | Frequentemente ligado à direção/grade do personagem | Alvo com clique esquerdo | Engajamento mais rápido e direto |
+| **Habilidade Especial** | Híbrido de mira por tab/direcional | Alvo com clique direito | Precisão aprimorada, menos dependência de tab |
+| **Habilidade Suprema** | Direção/área fixa | Q (mirado com mouse) | Posicionamento estratégico, ajustes em tempo real |
+| **Movimento** | Travado na grade, tile a tile | Clicar para mover, fluxo livre | Posicionamento fluido, eficiência de kiting |
+
+<Callout type="success">
+O suporte para mouse muda fundamentalmente a forma como os jogadores interagem com o combate, permitindo o posicionamento preciso de habilidades e estratégias de kiting mais eficazes, especialmente para classes de longo alcance.
+</Callout>
+
+Este novo sistema permite aos jogadores:
+- **Mirar habilidades com maior precisão**: Direcione seus ataques exatamente para onde você deseja, em vez de depender de um sistema automático ou restrito à grade.
+- **Kitar inimigos de forma mais eficaz**: Mova-se em uma direção enquanto mira e ataca em outra, uma vantagem crucial para personagens de longo alcance.
+- **Reagir mais rapidamente às ameaças**: A capacidade de resposta aprimorada significa menos atraso de entrada e ações mais imediatas no combate.
+
+### Impacto na IA de Monstros e Colisão de Mapa
+As mudanças não são apenas para os jogadores. A IA de monstros foi redesenhada para aproveitar o novo movimento fluido, tornando os inimigos mais desafiadores e seus padrões de ataque mais variados. A colisão de mapa também foi refinada, permitindo que os personagens se movam muito mais perto de objetos ambientais, evitando bloqueios desajeitados que eram comuns com o antigo sistema de tiles.
+
+| Característica | Antigo Sistema de Tiles (8x8) | Novo Movimento Fluido | Impacto Estratégico |
+|---|---|---|---|
+| **Movimento do Jogador** | Rígido, travado em tiles, "com atraso" | 360 graus, preciso, responsivo | Kiting, esquiva e posicionamento aprimorados |
+| **Mira de Ataque** | Menos precisa, frequentemente com mira automática | Direcionada pelo mouse, altamente precisa | Mira baseada em habilidade, combos mais eficazes |
+| **Colisão de Mapa** | Desajeitada, bloqueios de tile completo | Específica por objeto, navegação mais suave | Menos restrições de movimento, melhor utilização do mapa |
+| **IA de Monstros** | Previsível, limitada à grade | Pathfinding mais fluido e desafiador | Dificuldade aumentada, encontros de combate diversos |
+
+</Section>
+
+<Section icon={Target} title="Integração do Controle e Profundidade Estratégica">
+Para jogadores que preferem gamepads, o **movimento de Drakantos** também teve melhorias significativas. Os desenvolvedores reavaliaram e refinaram o layout do controle para garantir que ele proporcione uma experiência competitiva e confortável, visando a paridade com teclado e mouse.
+
+### Aprimoramentos do Controle
+O novo esquema de controle permite:
+- **Movimento em 360 graus**: Não mais restrito a entradas direcionais, oferecendo controle total do analógico.
+- **Mira de dois analógicos**: Os jogadores podem se mover com o analógico esquerdo e mirar habilidades com o analógico direito, semelhante a jogos de tiro de dois analógicos modernos ou ARPGs. Isso permite um kiting eficaz, onde você pode se afastar de um inimigo enquanto o ataca continuamente.
+
+<Callout type="info">
+Embora teclado e mouse ofereçam precisão exata, o suporte aprimorado para controle em Drakantos oferece uma alternativa robusta, particularmente para jogadores acostumados com ARPGs no estilo console.
+</Callout>
+
+Essa flexibilidade garante que os jogadores possam escolher seu método de entrada preferido sem se sentirem em desvantagem. O objetivo é proporcionar uma experiência equilibrada em ambos os esquemas de controle, permitindo que a habilidade individual seja o principal diferenciador.
+
+### Elevando a Jogabilidade Estratégica
+As mudanças no **movimento e mira de Drakantos** não são apenas para fazer o jogo parecer mais suave; elas são projetadas para aprofundar as camadas estratégicas do conteúdo PvE e PvP.
+
+<Checklist
+  id="strategic-enhancements"
+  title="Novas Oportunidades Estratégicas:"
+  items={[
+    "Posicionamento preciso para uso ótimo de habilidades",
+    "Mecânicas aprimoradas de kiting e esquiva",
+    "Padrões de ataque de monstros mais complexos para aprender",
+    "Teto de habilidade mais alto para engajamentos PvP",
+    "Ambientes de combate dinâmicos com colisão refinada"
+  ]}
+/>
+
+A capacidade de controlar precisamente o movimento e a mira significa que dominar essas mecânicas será crucial para o jogo de alto nível. Jogadores que conseguem utilizar efetivamente o movimento fluido para evitar danos recebidos, posicionar-se para ataques ótimos e superar oponentes encontrarão uma vantagem significativa. Isso se traduz em uma experiência mais gratificante para jogadores habilidosos e incentiva uma compreensão mais profunda das mecânicas do jogo.
+
+</Section>
+
+<Section icon={Shield} title="Impacto no Desenvolvimento e Perspectivas Futuras">
+A decisão de reformular o **movimento de Drakantos** não foi tomada de ânimo leve. Ela exigiu uma quantidade massiva de esforço de desenvolvimento, essencialmente reconstruindo os sistemas centrais do zero. Isso incluiu a atualização de cada habilidade, mapa, mob, capacidade e objeto ambiental para acomodar o novo estilo de movimento.
+
+### Ajustes no Cronograma de Desenvolvimento
+A natureza extensa dessas mudanças levou inevitavelmente a atrasos no cronograma de desenvolvimento do jogo. A equipe passou vários meses pós-beta focando quase exclusivamente nesta reformulação. Embora isso tenha adiado marcos antecipados, como um potencial beta de PvP até o final de 2025, os desenvolvedores estão confiantes de que foi um investimento válido para a saúde e qualidade a longo prazo do jogo.
+
+<Callout type="warning" title="Atraso no Desenvolvimento">
+A reformulação abrangente do movimento de Drakantos causou um atraso no cronograma de lançamento do jogo, adiando as fases beta antecipadas e as datas de lançamento completas. No entanto, os desenvolvedores garantem aos jogadores que isso é para garantir um produto final de alta qualidade.
+</Callout>
+
+A equipe agora está em grande parte terminada com a reformulação do sistema de movimento e voltou à criação de conteúdo, incluindo novas áreas, monstros e missões.
+
+### Visão do Desenvolvedor e Feedback do Jogador
+Os desenvolvedores demonstraram um forte compromisso com o feedback dos jogadores, fazendo uma mudança tão fundamental com base na entrada da comunidade. No entanto, eles também mantêm uma visão artística clara para Drakantos. Por exemplo, enquanto alguns jogadores solicitaram sprites diagonais (como em RPGs clássicos como Zelda ou Chrono Trigger), os desenvolvedores optaram por manter o estilo de sprite de quatro direções por razões temáticas e nostálgicas. Isso mostra um equilíbrio entre ouvir as preocupações da jogabilidade e aderir à sua direção criativa.
+
+| Aspecto | Posição do Desenvolvedor | Justificativa |
+|---|---|---|
+| **Sistema de Movimento** | Reformulado para fluido, sem grade | Feedback do jogador sobre "desajeito", expectativa de jogabilidade moderna |
+| **Suporte para Mouse** | Adicionado para mira | Precisão aprimorada, padrão ARPG, jogo competitivo |
+| **Suporte para Controle** | Aprimorado para 360 graus, dois analógicos | Acessibilidade, equilíbrio competitivo, preferência do jogador |
+| **Sprites Diagonais** | Mantido 4 direções | Escolha estilística, consistência temática, apelo nostálgico |
+
+O compromisso em entregar um jogo polido e divertido, mesmo que isso signifique ajustar o cronograma de desenvolvimento, é um bom presságio para o futuro de Drakantos. O sistema de movimento aprimorado deve atrair uma base de jogadores mais ampla que busca uma experiência de jogo moderna com uma estética clássica.
+
+</Section>
+
+<Section icon={Trophy} title="Otimizando Seu Movimento em Drakantos">
+Para realmente se destacar em Drakantos, entender e otimizar seu movimento é fundamental. O novo sistema recompensa a jogabilidade habilidosa e a execução precisa.
+
+<Steps>
+  <Step num="1" title="Domine a Mira com Mouse">
+    Utilize o clique esquerdo para ataques básicos e o clique direito para habilidades especiais. Pratique mirar habilidades de área de efeito (AoE) e projéteis com o mouse para maximizar seu impacto. Isso é crucial tanto para a ofensiva quanto para a defesa, permitindo que você atinja inimigos com precisão enquanto evita seus ataques.
+  </Step>
+  <Step num="2" title="Utilize Técnicas de Kiting">
+    Para personagens de longo alcance, aprenda a se mover e atacar simultaneamente. Isso permite que você mantenha distância de ameaças corpo a corpo enquanto causa dano continuamente. Pratique mover-se em uma direção e mirar o mouse em outra para efetivamente kitar mobs e evadir mecânicas de chefes.
+  </Step>
+  <Step num="3" title="Entenda a Colisão de Mapa">
+    Familiarize-se com a nova e mais precisa colisão de mapa. Agora você pode chegar muito mais perto de objetos ambientais sem ficar preso. Use isso a seu favor para posicionamento tático, quebrando a linha de visão ou afunilando inimigos.
+  </Step>
+  <Step num="4" title="Adaptação ao Controle (Opcional)">
+    Se você prefere um controle, dedique tempo a praticar o movimento e a mira com dois analógicos. O movimento de 360 graus combinado com a mira do analógico direito oferece uma experiência fluida, especialmente para aqueles familiarizados com jogos de ação de console. Experimente para ver se este esquema de controle aprimora seu estilo de jogo.
+  </Step>
+  <Step num="5" title="Observe o Movimento dos Monstros">
+    O movimento fluido também se aplica aos monstros. Preste atenção aos seus novos e mais dinâmicos padrões de pathfinding e ataque. Aprender os sinais dos inimigos e as previsões de movimento será essencial para evitar danos e maximizar seu tempo de atividade nos alvos.
+  </Step>
+</Steps>
+
+<Callout type="tip">
+A prática regular em cenários de combate é a melhor maneira de internalizar o novo movimento fluido. Concentre-se em esquivas precisas e mira para elevar sua jogabilidade.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Movimento Drakantos: Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual era o principal problema com o antigo sistema de movimento de Drakantos?",
+    answer: "O antigo sistema era uma grade baseada em tiles 8x8 onde os personagens tinham que se mover para o centro de um tile antes de realizar ações. Isso frequentemente parecia desajeitado e criava uma sensação de atraso artificial, tornando o combate menos responsivo."
+  },
+  {
+    question: "Como o suporte para mouse melhorou o movimento e o combate em Drakantos?",
+    answer: "O suporte para mouse permite uma mira precisa e direta de ataques e habilidades, semelhante a ARPGs modernos. Isso aprimora significativamente a precisão, permite um kiting mais eficaz para classes de longo alcance e melhora a capacidade de resposta geral do combate."
+  },
+  {
+    question: "Posso usar um controle para Drakantos, e como seu movimento se compara?",
+    answer: "Sim, o suporte para controle foi muito aprimorado. Agora ele oferece movimento livre de 360 graus com o analógico esquerdo e mira precisa com o analógico direito, permitindo kiting e combate fluidos. Os desenvolvedores visaram um equilíbrio competitivo com teclado e mouse."
+  },
+  {
+    question: "A reformulação do movimento de Drakantos atrasou o lançamento do jogo?",
+    answer: "Sim, o extenso trabalho necessário para reconstruir o sistema de movimento, a IA de monstros e retrabalhar todos os mapas levou a atrasos no desenvolvimento. No entanto, os desenvolvedores acreditam que este foi um investimento necessário e válido para a qualidade geral do jogo e a experiência do jogador."
+  }
+]} />
+
+</Section>

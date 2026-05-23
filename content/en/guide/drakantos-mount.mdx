@@ -1,0 +1,227 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Drakantos Mount: Step-by-Step Guide to Unlocking Your First Ride",
+  description: "Master the Drakantos mount system. Learn how to find the lost donkey, pass the taming mini-game, and win the license race against Sally in this guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Drakantos+Mount+Guide",
+  date: "2026-05-23",
+  author: "Drakantos Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Drakantos mount** access requires reaching a specific Power Level (460) and Adventure Rank before Sally will offer the quest.
+- **Quest Location**: Find Sally at the stables located East of the starting town's Inn.
+- **Taming Mechanic**: Use pebbles to scare the donkey into your rope AoE, then reel it in only when it is not resisting.
+- **License Requirement**: You must defeat Sally in a competitive race to earn the right to ride your new mount.
+- **Equipping**: Activate the license in your inventory's "Three Stars" tab and equip the mount in the Cosmetics menu.
+</Callout>
+
+<Section icon={Map} title="Unlocking Your First Drakantos Mount">
+
+Acquiring your first **drakantos mount** is a pivotal milestone that significantly changes how you interact with the world of Eldras. While the game features a variety of high-tier mounts like horses and gryphons, every adventurer begins their journey with the humble donkey. This process is not as simple as purchasing a whistle from a vendor; it involves a multi-stage questline that tests your patience, mechanical skill, and racing prowess.
+
+Before you can begin, you must prove your worth as an adventurer. Sally, the stable master, is often "too busy" for low-level players. To trigger the initial dialogue, focus on the main story until you reach a specific progression threshold.
+
+**Video Highlights:**
+- **Prerequisite Check**: Ensure your Power Level and Adventure Rank meet the requirements.
+- **Quest Start**: Locate Sally's stables East of the starter Inn.
+- **Donkey Search**: Precise map coordinates for the lost donkey.
+- **Taming Tips**: How to manage the rope tension and pebble distractions.
+
+<YouTubeEmbed videoId="bhYCQk2Yq2E" title="Drakantos MMO How to Get DONKEY MOUNT" />
+
+### Preparation and Prerequisites
+
+The stable is situated a short walk east of the main town. If you arrive and Sally refuses to speak with you, check your current stats against the requirements listed below.
+
+| Requirement | Value | Notes |
+| :--- | :--- | :--- |
+| **Main Story Power** | 460+ | Progress through the primary campaign missions |
+| **Adventure Rank** | Varies | Level up by completing side objectives and dungeons |
+| **NPC Location** | Sally's Stable | East of the starter town Inn |
+| **Quest Name** | Find the Lost Donkey | Appears as a blue marker once eligible |
+
+<Callout type="tip" title="Pro Tip">
+If the quest marker doesn't appear immediately after hitting Power 460, try returning to the Inn and checking your Adventure Rank rewards. Sometimes a rank-up notification acts as the final trigger for Sally's dialogue.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="The Search for the Lost Donkey">
+
+Once Sally trusts you, she will inform you that her prized donkey has wandered off. This begins the "Find the Lost Donkey" quest. You will see a large blue search circle on your map, but the area is quite expansive, and the donkey is tucked away in a specific corner that many players overlook.
+
+### Finding the Donkey's Location
+
+The donkey is located at the southern-most point of the quest circle. Follow the main road south from the stables until you reach a significant intersection. Instead of continuing south into higher-level territory, head slightly west. You will find the donkey standing near the edge of the forest.
+
+### The Guiding Mechanic
+
+Guiding the donkey back to the stable is often cited as the most frustrating part of the quest. The donkey does not function like a traditional pet; it has its own pathfinding logic and a tendency to "bolt" if handled incorrectly.
+
+| Action | Result | Best Usage |
+| :--- | :--- | :--- |
+| **Stay Close** | Donkey follows you | Use this for straight paths on the main road |
+| **Push from Behind** | Steers the donkey | Use this to correct its course if it veers off-road |
+| **Too Far Away** | Quest Resets | Never let the donkey leave your screen boundaries |
+| **Obstacles** | Donkey gets stuck | Lead it around bushes and fences, not through them |
+
+<Steps>
+  <Step num="1" title="Locate the Intersection">
+    Head to the southern intersection of the blue quest zone.
+  </Step>
+  <Step num="2" title="Initial Interaction">
+    Approach the donkey until the "Guide" objective updates.
+  </Step>
+  <Step num="3" title="Slow Escort">
+    Walk (don't run) north toward the town, keeping the donkey within 5-10 meters.
+  </Step>
+  <Step num="4" title="Stable Entry">
+    Lead the donkey to the pen located behind Sally's building. You will hear a 'ding' when successful.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Navigation Note">
+The donkey's AI prefers following the road. If you try to take a shortcut through the woods, the donkey is highly likely to wander off or get stuck in the geometry, forcing a quest restart. Stick to the main path even if it takes longer.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Taming the Donkey Mini-Game">
+
+After successfully returning the donkey, you must tame it before Sally will allow you to ride. This introduces the taming mini-game, a mechanic that will likely be reused for future **drakantos mount** captures. This phase requires a combination of area-of-effect (AoE) placement and rhythm-based interaction.
+
+### Taming Strategy and Controls
+
+The goal is to catch the donkey with a rope and then reel it in. However, the donkey is skittish and will actively avoid you unless you use a distraction.
+
+<CardGrid cols={2}>
+  <Card title="The Pebble Toss">
+    Use the pebble (default interaction) to scare the donkey. This forces it to run in a predictable direction across the pen, making it easier to intercept with your rope.
+  </Card>
+  <Card title="The Rope Catch">
+    Hold the rope button (default 'I' key) to display an AoE circle. You must place this circle *ahead* of the donkey's path so it runs directly into the trap.
+  </Card>
+</CardGrid>
+
+### Reeling Mechanics
+
+Once the donkey is caught in the rope, the "Reeling" phase begins. This is where most players fail by being too aggressive. You must hold the reel button (default 'O' key or LB on controller) to pull the donkey toward you.
+
+| Donkey State | Player Action | Consequence |
+| :--- | :--- | :--- |
+| **Calm / Not Moving** | Hold Reel (O/LB) | Progress increases; donkey moves closer |
+| **Resisting / Running** | Release Reel | Prevents the rope from snapping |
+| **Rope Redness** | Stop Immediately | High tension will break the rope and reset the game |
+
+<Callout type="warning" title="Critical Warning">
+Do not hold the reel button while the donkey is actively pulling away. Watch the rope's color; if it turns bright red, you have less than a second to release the button before the taming attempt fails.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="The License Race Against Sally">
+
+Even with a tamed donkey, you cannot legally ride in Eldras without a license. Sally will challenge you to a race to prove you have the coordination to handle a mount in high-traffic areas. This race is surprisingly difficult and requires smart use of the limited boost mechanic.
+
+### Race Course Fundamentals
+
+The race follows a series of flags. Missing a single flag will usually result in a loss, as Sally rarely makes mistakes. The course features straightaways, tight turns around bushes, and narrow bridges.
+
+**Racing Strategy Checklist:**
+- **Save Boosts**: Only use your sprint/boost on long straightaways.
+- **Cornering**: Avoid sprinting during turns; the donkey's turn radius increases at high speeds, making it easy to hit obstacles.
+- **Sally's Pattern**: Sally typically sprints at the start and the very end. If you are neck-and-neck at the final stretch, ensure you have at least 50% of your boost bar left.
+- **Blocking**: You can physically block Sally by staying directly in front of her, though this is risky if you lose momentum.
+
+| Race Segment | Recommended Strategy | Boost Usage |
+| :--- | :--- | :--- |
+| **The Start** | Stay close to Sally's tail | Minimal |
+| **The Forest Path** | Focus on flag precision | None |
+| **The Bridge** | Narrow path; do not overtake | None |
+| **Final Straight** | Full sprint to the finish | Maximum |
+
+<Callout type="success" title="Winning Tip">
+If you find yourself losing repeatedly, try to memorize the bush placements. Hitting a bush causes a significant slow-down effect that is almost impossible to recover from in such a short race.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Equipping and Using Your Mount">
+
+After winning the race, Sally will grant you your mount license. However, the donkey won't automatically appear under your character. You must manually activate the license and equip the mount through the UI.
+
+### Activation Steps
+
+Follow these specific steps to finalize your **drakantos mount** setup:
+
+<Steps>
+  <Step num="1" title="Open Inventory">
+    Press 'B' to open your main inventory screen.
+  </Step>
+  <Step num="2" title="Locate License">
+    Navigate to the "Three Stars" tab (Special Items). Find the Mount License, select it, and press Enter to consume it.
+  </Step>
+  <Step num="3" title="Cosmetics Menu">
+    Press 'Q' or 'E' to cycle through your character tabs until you reach the "Cosmetics" section.
+  </Step>
+  <Step num="4" title="Assign Mount">
+    Look for the empty tile on the right side with a small yellow dot underneath it. Click this tile, select your Donkey, and confirm.
+  </Step>
+</Steps>
+
+### Controls and Usage
+
+Once equipped, you can summon your mount at any time in outdoor areas.
+
+- **Mount/Dismount**: Hold 'F' (Default).
+- **Movement**: Standard WASD keys.
+- **Sprint**: Spacebar (uses stamina/boost bar).
+
+<Checklist
+  id="mount-readiness"
+  title="Mount System Final Checklist:"
+  items={[
+    "Consumed the License in the Three Stars tab",
+    "Equipped the Donkey in the Cosmetics menu",
+    "Bound the Mount key to a comfortable button",
+    "Tested the sprint mechanic in a safe zone"
+  ]}
+/>
+
+<Callout type="tip" title="Maintenance Tip">
+While the donkey is your first mount, Sally hints that future races will be harder and offer better rewards. Keep an eye on her stable as you reach higher Adventure Ranks for potential upgrades to faster horses or exotic creatures.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Why won't Sally talk to me about the mount quest?",
+    answer: "Sally requires you to reach a certain level of progression. Most players find she becomes available after reaching Power Level 460 in the main story and increasing their Adventure Rank at the Inn."
+  },
+  {
+    question: "I lost the donkey during the escort mission, what do I do?",
+    answer: "If the donkey wanders too far or gets stuck, the quest will reset. You must return to the southern intersection where you first found it to restart the escort process."
+  },
+  {
+    question: "How do I stop the rope from breaking during taming?",
+    answer: "Watch the donkey's behavior. When it struggles or runs away, release the reel button (O/LB) immediately. Only hold the button when the donkey is stationary or moving toward you."
+  },
+  {
+    question: "Can I use the donkey mount in dungeons?",
+    answer: "No, mounts in Drakantos are generally restricted to overworld maps and town areas. Most instanced dungeons require players to move on foot for combat balance."
+  }
+]} />
+
+</Section>

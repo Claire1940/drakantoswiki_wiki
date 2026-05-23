@@ -1,0 +1,218 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Jogabilidade de Drakantos: Primeiras Impressões e Mecânicas de Combate",
+  description: "Mergulhe na jogabilidade de Drakantos com nossas primeiras impressões, uma análise das mecânicas de combate, progressão de personagem e modos PvP neste MMORPG de pixel.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8A2BE2/fff?text=Drakantos+Gameplay",
+  date: "2026-05-23",
+  author: "Equipe Wiki Drakantos"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A **jogabilidade de Drakantos** oferece uma estética retrô em pixel com UI moderna e heróis diversos.
+- As mecânicas de combate frequentemente apresentam **habilidades com animação travada** e tempos de recarga em ataques básicos.
+- A progressão envolve **subir o nível dos heróis**, adquirir artefatos e personalizar habilidades com orbes.
+- As **masmorras PvE** são para grupos de 3 jogadores com objetivos dinâmicos e desafios em evolução.
+- Os **modos PvP** enfatizam habilidade e estratégia, com estatísticas equilibradas e vantagens impulsionadas por artefatos.
+</Callout>
+
+<Section icon={Map} title="Jogabilidade de Drakantos: Primeiras Impressões e Mecânicas Essenciais">
+Drakantos, um MMORPG gratuito, cativa os jogadores com seu encantador estilo de arte pixel retrô e um mundo aberto que lembra títulos clássicos como World of Warcraft. O jogo apresenta coleta de recursos, montarias, cosméticos e uma história principal, além de aventuras multiplayer. As impressões iniciais dos testes de jogo destacam uma interface de usuário limpa e moderna, um elenco diversificado de personagens e um mapa-múndi que é suave e detalhado.
+
+**Destaques do Vídeo:**
+- O jogo apresenta um encantador estilo de arte pixel com clara inspiração em World of Warcraft.
+- Os jogadores podem explorar um mundo aberto, coletar recursos, usar montarias e personalizar personagens.
+- As aventuras multiplayer envolvem agrupar-se com outros dois jogadores para completar objetivos por XP e saques.
+
+<YouTubeEmbed videoId="eYLDl2_lHyE" title="Drakantos - Novo MMORPG Pixel 'Vale a Pena Jogar?'" />
+
+O jogo oferece um sistema de heróis único onde cada personagem possui mecânicas, traços e papéis de história distintos, rompendo com os sistemas de classes tradicionais. Isso garante um cenário em evolução de estratégias e dinâmicas, com novos heróis introduzidos regularmente.
+
+<Callout type="tip">
+A experiência de **jogabilidade de Drakantos** foi projetada para ser gratuita, tornando-a acessível para uma ampla gama de jogadores mergulharem em seu mundo nostálgico, porém moderno.
+</Callout>
+
+### Funções e Progressão dos Personagens
+
+Drakantos apresenta uma variedade de heróis, cada um com diferentes funções, como DPS, tanques e suportes, alguns dos quais oferecem capacidades de cura. Os jogadores podem alternar livremente entre os heróis, embora cada novo herói comece no nível um sem equipamento, incentivando a exploração de diferentes estilos de jogo.
+
+A progressão em Drakantos envolve:
+- **Subir o nível dos heróis**: Ganhando experiência através de missões e aventuras.
+- **Adquirir artefatos**: Estes fornecem habilidades secundárias ou buffs únicos e são frequentemente consumíveis, mas reabastecem após as missões.
+- **Melhorar habilidades**: Gastando pontos de habilidade para aprimorar as capacidades do herói.
+- **Personalizar habilidades**: Usando orbes para modificar habilidades, adicionando variações como velocidades de conjuração mais rápidas ou direções de ataque alteradas.
+
+<Callout type="info" title="Mudanças no Desbloqueio de Habilidades">
+Durante os testes de jogo, o desenvolvedor ajustou os níveis de desbloqueio de habilidades de 5, 10, 15 para 4, 8, 12, tornando a progressão inicial do jogo mais recompensadora.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combate e Movimentação em Drakantos">
+O sistema de combate em Drakantos tem sido um ponto significativo de discussão durante os testes de jogo. Embora o combate de alto nível com uma barra de habilidades completa pareça mais envolvente, o início do jogo pode parecer lento e desajeitado. Um aspecto notável é o bloqueio de animação em quase todas as habilidades, incluindo ataques básicos, o que pode dificultar o movimento fluido e o kiting, especialmente para personagens DPS de longo alcance.
+
+### Mecânicas de Combate Essenciais
+
+| Mecânica                  | Descrição                                                                         | Impacto na Jogabilidade                                     |
+| :------------------------ | :-------------------------------------------------------------------------------- | :---------------------------------------------------------- |
+| **Tempo de Recarga do Ataque Básico** | A maioria dos heróis tem um tempo de recarga de 2 segundos em ataques básicos. | Limita o dano contínuo, torna o combate inicial lento.       |
+| **Bloqueio de Animação**     | Quase todas as habilidades, incluindo ataques básicos, bloqueiam o movimento do personagem. | Reduz a fluidez, dificuldade em "kitar" inimigos eficazmente. |
+| **Ataques Direcionais**      | Os ataques são principalmente em quatro direções cardeais (alguns atiram em linha reta). | Pode parecer restritivo, especialmente contra abordagens diagonais. |
+| **Artefatos**             | Itens consumíveis que concedem habilidades temporárias ou invocações (por exemplo, invocar orcs). | Adiciona profundidade tática, pode impactar significativamente o fluxo do combate. |
+| **Orbes de Habilidade**   | Modificadores que alteram as propriedades de uma habilidade (por exemplo, velocidade de conjuração mais rápida, AoE). | Personaliza o estilo de jogo, melhora a sensação de combate no final do jogo. |
+
+<Callout type="warning" title="Feedback de Combate no Início do Jogo">
+Muitos jogadores acharam o combate inicial do jogo básico e chato devido às habilidades limitadas e bloqueios de animação. Os desenvolvedores reconheceram o feedback sobre a falta de fluidez e a capacidade de resposta do movimento, com correções planejadas para futuros testes e lançamento completo.
+</Callout>
+
+### Movimentação e Interações
+
+A movimentação em Drakantos também recebeu feedback. Os jogadores notaram uma sensação de atraso e falta de resposta, por vezes semelhante a um "sistema de ticks" em vez de um movimento suave e contínuo. Outro problema observado foi o bloqueio de corpo por NPCs e membros do grupo, o que contribui ainda mais para a experiência de movimentação desajeitada.
+
+<CardGrid cols={2}>
+  <Card title="Desafios de Movimentação">
+    - **Capacidade de resposta atrasada**: O movimento do personagem pode parecer lento.
+    - **Bloqueio de corpo**: NPCs e membros do grupo podem obstruir o movimento, levando a situações frustrantes.
+    - **Kiting limitado**: Bloqueios de animação dificultam que personagens de longo alcance mantenham distância enquanto atacam.
+  </Card>
+  <Card title="Reconhecimento do Desenvolvedor">
+    - Os desenvolvedores confirmaram que estão abordando atrasos e falta de resposta no movimento.
+    - Problemas de bloqueio de corpo por NPCs e membros do grupo também estão programados para correção.
+    - Essas melhorias visam aprimorar a fluidez geral da **jogabilidade de Drakantos**.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Trophy} title="Aventuras PvE e Sistema de Masmorras">
+Drakantos apresenta uma combinação de exploração de mundo aberto e aventuras multiplayer instanciadas. Essas aventuras são tipicamente para grupos de 3 jogadores, onde os jogadores trabalham juntos para completar objetivos, ganhar XP, saques e recursos.
+
+### Estrutura da Aventura
+
+As aventuras são dinâmicas, com missões que mudam ao longo do tempo para oferecer conjuntos variados de inimigos, chefes, recursos, armadilhas e objetivos. Isso garante que cada partida pareça única e desafiadora. No entanto, alguns feedbacks dos testes de jogo indicaram que muitas aventuras pareciam tarefas mundanas e não tinham lutas contra chefes, levando a um desejo por conteúdo mais envolvente.
+
+| Característica        | Descrição                                                                   | Experiência do Jogador                                       |
+| :-------------------- | :-------------------------------------------------------------------------- | :----------------------------------------------------------- |
+| **Tamanho do Grupo**  | Projetado para grupos de 3 jogadores.                                       | Incentiva o jogo cooperativo e o trabalho em equipe.         |
+| **Conteúdo Dinâmico** | Missões, inimigos e objetivos mudam ao longo do tempo.                      | Adiciona rejogabilidade e mantém o conteúdo fresco.          |
+| **Escalonamento**     | A força dos inimigos escala com o número de jogadores em uma aventura.      | Ajusta a dificuldade para manter o desafio com tamanhos de grupo variados. |
+| **Recompensas**       | XP, saques e recursos são concedidos ao completar a missão.                 | Oferece incentivos claros para a participação.               |
+| **Sem Opção Solo**    | Atualmente, não há opção oficial para impedir que outros jogadores entrem. | Alguns jogadores preferem a opção de jogar solo para seu próprio ritmo. |
+
+<Callout type="info">
+Embora o jogo seja projetado para multiplayer, a opção de jogar aventuras solo permitiria aos jogadores explorar no seu próprio ritmo e completar missões secundárias sem pressão externa.
+</Callout>
+
+### Saques e Progressão de Equipamento
+
+A progressão de equipamento em Drakantos baseia-se principalmente em "stat sticks" — equipar itens como chapéus para aumentar o nível de poder sem alterar a aparência do personagem. Este sistema é direto, mas pode carecer da personalização visual que muitos jogadores de MMORPG esperam. Artefatos também contribuem significativamente para o poder e as opções táticas.
+
+<Checklist
+  id="pve-progression"
+  title="Elementos Chave da Progressão PvE:"
+  items={[
+    "Complete objetivos dinâmicos de masmorras",
+    "Colecione artefatos para habilidades únicas",
+    "Melhore habilidades existentes com pontos de habilidade",
+    "Equipe equipamentos para aumentar o nível de poder",
+    "Participe de eventos globais para recompensas únicas"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Sistema PvP e Jogo Competitivo">
+Para jogadores que buscam testar suas habilidades contra outros, Drakantos oferece um robusto sistema PvP com vários modos de jogo, um sistema ranqueado e torneios regulares no jogo. O ambiente PvP é projetado para ser baseado em habilidade, com estatísticas equilibradas para garantir um campo de jogo competitivo.
+
+### Modos e Mecânicas PvP
+
+O PvP de Drakantos inclui modos como "Assalto" e "Controle". No PvP, a escolha do herói é crucial, mas os carregamentos de artefatos desempenham um papel significativo na obtenção de uma vantagem. Artefatos que invocam monstros ou fornecem cura contínua (como uma fogueira) podem influenciar fortemente os resultados das partidas.
+
+| Aspecto PvP         | Descrição                                                                     | Implicação Estratégica                                         |
+| :------------------ | :---------------------------------------------------------------------------- | :------------------------------------------------------------- |
+| **Baseado em Habilidade** | As estatísticas são equilibradas para garantir que a habilidade e a estratégia do jogador sejam primordiais. | Recompensa a execução tática sobre o poder bruto do equipamento. |
+| **Impacto do Artefato** | Artefatos consumíveis (por exemplo, invocar ursos/orcs, fogueiras de cura) são cruciais. | Requer gerenciamento cuidadoso de artefatos e uso estratégico. |
+| **Seleção de Heróis** | Os jogadores escolhem heróis específicos para PvP, independentemente de sua progressão PvE. | Incentiva a especialização e o domínio de kits de heróis específicos para PvP. |
+| **Modos de Jogo**   | Inclui vários modos como Assalto e Controle.                                 | Oferece diversas experiências competitivas e jogo baseado em objetivos. |
+| **Sistema Ranqueado** | Oferece uma escada competitiva para os jogadores subirem.                   | Motiva a melhoria contínua e o reconhecimento para os melhores jogadores. |
+
+<Callout type="success" title="Fator Diversão do PvP">
+Muitos jogadores acharam os modos PvP mais envolventes e divertidos do que o PvE inicial, especialmente depois de entenderem como os artefatos poderiam ser aproveitados para vantagem estratégica.
+</Callout>
+
+### Conectando PvE e PvP
+
+Embora as partidas PvP sejam baseadas em habilidades com estatísticas equilibradas, certos elementos PvE podem afetar indiretamente o PvP. Por exemplo, orbes obtidos através do PvE podem modificar habilidades, tornando-as mais eficazes em cenários competitivos. Isso cria uma ligação sutil entre os dois principais ciclos de jogabilidade.
+
+<Checklist
+  id="pvp-readiness"
+  title="Preparando-se para o PvP:"
+  items={[
+    "Domine o conjunto de habilidades do seu herói escolhido",
+    "Experimente diferentes carregamentos de artefatos",
+    "Entenda os objetivos de cada modo PvP",
+    "Coordene com companheiros de equipe para uma estratégia ideal",
+    "Pratique movimento e tempo de habilidade"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Perspectivas Futuras e Resposta do Desenvolvedor">
+Os desenvolvedores da Wingeon Game Studios têm respondido ativamente ao feedback dos jogadores nos testes de jogo. Muitas das preocupações iniciais em relação ao combate desajeitado, movimento sem resposta e bloqueio de corpo foram reconhecidas e estão programadas para correções em futuras atualizações e no lançamento completo.
+
+### Compromisso do Desenvolvedor
+
+O rápido ajuste dos níveis de desbloqueio de habilidades é um testemunho do compromisso dos desenvolvedores em melhorar a experiência de **jogabilidade de Drakantos** com base na contribuição da comunidade. Essa abordagem proativa sugere um jogo que continuará a evoluir e refinar suas mecânicas.
+
+<CardGrid cols={2}>
+  <Card title="Problemas Reconhecidos">
+    - Limitações de ataque em quatro direções.
+    - Movimento atrasado e sem resposta.
+    - Bloqueio de corpo por NPCs e membros do grupo.
+    - Ataques básicos com tempos de recarga.
+    - Bloqueios de animação nas habilidades.
+  </Card>
+  <Card title="Melhorias Planejadas">
+    - Fluidez e capacidade de resposta aprimoradas no movimento.
+    - Remoção das mecânicas de bloqueio de corpo.
+    - Reavaliação dos tempos de recarga de ataques básicos.
+    - Introdução de habilidades mais móveis.
+    - Atualizações contínuas de conteúdo, incluindo novos heróis e eventos.
+  </Card>
+</CardGrid>
+
+<Callout type="tip">
+Fique atento aos anúncios oficiais da Wingeon Game Studios para atualizações sobre essas melhorias e futuros testes de jogo, pois eles estão ativamente moldando o jogo com base no feedback dos jogadores.
+</Callout>
+
+O potencial geral para Drakantos permanece alto, com sua estética encantadora, sistema de heróis diversificado e uma mistura de conteúdo PvE e PvP. O sucesso de seu lançamento completo dependerá em grande parte de quão eficazmente os problemas de jogabilidade identificados são abordados e se o jogo pode oferecer uma experiência consistentemente envolvente em todos os seus modos.
+
+</Section>
+
+<FAQ items={[
+  {
+    question: "Como é a jogabilidade de Drakantos nas fases iniciais?",
+    answer: "A jogabilidade inicial de Drakantos pode parecer lenta e desajeitada, principalmente devido às habilidades limitadas, ataques com animação travada e ataques básicos com tempo de recarga. No entanto, este tem sido um ponto de feedback para os desenvolvedores melhorarem."
+  },
+  {
+    question: "Posso jogar Drakantos sozinho, ou é estritamente multiplayer?",
+    answer: "Embora Drakantos seja projetado como um MMORPG multiplayer com aventuras para 3 jogadores, alguns jogadores expressaram o desejo por uma opção solo para explorar no seu próprio ritmo. Atualmente, não há um modo solo estrito, e outros podem se juntar às suas aventuras."
+  },
+  {
+    question: "Como funciona a progressão do personagem em Drakantos?",
+    answer: "A progressão do personagem em Drakantos envolve subir o nível dos heróis, adquirir artefatos poderosos para habilidades secundárias únicas, aprimorar habilidades com pontos de habilidade e personalizar habilidades ainda mais com orbes. O equipamento serve principalmente como 'stat sticks' para aumentar o nível de poder."
+  },
+  {
+    question: "O que torna o PvP de Drakantos único?",
+    answer: "O PvP de Drakantos enfatiza a habilidade e a estratégia sobre o poder bruto do equipamento, com estatísticas equilibradas entre os jogadores. O uso estratégico de artefatos, que podem invocar criaturas ou fornecer cura, desempenha um papel significativo na obtenção de uma vantagem em partidas competitivas."
+  }
+]} />

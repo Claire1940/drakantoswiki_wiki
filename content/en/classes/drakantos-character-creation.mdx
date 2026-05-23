@@ -1,0 +1,182 @@
+import { User, Palette, Sparkles, Shield, Target, Trophy, HelpCircle, Swords, Map } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Drakantos Character Creation: Hero Selection & Customization Guide",
+  description: "Learn how character creation works in Drakantos, including hero roles, skill customization via orbs, and the unique dye system for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Character+Creation+Guide",
+  date: "2026-05-23",
+  author: "Drakantos Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Hero-Based System**: Unlike traditional MMORPGs, **Drakantos character creation** focuses on selecting pre-defined heroes rather than building a custom avatar.
+- **Role Archetypes**: Heroes are divided into Tanks, DPS, and Support roles, each with unique story-driven backgrounds and mechanics.
+- **Customization Limits**: You cannot change physical features, but the **dye system** allows for hair and armor color modifications.
+- **Skill Evolution**: Major class identities and core abilities unlock at **Level 12**, allowing heroes to fulfill their specialized roles.
+- **Progression Focus**: Character power is heavily dictated by **Gear Score** and the socketing of Orbs and Artifacts into your skill tree.
+</Callout>
+
+<Section icon={User} title="The Hero Selection System">
+
+In the current landscape of 2026 indie MMORPGs, Drakantos takes a distinct approach to the player's identity. If you are entering the game expecting a deep slider-based avatar creator, you will find a hero-based roster instead. This design choice allows Wingeon Game Studios to weave specific lore and unique mechanical identities into each playable character.
+
+**Video Highlights:**
+- Overview of the hero selection screen and available archetypes.
+- Explanation of the Tank, DPS, and Support split.
+- Insights into the Level 12 skill milestone.
+- Demonstration of the dye system and vanity items.
+
+<YouTubeEmbed videoId="kZaCM5KbVEA" title="Drakantos Beginner's Guide - What To Expect" />
+
+The roster is balanced across three primary roles. While the initial closed beta tests featured a limited selection, the full release aims to expand this list significantly. Each hero comes with a fixed set of base attributes, but their ultimate potential is shaped by how you interact with the game's progression systems.
+
+| Archetype | Primary Focus | Combat Style |
+| :--- | :--- | :--- |
+| **Tank** | Crowd control and survivability | High health, defensive skills, aggro management |
+| **DPS** | Raw damage output | Fast attacks, high burst, lower survivability |
+| **Support** | Buffing and healing | Team utility, resource restoration, area control |
+
+<Callout type="tip" title="Role Selection Advice">
+Since gear and certain progression items are character-bound and cannot be transferred between heroes, spend time testing a few characters before committing to a main. The "feel" of movement and skill timing varies greatly between a heavy tank and a nimble DPS.
+</Callout>
+
+</Section>
+
+<Section icon={Palette} title="Visual Customization and Dyes">
+
+While you cannot change the facial structure or height of your hero, **Drakantos character creation** offers visual agency through its cosmetic systems. The developers have implemented a layer of personalization that allows players to stand out in the game's 2D pixel-art world.
+
+The primary method of customization is the **Dye System**. This allows you to modify specific hex-color zones on your hero's sprite.
+
+| Customization Type | Description | How to Obtain |
+| :--- | :--- | :--- |
+| **Armor Dyes** | Changes the primary and secondary colors of your gear | Crafting, drops, or Adventurer's Guild |
+| **Hair Dyes** | Modifies the base hair color of the hero | Vanity shop or special event rewards |
+| **Costumes** | Full-body skins that override gear appearance | In-game store or rare dungeon drops |
+| **Vanity Items** | Small accessories like hats or back pieces | Achievement rewards and guild tokens |
+
+<CardGrid cols={2}>
+  <Card title="Dye Mechanics">
+    - **Zone-based**: Most heroes have 2-3 dyeable zones.
+    - **Permanent**: Once applied, dyes remain until overwritten.
+    - **Variety**: Includes basic matte colors and rare metallic finishes.
+  </Card>
+  <Card title="Vanity Gear">
+    - **Non-stats**: Vanity items do not impact your Gear Score.
+    - **Visibility**: Can be toggled on or off in the character menu.
+    - **Collection**: Tracked in the global vanity library.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Dye Consumption">
+Dyes are typically single-use items. If you find a rare color, ensure you are satisfied with your hero choice before applying it, as these items are consumed upon use.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Skill Customization via Orbs and Artifacts">
+
+True "creation" in Drakantos happens after the selection screen. The game utilizes a modular skill system that allows you to modify how your hero's abilities function. This is handled through two primary items: **Orbs** and **Artifacts**.
+
+At Level 12, your hero unlocks their defining class skill (such as a taunt for tanks or a major heal for supports). From this point, you begin finding Orbs that can be slotted directly into your active skills.
+
+| Item Type | Slotting Method | Effect on Gameplay |
+| :--- | :--- | :--- |
+| **Skill Orbs** | Sockets into specific abilities | Increases damage, reduces cooldowns, or adds effects |
+| **Artifacts** | Two dedicated equipment slots | Grants new active/passive skills (e.g., Wasp Nest DOT) |
+| **Reinforcements** | Applied at the blacksmith | Boosts the base power and Gear Score of equipment |
+
+<Callout type="success" title="The Level 12 Power Spike">
+Reaching Level 12 is the most critical milestone in your character's early life. This is when the "stiff" feeling of early combat dissipates as you gain the full rotation of skills necessary for tactical dungeon clearing.
+</Callout>
+
+Artifacts act as "sub-skills" that refresh every time you exit a dungeon. For example, a Tank might equip an artifact that causes enemies to attack each other, providing additional crowd control that isn't part of their base kit. This allows for hybrid builds, such as a "Brawler Support" or a "Tanky DPS."
+
+</Section>
+
+<Section icon={Shield} title="Gear Score and Equipment Progression">
+
+In Drakantos, your character's power is represented by a **Gear Score**. This number is more important than your actual character level when determining your effectiveness in high-tier dungeons. The equipment system is streamlined into four main slots plus two artifact slots.
+
+| Slot | Impact | Primary Source |
+| :--- | :--- | :--- |
+| **Weapon** | Damage output and skill scaling | Boss drops and crafting |
+| **Hat** | Health and mana pools | Dungeon chests |
+| **Top** | Physical and magical defense | Quest rewards and drops |
+| **Shoes** | Movement speed and dodge cooldown | Open world gathering/crafting |
+
+<Steps>
+  <Step num="1" title="Grind Tier 1 Dungeons">
+    Run 3-man instances to collect a full set of basic gear. Focus on clearing all mobs to maximize loot drops.
+  </Step>
+  <Step num="2" title="Gather Resources">
+    Head to the open world to mine ores and chop trees. These materials are required to reinforce your gear at the blacksmith.
+  </Step>
+  <Step num="3" title="Boost Gear Score">
+    Use the gathered materials to upgrade your Tier 1 gear. This unlocks access to Tier 2 dungeons with better experience rates.
+  </Step>
+  <Step num="4" title="Socket Orbs">
+    As you find Skill Orbs, slot them immediately. Unlike gear, Orbs provide permanent boosts to your hero's abilities.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Tactical Movement">
+Drakantos uses a grid-based movement system that can feel "stiff" or "tactical" depending on your preference. It is highly recommended to play with a **controller** to better manage the timing of your dashes and skill execution.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Character Maintenance Checklist">
+
+To ensure your hero remains competitive as you progress through the biomes of Drakantos, follow this daily and weekly maintenance routine.
+
+<Checklist
+  id="character-checklist"
+  title="Daily Hero Progression Tasks:"
+  items={[
+    "Check the Adventurer's Guild for mission tickets and vanity items.",
+    "Verify that all Skill Orbs are slotted into your highest-priority abilities.",
+    "Reinforce at least one piece of gear to increase your total Gear Score.",
+    "Clear the daily dungeon rotation to find new Artifacts for your build.",
+    "Gather open-world resources to maintain a supply for blacksmithing."
+  ]}
+/>
+
+<Callout type="warning" title="Experience Loss">
+Be careful in high-level dungeons. Dying results in a **5% experience loss** per death. In the later levels, this can significantly stall your progress toward unlocking final skill tiers.
+</Callout>
+
+According to the official [Drakantos Steam Page](https://store.steampowered.com/app/2454980/Drakantos/), the game also features a housing system and a market. While these don't directly change your character's stats, they provide a space for players to display their rare collectibles and trade items found during dungeon runs.
+
+</Section>
+
+<Section icon={HelpCircle} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Can I change my hero's gender or appearance after selection?",
+    answer: "No. Physical features and gender are fixed to the specific hero you choose. You can only modify colors via the dye system or change your look with costumes."
+  },
+  {
+    question: "Is there a way to reset my Skill Orbs?",
+    answer: "Orbs are consumed upon use and stick with the character. While you can overwrite them with better orbs later, the initial investment is permanent, so choose your skill boosts wisely."
+  },
+  {
+    question: "Can I transfer gear between my different heroes?",
+    answer: "Equipped gear is character-bound. However, unequipped gear sitting in your inventory can often be shared with other characters on your account, provided they meet the level requirements."
+  },
+  {
+    question: "What is the most important stat for a new character?",
+    answer: "Gear Score is the most critical metric. It dictates your survivability and damage more than your character's base level. Always prioritize upgrading your Tier gear before attempting harder dungeons."
+  }
+]} />
+
+</Section>

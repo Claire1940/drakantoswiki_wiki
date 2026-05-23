@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Users, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Análisis de Drakantos: Primeras Impresiones de 2026 y Clasificaciones de Jugabilidad",
+  description: "Una inmersión profunda en la prueba de juego de Drakantos de 2026, cubriendo la estética de pixel art, la mecánica de héroes, la fluidez del combate y el sistema de progresión basado en instancias.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Drakantos+Review+2026",
+  date: "2026-05-23",
+  author: "Equipo Wiki de Drakantos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Análisis de Drakantos**: Un encantador MMORPG de inspiración retro con una interfaz de usuario moderna y pixel art de alta calidad.
+- **Sistema de Combate**: Actualmente cuenta con ataques de 4 direcciones con bloqueos de animación; los desarrolladores están abordando la retroalimentación para un movimiento de 8 direcciones.
+- **Variedad de Héroes**: Rompiendo con las clases tradicionales, el juego ofrece héroes únicos como el Stormlancer, Kitsuni y el Bardo.
+- **Bucle de Progresión**: Centrado en "Aventuras" basadas en instancias y un sistema de equipo de nivel de poder.
+- **Free-to-Play**: Lanzamiento como un título gratuito con un enfoque en PvP basado en habilidades donde las estadísticas están normalizadas.
+</Callout>
+
+<Section icon={Sparkles} title="Identidad Visual y Estética del Mundo">
+
+Lo primero que cualquier jugador notará en este **análisis de Drakantos** es la sorprendente dirección visual del juego. Wingeon Game Studios ha logrado fusionar con éxito un nostálgico estilo de pixel art de 16 bits con animaciones modernas de alta fidelidad. El mundo se siente vivo, extrayendo clara inspiración de universos de fantasía clásicos como World of Warcraft, evidente en el diseño de sus orcos, paladines y exploradores élficos.
+
+**Puntos Destacados del Video:**
+- Un vistazo detallado a la interfaz de usuario limpia y moderna que contrasta con el arte retro.
+- Demostración de la exploración del mundo abierto y las mecánicas de recolección de recursos.
+- Primeras impresiones del sistema de "Aventuras" donde los jugadores se agrupan para niveles basados en instancias.
+- Análisis de las animaciones de los personajes, incluyendo la controvertida pero única "física de movimiento" en pixel art.
+- Un desglose de la respuesta del desarrollador a la retroalimentación inicial de la prueba de juego.
+
+<YouTubeEmbed videoId="eYLDl2_lHyE" title="Drakantos - ¿Vale la Pena Jugar a Este Nuevo MMORPG de Píxeles?" />
+
+La interfaz de usuario es notablemente fluida y fácil de navegar, una hazaña a menudo pasada por alto en los MMORPG independientes. El mapa del mundo permite un zoom sin interrupciones y cuenta con un sistema de auto-ruta que simplifica el viaje entre los objetivos de las misiones. Aunque el juego presenta un mundo abierto, gran parte de la jugabilidad temprana se canaliza a través del Gremio de Aventureros, un acogedor centro donde los jugadores se congregan antes de embarcarse en misiones.
+
+<Callout type="tip" title="Nota Estética">
+El juego logra sentirse moderno a pesar de sus raíces retro. Si disfrutas del estilo artístico de juegos como Octopath Traveler o los RPG clásicos de SNES, Drakantos te atraerá inmediatamente visualmente.
+</Callout>
+
+| Característica | Descripción | Impacto Visual |
+| :--- | :--- | :--- |
+| **Estilo Artístico** | Pixel Art 2D de alta calidad | Excelente, muy detallado |
+| **Interfaz de Usuario** | Moderna, Minimalista, Limpia | Alto, muy receptiva |
+| **Diseño del Mundo** | Alta fantasía, inspirado en WoW | Nostálgico e inmersivo |
+| **Animaciones** | Fluidas, cuadro por cuadro | Alto, aunque con bloqueo de animación |
+
+</Section>
+
+<Section icon={Swords} title="El Sistema de Héroes: Más Allá de las Clases Tradicionales">
+
+Drakantos se aparta de la tríada estándar "Guerrero, Mago, Pícaro" al ofrecer una lista de héroes específicos, cada uno con mecánicas y roles narrativos únicos. Este enfoque permite estilos de juego más especializados y actualizaciones frecuentes con nuevos personajes. Durante la prueba de juego de 2026, varios héroes destacaron por sus sensaciones distintivas.
+
+<CardGrid cols={3}>
+  <Card title="Liam (El Tanque)">
+    - **Enfoque**: Mitigación de daño y paradas.
+    - **Habilidad Clave**: Bloqueo/parada con escudo con un tiempo preciso.
+    - **Estilo de Juego**: Líder de primera línea, alta capacidad de supervivencia.
+  </Card>
+  <Card title="Rya (La Exploradora)">
+    - **Enfoque**: DPS a largo alcance y kiting.
+    - **Habilidad Clave**: Flechas explosivas y fuego rápido.
+    - **Estilo de Juego**: Alto daño, requiere movimiento constante.
+  </Card>
+  <Card title="El Bardo">
+    - **Enfoque**: Apoyo y mejoras de área de efecto.
+    - **Habilidad Clave**: Canciones curativas y protecciones de reducción de daño.
+    - **Estilo de Juego**: Esencial para mazmorras de grupo de alto nivel.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Progresión del Héroe">
+Las habilidades se desbloquean en hitos de nivel específicos. En la última actualización, los desarrolladores movieron los desbloqueos de habilidades a los niveles 4, 8 y 12 para asegurar que los jugadores se sientan poderosos antes en su viaje.
+</Callout>
+
+| Nombre del Héroe | Rol | Arma Principal | Dificultad |
+| :--- | :--- | :--- | :--- |
+| **Liam** | Tanque | Espada y Escudo | Moderada |
+| **Rya** | Exploradora | Arco Largo | Alta (Kiting) |
+| **Byron** | DPS Cuerpo a Cuerpo | Gran Espada | Baja |
+| **Kitsuni** | Maga | Hechizos Mágicos | Moderada |
+| **Thomas** | Apoyo | Instrumento Musical | Alta |
+
+</Section>
+
+<Section icon={Target} title="Mecánicas de Combate: Un Análisis Crítico de Drakantos">
+
+El combate en Drakantos es actualmente un punto de discusión significativo dentro de la comunidad. Aunque las animaciones son hermosas, la jugabilidad se siente "pesada" de una manera que algunos jugadores encuentran torpe. Específicamente, el juego utiliza un sistema de ataque de 4 direcciones, lo que puede sentirse restrictivo cuando los enemigos se acercan desde ángulos diagonales.
+
+Una de las características más polarizantes es el **Bloqueo de Animación**. Cada habilidad, incluido el autoataque básico, impide que tu personaje se mueva hasta que la animación se complete. Para personajes a distancia como el Explorador, esto dificulta el kiting, ya que debes detenerte por completo para disparar.
+
+**Retroalimentación de Combate Actual y Respuestas de los Desarrolladores:**
+
+| Problema | Sentimiento del Jugador | Estado del Desarrollador (2026) |
+| :--- | :--- | :--- |
+| **Apuntado de 4 Vías** | Se siente restrictivo y anticuado | Se está probando el apuntado de 8 vías |
+| **Bloqueo de Animación** | Hace que el combate se sienta poco receptivo | Se está investigando la cancelación de animaciones |
+| **CD de Autoataque** | El tiempo de reutilización de 2 segundos se siente lento | Ajustando el GCD y la velocidad de ataque |
+| **Bloqueo de Cuerpo** | Los PNJ y los jugadores pueden atraparte | La lógica de colisión está siendo reelaborada |
+
+<Callout type="warning" title="Advertencia de Combate">
+El combate al principio del juego puede sentirse repetitivo hasta que alcanzas el nivel 12 y desbloqueas una barra de habilidades completa. La persistencia es clave para ver la verdadera profundidad de las mecánicas de los héroes.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Progresión y el Sistema de Aventura">
+
+Subir de nivel en Drakantos ocurre principalmente a través de "Aventuras", misiones instanciadas que se pueden abordar en solitario o con un grupo de hasta tres jugadores. Estas misiones escalan en dificultad según el número de participantes y ofrecen recompensas que incluyen XP, oro y equipo.
+
+<Steps>
+  <Step num="1" title="Completa el Tutorial">
+    Termina la instancia inicial con la guía del PNJ para llegar al centro del Gremio de Aventureros.
+  </Step>
+  <Step num="2" title="Alcanza el Nivel de Poder 460">
+    Realiza Aventuras de Rango 1 para obtener equipo básico y aumentar tu Nivel de Poder total.
+  </Step>
+  <Step num="3" title="Desbloquea Orbes de Habilidad">
+    Usa Orbes y Artefactos para modificar las habilidades de tu héroe, añadiendo efectos de AOE o CC.
+  </Step>
+  <Step num="4" title="Ingresa a las Misiones de Rango 2">
+    Una vez equipado, muévete a nuevas zonas como el desierto para enfrentarte a mini-jefes y enemigos más duros.
+  </Step>
+</Steps>
+
+El sistema de "Nivel de Poder" es la métrica principal para la fuerza del personaje. Actualmente, el equipo carece de estadísticas secundarias profundas (como la tasa de crítico o la celeridad), centrándose en una puntuación de poder singular. Sin embargo, la comunidad ha sugerido encarecidamente la adición de ranuras para gemas y encantamientos para permitir una mayor personalización del personaje.
+
+<Callout type="info" title="Solo vs Grupo">
+Las Aventuras te agrupan automáticamente con otros jugadores por defecto. Si bien esto acelera los tiempos de finalización, también escala significativamente la salud del enemigo. Algunos jugadores prefieren jugar en solitario para mantener el control sobre el ritmo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Contenido Final y Sistemas Sociales">
+
+Más allá de la búsqueda de equipo, Drakantos tiene como objetivo proporcionar un ecosistema social y competitivo robusto. El juego presenta un sistema PvP normalizado, asegurando que las victorias se determinen por la habilidad y la estrategia en lugar de quién tiene la puntuación de equipo más alta.
+
+**Características Sociales Clave:**
+- **Vivienda**: Los jugadores pueden adquirir terrenos y decorar sus propias casas, lo que proporciona un descanso del combate.
+- **Mercado**: Una economía impulsada por los jugadores donde se pueden intercambiar objetos raros y coleccionables.
+- **Gremios**: Sistemas para permitir que los jugadores se unan y escalen las tablas de clasificación globales.
+- **Eventos Globales**: Mini-juegos y eventos mundiales periódicos que cambian el ritmo del juego.
+
+<Checklist
+  id="drakantos-goals"
+  title="Hitos de la Prueba de Juego de 2026:"
+  items={[
+    "Alcanzar el Nivel 16 para desbloquear la habilidad final del héroe",
+    "Lograr un Nivel de Poder de 460+ para instancias de juego final",
+    "Participar en al menos un torneo PvP Clasificatorio",
+    "Completar el arco de la historia principal de 'Fairyale Village'",
+    "Desbloquear y equipar al menos dos Artefactos únicos"
+  ]}
+/>
+
+| Tipo de Contenido | Cantidad de Jugadores | Enfoque de Recompensa |
+| :--- | :--- | :--- |
+| **Aventuras** | 1-3 Jugadores | XP, Equipo, Oro |
+| **Mundo Abierto** | MMO | Recolección, Social, Misiones |
+| **PvP Clasificatorio** | 1v1 / 3v3 | Prestigio, Cosméticos |
+| **Vivienda** | Solo/Invitación | Personalización, Social |
+
+<Callout type="success" title="Consejo de Mercado">
+Presta atención a los nodos de recolección de recursos (minería/tala) en el mundo abierto. Estos materiales son esenciales para la fabricación y se pueden vender con ganancias en el mercado.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Veredicto Final: ¿Vale la Pena Jugar a Drakantos?">
+
+Drakantos es un juego con un potencial inmenso y un alma clara. Su estilo artístico se encuentra entre los mejores en el género de MMORPG de píxeles, y el sistema basado en héroes proporciona una alternativa fresca a las estructuras de clases obsoletas de juegos más antiguos. Si bien el combate actualmente adolece de cierta torpeza y movimiento restrictivo, los desarrolladores han mostrado una notable voluntad de escuchar a la comunidad e implementar cambios rápidamente.
+
+Si eres fanático de la estética retro, el juego táctico en grupo y el PvP basado en habilidades, Drakantos debería estar en la parte superior de tu lista de seguimiento de 2026. Es un MMO de "parque temático" que respeta tu tiempo con sesiones de juego cortas e impactantes.
+
+<FAQ items={[
+  {
+    question: "¿Es Drakantos realmente free-to-play?",
+    answer: "Sí, Drakantos está planeado como un título free-to-play. Los desarrolladores han declarado que el PvP estará normalizado en estadísticas para evitar mecánicas de pagar para ganar."
+  },
+  {
+    question: "¿Puedo jugar Drakantos con un mando?",
+    answer: "Sí, la prueba de juego de 2026 confirmó el soporte completo para mandos, lo que muchos jugadores encontraron más intuitivo para el movimiento basado en cuadrículas."
+  },
+  {
+    question: "¿Cuál es lo más importante en lo que centrarse en este análisis de Drakantos?",
+    answer: "La sensación de combate es el factor más crítico. Los jugadores potenciales deben ser conscientes del apuntado de 4 vías y los bloqueos de animación antes de sumergirse."
+  },
+  {
+    question: "¿Cómo aumento mi Nivel de Poder?",
+    answer: "El Nivel de Poder se aumenta equipando equipo de mayor nivel que se encuentra en las Aventuras. Generalmente, necesitas alcanzar umbrales específicos para desbloquear rangos de misión más difíciles."
+  }
+]} />
+
+</Section>

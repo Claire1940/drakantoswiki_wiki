@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Users, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Drakantos Review: 2026 First Impressions & Gameplay Rankings",
+  description: "A deep dive into the 2026 Drakantos playtest, covering pixel art aesthetics, hero mechanics, combat fluidity, and the instance-based progression system.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Drakantos+Review+2026",
+  date: "2026-05-23",
+  author: "Drakantos Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Drakantos Review**: A charming retro-inspired MMORPG with modern UI and high-quality pixel art.
+- **Combat System**: Currently features 4-directional attacks with animation locks; developers are addressing feedback for 8-directional movement.
+- **Hero Variety**: Breaking away from traditional classes, the game offers unique heroes like the Stormlancer, Kitsuni, and Bard.
+- **Progression Loop**: Centered around instance-based "Adventures" and a power level gear system.
+- **Free-to-Play**: Launching as a free title with a focus on skill-based PvP where stats are normalized.
+</Callout>
+
+<Section icon={Sparkles} title="Visual Identity and World Aesthetic">
+
+The first thing any player will notice in this **Drakantos review** is the game's striking visual direction. Wingeon Game Studios has successfully blended a nostalgic 16-bit pixel art style with high-fidelity modern animations. The world feels alive, drawing clear inspiration from classic fantasy universes like World of Warcraft, evident in the design of its orcs, paladins, and elven rangers.
+
+**Video Highlights:**
+- Detailed look at the clean, modern user interface that contrasts with the retro art.
+- Demonstration of the open-world exploration and resource gathering mechanics.
+- First impressions of the "Adventures" system where players group for instance-based levels.
+- Analysis of the character animations, including the controversial but unique "jiggle physics" in pixel art.
+- A breakdown of the developer's response to initial playtest feedback.
+
+<YouTubeEmbed videoId="eYLDl2_lHyE" title="Drakantos - New Pixel MMORPG Is It Worth Playing?" />
+
+The UI is remarkably smooth and easy to navigate, a feat often missed in indie MMORPGs. The world map allows for seamless zooming and features an auto-pathing system that simplifies travel between quest objectives. While the game features an open world, much of the early gameplay is channeled through the Adventurers Guild, a cozy hub where players congregate before embarking on missions.
+
+<Callout type="tip" title="Aesthetic Note">
+The game manages to feel modern despite its retro roots. If you enjoy the art style of games like Octopath Traveler or classic SNES RPGs, Drakantos will immediately appeal to your visual senses.
+</Callout>
+
+| Feature | Description | Visual Impact |
+| :--- | :--- | :--- |
+| **Art Style** | High-quality 2D Pixel Art | Excellent, very detailed |
+| **User Interface** | Modern, Minimalist, Clean | High, very responsive |
+| **World Design** | High-fantasy, WoW-inspired | Nostalgic and immersive |
+| **Animations** | Fluid, frame-by-frame | High, though animation-locked |
+
+</Section>
+
+<Section icon={Swords} title="The Hero System: Beyond Traditional Classes">
+
+Drakantos departs from the standard "Warrior, Mage, Rogue" trinity by offering a roster of specific heroes, each with unique mechanics and narrative roles. This approach allows for more specialized gameplay styles and frequent updates with new characters. During the 2026 playtest, several heroes stood out for their distinct feels.
+
+<CardGrid cols={3}>
+  <Card title="Liam (The Tank)">
+    - **Focus**: Damage mitigation and parrying.
+    - **Key Ability**: Shield block/parry with tight timing.
+    - **Playstyle**: Frontline leader, high survivability.
+  </Card>
+  <Card title="Rya (The Ranger)">
+    - **Focus**: Long-range DPS and kiting.
+    - **Key Ability**: Explosive arrows and rapid fire.
+    - **Playstyle**: High damage, requires constant movement.
+  </Card>
+  <Card title="The Bard">
+    - **Focus**: Support and area-of-effect buffs.
+    - **Key Ability**: Healing songs and damage reduction wards.
+    - **Playstyle**: Essential for high-level group dungeons.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Hero Progression">
+Skills are unlocked at specific level milestones. In the latest update, the developers moved skill unlocks to levels 4, 8, and 12 to ensure players feel powerful earlier in their journey.
+</Callout>
+
+| Hero Name | Role | Main Weapon | Difficulty |
+| :--- | :--- | :--- | :--- |
+| **Liam** | Tank | Sword and Shield | Moderate |
+| **Rya** | Ranger | Longbow | High (Kiting) |
+| **Byron** | Melee DPS | Greatsword | Low |
+| **Kitsuni** | Mage | Magic Spells | Moderate |
+| **Thomas** | Support | Musical Instrument | High |
+
+</Section>
+
+<Section icon={Target} title="Combat Mechanics: A Critical Drakantos Review">
+
+The combat in Drakantos is currently a point of significant discussion within the community. While the animations are beautiful, the gameplay feels "weighty" in a way that some players find clunky. Specifically, the game utilizes a 4-directional attack system, which can feel restrictive when enemies approach from diagonal angles.
+
+One of the most polarizing features is the **Animation Lock**. Every ability, including the basic auto-attack, prevents your character from moving until the animation completes. For ranged characters like the Ranger, this makes kiting difficult, as you must stop completely to fire a shot.
+
+**Current Combat Feedback & Dev Responses:**
+
+| Issue | Player Sentiment | Developer Status (2026) |
+| :--- | :--- | :--- |
+| **4-Way Aiming** | Feels restrictive and dated | 8-Way aiming being tested |
+| **Animation Lock** | Makes combat feel unresponsive | Looking into animation canceling |
+| **Auto-Attack CD** | 2-second cooldown feels slow | Adjusting GCD and attack speed |
+| **Body Blocking** | NPCs and players can trap you | Collision logic being reworked |
+
+<Callout type="warning" title="Combat Warning">
+Early game combat can feel repetitive until you reach level 12 and unlock a full hotbar of abilities. Persistence is key to seeing the true depth of the hero mechanics.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Progression and The Adventure System">
+
+Leveling in Drakantos primarily happens through "Adventures"—instanced missions that can be tackled solo or with a group of up to three players. These missions scale in difficulty based on the number of participants and offer rewards including XP, gold, and gear.
+
+<Steps>
+  <Step num="1" title="Complete the Tutorial">
+    Finish the initial instance with the NPC guide to reach the Adventurers Guild hub.
+  </Step>
+  <Step num="2" title="Reach Power Level 460">
+    Run Rank 1 Adventures to obtain basic gear and increase your total Power Level.
+  </Step>
+  <Step num="3" title="Unlock Skill Orbs">
+    Use Orbs and Artifacts to modify your hero's abilities, adding AOE or CC effects.
+  </Step>
+  <Step num="4" title="Enter Rank 2 Missions">
+    Once geared, move to new zones like the desert to face mini-bosses and tougher mobs.
+  </Step>
+</Steps>
+
+The "Power Level" system is the primary metric for character strength. Currently, equipment lacks deep secondary stats (like crit rate or haste), focusing instead on a singular power score. However, the community has strongly suggested the addition of gem slots and enchanting to allow for more character customization.
+
+<Callout type="info" title="Solo vs Group">
+Adventures automatically group you with other players by default. While this speeds up clear times, it also scales enemy health significantly. Some players prefer soloing to maintain control over the pace.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Endgame Content and Social Systems">
+
+Beyond the grind for gear, Drakantos aims to provide a robust social and competitive ecosystem. The game features a normalized PvP system, ensuring that victories are determined by skill and strategy rather than who has the highest gear score.
+
+**Key Social Features:**
+- **Housing**: Players can acquire land and decorate their own homes, providing a break from combat.
+- **Market**: A player-driven economy where rare items and collectibles can be traded.
+- **Guilds**: Systems to allow players to band together and climb global leaderboards.
+- **Global Events**: Periodic mini-games and world events that change the pace of gameplay.
+
+<Checklist
+  id="drakantos-goals"
+  title="2026 Playtest Milestones:"
+  items={[
+    "Reach Level 16 to unlock the final hero skill",
+    "Achieve a Power Level of 460+ for endgame instances",
+    "Participate in at least one Ranked PvP tournament",
+    "Complete the 'Fairyale Village' main story arc",
+    "Unlock and equip at least two unique Artifacts"
+  ]}
+/>
+
+| Content Type | Player Count | Reward Focus |
+| :--- | :--- | :--- |
+| **Adventures** | 1-3 Players | XP, Gear, Gold |
+| **Open World** | MMO | Gathering, Social, Quests |
+| **Ranked PvP** | 1v1 / 3v3 | Prestige, Cosmetics |
+| **Housing** | Solo/Invite | Customization, Social |
+
+<Callout type="success" title="Market Tip">
+Keep an eye on resource gathering nodes (mining/woodcutting) in the open world. These materials are essential for crafting and can be sold for a profit on the market.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Final Verdict: Is Drakantos Worth Playing?">
+
+Drakantos is a game with immense potential and a clear soul. Its art style is among the best in the pixel MMORPG genre, and the hero-based system provides a fresh alternative to the stale class structures of older games. While the combat currently suffers from some clunkiness and restrictive movement, the developers have shown a remarkable willingness to listen to the community and implement changes rapidly.
+
+If you are a fan of retro aesthetics, tactical group play, and skill-based PvP, Drakantos should be at the top of your 2026 watchlist. It is a "theme park" MMO that respects your time with short, impactful play sessions.
+
+<FAQ items={[
+  {
+    question: "Is Drakantos truly free-to-play?",
+    answer: "Yes, Drakantos is planned as a free-to-play title. The developers have stated that PvP will be stat-normalized to prevent pay-to-win mechanics."
+  },
+  {
+    question: "Can I play Drakantos on a controller?",
+    answer: "Yes, the 2026 playtest confirmed full controller support, which many players found more intuitive for the grid-based movement."
+  },
+  {
+    question: "What is the most important thing to focus on in this Drakantos review?",
+    answer: "The combat feel is the most critical factor. Prospective players should be aware of the 4-way aiming and animation locks before diving in."
+  },
+  {
+    question: "How do I increase my Power Level?",
+    answer: "Power Level is increased by equipping higher-tier gear found in Adventures. You generally need to reach specific thresholds to unlock harder mission ranks."
+  }
+]} />
+
+</Section>

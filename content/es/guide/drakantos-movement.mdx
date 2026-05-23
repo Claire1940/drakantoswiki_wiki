@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Movimiento en Drakantos: Revisiones, Controles e Impacto en la Jugabilidad",
+  description: "Explora los cambios significativos en el movimiento de Drakantos, incluyendo la eliminación de la cuadrícula de celdas, controles mejorados y su efecto en el combate y la estrategia en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Drakantos+Movement",
+  date: "2026-05-23",
+  author: "Equipo Wiki de Drakantos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El **movimiento en Drakantos** ha sido completamente revisado, eliminando la antigua cuadrícula de celdas de 8x8 para un control fluido.
+- Los nuevos controles incluyen **soporte para ratón** para una puntería precisa, similar a ARPGs como Diablo.
+- El **movimiento con mando** ahora ofrece libertad de 360 grados con puntería de doble stick.
+- Esta renovación impacta significativamente el **combate, la colisión del mapa y la IA de los monstruos**, mejorando la profundidad estratégica.
+- Los cambios, aunque retrasaron el desarrollo, se consideran **valiosos** para una experiencia de juego moderna.
+</Callout>
+
+<Section icon={Sparkles} title="Movimiento en Drakantos: Una Evolución Fluida">
+El mundo de Drakantos ha experimentado un cambio monumental en sus mecánicas de juego principales, específicamente en lo que respecta al **movimiento en Drakantos**. Los desarrolladores han llevado a cabo una revisión exhaustiva, pasando de un sistema rígido basado en celdas de 8x8 a un enfoque mucho más fluido y moderno. Este cambio aborda directamente los comentarios de los jugadores de la beta cerrada, donde el sistema anterior a menudo se sentía torpe y generaba una percepción de retraso en la entrada.
+
+Anteriormente, los personajes tenían que moverse al centro de una celda antes de ejecutar acciones, lo que dificultaba la capacidad de respuesta y la precisión. El nuevo sistema permite un movimiento continuo y preciso, mejorando significativamente la sensación general del juego y la mejora del control del jugador. Esta fue una tarea masiva, que requirió que los desarrolladores reconstruyeran el sistema de movimiento, la IA enemiga y la búsqueda de rutas, y reelaboraran cada mapa del juego.
+
+**Puntos destacados del video:**
+- Demuestra la diferencia significativa entre el antiguo movimiento basado en celdas y el nuevo movimiento fluido.
+- Muestra cómo el movimiento mejorado impacta la capacidad de respuesta en combate y la precisión del ataque.
+- Explica la introducción del soporte para ratón para la puntería y el uso de habilidades.
+- Destaca la experiencia mejorada con el mando con movimiento de 360 grados.
+- Discute las implicaciones para la IA de los monstruos y la estrategia general del juego.
+
+<YouTubeEmbed videoId="AyjjHxIKc9c" title="Drakantos - Movement Showcase... And More!!"/>
+
+<Callout type="tip">
+La transición a un movimiento fluido en Drakantos fue una respuesta directa a los comentarios de los jugadores, con el objetivo de eliminar la sensación de "retraso artificial" del antiguo sistema basado en celdas. Esta mejora es crucial para una experiencia de juego más receptiva y atractiva.
+</Callout>
+
+Este cambio fundamental tiene como objetivo proporcionar una experiencia más intuitiva y competitiva, especialmente en el contenido PvP y PvE de alto nivel. Si bien ha extendido el cronograma de desarrollo, los desarrolladores creen que la fluidez y el control mejorados conducirán en última instancia a un juego superior.
+
+</Section>
+
+<Section icon={Swords} title="Combate y Puntería Mejorados">
+El sistema de **movimiento en Drakantos** renovado impacta profundamente el combate, haciendo que los enfrentamientos sean más dinámicos y estratégicos. Con la eliminación de la restrictiva cuadrícula de celdas, los jugadores ahora tienen una mayor precisión en el posicionamiento y la puntería de sus ataques.
+
+### Puntería de Precisión con Soporte para Ratón
+La adición más significativa al control de combate es la introducción del soporte completo para ratón. Esto alinea a Drakantos con los ARPG modernos como Path of Exile y Diablo, ofreciendo una forma más directa e intuitiva de apuntar habilidades.
+
+| Acción de Control | Sistema Anterior | Nuevo Soporte para Ratón | Beneficios |
+|---|---|---|---|
+| **Ataque Básico** | A menudo ligado a la dirección/cuadrícula del personaje | Clic izquierdo para apuntar | Compromiso más rápido y directo |
+| **Habilidad Especial** | Puntería híbrida por tabulación/direccional | Clic derecho para apuntar | Precisión mejorada, menor dependencia de la tabulación |
+| **Habilidad Definitiva** | Dirección/área fija | Q (apuntado con ratón) | Colocación estratégica, ajustes en tiempo real |
+| **Movimiento** | Bloqueado por cuadrícula, celda por celda | Clic para moverse, flujo libre | Posicionamiento fluido, eficiencia en el kiting |
+
+<Callout type="success">
+El soporte para ratón cambia fundamentalmente la forma en que los jugadores interactúan con el combate, permitiendo una colocación precisa de las habilidades y estrategias de kiting más efectivas, especialmente para las clases a distancia.
+</Callout>
+
+Este nuevo sistema permite a los jugadores:
+- **Apuntar habilidades con mayor precisión**: Dirige tus ataques exactamente donde los quieres, en lugar de depender de un sistema automático o restringido por cuadrícula.
+- **Kitear enemigos de forma más efectiva**: Muévete en una dirección mientras apuntas y atacas en otra, una ventaja crucial para los personajes a distancia.
+- **Reaccionar más rápido a las amenazas**: La capacidad de respuesta mejorada significa menos retraso de entrada y acciones más inmediatas en combate.
+
+### Impacto en la IA de los Monstruos y la Colisión del Mapa
+Los cambios no son solo para los jugadores. La IA de los monstruos ha sido rediseñada para aprovechar el nuevo movimiento fluido, haciendo que los enemigos sean más desafiantes y sus patrones de ataque más variados. La colisión del mapa también se ha refinado, permitiendo que los personajes se muevan mucho más cerca de los objetos ambientales, evitando los incómodos bloqueos que eran comunes con el antiguo sistema de celdas.
+
+| Característica | Antiguo Sistema de Celdas (8x8) | Nuevo Movimiento Fluido | Impacto Estratégico |
+|---|---|---|---|
+| **Movimiento del Jugador** | Rígido, bloqueado por celdas, "lento" | 360 grados, preciso, receptivo | Kiting mejorado, esquiva, posicionamiento |
+| **Puntería de Ataque** | Menos preciso, a menudo auto-apuntado | Dirigido por ratón, altamente preciso | Puntería basada en habilidades, combos más efectivos |
+| **Colisión del Mapa** | Torpe, bloqueos de celdas completas | Específico de objetos, navegación más fluida | Menos restricciones de movimiento, mejor utilización del mapa |
+| **IA de Monstruos** | Predecible, ligado a la cuadrícula | Más fluida, búsqueda de rutas desafiante | Mayor dificultad, encuentros de combate diversos |
+
+</Section>
+
+<Section icon={Target} title="Integración del Mando y Profundidad Estratégica">
+Para los jugadores que prefieren los gamepads, el **movimiento en Drakantos** también ha experimentado mejoras significativas. Los desarrolladores han reevaluado y refinado el diseño del mando para asegurar que proporcione una experiencia competitiva y cómoda, buscando la paridad con el teclado y el ratón.
+
+### Mejoras del Mando
+El nuevo esquema de control permite:
+- **Movimiento de 360 grados**: Ya no está restringido a entradas direccionales, ofreciendo un control analógico completo.
+- **Puntería de doble stick**: Los jugadores pueden moverse con el stick izquierdo y apuntar habilidades con el stick derecho, de forma similar a los shooters de doble stick modernos o los ARPGs. Esto permite un kiting efectivo, donde puedes alejarte de un enemigo mientras lo atacas continuamente.
+
+<Callout type="info">
+Si bien el teclado y el ratón ofrecen una precisión milimétrica, el soporte mejorado para mandos en Drakantos proporciona una alternativa robusta, particularmente para jugadores acostumbrados a los ARPGs de estilo consola.
+</Callout>
+
+Esta flexibilidad asegura que los jugadores puedan elegir su método de entrada preferido sin sentirse en desventaja. El objetivo es proporcionar una experiencia equilibrada en ambos esquemas de control, permitiendo que la habilidad individual sea el principal diferenciador.
+
+### Elevando la Jugabilidad Estratégica
+Los cambios en el **movimiento y la puntería en Drakantos** no solo buscan hacer que el juego se sienta más fluido; están diseñados para profundizar las capas estratégicas del contenido PvE y PvP.
+
+<Checklist
+  id="strategic-enhancements"
+  title="Nuevas Oportunidades Estratégicas:"
+  items={[
+    "Posicionamiento preciso para un uso óptimo de las habilidades",
+    "Mecánicas mejoradas de kiting y esquiva",
+    "Patrones de ataque de monstruos más complejos para aprender",
+    "Mayor techo de habilidad para los enfrentamientos PvP",
+    "Entornos de combate dinámicos con colisión refinada"
+  ]}
+/>
+
+La capacidad de controlar con precisión el movimiento y la puntería significa que dominar estas mecánicas será crucial para el juego de alto nivel. Los jugadores que puedan utilizar eficazmente el movimiento fluido para evitar el daño entrante, posicionarse para ataques óptimos y superar a los oponentes encontrarán una ventaja significativa. Esto se traduce en una experiencia más gratificante para los jugadores hábiles y fomenta una comprensión más profunda de las mecánicas del juego.
+
+</Section>
+
+<Section icon={Shield} title="Impacto en el Desarrollo y Perspectivas Futuras">
+La decisión de revisar el **movimiento en Drakantos** no se tomó a la ligera. Requirió una enorme cantidad de esfuerzo de desarrollo, esencialmente reconstruyendo los sistemas centrales desde cero. Esto incluyó la actualización de cada habilidad, mapa, monstruo, capacidad y objeto ambiental para adaptarse al nuevo estilo de movimiento.
+
+### Ajustes en el Cronograma de Desarrollo
+La naturaleza extensa de estos cambios inevitablemente llevó a retrasos en el cronograma de desarrollo del juego. El equipo pasó varios meses después de la beta centrándose casi exclusivamente en esta revisión. Si bien esto pospuso hitos anticipados, como una posible beta PvP para finales de 2025, los desarrolladores confían en que fue una inversión valiosa para la salud a largo plazo y la calidad del juego.
+
+<Callout type="warning" title="Retraso en el Desarrollo">
+La revisión integral del movimiento en Drakantos ha causado un retraso en el calendario de lanzamiento del juego, posponiendo las fases beta anticipadas y las fechas de lanzamiento completas. Sin embargo, los desarrolladores aseguran a los jugadores que esto es para garantizar un producto final de alta calidad.
+</Callout>
+
+El equipo ha terminado en gran parte la revisión del sistema de movimiento y ha vuelto a la creación de contenido, incluyendo nuevas áreas, monstruos y misiones.
+
+### Visión del Desarrollador y Comentarios del Jugador
+Los desarrolladores han demostrado un fuerte compromiso con los comentarios de los jugadores, realizando un cambio tan fundamental basado en la opinión de la comunidad. Sin embargo, también mantienen una visión artística clara para Drakantos. Por ejemplo, mientras que algunos jugadores solicitaron sprites diagonales (como en los RPG clásicos como Zelda o Chrono Trigger), los desarrolladores optaron por mantener el estilo de sprite de cuatro direcciones por razones temáticas y nostálgicas. Esto muestra un equilibrio entre escuchar las preocupaciones de la jugabilidad y adherirse a su dirección creativa.
+
+| Aspecto | Postura del Desarrollador | Razonamiento |
+|---|---|---|
+| **Sistema de Movimiento** | Revisado a fluido, sin cuadrícula | Comentarios de los jugadores sobre la "torpeza", expectativa de jugabilidad moderna |
+| **Soporte para Ratón** | Añadido para puntería | Precisión mejorada, estándar ARPG, juego competitivo |
+| **Soporte para Mando** | Mejorado para 360 grados, doble stick | Accesibilidad, equilibrio competitivo, preferencia del jugador |
+| **Sprites Diagonales** | Mantenidos en 4 direcciones | Elección estilística, consistencia temática, atractivo nostálgico |
+
+El compromiso de ofrecer un juego pulido y agradable, incluso si eso significa ajustar el calendario de desarrollo, es un buen augurio para el futuro de Drakantos. Se espera que el sistema de movimiento mejorado atraiga a una base de jugadores más amplia que busca una experiencia de juego moderna con una estética clásica.
+
+</Section>
+
+<Section icon={Trophy} title="Optimizando tu Movimiento en Drakantos">
+Para sobresalir verdaderamente en Drakantos, comprender y optimizar tu movimiento es clave. El nuevo sistema recompensa el juego hábil y la ejecución precisa.
+
+<Steps>
+  <Step num="1" title="Domina la Puntería con el Ratón">
+    Utiliza el clic izquierdo para ataques básicos y el clic derecho para habilidades especiales. Practica apuntar habilidades de área de efecto (AoE) y proyectiles con el ratón para maximizar su impacto. Esto es crucial tanto para la ofensiva como para la defensa, permitiéndote golpear a los enemigos con precisión mientras evitas sus ataques.
+  </Step>
+  <Step num="2" title="Utiliza Técnicas de Kiting">
+    Para personajes a distancia, aprende a moverte y atacar simultáneamente. Esto te permite mantener la distancia de las amenazas cuerpo a cuerpo mientras infliges daño continuamente. Practica moverte en una dirección y apuntar el ratón en otra para kitear eficazmente a los monstruos y evadir las mecánicas de los jefes.
+  </Step>
+  <Step num="3" title="Comprende la Colisión del Mapa">
+    Familiarízate con la nueva y más precisa colisión del mapa. Ahora puedes acercarte mucho más a los objetos ambientales sin quedarte atascado. Usa esto a tu favor para un posicionamiento táctico, romper la línea de visión o embotellar a los enemigos.
+  </Step>
+  <Step num="4" title="Adaptación del Mando (Opcional)">
+    Si prefieres un mando, dedica tiempo a practicar el movimiento y la puntería con doble stick. El movimiento de 360 grados combinado con la puntería con el stick derecho ofrece una experiencia fluida, especialmente para aquellos familiarizados con los juegos de acción de consola. Experimenta para ver si este esquema de control mejora tu estilo de juego.
+  </Step>
+  <Step num="5" title="Observa el Movimiento de los Monstruos">
+    El movimiento fluido también se aplica a los monstruos. Presta atención a sus nuevos y más dinámicos patrones de búsqueda de rutas y ataque. Aprender las señales de los enemigos y las predicciones de movimiento será esencial para evitar el daño y maximizar tu tiempo de actividad sobre los objetivos.
+  </Step>
+</Steps>
+
+<Callout type="tip">
+La práctica regular en escenarios de combate es la mejor manera de internalizar el nuevo movimiento fluido. Concéntrate en la esquiva y la puntería precisas para elevar tu jugabilidad.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Movimiento en Drakantos: Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál fue el principal problema con el antiguo sistema de movimiento de Drakantos?",
+    answer: "El antiguo sistema era una cuadrícula basada en celdas de 8x8 donde los personajes tenían que moverse al centro de una celda antes de realizar acciones. Esto a menudo se sentía torpe y creaba una sensación de retraso artificial, haciendo que el combate fuera menos receptivo."
+  },
+  {
+    question: "¿Cómo ha mejorado el soporte para ratón el movimiento y el combate en Drakantos?",
+    answer: "El soporte para ratón permite una puntería precisa y directa de ataques y habilidades, similar a los ARPG modernos. Esto mejora significativamente la precisión, permite un kiting más efectivo para las clases a distancia y mejora la capacidad de respuesta general del combate."
+  },
+  {
+    question: "¿Puedo usar un mando para Drakantos, y cómo se compara su movimiento?",
+    answer: "Sí, el soporte para mando ha sido mejorado enormemente. Ahora ofrece movimiento libre de 360 grados con el stick izquierdo y puntería precisa con el stick derecho, lo que permite un kiting y combate fluidos. Los desarrolladores buscaron un equilibrio competitivo con el teclado y el ratón."
+  },
+  {
+    question: "¿El rediseño del movimiento en Drakantos retrasó el lanzamiento del juego?",
+    answer: "Sí, el extenso trabajo requerido para reconstruir el sistema de movimiento, la IA de los monstruos y reelaborar todos los mapas provocó retrasos en el desarrollo. Sin embargo, los desarrolladores creen que fue una inversión necesaria y valiosa para la calidad general y la experiencia del jugador del juego."
+  }
+]} />
+
+</Section>

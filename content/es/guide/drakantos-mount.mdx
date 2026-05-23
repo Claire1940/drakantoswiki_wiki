@@ -1,0 +1,227 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Montura de Drakantos: Guía paso a paso para desbloquear tu primer transporte",
+  description: "Domina el sistema de monturas de Drakantos. Aprende cómo encontrar al burro perdido, superar el minijuego de doma y ganar la carrera de licencia contra Sally en esta guía.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Drakantos+Mount+Guide",
+  date: "2026-05-23",
+  author: "Equipo de la Wiki de Drakantos"
+}
+
+<Callout type="info" title="Guía rápida">
+- El acceso a la **montura de Drakantos** requiere alcanzar un Nivel de Poder específico (460) y un Rango de Aventura antes de que Sally ofrezca la misión.
+- **Ubicación de la misión**: Encuentra a Sally en los establos situados al este de la posada del pueblo inicial.
+- **Mecánica de doma**: Usa guijarros para asustar al burro hacia el área de efecto (AoE) de tu cuerda, luego tira de él solo cuando no esté resistiéndose.
+- **Requisito de licencia**: Debes derrotar a Sally en una carrera competitiva para ganar el derecho a montar tu nueva montura.
+- **Equipamiento**: Activa la licencia en la pestaña "Tres Estrellas" de tu inventario y equipa la montura en el menú de Cosméticos.
+</Callout>
+
+<Section icon={Map} title="Desbloqueando tu primera montura de Drakantos">
+
+Adquirir tu primera **montura de drakantos** es un hito fundamental que cambia significativamente la forma en que interactúas con el mundo de Eldras. Aunque el juego cuenta con una variedad de monturas de alto nivel como caballos y grifos, cada aventurero comienza su viaje con el humilde burro. Este proceso no es tan simple como comprar un silbato a un vendedor; implica una cadena de misiones de varias etapas que pone a prueba tu paciencia, habilidad mecánica y destreza en las carreras.
+
+Antes de comenzar, debes demostrar tu valía como aventurero. Sally, la maestra de establos, suele estar "demasiado ocupada" para los jugadores de nivel bajo. Para activar el diálogo inicial, concéntrate en la historia principal hasta alcanzar un umbral de progresión específico.
+
+**Puntos destacados del vídeo:**
+- **Verificación de requisitos**: Asegúrate de que tu Nivel de Poder y Rango de Aventura cumplan con los requisitos.
+- **Inicio de la misión**: Localiza los establos de Sally al este de la posada inicial.
+- **Búsqueda del burro**: Coordenadas precisas del mapa para el burro perdido.
+- **Consejos de doma**: Cómo gestionar la tensión de la cuerda y las distracciones con guijarros.
+
+<YouTubeEmbed videoId="bhYCQk2Yq2E" title="Drakantos MMO Cómo conseguir la MONTURA DE BURRO" />
+
+### Preparación y requisitos previos
+
+El establo está situado a un corto paseo al este de la ciudad principal. Si llegas y Sally se niega a hablar contigo, verifica tus estadísticas actuales con los requisitos que se enumeran a continuación.
+
+| Requisito | Valor | Notas |
+| :--- | :--- | :--- |
+| **Poder de la historia principal** | 460+ | Progresa a través de las misiones de la campaña principal |
+| **Rango de aventura** | Varía | Sube de nivel completando objetivos secundarios y mazmorras |
+| **Ubicación del NPC** | Establo de Sally | Al este de la posada del pueblo inicial |
+| **Nombre de la misión** | Encuentra al burro perdido | Aparece como un marcador azul una vez que eres elegible |
+
+<Callout type="tip" title="Consejo profesional">
+Si el marcador de misión no aparece inmediatamente después de alcanzar los 460 de Poder, intenta regresar a la posada y verificar tus recompensas de Rango de Aventura. A veces, una notificación de aumento de rango actúa como el activador final para el diálogo de Sally.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="La búsqueda del burro perdido">
+
+Una vez que Sally confíe en ti, te informará que su preciado burro se ha escapado. Esto comienza la misión "Encuentra al burro perdido". Verás un gran círculo de búsqueda azul en tu mapa, pero el área es bastante extensa y el burro está escondido en un rincón específico que muchos jugadores pasan por alto.
+
+### Encontrar la ubicación del burro
+
+El burro se encuentra en el punto más al sur del círculo de la misión. Sigue el camino principal hacia el sur desde los establos hasta llegar a una intersección importante. En lugar de continuar hacia el sur hacia territorio de mayor nivel, dirígete ligeramente hacia el oeste. Encontrarás al burro parado cerca del borde del bosque.
+
+### La mecánica de guía
+
+Guiar al burro de regreso al establo es a menudo citado como la parte más frustrante de la misión. El burro no funciona como una mascota tradicional; tiene su propia lógica de búsqueda de caminos y tendencia a "salir disparado" si se maneja incorrectamente.
+
+| Acción | Resultado | Mejor uso |
+| :--- | :--- | :--- |
+| **Mantente cerca** | El burro te sigue | Úsalo para caminos rectos en la carretera principal |
+| **Empuja desde atrás** | Dirige al burro | Úsalo para corregir su rumbo si se sale del camino |
+| **Demasiado lejos** | La misión se reinicia | Nunca dejes que el burro salga de los límites de tu pantalla |
+| **Obstáculos** | El burro se atasca | Guíalo alrededor de arbustos y vallas, no a través de ellos |
+
+<Steps>
+  <Step num="1" title="Localiza la intersección">
+    Dirígete a la intersección sur de la zona de misión azul.
+  </Step>
+  <Step num="2" title="Interacción inicial">
+    Acércate al burro hasta que el objetivo "Guiar" se actualice.
+  </Step>
+  <Step num="3" title="Escolta lenta">
+    Camina (no corras) hacia el norte, hacia el pueblo, manteniendo al burro a una distancia de entre 5 y 10 metros.
+  </Step>
+  <Step num="4" title="Entrada al establo">
+    Lleva al burro al corral situado detrás del edificio de Sally. Escucharás un 'ding' cuando tengas éxito.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Nota de navegación">
+La IA del burro prefiere seguir el camino. Si intentas tomar un atajo por el bosque, es muy probable que el burro se pierda o se quede atascado en la geometría, lo que obligará a reiniciar la misión. Cíñete al camino principal aunque tardes más.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Minijuego de doma del burro">
+
+Después de devolver con éxito al burro, debes domarlo antes de que Sally te permita montarlo. Esto introduce el minijuego de doma, una mecánica que probablemente se reutilizará para futuras capturas de **monturas de drakantos**. Esta fase requiere una combinación de colocación de área de efecto (AoE) e interacción basada en el ritmo.
+
+### Estrategia de doma y controles
+
+El objetivo es atrapar al burro con una cuerda y luego atraerlo. Sin embargo, el burro es asustadizo y te evitará activamente a menos que uses una distracción.
+
+<CardGrid cols={2}>
+  <Card title="El lanzamiento de guijarros">
+    Usa el guijarro (interacción predeterminada) para asustar al burro. Esto lo obliga a correr en una dirección predecible a través del corral, lo que facilita interceptarlo con tu cuerda.
+  </Card>
+  <Card title="La captura con cuerda">
+    Mantén presionado el botón de la cuerda (tecla 'I' por defecto) para mostrar un círculo de AoE. Debes colocar este círculo *delante* de la trayectoria del burro para que corra directamente hacia la trampa.
+  </Card>
+</CardGrid>
+
+### Mecánicas de recogida
+
+Una vez que el burro es atrapado por la cuerda, comienza la fase de "Recogida". Aquí es donde la mayoría de los jugadores fallan al ser demasiado agresivos. Debes mantener presionado el botón de recoger (tecla 'O' por defecto o LB en el mando) para tirar del burro hacia ti.
+
+| Estado del burro | Acción del jugador | Consecuencia |
+| :--- | :--- | :--- |
+| **Tranquilo / Sin movimiento** | Mantener Recoger (O/LB) | El progreso aumenta; el burro se acerca |
+| **Resistiendo / Corriendo** | Soltar Recoger | Evita que la cuerda se rompa |
+| **Cuerda en rojo** | Detenerse inmediatamente | La alta tensión romperá la cuerda y reiniciará el juego |
+
+<Callout type="warning" title="Advertencia crítica">
+No mantengas presionado el botón de recoger mientras el burro tira activamente hacia el otro lado. Observa el color de la cuerda; si se vuelve rojo brillante, tienes menos de un segundo para soltar el botón antes de que el intento de doma falle.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="La carrera por la licencia contra Sally">
+
+Incluso con un burro domado, no puedes montar legalmente en Eldras sin una licencia. Sally te desafiará a una carrera para demostrar que tienes la coordinación necesaria para manejar una montura en áreas de mucho tráfico. Esta carrera es sorprendentemente difícil y requiere un uso inteligente de la mecánica limitada de impulso.
+
+### Fundamentos de la pista de carreras
+
+La carrera sigue una serie de banderas. Perder una sola bandera generalmente resultará en una derrota, ya que Sally rara vez comete errores. El recorrido cuenta con rectas, giros cerrados alrededor de arbustos y puentes estrechos.
+
+**Lista de verificación de estrategia de carrera:**
+- **Ahorra impulsos**: Solo usa tu esprint/impulso en rectas largas.
+- **Curvas**: Evita esprintar durante los giros; el radio de giro del burro aumenta a altas velocidades, lo que facilita chocar con obstáculos.
+- **Patrón de Sally**: Sally suele esprintar al principio y al final. Si estás cabeza a cabeza en el tramo final, asegúrate de tener al menos el 50% de tu barra de impulso.
+- **Bloqueo**: Puedes bloquear físicamente a Sally quedándote directamente frente a ella, aunque esto es arriesgado si pierdes impulso.
+
+| Segmento de carrera | Estrategia recomendada | Uso de impulso |
+| :--- | :--- | :--- |
+| **La salida** | Mantente cerca de la cola de Sally | Mínimo |
+| **El camino del bosque** | Concéntrate en la precisión de las banderas | Ninguno |
+| **El puente** | Camino estrecho; no adelantes | Ninguno |
+| **Recta final** | Esprint total hasta la meta | Máximo |
+
+<Callout type="success" title="Consejo para ganar">
+Si te encuentras perdiendo repetidamente, intenta memorizar la ubicación de los arbustos. Chocar contra un arbusto provoca un efecto de ralentización significativo que es casi imposible de recuperar en una carrera tan corta.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Equipamiento y uso de tu montura">
+
+Después de ganar la carrera, Sally te otorgará tu licencia de montura. Sin embargo, el burro no aparecerá automáticamente bajo tu personaje. Debes activar manualmente la licencia y equipar la montura a través de la interfaz de usuario.
+
+### Pasos de activación
+
+Sigue estos pasos específicos para finalizar la configuración de tu **montura de drakantos**:
+
+<Steps>
+  <Step num="1" title="Abre el inventario">
+    Presiona 'B' para abrir la pantalla principal de tu inventario.
+  </Step>
+  <Step num="2" title="Localiza la licencia">
+    Navega hasta la pestaña "Tres Estrellas" (Objetos especiales). Busca la Licencia de Montura, selecciónala y presiona Enter para consumirla.
+  </Step>
+  <Step num="3" title="Menú de cosméticos">
+    Presiona 'Q' o 'E' para desplazarte por las pestañas de tu personaje hasta llegar a la sección de "Cosméticos".
+  </Step>
+  <Step num="4" title="Asigna la montura">
+    Busca el espacio vacío en el lado derecho con un pequeño punto amarillo debajo. Haz clic en este espacio, selecciona tu Burro y confirma.
+  </Step>
+</Steps>
+
+### Controles y uso
+
+Una vez equipada, puedes invocar a tu montura en cualquier momento en áreas al aire libre.
+
+- **Montar/Desmontar**: Mantén presionado 'F' (Predeterminado).
+- **Movimiento**: Teclas WASD estándar.
+- **Esprint**: Barra espaciadora (consume barra de resistencia/impulso).
+
+<Checklist
+  id="mount-readiness"
+  title="Lista de verificación final del sistema de monturas:"
+  items={[
+    "Consumió la Licencia en la pestaña Tres Estrellas",
+    "Equipó el Burro en el menú de Cosméticos",
+    "Asignó la tecla de Montura a un botón cómodo",
+    "Probó la mecánica de esprint en una zona segura"
+  ]}
+/>
+
+<Callout type="tip" title="Consejo de mantenimiento">
+Aunque el burro es tu primera montura, Sally insinúa que las futuras carreras serán más difíciles y ofrecerán mejores recompensas. Vigila su establo a medida que alcances Rangos de Aventura más altos para posibles mejoras a caballos más rápidos o criaturas exóticas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Por qué Sally no me habla sobre la misión de la montura?",
+    answer: "Sally requiere que alcances un cierto nivel de progresión. La mayoría de los jugadores encuentran que ella está disponible después de alcanzar el Nivel de Poder 460 en la historia principal y aumentar su Rango de Aventura en la posada."
+  },
+  {
+    question: "Perdí al burro durante la misión de escolta, ¿qué hago?",
+    answer: "Si el burro se aleja demasiado o se atasca, la misión se reiniciará. Debes regresar a la intersección sur donde lo encontraste por primera vez para reiniciar el proceso de escolta."
+  },
+  {
+    question: "¿Cómo evito que la cuerda se rompa durante la doma?",
+    answer: "Observa el comportamiento del burro. Cuando forcejee o intente huir, suelta el botón de recoger (O/LB) inmediatamente. Solo mantén presionado el botón cuando el burro esté quieto o moviéndose hacia ti."
+  },
+  {
+    question: "¿Puedo usar la montura del burro en las mazmorras?",
+    answer: "No, las monturas en Drakantos están generalmente restringidas a los mapas del mundo abierto y las áreas urbanas. La mayoría de las mazmorras instanciadas requieren que los jugadores se muevan a pie para mantener el equilibrio del combate."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Drakantos Movement: Overhauls, Controls, and Impact on Gameplay",
+  description: "Explore the significant changes to Drakantos movement, including the removal of the tile grid, improved controls, and its effect on combat and strategy in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Drakantos+Movement",
+  date: "2026-05-23",
+  author: "Drakantos Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Drakantos movement** has been completely overhauled, removing the old 8x8 tile grid for fluid control.
+- New controls include **mouse support** for precise targeting, similar to ARPGs like Diablo.
+- **Controller movement** now offers 360-degree freedom with dual-stick aiming.
+- This revamp significantly impacts **combat, map collision, and monster AI**, enhancing strategic depth.
+- The changes, though delaying development, are deemed **worthwhile** for a modern gaming experience.
+</Callout>
+
+<Section icon={Sparkles} title="Drakantos Movement: A Fluid Evolution">
+The world of Drakantos has seen a monumental shift in its core gameplay mechanics, specifically regarding **Drakantos movement**. Developers have undertaken a comprehensive overhaul, transitioning from a rigid 8x8 tile-based system to a much more fluid and modern approach. This change directly addresses player feedback from the closed beta, where the previous system often felt clunky and led to perceptions of input lag.
+
+Previously, characters had to move to the center of a tile before executing actions, which hindered responsiveness and precision. The new system allows for continuous, precise movement, significantly improving the overall feel of the game and enhancing the player's control. This was a massive undertaking, requiring the developers to rebuild the movement system, enemy AI, and pathfinding, and to rework every map in the game.
+
+**Video Highlights:**
+- Demonstrates the significant difference between old tile-based movement and new fluid movement.
+- Showcases how improved movement impacts combat responsiveness and attack accuracy.
+- Explains the introduction of mouse support for targeting and ability aiming.
+- Highlights the enhanced controller experience with 360-degree movement.
+- Discusses the implications for monster AI and overall game strategy.
+
+<YouTubeEmbed videoId="AyjjHxIKc9c" title="Drakantos - Movement Showcase... And More!!"/>
+
+<Callout type="tip">
+The transition to fluid movement in Drakantos was a direct response to player feedback, aiming to eliminate the "artificial lag" sensation of the old tile-based system. This enhancement is crucial for a more responsive and engaging gameplay experience.
+</Callout>
+
+This fundamental change aims to provide a more intuitive and competitive experience, especially in PvP and high-level PvE content. While it has extended the development timeline, the developers believe the enhanced fluidity and control will ultimately lead to a superior game.
+
+</Section>
+
+<Section icon={Swords} title="Enhanced Combat and Targeting">
+The revamped **Drakantos movement** system profoundly impacts combat, making engagements more dynamic and strategic. With the removal of the restrictive tile grid, players now have greater precision in positioning and aiming their attacks.
+
+### Precision Targeting with Mouse Support
+The most significant addition to combat control is the introduction of full mouse support. This brings Drakantos in line with modern action RPGs like Path of Exile and Diablo, offering a more direct and intuitive way to aim abilities.
+
+| Control Action | Previous System | New Mouse Support | Benefits |
+|---|---|---|---|
+| **Basic Attack** | Often tied to character facing/grid | Left-click target | Faster, more direct engagement |
+| **Special Ability** | Hybrid tab-targeting/directional | Right-click target | Improved accuracy, less reliance on tab |
+| **Ultimate Ability** | Fixed direction/area | Q (mouse-aimed) | Strategic placement, real-time adjustments |
+| **Movement** | Grid-locked, tile-by-tile | Click-to-move, free-flow | Fluid positioning, kiting efficiency |
+
+<Callout type="success">
+Mouse support fundamentally changes how players interact with combat, allowing for precise ability placement and more effective kiting strategies, especially for ranged classes.
+</Callout>
+
+This new system allows players to:
+- **Aim abilities with greater accuracy**: Direct your attacks exactly where you want them, rather than relying on an automatic or grid-restricted system.
+- **Kite enemies more effectively**: Move in one direction while aiming and attacking in another, a crucial advantage for ranged characters.
+- **React faster to threats**: The improved responsiveness means less input lag and more immediate actions in combat.
+
+### Impact on Monster AI and Map Collision
+The changes aren't just for players. Monster AI has been re-engineered to leverage the new fluid movement, making enemies more challenging and their attack patterns more varied. Map collision has also been refined, allowing characters to move much closer to environmental objects, preventing awkward blockages that were common with the old tile system.
+
+| Feature | Old Tile System (8x8) | New Fluid Movement | Strategic Impact |
+|---|---|---|---|
+| **Player Movement** | Rigid, tile-locked, "laggy" | 360-degree, precise, responsive | Enhanced kiting, dodging, positioning |
+| **Attack Aiming** | Less precise, often auto-target | Mouse-directed, highly accurate | Skill-based targeting, more effective combos |
+| **Map Collision** | Clunky, full-tile blockages | Object-specific, smoother navigation | Fewer movement restrictions, better map utilization |
+| **Monster AI** | Predictable, grid-bound | More fluid, challenging pathfinding | Increased difficulty, diverse combat encounters |
+
+</Section>
+
+<Section icon={Target} title="Controller Integration and Strategic Depth">
+For players who prefer gamepads, **Drakantos movement** has also seen significant improvements. The developers have re-evaluated and refined the controller layout to ensure it provides a competitive and comfortable experience, aiming for parity with keyboard and mouse.
+
+### Controller Enhancements
+The new controller scheme allows for:
+- **360-degree movement**: No longer restricted to directional inputs, offering full analog stick control.
+- **Dual-stick aiming**: Players can move with the left stick and aim abilities with the right stick, similar to modern twin-stick shooters or ARPGs. This enables effective kiting, where you can move away from an enemy while continuously attacking them.
+
+<Callout type="info">
+While keyboard and mouse offer pinpoint accuracy, the improved controller support in Drakantos provides a robust alternative, particularly for players accustomed to console-style ARPGs.
+</Callout>
+
+This flexibility ensures that players can choose their preferred input method without feeling disadvantaged. The goal is to provide a balanced experience across both control schemes, allowing individual skill to be the primary differentiator.
+
+### Elevating Strategic Gameplay
+The changes to **Drakantos movement** and targeting aren't just about making the game feel smoother; they are designed to deepen the strategic layers of both PvE and PvP content.
+
+<Checklist
+  id="strategic-enhancements"
+  title="New Strategic Opportunities:"
+  items={[
+    "Precise positioning for optimal ability usage",
+    "Enhanced kiting and dodging mechanics",
+    "More complex monster attack patterns to learn",
+    "Higher skill ceiling for PvP engagements",
+    "Dynamic combat environments with refined collision"
+  ]}
+/>
+
+The ability to precisely control movement and aim means that mastering these mechanics will be crucial for high-level play. Players who can effectively utilize the fluid movement to avoid incoming damage, position for optimal attacks, and outmaneuver opponents will find a significant advantage. This translates to a more rewarding experience for skilled players and encourages a deeper understanding of game mechanics.
+
+</Section>
+
+<Section icon={Shield} title="Development Impact and Future Outlook">
+The decision to overhaul **Drakantos movement** was not taken lightly. It required a massive amount of development effort, essentially rebuilding core systems from the ground up. This included updating every skill, map, mob, ability, and environmental object to accommodate the new movement style.
+
+### Development Timeline Adjustments
+The extensive nature of these changes inevitably led to delays in the game's development schedule. The team spent several months post-beta focusing almost exclusively on this revamp. While this pushed back anticipated milestones, such as a potential PvP beta by the end of 2025, the developers are confident it was a worthwhile investment for the long-term health and quality of the game.
+
+<Callout type="warning" title="Development Delay">
+The comprehensive overhaul of Drakantos movement has caused a delay in the game's release schedule, pushing back anticipated beta phases and full launch dates. However, the developers assure players that this is to ensure a high-quality final product.
+</Callout>
+
+The team is now largely finished with the movement system overhaul and has shifted back to content creation, including new areas, monsters, and quests.
+
+### Developer Vision and Player Feedback
+The developers have demonstrated a strong commitment to player feedback, making such a fundamental change based on community input. However, they also maintain a clear artistic vision for Drakantos. For instance, while some players requested diagonal sprites (like in classic RPGs such as Zelda or Chrono Trigger), the developers opted to retain the four-directional sprite style for thematic and nostalgic reasons. This shows a balance between listening to gameplay concerns and adhering to their creative direction.
+
+| Aspect | Developer Stance | Reasoning |
+|---|---|---|
+| **Movement System** | Overhauled to fluid, non-grid | Player feedback on "clunkiness," modern gameplay expectation |
+| **Mouse Support** | Added for targeting | Improved precision, ARPG standard, competitive play |
+| **Controller Support** | Enhanced for 360-degree, dual-stick | Accessibility, competitive balance, player preference |
+| **Diagonal Sprites** | Maintained 4-directional | Stylistic choice, thematic consistency, nostalgic appeal |
+
+The commitment to delivering a polished and enjoyable game, even if it means adjusting the development schedule, bodes well for Drakantos's future. The improved movement system is expected to attract a broader player base looking for a modern gaming experience with a classic aesthetic.
+
+</Section>
+
+<Section icon={Trophy} title="Optimizing Your Drakantos Movement">
+To truly excel in Drakantos, understanding and optimizing your movement is key. The new system rewards skillful play and precise execution.
+
+<Steps>
+  <Step num="1" title="Master Mouse Targeting">
+    Utilize the left-click for basic attacks and right-click for special abilities. Practice aiming area-of-effect (AoE) skills and projectiles with your mouse to maximize their impact. This is crucial for both offense and defense, allowing you to hit enemies accurately while avoiding their attacks.
+  </Step>
+  <Step num="2" title="Utilize Kiting Techniques">
+    For ranged characters, learn to move and attack simultaneously. This allows you to maintain distance from melee threats while continuously dealing damage. Practice moving in one direction and aiming your mouse in another to effectively kite mobs and evade boss mechanics.
+  </Step>
+  <Step num="3" title="Understand Map Collision">
+    Familiarize yourself with the new, more precise map collision. You can now get much closer to environmental objects without getting stuck. Use this to your advantage for tactical positioning, breaking line of sight, or bottlenecking enemies.
+  </Step>
+  <Step num="4" title="Controller Adaptation (Optional)">
+    If you prefer a controller, spend time practicing the dual-stick movement and aiming. The 360-degree movement combined with right-stick aiming offers a fluid experience, especially for those familiar with console action games. Experiment to see if this control scheme enhances your playstyle.
+  </Step>
+  <Step num="5" title="Observe Monster Movement">
+    The fluid movement also applies to monsters. Pay attention to their new, more dynamic pathfinding and attack patterns. Learning enemy tells and movement predictions will be essential for avoiding damage and maximizing your uptime on targets.
+  </Step>
+</Steps>
+
+<Callout type="tip">
+Regular practice in combat scenarios is the best way to internalize the new fluid movement. Focus on precise dodging and aiming to elevate your gameplay.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Drakantos Movement: Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What was the main issue with the old Drakantos movement system?",
+    answer: "The old system was an 8x8 tile-based grid where characters had to move to the center of a tile before performing actions. This often felt clunky and created a sensation of artificial lag, making combat less responsive."
+  },
+  {
+    question: "How has mouse support improved Drakantos movement and combat?",
+    answer: "Mouse support allows for precise, direct aiming of attacks and abilities, similar to modern ARPGs. This significantly enhances accuracy, enables more effective kiting for ranged classes, and improves overall combat responsiveness."
+  },
+  {
+    question: "Can I use a controller for Drakantos, and how does its movement compare?",
+    answer: "Yes, controller support has been greatly improved. It now offers 360-degree free movement with the left stick and precise aiming with the right stick, allowing for fluid kiting and combat. The developers aimed for competitive balance with keyboard and mouse."
+  },
+  {
+    question: "Did the Drakantos movement overhaul delay the game's release?",
+    answer: "Yes, the extensive work required to rebuild the movement system, monster AI, and rework all maps led to development delays. However, the developers believe this was a necessary and worthwhile investment for the game's overall quality and player experience."
+  }
+]} />
+
+</Section>

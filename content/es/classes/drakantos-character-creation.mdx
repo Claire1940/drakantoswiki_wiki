@@ -1,0 +1,182 @@
+import { User, Palette, Sparkles, Shield, Target, Trophy, HelpCircle, Swords, Map } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Creación de Personajes en Drakantos: Guía de Selección y Personalización de Héroes",
+  description: "Aprende cómo funciona la creación de personajes en Drakantos, incluyendo los roles de héroe, la personalización de habilidades a través de orbes y el sistema único de tintes para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Character+Creation+Guide",
+  date: "2026-05-23",
+  author: "Equipo Wiki de Drakantos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Sistema Basado en Héroes**: A diferencia de los MMORPG tradicionales, la **creación de personajes en Drakantos** se centra en seleccionar héroes predefinidos en lugar de construir un avatar personalizado.
+- **Arquetipos de Rol**: Los héroes se dividen en roles de Tanque, DPS y Apoyo, cada uno con trasfondos y mecánicas únicas impulsadas por la historia.
+- **Límites de Personalización**: No puedes cambiar las características físicas, pero el **sistema de tintes** permite modificar el color del cabello y la armadura.
+- **Evolución de Habilidades**: Las identidades de clase principales y las habilidades centrales se desbloquean en el **Nivel 12**, lo que permite a los héroes cumplir sus roles especializados.
+- **Enfoque en la Progresión**: El poder del personaje está fuertemente dictado por el **Puntaje de Equipo** y la incrustación de Orbes y Artefactos en tu árbol de habilidades.
+</Callout>
+
+<Section icon={User} title="El Sistema de Selección de Héroes">
+
+En el panorama actual de los MMORPG indie de 2026, Drakantos adopta un enfoque distinto a la identidad del jugador. Si entras al juego esperando un creador de avatares profundo basado en controles deslizantes, encontrarás un elenco de héroes en su lugar. Esta elección de diseño permite a Wingeon Game Studios tejer una historia específica e identidades mecánicas únicas en cada personaje jugable.
+
+**Puntos Destacados del Video:**
+- Resumen de la pantalla de selección de héroes y arquetipos disponibles.
+- Explicación de la división entre Tanque, DPS y Apoyo.
+- Información sobre el hito de habilidad del Nivel 12.
+- Demostración del sistema de tintes y objetos de vanidad.
+
+<YouTubeEmbed videoId="kZaCM5KbVEA" title="Guía para Principiantes de Drakantos - Qué Esperar" />
+
+El elenco está equilibrado en tres roles principales. Si bien las pruebas beta cerradas iniciales contaron con una selección limitada, el lanzamiento completo tiene como objetivo expandir esta lista significativamente. Cada héroe viene con un conjunto fijo de atributos base, pero su potencial final se moldea por cómo interactúas con los sistemas de progresión del juego.
+
+| Arquetipo | Enfoque Principal | Estilo de Combate |
+| :--- | :--- | :--- |
+| **Tanque** | Control de masas y supervivencia | Alta salud, habilidades defensivas, gestión de aggro |
+| **DPS** | Daño puro | Ataques rápidos, alto estallido, menor supervivencia |
+| **Apoyo** | Buffs y curación | Utilidad de equipo, restauración de recursos, control de área |
+
+<Callout type="tip" title="Consejos para la Selección de Rol">
+Dado que el equipo y ciertos elementos de progresión están ligados al personaje y no se pueden transferir entre héroes, dedica tiempo a probar varios personajes antes de comprometerte con uno principal. La "sensación" de movimiento y el tiempo de las habilidades varían mucho entre un tanque pesado y un DPS ágil.
+</Callout>
+
+</Section>
+
+<Section icon={Palette} title="Personalización Visual y Tintes">
+
+Aunque no puedes cambiar la estructura facial o la altura de tu héroe, la **creación de personajes en Drakantos** ofrece agencia visual a través de sus sistemas cosméticos. Los desarrolladores han implementado una capa de personalización que permite a los jugadores destacarse en el mundo de pixel-art 2D del juego.
+
+El método principal de personalización es el **Sistema de Tintes**. Esto te permite modificar zonas específicas de color hexadecimal en el sprite de tu héroe.
+
+| Tipo de Personalización | Descripción | Cómo Obtener |
+| :--- | :--- | :--- |
+| **Tintes de Armadura** | Cambia los colores primarios y secundarios de tu equipo | Artesanía, drops o Gremio de Aventureros |
+| **Tintes de Cabello** | Modifica el color base del cabello del héroe | Tienda de vanidad o recompensas de eventos especiales |
+| **Trajes** | Skins de cuerpo completo que anulan la apariencia del equipo | Tienda del juego o drops raros de mazmorras |
+| **Objetos de Vanidad** | Pequeños accesorios como sombreros o piezas de espalda | Recompensas de logros y fichas de gremio |
+
+<CardGrid cols={2}>
+  <Card title="Mecánicas de Tinte">
+    - **Basado en zonas**: La mayoría de los héroes tienen 2-3 zonas teñibles.
+    - **Permanente**: Una vez aplicados, los tintes permanecen hasta que se sobrescriben.
+    - **Variedad**: Incluye colores mate básicos y acabados metálicos raros.
+  </Card>
+  <Card title="Equipo de Vanidad">
+    - **Sin estadísticas**: Los objetos de vanidad no afectan tu Puntuación de Equipo.
+    - **Visibilidad**: Se pueden activar o desactivar en el menú del personaje.
+    - **Colección**: Se rastrea en la biblioteca global de vanidad.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Consumo de Tintes">
+Los tintes suelen ser artículos de un solo uso. Si encuentras un color raro, asegúrate de estar satisfecho con tu elección de héroe antes de aplicarlo, ya que estos artículos se consumen al usarse.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Personalización de Habilidades a través de Orbes y Artefactos">
+
+La verdadera "creación" en Drakantos ocurre después de la pantalla de selección. El juego utiliza un sistema de habilidades modular que te permite modificar cómo funcionan las habilidades de tu héroe. Esto se maneja a través de dos elementos principales: **Orbes** y **Artefactos**.
+
+En el Nivel 12, tu héroe desbloquea su habilidad de clase definitoria (como una burla para los tanques o una curación importante para los apoyos). A partir de este punto, comenzarás a encontrar Orbes que se pueden incrustar directamente en tus habilidades activas.
+
+| Tipo de Objeto | Método de Incrustación | Efecto en el Juego |
+| :--- | :--- | :--- |
+| **Orbes de Habilidad** | Se incrustan en habilidades específicas | Aumenta el daño, reduce los tiempos de reutilización o añade efectos |
+| **Artefactos** | Dos ranuras de equipo dedicadas | Otorga nuevas habilidades activas/pasivas (ej. DOT de Nido de Avispas) |
+| **Refuerzos** | Se aplican en la herrería | Aumenta el poder base y la Puntuación de Equipo del equipamiento |
+
+<Callout type="success" title="El Pico de Poder del Nivel 12">
+Alcanzar el Nivel 12 es el hito más crítico en la vida temprana de tu personaje. Es entonces cuando la sensación "rígida" del combate inicial se disipa a medida que obtienes la rotación completa de habilidades necesarias para la limpieza táctica de mazmorras.
+</Callout>
+
+Los artefactos actúan como "sub-habilidades" que se actualizan cada vez que sales de una mazmorra. Por ejemplo, un Tanque podría equipar un artefacto que hace que los enemigos se ataquen entre sí, proporcionando un control de masas adicional que no forma parte de su kit base. Esto permite construcciones híbridas, como un "Apoyo Luchador" o un "DPS Tanque".
+
+</Section>
+
+<Section icon={Shield} title="Puntuación de Equipo y Progresión del Equipamiento">
+
+En Drakantos, el poder de tu personaje está representado por una **Puntuación de Equipo**. Este número es más importante que tu nivel de personaje real al determinar tu efectividad en mazmorras de alto nivel. El sistema de equipamiento se simplifica en cuatro ranuras principales más dos ranuras de artefactos.
+
+| Ranura | Impacto | Fuente Principal |
+| :--- | :--- | :--- |
+| **Arma** | Daño de salida y escalado de habilidades | Drops de jefes y artesanía |
+| **Sombrero** | Piscinas de salud y maná | Cofres de mazmorras |
+| **Parte Superior** | Defensa física y mágica | Recompensas de misiones y drops |
+| **Zapatos** | Velocidad de movimiento y tiempo de reutilización de esquivar | Recolección/artesanía en mundo abierto |
+
+<Steps>
+  <Step num="1" title="Grindea Mazmorras de Nivel 1">
+    Corre instancias de 3 jugadores para recolectar un conjunto completo de equipo básico. Concéntrate en eliminar a todos los monstruos para maximizar los drops de botín.
+  </Step>
+  <Step num="2" title="Reúne Recursos">
+    Dirígete al mundo abierto para extraer minerales y talar árboles. Estos materiales son necesarios para reforzar tu equipo en la herrería.
+  </Step>
+  <Step num="3" title="Aumenta la Puntuación de Equipo">
+    Usa los materiales recolectados para mejorar tu equipo de Nivel 1. Esto desbloquea el acceso a mazmorras de Nivel 2 con mejores tasas de experiencia.
+  </Step>
+  <Step num="4" title="Incrusta Orbes">
+    A medida que encuentres Orbes de Habilidad, incrustarlos inmediatamente. A diferencia del equipo, los Orbes proporcionan mejoras permanentes a las habilidades de tu héroe.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Movimiento Táctico">
+Drakantos utiliza un sistema de movimiento basado en cuadrícula que puede sentirse "rígido" o "táctico" según tu preferencia. Se recomienda encarecidamente jugar con un **controlador** para gestionar mejor el tiempo de tus embestidas y la ejecución de habilidades.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Mantenimiento del Personaje">
+
+Para asegurar que tu héroe se mantenga competitivo a medida que avanzas por los biomas de Drakantos, sigue esta rutina de mantenimiento diario y semanal.
+
+<Checklist
+  id="character-checklist"
+  title="Tareas Diarias de Progresión del Héroe:"
+  items={[
+    "Revisa el Gremio de Aventureros en busca de tickets de misión y objetos de vanidad.",
+    "Verifica que todos los Orbes de Habilidad estén incrustados en tus habilidades de mayor prioridad.",
+    "Refuerza al menos una pieza de equipo para aumentar tu Puntuación de Equipo total.",
+    "Completa la rotación diaria de mazmorras para encontrar nuevos Artefactos para tu construcción.",
+    "Reúne recursos del mundo abierto para mantener un suministro para la herrería."
+  ]}
+/>
+
+<Callout type="warning" title="Pérdida de Experiencia">
+Ten cuidado en las mazmorras de alto nivel. Morir resulta en una **pérdida del 5% de experiencia** por muerte. En los niveles posteriores, esto puede retrasar significativamente tu progreso hacia el desbloqueo de los niveles de habilidad finales.
+</Callout>
+
+Según la [Página oficial de Drakantos en Steam](https://store.steampowered.com/app/2454980/Drakantos/), el juego también cuenta con un sistema de vivienda y un mercado. Aunque estos no cambian directamente las estadísticas de tu personaje, proporcionan un espacio para que los jugadores muestren sus coleccionables raros e intercambien objetos encontrados durante las incursiones en mazmorras.
+
+</Section>
+
+<Section icon={HelpCircle} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puedo cambiar el género o la apariencia de mi héroe después de la selección?",
+    answer: "No. Las características físicas y el género están fijados al héroe específico que elijas. Solo puedes modificar los colores a través del sistema de tintes o cambiar tu apariencia con disfraces."
+  },
+  {
+    question: "¿Hay alguna forma de reiniciar mis Orbes de Habilidad?",
+    answer: "Los orbes se consumen al usarse y permanecen con el personaje. Si bien puedes sobrescribirlos con orbes mejores más adelante, la inversión inicial es permanente, así que elige tus mejoras de habilidad sabiamente."
+  },
+  {
+    question: "¿Puedo transferir equipo entre mis diferentes héroes?",
+    answer: "El equipo equipado está ligado al personaje. Sin embargo, el equipo no equipado que se encuentra en tu inventario a menudo se puede compartir con otros personajes de tu cuenta, siempre que cumplan con los requisitos de nivel."
+  },
+  {
+    question: "¿Cuál es la estadística más importante para un nuevo personaje?",
+    answer: "La Puntuación de Equipo es la métrica más crítica. Dicta tu supervivencia y daño más que el nivel base de tu personaje. Siempre prioriza mejorar tu equipo de Nivel antes de intentar mazmorras más difíciles."
+  }
+]} />
+
+</Section>
