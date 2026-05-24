@@ -1,0 +1,167 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Bardo de Drakantos: Guía del Héroe Thomas y Selecciones Meta de Apoyo",
+  description: "Domina a Thomas el Bardo en Drakantos con nuestra guía de 2026. Aprende rotaciones de habilidades, mecánicas de Resonancia y las mejores configuraciones de Orbes para un juego de apoyo de alto nivel.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Drakantos+Bard+Guide",
+  date: "2026-05-24",
+  author: "Equipo Wiki de Drakantos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Bardo de Drakantos**: Thomas es un héroe de apoyo felino especializado en **curación, control de masas (CC) y reducción de daño**.
+- **Mecánica de Resonancia**: Una habilidad basada en el ritmo que requiere que los jugadores introduzcan cuatro acordes para activar **sueño y escudos de área de efecto (AOE)**.
+- **Canción de Curación**: La habilidad definitiva de Thomas proporciona **curación basada en la proximidad** durante 8 segundos mientras permite el movimiento completo.
+- **Flexibilidad de Apoyo**: A diferencia de los curanderos estacionarios, Thomas destaca en **encuentros móviles** y misiones de escolta.
+- **Personalización de Orbes**: Esencial para reducir los tiempos de reutilización y añadir **capacidades de escudo** a los hechizos de apoyo básicos.
+</Callout>
+
+<Section icon={Map} title="Introducción a Thomas el Bardo">
+
+En el meta en evolución de 2026, el **bardo de Drakantos**, Thomas, ha emergido como una opción de apoyo principal para jugadores que valoran la movilidad y la utilidad. Como lanzador de magia, Thomas utiliza el poder de los instrumentos musicales para manipular el campo de batalla. Es único no solo por su apariencia felina, sino por un conjunto de habilidades que combina la curación tradicional con complejas mecánicas de juego de ritmo que recompensan una ejecución de alta habilidad.
+
+**Puntos Destacados del Video:**
+- Visión general de la identidad central de Thomas como **rol de apoyo/curandero**.
+- Demostración de la **habilidad de movimiento Deslizamiento** y sus propiedades defensivas.
+- Desglose visual de la **secuencia de acordes de Resonancia**.
+- Análisis de los efectos de proximidad de la **Canción de Curación**.
+
+<YouTubeEmbed videoId="VWpud7KCs0M" title="Drakantos - Habilidades de Thomas (Bardo) - Prueba Beta Cerrada" />
+
+<Callout type="info">
+Thomas se encuentra actualmente en la fase de Prueba Beta Cerrada. Aunque su kit principal está establecido, el orden en que desbloquea habilidades en rangos inferiores puede ajustarse para proporcionar un mejor apoyo al principio del juego.
+</Callout>
+
+Thomas se diferencia de otros arquetipos de apoyo como Marley al ofrecer una curación dinámica. Mientras que otros héroes pueden requerir que el grupo se pare en una zona designada, Thomas se mueve con el equipo, asegurando que las peleas de jefes de alta presión y las rápidas carreras de "incursión" se mantengan fluidas.
+
+</Section>
+
+<Section icon={Swords} title="Análisis de Habilidades Principales">
+
+El kit de Thomas está diseñado alrededor del concepto de "Melodías Fuertes" y "Escudos Musicales". Comprender los matices de cada habilidad es fundamental para maximizar tu contribución a un grupo. El **bardo de Drakantos** depende de una sincronización y posicionamiento precisos para mantener a los aliados vivos mientras interrumpe las formaciones enemigas.
+
+| Nombre de la Habilidad | Efecto Primario | Utilidad Clave |
+| :--- | :--- | :--- |
+| **Ataque Básico** | Daño mágico de un solo objetivo | Velocidad de lanzamiento rápida con orbes |
+| **Deslizamiento** | Impulso hacia adelante con 5% de Reducción de Daño (DR) | Escudos y mejoras de velocidad |
+| **Melodía Fuerte** | Dispara 3 notas mágicas | Los golpes de precisión infligen daño extra |
+| **Escudo Musical** | Mejora a un aliado con DR/daño AOE | Incluye una reactivación con empuje |
+| **Resonancia** | Secuencia de ritmo de 4 acordes | Sueño AOE y escudos de equipo |
+| **Canción de Curación** | Aura de curación AOE de 8s | Sustento móvil basado en la proximidad |
+
+<Callout type="tip" title="Estrategia de Combate">
+Usa siempre **Escudo Musical** en tu tanque de primera línea. No solo proporciona reducción de daño, sino que el daño pulsante de área de efecto ayuda a mantener el aggro y a eliminar mobs más pequeños.
+</Callout>
+
+La habilidad **Deslizamiento** es la principal herramienta de supervivencia de Thomas. A diferencia de los dashes estándar, proporciona una reducción de daño (DR) incorporada del 5%, que puede mejorarse a través de Orbes para proporcionar un enorme escudo del 15% de la salud máxima. Esto hace que Thomas sea sorprendentemente duradero para un héroe de clase lanzador.
+
+</Section>
+
+<Section icon={Target} title="Dominando la Mecánica de Resonancia">
+
+La característica definitoria del **bardo de Drakantos** es la habilidad **Resonancia**. Esta habilidad introduce un minijuego similar a los pasos de "Bailarín" en otros MMO populares. Para lanzar Resonancia con éxito, debes introducir una secuencia de cuatro acordes que se muestran en la pantalla.
+
+<Steps>
+  <Step num="1" title="Activación">
+    Activa la habilidad Resonancia para que aparezca la interfaz de usuario de la secuencia de acordes. El juego mostrará cuatro notas de colores específicos.
+  </Step>
+  <Step num="2" title="Entrada de Acordes">
+    Presiona los botones correspondientes en el orden exacto que se muestra. La velocidad es esencial aquí, ya que el tiempo de reutilización se ajusta a tu rendimiento.
+  </Step>
+  <Step num="3" title="El Disparador de Sueño">
+    Al completar perfectamente, Thomas inflige daño AOE y pone a dormir a todos los enemigos cercanos, proporcionando un respiro vital.
+  </Step>
+  <Step num="4" title="Acumulación de Escudo">
+    Si el Orbe final está equipado, cada paso exitoso en la secuencia añade una capa de escudo a todos los aliados cercanos.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Error de Entrada">
+Faltar un acorde generalmente resulta en un error, cancelando el efecto. Sin embargo, la primera mejora de Orbe permite un error, lo cual es altamente recomendado para principiantes que aprenden el ritmo.
+</Callout>
+
+Resonancia es particularmente efectiva en **Misiones de Escolta**. Cuando aparecen nuevas oleadas de mobs, una Resonancia bien sincronizada puede poner a dormir a todo el grupo, permitiendo que el objetivo de la escolta pase de forma segura mientras el grupo se concentra en los objetivos prioritarios.
+
+</Section>
+
+<Section icon={Sparkles} title="Personalización y Progresión de Orbes">
+
+Los Orbes en Drakantos te permiten especializar las habilidades de tu héroe. Para Thomas, los Orbes lo transforman de un simple curandero en una potencia de utilidad. La selección adecuada de Orbes puede reducir significativamente la sensación "truculenta" de sus mecánicas de ritmo al añadir redes de seguridad y reducciones de tiempo de reutilización.
+
+| Habilidad | Efecto Orbe 1 | Efecto Orbe 2 |
+| :--- | :--- | :--- |
+| **Deslizamiento** | Cargas extra / CD ajustado | Mayor distancia y duración de DR |
+| **Ataque Básico** | +15% Velocidad de lanzamiento | +25% Velocidad de lanzamiento |
+| **Melodía Fuerte** | Notas de bonificación de golpe central | Velocidad de puntería manual más rápida |
+| **Escudo Musical** | Reducción de movimiento enemigo | Empuje en la reactivación |
+| **Resonancia** | Tolerancia a un error | Reducción de CD basada en la velocidad |
+
+<Callout type="success" title="Configuración de Alto Nivel">
+Para el contenido de endgame, prioriza el **Orbe 2 de Resonancia**. La reducción de tiempo de reutilización te permite encadenar sueños AOE, lo que es posiblemente el CC más fuerte en el meta actual de Drakantos.
+</Callout>
+
+El Orbe final de Resonancia también añade un escudo del 15% de la salud máxima a los aliados. Cuando se combina con la Canción de Curación, Thomas puede "anular" eficazmente el daño explosivo entrante mientras simultáneamente recarga las barras de salud del grupo.
+
+</Section>
+
+<Section icon={Trophy} title="Meta de Apoyo y Sinergia de Equipo">
+
+Thomas sobresale en composiciones de equipo que requieren movimiento constante. Mientras que Marley es la reina de las composiciones de "búnker", Thomas es el rey del meta de "inmersión" o "kiteo". Su habilidad para seguir al grupo con la **Canción de Curación** significa que el equipo nunca tiene que detenerse para recuperarse.
+
+<CardGrid cols={2}>
+  <Card title="Eficiencia de Juego en Solitario">
+    Thomas puede completar la mayoría de las incursiones en solitario usando **Resonancia** para dormir a los mobs y **Melodía Fuerte** para eliminarlos a distancia. Su escudo de **Deslizamiento** proporciona suficiente sustento para sobrevivir a las mecánicas de los jefes.
+  </Card>
+  <Card title="Utilidad en Incursiones de Grupo">
+    En incursiones, Thomas actúa como curandero secundario y principal controlador de masas. Su **Escudo Musical** es esencial para proteger al tanque principal durante las fases de alto daño.
+  </Card>
+</CardGrid>
+
+<Checklist
+  id="bard-milestones"
+  title="Lista de Verificación de Maestría de Thomas:"
+  items={[
+    "Desbloquea Resonancia (Nivel 10+)",
+    "Equipa el Orbe 'Tolerancia a un Error' para Resonancia",
+    "Practica el rango de proximidad de la Canción de Curación",
+    "Domina el tiempo de empuje del Escudo Musical",
+    "Alcanza el Nivel 20 para desbloquear los Orbes de Escudo finales"
+  ]}
+/>
+
+<Callout type="tip">
+Recuerda que la **Canción de Curación** tiene un efecto de proximidad. Cuanto más cerca estén tus aliados de Thomas, más potente será la curación. Comunícate con tu equipo para "apilarse en el gato" durante las fases de gran daño AOE.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es Thomas el Bardo viable para subir de nivel en solitario?",
+    answer: "Sí. Aunque es un héroe de apoyo, sus habilidades Melodía Fuerte y Resonancia proporcionan suficiente daño y control de masas para superar el contenido en solitario de manera eficiente."
+  },
+  {
+    question: "¿Cómo se compara la curación de Thomas con la de Marley?",
+    answer: "Marley proporciona una curación explosiva estacionaria más alta, pero Thomas ofrece un sustento móvil superior. Thomas es generalmente preferido para misiones que requieren movimiento constante."
+  },
+  {
+    question: "¿Se puede usar Resonancia para interrumpir mecánicas de jefes?",
+    answer: "Sí, el efecto de sueño puede interrumpir ciertos lanzamientos de mobs no de élite, y el alto daño AOE ayuda a romper las barras de escudo de los jefes más grandes."
+  },
+  {
+    question: "¿Cuál es el Orbe más importante para un nuevo jugador de Thomas?",
+    answer: "El primer Orbe para Resonancia es vital. Te permite fallar un acorde en la secuencia sin fallar la habilidad, haciendo que el héroe sea mucho más indulgente de jugar."
+  }
+]} />
+
+</Section>
