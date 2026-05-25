@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Drakantos Rogue: Guia de Habilidades e Estilo de Jogo de Ozul",
+  description: "Domine Ozul, o arquétipo de Ladino em Drakantos, com este guia detalhado sobre suas habilidades, estilo de jogo e dicas de combate para DPS otimizado.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Drakantos+Rogue+Ozul",
+  date: "2026-05-25",
+  author: "Equipe Wiki de Drakantos"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Ozul, o Ladino de Drakantos**, é um especialista ofensivo focado em alto dano e mobilidade.
+- **Shadowstep** é crucial para posicionamento, redução de dano e reinicialização de tempos de recarga.
+- **Sinister Strike** se beneficia muito de ataques pelas costas, concedendo um aumento de 40% no dano.
+- **Phantom Daggers** aprimora ataques básicos com arremessos de adagas à distância e dano em área.
+- **Vanish** serve como a habilidade suprema de Ozul, proporcionando invisibilidade e dano bônus a habilidades chave.
+</Callout>
+
+<Section icon={Swords} title="Compreendendo o Ladino de Drakantos: Ozul">
+Ozul é o arquétipo de Ladino designado em Drakantos, caracterizado como um especialista ofensivo construído para alto dano e combate ágil. Seu kit gira em torno de movimentos rápidos, posicionamento estratégico e dano explosivo, tornando-o uma força formidável quando jogado corretamente. Embora essas habilidades tenham sido observadas durante um teste beta fechado, elas oferecem uma visão clara da mecânica central do Ladino de Drakantos.
+
+**Destaques do Vídeo:**
+- As habilidades de Ozul são de um beta fechado, sujeitas a alterações.
+- Shadowstep oferece mobilidade, redução de dano e pode ganhar cargas ou distância.
+- Sinister Strike causa dano bônus por trás, uma mecânica chave do ladino.
+- Shadow Dance pode reiniciar o tempo de recarga de Shadowstep, permitindo um combate fluido.
+- Phantom Daggers converte ataques básicos em arremessos à distância e deixa adagas que podem ser recolhidas para dano em área.
+
+<YouTubeEmbed videoId="CRBXgXs9QUA" title="Drakantos - Habilidades de Ozul (Ladino) - Teste Beta Fechado" />
+
+O estilo de jogo de Ozul enfatiza o timing preciso e o gerenciamento de tempos de recarga para maximizar seu potencial de dano. Jogadores que gostam de combate rápido e intenso em habilidades acharão o Ladino de Drakantos uma classe recompensadora.
+
+<Callout type="tip">
+Maximizar o dano de Ozul geralmente envolve usar **Shadowstep** para ganhar posições vantajosas, especialmente para acertar **Sinister Strike** por trás para um dano bônus significativo.
+</Callout>
+
+### Visão Geral das Habilidades Essenciais de Ozul
+
+| Nome da Habilidade | Tipo       | Efeito Primário                               | Melhorias Chave (Orbe)                           |
+| :----------------- | :--------- | :-------------------------------------------- | :----------------------------------------------- |
+| **Shadowstep**     | Movimento  | Avanço rápido, pequena redução de dano        | Cargas aumentadas, distância extra, velocidade de ataque/movimento |
+| **Dagger Stab**    | Ataque Básico | Dano de alvo único                          | Velocidade de conjuração aumentada (10%/25%)     |
+| **Sinister Strike**| Ofensiva   | Golpe frontal, dano extra por trás            | Adicionar carga, dano máximo mais rápido (1.2s), passo sombrio atrás do inimigo |
+| **Shadow Dance**   | Ofensiva/Utilidade | Ataque giratório, reinicia o CD de Shadowstep | Dano ao longo do tempo, redução de velocidade de movimento, arremessa adagas |
+| **Phantom Daggers**| Utilidade/Ofensiva | Arremesso de adagas em vez de facadas, alcance aumentado | Área maior, alcance aumentado (5m) para adagas  |
+| **Vanish**         | Ultimate   | Invisibilidade, bônus de 40% de velocidade de movimento | Dano bônus para Sinister Strike/Shadow Dance |
+
+</Section>
+
+<Section icon={Target} title="Dominando o Fluxo de Combate de Ozul">
+O Ladino de Drakantos se destaca através de um estilo de combate dinâmico que entrelaça movimento, furtividade e ataques precisos. Entender como as habilidades de Ozul se sinergizam é a chave para liberar todo o seu potencial.
+
+<Steps>
+  <Step num="1" title="Iniciar com Shadowstep">
+    Use **Shadowstep** para encurtar distâncias rapidamente, reposicionar-se ou evadir. Sua redução de dano inicial é valiosa, e atualizá-lo para cargas extras ou distância proporciona maior flexibilidade tática. O timing perfeito com orbes pode conceder bônus de velocidade de ataque e movimento, aprimorando ainda mais sua abertura.
+  </Step>
+  <Step num="2" title="Explorar o Posicionamento com Sinister Strike">
+    Após reposicionar-se, tente acertar os inimigos com **Sinister Strike** por trás. Isso concede um substancial aumento de dano de 40%. Manter a habilidade por 1.2 segundos maximiza seu dano, e certas atualizações de orbe permitem que Ozul use automaticamente Shadowstep atrás de um inimigo para este ataque.
+  </Step>
+  <Step num="3" title="Manter a Pressão com Shadow Dance e Phantom Daggers">
+    **Shadow Dance** é uma poderosa habilidade de área que também reinicia o tempo de recarga de **Shadowstep** se acertar pelo menos um inimigo. Isso cria um ciclo de mobilidade e dano. Continue com **Phantom Daggers** para converter seus ataques básicos em arremessos à distância, aumentando seu alcance de ataque. As adagas deixadas no chão por Shadow Dance (com atualização de orbe) ou Phantom Daggers podem ser reativadas para dano adicional.
+  </Step>
+  <Step num="4" title="Utilizar Vanish para Dano Explosivo e Fuga">
+    **Vanish** é sua ferramenta definitiva para furtividade e dano explosivo. Torne-se invisível por até 5 segundos, ganhando um bônus de 40% de velocidade de movimento. Enquanto invisível, aproximar-se de um inimigo e cancelar Vanish com **Sinister Strike** ou **Shadow Dance** concederá dano adicional a esses ataques. Isso é perfeito para iniciar lutas, escapar do perigo ou reengajar de uma posição favorável.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Limitações da Furtividade">
+Embora **Vanish** o torne inalvejável, ele não o torna imune a habilidades de área. Ser atingido por uma habilidade de área cancelará sua furtividade, então esteja atento aos ataques inimigos mesmo quando invisível.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Táticas e Sinergias Avançadas do Ladino">
+Além da rotação básica, o Ladino de Drakantos oferece várias estratégias avançadas para jogadores habilidosos. Elas envolvem timing preciso e a compreensão de como encadear habilidades para o efeito máximo.
+
+### Sinergias Chave para Ozul
+
+| Habilidade 1      | Habilidade 2      | Efeito Sinergético                                       | Benefício para o Estilo de Jogo                     |
+| :---------------- | :---------------- | :------------------------------------------------------- | :-------------------------------------------------- |
+| **Shadowstep**    | **Shadow Dance**  | Shadow Dance reinicia o tempo de recarga de Shadowstep   | Alta mobilidade, reposicionamento frequente         |
+| **Sinister Strike**| **Vanish**        | O cancelamento de Vanish fortalece Sinister Strike       | Alto dano explosivo a partir da furtividade         |
+| **Shadow Dance**  | **Phantom Daggers**| Shadow Dance pode deixar adagas, Phantom Daggers as recolhe | Dano em área aprimorado, produção de dano à distância sustentada |
+| **Phantom Daggers**| **Dagger Stab**   | Transforma facada corpo a corpo em arremesso à distância | Alcance de ataque aumentado, DPS mais seguro        |
+
+<Callout type="info">
+O **Ladino de Drakantos** recompensa os jogadores que conseguem gerenciar efetivamente suas cargas e tempos de recarga de **Shadowstep**, pois esta habilidade é central tanto para o ataque quanto para a defesa.
+</Callout>
+
+### Otimizando a Mecânica das Adagas
+
+A habilidade **Phantom Daggers**, especialmente com suas melhorias de orbe, introduz uma mecânica única que permite dano à distância sustentado.
+
+<CardGrid cols={2}>
+  <Card title="Orbe 1: Área Maior">
+    Aumenta a área de efeito quando as adagas são recolhidas. Ideal para limpar grupos de inimigos ou garantir que vários alvos sejam atingidos.
+  </Card>
+  <Card title="Orbe 2: Alcance Aumentado (5m)">
+    Reduz a área, mas aumenta significativamente o alcance das adagas arremessadas para 5 metros. Excelente para manter a distância enquanto ainda causa dano, especialmente em encontros desafiadores.
+  </Card>
+</CardGrid>
+
+<Checklist
+  id="rogue-optimizations"
+  title="Lista de Verificação de Otimização do Ladino:"
+  items={[
+    "Acerte consistentemente Sinister Strike por trás.",
+    "Use Shadow Dance para reiniciar os tempos de recarga de Shadowstep.",
+    "Mantenha Phantom Daggers ativo para ataques à distância.",
+    "Sincronize Vanish com habilidades de explosão para o impacto máximo.",
+    "Evite dano em área enquanto estiver em Vanish para manter a furtividade."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Desempenho do Ladino de Drakantos no Beta">
+Durante o teste beta fechado, Ozul, o Ladino de Drakantos, provou ser uma classe incrivelmente popular e eficaz. Sua alta produção de dano foi consistentemente notada, mesmo com níveis de poder mais baixos em comparação com os limites de luta recomendados. Isso indica um forte potencial de dano quando a classe é jogada com habilidade.
+
+Jogadores de todos os níveis, de iniciantes a participantes de alto nível, foram vistos utilizando Ozul de forma eficaz. Isso sugere uma classe com uma barreira de entrada relativamente baixa para o jogo básico, mas com um alto teto de habilidade para otimização.
+
+| Aspecto de Desempenho | Descrição                                                               | Impacto                                               |
+| :------------------ | :------------------------------------------------------------------------ | :---------------------------------------------------- |
+| **Produção de Dano**| Consistentemente alta, mesmo em níveis de poder mais baixos.             | Se destaca em funções de DPS, pode carregar em conteúdo de grupo. |
+| **Popularidade**    | Escolha muito popular em todos os níveis no beta.                         | Estilo de jogo envolvente, forte fantasia de classe.  |
+| **Teto de Habilidade**| Requer gerenciamento de tempos de recarga, posicionamento e timing.      | Recompensa jogadores habilidosos com desempenho excepcional. |
+| **Versatilidade**   | Eficaz em conteúdo de nível baixo e alto durante o beta.                 | Adaptável a vários cenários PVE e potencialmente PVP. |
+
+<Callout type="success">
+O forte desempenho do Ladino de Drakantos no beta, mesmo com equipamento inferior, destaca que a habilidade do jogador e a execução de seu kit são primordiais para o sucesso.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Quem Deve Jogar com o Ladino de Drakantos?">
+O Ladino de Drakantos, Ozul, é uma escolha ideal para jogadores que apreciam um tipo específico de jogabilidade. Se você prospera com movimentos rápidos, posicionamento estratégico e entrega de alto dano explosivo, esta classe é para você.
+
+<CardGrid cols={3}>
+  <Card title="DPS Agressivo">
+    Jogadores que adoram estar na vanguarda do dano, constantemente procurando oportunidades para desencadear ataques devastadores.
+  </Card>
+  <Card title="Entusiastas de Alta Mobilidade">
+    Aqueles que preferem personagens ágeis, capazes de entrar e sair do combate, reposicionar-se e evadir ameaças com facilidade.
+  </Card>
+  <Card title="Estilos de Jogo Baseados em Habilidade">
+    Jogadores que gostam de classes que recompensam o timing preciso, combinações intrincadas de habilidades e um teto de habilidade mais alto para um desempenho ideal.
+  </Card>
+</CardGrid>
+
+Se você encontra satisfação em superar seus oponentes e executar rotações de habilidades perfeitas, o Ladino de Drakantos oferecerá uma experiência profundamente envolvente e recompensadora.
+
+</Section>
+
+<Section icon={Map} title="Perguntas Frequentes sobre o Ladino de Drakantos">
+
+<FAQ items={[
+  {
+    question: "Qual é o papel principal do Ladino de Drakantos, Ozul?",
+    answer: "Ozul é principalmente um especialista ofensivo, focado em alto dano, potencial de explosão e movimento ágil para eliminar alvos rapidamente."
+  },
+  {
+    question: "Quão importante é o posicionamento para o dano de Ozul?",
+    answer: "O posicionamento é crítico. Acertar Sinister Strike por trás de um inimigo concede um significativo bônus de dano de 40%, tornando o movimento estratégico com Shadowstep essencial."
+  },
+  {
+    question: "O ultimate Vanish de Ozul pode ser quebrado?",
+    answer: "Sim, embora Vanish o torne invisível e inalvejável por ataques diretos, você ainda pode ser atingido por habilidades de área, o que cancelará o efeito de furtividade."
+  },
+  {
+    question: "As habilidades beta de Ozul são finais?",
+    answer: "Não, as habilidades discutidas são de um teste beta fechado e estão sujeitas a alterações com base no feedback dos jogadores e nas percepções dos desenvolvedores antes do lançamento completo do jogo."
+  }
+]} />
+
+</Section>

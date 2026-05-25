@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Drakantos Rogue: Guía de Habilidades y Estilo de Juego de Ozul",
+  description: "Domina a Ozul, el arquetipo de Pícaro en Drakantos, con esta guía detallada sobre sus habilidades, estilo de juego y consejos de combate para un DPS óptimo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Drakantos+Rogue+Ozul",
+  date: "2026-05-25",
+  author: "Equipo Wiki de Drakantos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Ozul, el Pícaro de Drakantos**, es un especialista ofensivo centrado en alto daño y movilidad.
+- **Shadowstep** es crucial para el posicionamiento, la reducción de daño y el reinicio de enfriamientos.
+- **Sinister Strike** se beneficia enormemente de los ataques por la espalda, otorgando un 40% de aumento de daño.
+- **Phantom Daggers** mejora los ataques básicos con lanzamientos de dagas a distancia y daño de área.
+- **Vanish** sirve como el definitivo de Ozul, proporcionando invisibilidad y daño adicional a habilidades clave.
+</Callout>
+
+<Section icon={Swords} title="Entendiendo al Pícaro de Drakantos: Ozul">
+Ozul es el arquetipo de Pícaro designado en Drakantos, caracterizado como un especialista ofensivo construido para alto daño y combate ágil. Su kit gira en torno a movimientos rápidos, posicionamiento estratégico y daño explosivo, lo que lo convierte en una fuerza formidable cuando se juega correctamente. Aunque estas habilidades fueron observadas durante una prueba beta cerrada, ofrecen una clara visión de las mecánicas centrales del Pícaro de Drakantos.
+
+**Puntos Destacados del Video:**
+- Las habilidades de Ozul provienen de una beta cerrada y están sujetas a cambios.
+- Shadowstep proporciona movilidad, reducción de daño y puede obtener cargas o distancia.
+- Sinister Strike inflige daño adicional por la espalda, una mecánica clave del pícaro.
+- Shadow Dance puede reiniciar el enfriamiento de Shadowstep, permitiendo un combate fluido.
+- Phantom Daggers convierte los ataques básicos en lanzamientos a distancia y deja dagas que pueden ser recuperadas para daño de área.
+
+<YouTubeEmbed videoId="CRBXgXs9QUA" title="Drakantos - Habilidades de Ozul (Pícaro) - Prueba Beta Cerrada" />
+
+El estilo de juego de Ozul enfatiza la sincronización precisa y la gestión de los enfriamientos para maximizar su potencial de daño. Los jugadores que disfrutan de un combate rápido e intenso en habilidades encontrarán al Pícaro de Drakantos una clase gratificante.
+
+<Callout type="tip">
+Maximizar el daño de Ozul a menudo implica utilizar **Shadowstep** para obtener posiciones ventajosas, especialmente para asestar **Sinister Strike** por la espalda para un daño adicional significativo.
+</Callout>
+
+### Descripción General de las Habilidades Principales de Ozul
+
+| Nombre de la Habilidad | Tipo       | Efecto Primario                                | Mejoras Clave (Orbe)                               |
+| :------------- | :--------- | :-------------------------------------------- | :------------------------------------------------- |
+| **Shadowstep** | Movimiento   | Deslizamiento hacia adelante, pequeña reducción de daño | Mayor número de cargas, distancia extra, velocidad de ataque/movimiento |
+| **Dagger Stab**| Ataque Básico | Daño a un solo objetivo                          | Mayor velocidad de lanzamiento (10%/25%)                     |
+| **Sinister Strike**| Ofensivo  | Golpe frontal, daño extra por la espalda      | Añadir carga, daño máximo más rápido (1.2s), paso sombrío detrás del enemigo |
+| **Shadow Dance**| Ofensivo/Utilidad | Ataque giratorio, reinicia el CD de Shadowstep | Daño con el tiempo, reducción de velocidad de movimiento, lanza dagas |
+| **Phantom Daggers**| Utilidad/Ofensivo | Lanza dagas en lugar de apuñalar, mayor alcance | Área más grande, mayor alcance (5m) para las dagas      |
+| **Vanish**     | Definitivo   | Invisibilidad, 40% de bonificación de velocidad de movimiento            | Daño adicional para Sinister Strike/Shadow Dance      |
+
+</Section>
+
+<Section icon={Target} title="Dominando el Flujo de Combate de Ozul">
+El Pícaro de Drakantos sobresale a través de un estilo de combate dinámico que entrelaza movimiento, sigilo y ataques precisos. Comprender cómo las habilidades de Ozul se sinergizan es clave para desbloquear todo su potencial.
+
+<Steps>
+  <Step num="1" title="Iniciar con Shadowstep">
+    Usa **Shadowstep** para acortar distancias rápidamente, reposicionarte o evadir. Su reducción de daño inicial es valiosa, y mejorarlo para obtener cargas adicionales o distancia proporciona mayor flexibilidad táctica. La sincronización perfecta con los orbes puede otorgar mejoras de velocidad de ataque y movimiento, mejorando aún más tu apertura.
+  </Step>
+  <Step num="2" title="Explotar el Posicionamiento con Sinister Strike">
+    Después de reposicionarte, intenta golpear a los enemigos con **Sinister Strike** por la espalda. Esto otorga un sustancial aumento del 40% de daño. Mantener la habilidad durante 1.2 segundos maximiza su daño, y ciertas mejoras de orbe permiten a Ozul realizar automáticamente Shadowstep detrás de un enemigo para este ataque.
+  </Step>
+  <Step num="3" title="Mantener la Presión con Shadow Dance y Phantom Daggers">
+    **Shadow Dance** es una poderosa habilidad de área de efecto que también reinicia el enfriamiento de **Shadowstep** si golpea al menos a un enemigo. Esto crea un ciclo de movilidad y daño. Continúa con **Phantom Daggers** para convertir tus ataques básicos en lanzamientos a distancia, aumentando tu alcance de ataque. Las dagas dejadas en el suelo por Shadow Dance (con mejora de orbe) o Phantom Daggers pueden ser reactivadas para daño adicional.
+  </Step>
+  <Step num="4" title="Utilizar Vanish para Daño Explosivo y Escape">
+    **Vanish** es tu herramienta definitiva para el sigilo y el daño explosivo. Hazte invisible durante un máximo de 5 segundos, obteniendo una bonificación del 40% de velocidad de movimiento. Mientras eres invisible, acercarte a un enemigo y cancelar Vanish con **Sinister Strike** o **Shadow Dance** otorgará a esos ataques daño adicional. Esto es perfecto para iniciar peleas, escapar del peligro o volver a atacar desde una posición favorable.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Limitaciones del Sigilo">
+Aunque **Vanish** te hace intargeteable, no te hace inmune a las habilidades de área de efecto. Ser golpeado por un AoE cancelará tu sigilo, así que ten cuidado con los ataques enemigos incluso cuando seas invisible.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Tácticas y Sinergias Avanzadas del Pícaro">
+Más allá de la rotación básica, el Pícaro de Drakantos ofrece varias estrategias avanzadas para jugadores hábiles. Estas implican una sincronización precisa y la comprensión de cómo encadenar habilidades para obtener el máximo efecto.
+
+### Sinergias Clave para Ozul
+
+| Habilidad 1         | Habilidad 2         | Efecto Sinergético                                       | Beneficio del Estilo de Juego                     |
+| :---------------- | :---------------- | :------------------------------------------------------- | :-------------------------------------------------- |
+| **Shadowstep**    | **Shadow Dance**  | Shadow Dance reinicia el enfriamiento de Shadowstep                  | Alta movilidad, reposicionamiento frecuente               |
+| **Sinister Strike**| **Vanish**        | La cancelación de Vanish potencia Sinister Strike             | Alto daño explosivo desde el sigilo                      |
+| **Shadow Dance**  | **Phantom Daggers**| Shadow Dance puede dejar dagas, Phantom Daggers las recupera | Daño de área mejorado, producción sostenida a distancia        |
+| **Phantom Daggers**| **Dagger Stab**   | Transforma la puñalada cuerpo a cuerpo en lanzamiento a distancia                  | Mayor alcance de ataque, DPS más seguro                   |
+
+<Callout type="info">
+El **Pícaro de Drakantos** recompensa a los jugadores que pueden gestionar eficazmente las cargas y los enfriamientos de su **Shadowstep**, ya que esta habilidad es fundamental tanto para la ofensiva como para la defensa.
+</Callout>
+
+### Optimización de la Mecánica de Dagas
+
+La habilidad **Phantom Daggers**, especialmente con sus mejoras de orbe, introduce una mecánica única que permite un daño a distancia sostenido.
+
+<CardGrid cols={2}>
+  <Card title="Orbe 1: Área Más Grande">
+    Aumenta el área de efecto cuando las dagas son recuperadas. Ideal para eliminar grupos de enemigos o asegurar que múltiples objetivos sean golpeados.
+  </Card>
+  <Card title="Orbe 2: Mayor Alcance (5m)">
+    Reduce el área pero aumenta significativamente el alcance de las dagas lanzadas a 5 metros. Excelente para mantener la distancia mientras sigues infligiendo daño, particularmente en encuentros desafiantes.
+  </Card>
+</CardGrid>
+
+<Checklist
+  id="rogue-optimizations"
+  title="Lista de Verificación de Optimización del Pícaro:"
+  items={[
+    "Aplica consistentemente Sinister Strike por la espalda.",
+    "Usa Shadow Dance para reiniciar los enfriamientos de Shadowstep.",
+    "Mantén Phantom Daggers activo para ataques a distancia.",
+    "Sincroniza Vanish con habilidades de ráfaga para un impacto máximo.",
+    "Evita el daño de área mientras estás en Vanish para mantener el sigilo."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Rendimiento del Pícaro de Drakantos en Beta">
+Durante la prueba beta cerrada, Ozul, el Pícaro de Drakantos, demostró ser una clase increíblemente popular y efectiva. Su alto rendimiento de daño fue constantemente notado, incluso con niveles de poder más bajos en comparación con los umbrales de combate recomendados. Esto indica un fuerte potencial de daño cuando la clase se juega hábilmente.
+
+Jugadores de todos los rangos, desde principiantes hasta participantes de alto nivel, fueron vistos utilizando a Ozul de manera efectiva. Esto sugiere una clase con una barrera de entrada relativamente baja para el juego básico, pero con un alto techo de habilidad para la optimización.
+
+| Aspecto de Rendimiento | Descripción                                                               | Impacto                                                |
+| :----------------- | :------------------------------------------------------------------------ | :---------------------------------------------------- |
+| **Daño Causado**  | Consistentemente alto, incluso con niveles de poder más bajos.                            | Destaca en roles de DPS, puede llevar en contenido de grupo.      |
+| **Popularidad**     | Elección muy popular en todos los rangos en la beta.                             | Estilo de juego atractivo, fuerte fantasía de clase.             |
+| **Techo de Habilidad**  | Requiere gestión de enfriamientos, posicionamiento y sincronización.                | Recompensa a los jugadores hábiles con un rendimiento excepcional. |
+| **Versatilidad**    | Efectivo tanto en contenido de nivel inferior como superior durante la beta.              | Adaptable a varios escenarios PVE y potencialmente PVP. |
+
+<Callout type="success">
+El fuerte rendimiento del Pícaro de Drakantos en la beta, incluso con equipo inferior, destaca que la habilidad del jugador y la ejecución de su kit son primordiales para el éxito.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="¿Quién Debería Jugar al Pícaro de Drakantos?">
+El Pícaro de Drakantos, Ozul, es una opción ideal para jugadores que disfrutan de un tipo específico de juego. Si prosperas con movimientos rápidos, posicionamiento estratégico y la entrega de alto daño explosivo, esta clase es para ti.
+
+<CardGrid cols={3}>
+  <Card title="DPS Agresivo">
+    Jugadores a quienes les encanta estar a la vanguardia del daño, buscando constantemente oportunidades para desatar ataques devastadores.
+  </Card>
+  <Card title="Entusiastas de la Alta Movilidad">
+    Aquellos que prefieren personajes ágiles, capaces de entrar y salir del combate, reposicionarse y evadir amenazas con facilidad.
+  </Card>
+  <Card title="Estilos de Juego Basados en Habilidad">
+    Jugadores que disfrutan de clases que recompensan la sincronización precisa, las intrincadas combinaciones de habilidades y un techo de habilidad más alto para un rendimiento óptimo.
+  </Card>
+</CardGrid>
+
+Si encuentras satisfacción en superar a tus oponentes y ejecutar rotaciones de habilidades perfectas, el Pícaro de Drakantos ofrecerá una experiencia profundamente atractiva y gratificante.
+
+</Section>
+
+<Section icon={Map} title="Preguntas Frecuentes sobre el Pícaro de Drakantos">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el rol principal del Pícaro de Drakantos, Ozul?",
+    answer: "Ozul es principalmente un especialista ofensivo, centrado en un alto rendimiento de daño, potencial de ráfaga y movimiento ágil para eliminar objetivos rápidamente."
+  },
+  {
+    question: "¿Qué tan importante es el posicionamiento para el daño de Ozul?",
+    answer: "El posicionamiento es crítico. Asestar Sinister Strike por la espalda de un enemigo otorga un significativo 40% de daño adicional, lo que hace que el movimiento estratégico con Shadowstep sea esencial."
+  },
+  {
+    question: "¿Se puede romper el definitivo Vanish de Ozul?",
+    answer: "Sí, aunque Vanish te hace invisible e intargeteable por ataques directos, aún puedes ser golpeado por habilidades de área de efecto, lo que cancelará el efecto de sigilo."
+  },
+  {
+    question: "¿Son definitivas las habilidades beta de Ozul?",
+    answer: "No, las habilidades discutidas provienen de una prueba beta cerrada y están sujetas a cambios basados en los comentarios de los jugadores y las ideas de los desarrolladores antes del lanzamiento completo del juego."
+  }
+]} />
+
+</Section>

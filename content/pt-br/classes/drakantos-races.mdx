@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Rabbit, Horse } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Corridas em Drakantos: Dominando a Aquisição de Montarias e Competição",
+  description: "Descubra como adquirir sua primeira montaria e vencer corridas em Drakantos, incluindo dicas para conduzir, domar e ganhar de oponentes desafiadores.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/9C27B0/fff?text=Drakantos+Races",
+  date: "2026-05-25",
+  author: "Equipe da Wiki Drakantos"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Montaria de Burro**: Comece sua jornada obtendo a **montaria de burro** com a Sally.
+- **Progressão de Missão**: Aumente seu rank de aventura para desbloquear a missão de montaria da Sally.
+- **Pastoreio do Burro**: **Conduza cuidadosamente o burro perdido** de volta ao estábulo da Sally.
+- **Desafio de Domagem**: Domine a **técnica da pedra e da corda** para domar seu burro.
+- **Estratégia de Corrida**: Use o sprint de forma eficaz e fique à frente da Sally para vencer as **corridas de Drakantos**.
+</Callout>
+
+<Section icon={Horse} title="Sua Primeira Montaria em Drakantos: O Burro">
+Adquirir sua primeira montaria em Drakantos é um passo crucial para uma viagem eficiente e abre novas oportunidades de jogabilidade. A montaria de burro é tipicamente seu companheiro inicial, obtida através de uma série de missões de uma NPC chamada Sally. Este processo envolve encontrar um burro perdido, domá-lo e depois provar suas habilidades em uma corrida.
+
+**Destaques do Vídeo:**
+- Localize Sally a leste da estalagem da cidade inicial.
+- Aumente seu poder e rank de aventura para desbloquear a missão da Sally.
+- Siga o círculo azul da missão para encontrar o burro perdido.
+- Aprenda as mecânicas de conduzir o burro de volta ao estábulo.
+
+<YouTubeEmbed videoId="bhYCQk2Yq2E" title="Drakantos MMO Como conseguir a MONTARIA DE BURRO" />
+
+<Callout type="tip" title="Condição de Desbloqueio da Missão">
+Certifique-se de que o nível de poder e o rank de aventura do seu personagem sejam suficientemente altos. Sally pode não oferecer a missão até que você atenda a requisitos específicos, geralmente em torno de 460 de poder, como observado durante os testes públicos.
+</Callout>
+
+Antes mesmo de pensar em vencer qualquer **corrida em Drakantos**, você precisa colocar as mãos em um corcel de confiança. O burro é o seu bilhete de entrada no mundo das viagens montadas.
+
+</Section>
+
+<Section icon={Map} title="Localizando Sally e Iniciando a Missão">
+Sua jornada para obter uma montaria começa com Sally, uma NPC chave localizada estrategicamente no mapa. Encontrá-la e iniciar a missão requer um pouco de exploração e progressão de personagem.
+
+<Steps>
+  <Step num="1" title="Encontre o Estábulo da Sally">
+    Sally está localizada a leste da estalagem da cidade inicial. Abra seu mapa e siga a estrada principal para o leste a partir da estalagem até chegar ao seu estábulo.
+  </Step>
+  <Step num="2" title="Cumpra os Pré-requisitos">
+    Inicialmente, Sally pode estar ocupada demais para falar com você. Você precisará avançar em sua missão de história principal e aumentar seu nível de poder (ex: para 460) e rank de aventura. Retorne à estalagem para aumentar seu rank de aventura, se necessário.
+  </Step>
+  <Step num="3" title="Aceite a Missão">
+    Assim que um marcador de missão aparecer sobre a cabeça da Sally, fale com ela. Ela informará que seu burro está perdido, iniciando a missão "Burro Perdido".
+  </Step>
+</Steps>
+
+<Callout type="info">
+Os requisitos específicos de poder e rank de aventura podem mudar no lançamento oficial do jogo, mas, em geral, progredir pelo conteúdo do início do jogo irá prepará-lo.
+</Callout>
+
+</Section>
+
+<Section icon={Rabbit} title="Pastoreando o Burro Perdido: Um Teste de Paciência">
+O primeiro desafio em sua missão de aquisição de montaria é localizar o burro perdido da Sally e guiá-lo de volta ao estábulo. Esta tarefa exige paciência e uma boa compreensão da IA um tanto teimosa do burro.
+
+<CardGrid cols={2}>
+  <Card title="Localizando o Burro">
+    - Abra seu mapa após aceitar a missão.
+    - Um grande círculo azul de missão indicará a área geral.
+    - Siga a estrada principal para o sul a partir do estábulo, depois vá para o oeste perto da parte inferior do círculo da missão.
+    - O burro geralmente é encontrado dentro desta área.
+  </Card>
+  <Card title="Mecânicas de Condução">
+    - Você precisa empurrar o burro por trás para conduzi-lo.
+    - Não o deixe vagar muito longe, ou você pode ter que recomeçar.
+    - Deixar o burro andar sozinho na direção correta geralmente funciona melhor.
+    - Esteja preparado para o burro ocasionalmente disparar para a floresta, exigindo redirecionamento.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Temperamento do Burro">
+O burro pode ser bastante imprevisível. Ele vagará se for deixado sem atenção ou se for empurrado de forma muito agressiva na direção errada. Mantenha um empurrão consistente e suave por trás para guiá-lo de forma eficaz.
+</Callout>
+
+Pastorear o burro de volta com sucesso é um passo crucial antes de você poder participar de qualquer **corrida de Drakantos**.
+
+</Section>
+
+<Section icon={Swords} title="Domando seu Burro: A Técnica da Pedra e da Corda">
+Uma vez que o burro esteja em segurança no estábulo, o próximo passo é domá-lo. Isso envolve um minijogo único onde você usa pedras e uma corda para subjugar seu novo companheiro.
+
+<Steps>
+  <Step num="1" title="Aproxime-se do Estábulo">
+    Guie o burro passando pela entrada principal do estábulo até o cercado localizado nos fundos. Você ouvirá um "ding" e seu marcador de missão será atualizado quando ele estiver no lugar certo.
+  </Step>
+  <Step num="2" title="Atire a Pedra">
+    Fale com a Sally. Ela o instruirá a atirar uma pedra para fazer o burro correr pelo cercado. Isso é essencial para o próximo passo.
+  </Step>
+  <Step num="3" title="Use a Corda">
+    Segure o botão da corda (tecla 'I' por padrão) enquanto usa WASD para posicionar sua AoE (Área de Efeito) à frente do burro que está correndo. O objetivo é fazer o burro correr para dentro da AoE da corda.
+  </Step>
+  <Step num="4" title="Recolha-o">
+    Uma vez capturado, segure a tecla 'O' (padrão) para recolher o burro. A corda pode quebrar, então se o burro fugir, solte, espere ele parar e segure 'O' novamente.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="O Tempo é Fundamental">
+Dominar o tempo de soltar e segurar a tecla 'O' é crítico para evitar que a corda quebre. Observe os movimentos do burro cuidadosamente.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conquistando as Corridas de Drakantos: O Desafio da Sally">
+Com seu burro domado, o teste final é correr contra a Sally. Esta corrida é surpreendentemente desafiadora e serve como sua introdução às **corridas de Drakantos**. Vencer esta corrida concederá oficialmente a você a posse de sua montaria.
+
+<CardGrid cols={2}>
+  <Card title="Estratégia de Corrida">
+    - **Gerenciamento de Sprint**: Evite apertar repetidamente o botão de sprint (barra de espaço). Use o sprint principalmente durante as retas para conservar estamina.
+    - **Caminho**: Fique no caminho principal e evite correr para dentro de arbustos, que podem atrasá-lo significativamente.
+    - **Mantenha a Liderança**: Foque em ficar à frente da Sally o tempo todo.
+  </Card>
+  <Card title="Táticas da Sally">
+    - Sally usará o sprint no início, algumas vezes durante e especialmente perto do final da corrida.
+    - Ela também pode ficar no seu caminho, tornando a navegação mais difícil.
+    - Espere que as corridas futuras se tornem ainda mais difíceis, como indicado pela própria Sally.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Recompensa de Vitória na Corrida">
+Ao vencer a corrida, você receberá sua licença de montaria de burro. Esta licença é encontrada em seu inventário na aba de três estrelas. Use-a para ativar sua montaria.
+</Callout>
+
+<Checklist
+  id="race-prep"
+  title="Checklist de Preparação para a Corrida:"
+  items={[
+    "Entenda as mecânicas de sprint",
+    "Familiarize-se com a pista de corrida",
+    "Pratique a condução do seu burro de forma eficaz",
+    "Esteja preparado para o estilo de corrida agressivo da Sally"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Ativando e Usando sua Montaria de Burro">
+Depois de vencer a corrida contra a Sally com sucesso, você está a apenas alguns passos de cavalgar seu novo burro. Ativar e usar sua montaria é um processo simples.
+
+<Steps>
+  <Step num="1" title="Abra o Inventário">
+    Pressione 'B' para abrir seu inventário.
+  </Step>
+  <Step num="2" title="Localize a Licença de Montaria">
+    Navegue até a aba de três estrelas dentro do seu inventário. Você encontrará sua licença de montaria lá.
+  </Step>
+  <Step num="3" title="Ative a Licença">
+    Selecione a licença e pressione 'Enter' para ativá-la.
+  </Step>
+  <Step num="4" title="Equipe a Montaria">
+    Pressione 'Q' ou 'E' para alternar para a aba de cosméticos. Clique no ladrilho vazio com um ponto amarelo no lado direito. Selecione seu burro e pressione 'Enter'.
+  </Step>
+  <Step num="5" title="Montar/Desmontar">
+    Pressione 'F' para montar ou desmontar seu burro.
+  </Step>
+</Steps>
+
+<Callout type="info">
+As montarias em Drakantos não apenas aceleram a viagem, mas também podem, às vezes, estar envolvidas em tipos específicos de missões ou eventos, adicionando outra camada à sua experiência de jogo.
+</Callout>
+
+</Section>
+
+<Section icon={FAQ} title="FAQ das Corridas de Drakantos">
+
+<FAQ items={[
+  {
+    question: "Como começo a missão para obter minha primeira montaria em Drakantos?",
+    answer: "Para começar a missão de montaria, você precisa falar com a Sally, que está localizada a leste da estalagem da cidade inicial. Certifique-se de ter progredido na história principal e aumentado seu rank de aventura e nível de poder, pois ela pode não oferecer a missão até que certos pré-requisitos sejam atendidos."
+  },
+  {
+    question: "O que devo fazer se o burro perdido continuar vagando para longe?",
+    answer: "Se o burro perdido vagar para muito longe, você pode ter que reiniciar o processo de pastoreio. A melhor estratégia é empurrá-lo suavemente por trás para conduzi-lo na direção correta. Deixe-o andar sozinho o máximo possível se ele estiver indo pelo caminho certo, mas esteja pronto para redirecioná-lo se ele disparar para a floresta."
+  },
+  {
+    question: "Qual é o truque para domar o burro com a corda?",
+    answer: "O truque para domar o burro envolve atirar uma pedra para fazê-lo correr. Então, segure o botão da corda ('I' por padrão) e use WASD para posicionar sua AoE à frente do burro em movimento para que ele corra para dentro da corda. Uma vez pego, segure 'O' para recolhê-lo, mas solte 'O' se o burro fugir para evitar que a corda quebre, e tente novamente quando ele parar."
+  },
+  {
+    question: "Como posso vencer a corrida contra a Sally para obter minha montaria de burro?",
+    answer: "Para vencer a corrida contra a Sally, foque no gerenciamento eficiente do sprint, usando-o principalmente em retas. Evite bater em arbustos, o que irá atrasá-lo. A chave é sempre ficar à frente da Sally, especialmente porque ela usará o sprint de forma mais agressiva no final da corrida."
+  }
+]} />
+
+</Section>

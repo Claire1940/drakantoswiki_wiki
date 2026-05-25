@@ -1,0 +1,155 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Drakantos Zeugladius: Guía de Habilidades y Estilo de Juego del Paladín",
+  description: "Domina a Zeugladius, el arquetipo de Paladín en Drakantos, con una inmersión profunda en sus habilidades, rol de apoyo y estilo de juego de tanque para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/800080/fff?text=Drakantos+Zeugladius+Guide",
+  date: "2026-05-25",
+  author: "Equipo Wiki de Drakantos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Zeugladius** es el **arquetipo de Paladín** de Drakantos, ofreciendo un rol versátil de apoyo y tanque.
+- Su kit incluye **habilidades de curación**, poderosos escudos y control de masas.
+- El **Escudo Divino** proporciona un 80% de reducción de daño y permite el uso de habilidades mientras está activo.
+- El **Destello de Luz** ofrece daño de área y una crucial invulnerabilidad de 1 segundo para los aliados.
+- Su **habilidad definitiva Luz Sagrada** es una vasta curación de ráfaga de área, ideal para el sustento de todo el grupo.
+</Callout>
+
+<Section icon={Shield} title="Comprendiendo a Drakantos Zeugladius: El Arquetipo de Paladín">
+Zeugladius se destaca en Drakantos como el Paladín por excelencia, combinando robustas capacidades defensivas con habilidades de apoyo esenciales y un sorprendente potencial ofensivo. Este héroe está diseñado para jugadores que disfrutan estando en la vanguardia del combate, protegiendo a los aliados mientras contribuyen al éxito general del equipo. Como híbrido de apoyo-tanque, Zeugladius puede cambiar el rumbo de la batalla con habilidades bien cronometradas, convirtiéndolo en un activo valioso tanto en escenarios PvE como PvP.
+
+<Callout type="tip" title="Especialización de Rol">
+Zeugladius sobresale como apoyo de primera línea, capaz de absorber daño, proporcionar curación significativa y aplicar control de masas. Su versatilidad lo hace adaptable a diversas composiciones de equipo.
+</Callout>
+
+**Puntos destacados del video:**
+- Demuestra las habilidades principales de Zeugladius en acción.
+- Muestra los efectos visuales del Escudo Divino y el Destello de Luz.
+- Proporciona una visión general de sus animaciones de combate y ataques básicos.
+
+<YouTubeEmbed videoId="FuxplPviqcc" title="Drakantos - Habilidades de Zeugladius (Paladín) - Prueba Beta Cerrada" />
+
+Su habilidad para proteger a los aliados, curar heridas y perturbar a los enemigos asegura que siempre sea una figura central en los enfrentamientos de equipo. Aunque algunas de sus habilidades defensivas, como el Escudo Divino, pueden ofrecer una reducción de daño ligeramente menor que los tanques dedicados como Liam, su utilidad adicional, como permitir otras acciones mientras está activo, a menudo las hace más flexibles.
+
+</Section>
+
+<Section icon={Swords} title="Habilidades Centrales y Mejoras de Zeugladius">
+El kit de Zeugladius se basa en un equilibrio de defensa, ataque y utilidad. Cada habilidad se puede mejorar con orbes, ofreciendo diferentes ventajas estratégicas según el enfoque del jugador. Dominar estas mejoras es clave para desbloquear todo su potencial.
+
+<Callout type="warning" title="Cambios en la Beta">
+Como Zeugladius fue mostrado durante una beta cerrada, algunas habilidades y sus efectos pueden estar sujetos a cambios por parte de los desarrolladores antes del lanzamiento completo. Siempre revisa las últimas notas del parche para actualizaciones.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Escudo Divino">
+    - **Efecto**: Envuelve a Zeugladius en un aura protectora, bloqueando el 80% del daño entrante.
+    - **Característica Clave**: Permite usar otras habilidades mientras está activo; mayor duración que bloqueos similares.
+    - **Mejoras de Orbe**:
+      - Orbe 1: Dos cargas, enfriamiento aumentado.
+      - Orbe 2: Pequeña bonificación de velocidad de movimiento.
+      - Orbe 3: El momento perfecto aumenta la ganancia de energía para la habilidad definitiva.
+      - Orbe 4: El momento perfecto añade daño de espinas en un área.
+  </Card>
+  <Card title="Golpe de Martillo y Castigo">
+    - **Golpe de Martillo**: Ataque básico usando un martillo a dos manos.
+      - **Mejoras de Orbe**: Aumenta la velocidad de lanzamiento en un 10% (Orbe 1) y un 25% (Orbe 2).
+    - **Castigo**: Golpea el suelo con luz sagrada, infligiendo daño en un pequeño cono.
+      - **Mejoras de Orbe**:
+        - Orbe 1: Añade una carga para aumentar el daño al mantenerlo.
+        - Orbe 3: Reduce el tiempo de mantenimiento para aumentar el daño de 2s a 1.2s.
+  </Card>
+  <Card title="Destello de Luz">
+    - **Efecto**: Invoca una ráfaga radiante de luz sagrada en un área designada, infligiendo daño de área a los enemigos.
+    - **Característica Clave**: Otorga a los aliados un 100% de reducción de daño durante 1 segundo, crucial para anular el daño de ráfaga.
+    - **Mejoras de Orbe**:
+      - Orbe 1: Teletransporta a Zeugladius al punto de descenso, empuja a los enemigos y aún otorga reducción de daño.
+      - Último Orbe: El daño es más intenso en el centro del área apuntada.
+  </Card>
+  <Card title="Luz Sagrada (Definitiva)">
+    - **Efecto**: Invoca una cascada de luz sagrada que envuelve una vasta área, curando a los aliados dentro de su abrazo.
+    - **Característica Clave**: Una curación de ráfaga poderosa y de área amplia, no una curación con el tiempo.
+    - **Uso Estratégico**: Ideal para curaciones de grupo a gran escala sin requerir que los aliados se amontonen.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Estilo de Juego Estratégico y Composición del Equipo">
+Zeugladius prospera en situaciones donde sus capacidades defensivas y de apoyo pueden ser utilizadas al máximo. Su habilidad para proporcionar curación de ráfaga y reducción de daño lo convierte en una excelente elección para incursiones, mazmorras y modos PvP donde el juego en equipo coordinado es esencial.
+
+<Callout type="success" title="Enfoque de Sinergia">
+Empareja a Zeugladius con distribuidores de daño cuerpo a cuerpo u otros personajes de primera línea para maximizar la efectividad de sus habilidades de área y el beneficio de invulnerabilidad.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Posicionamiento en Primera Línea">
+    Siempre busca estar en el centro de la lucha, protegiendo a tus compañeros de equipo más débiles. Usa el **Escudo Divino** para mitigar el daño entrante, especialmente al enfrentarte a grandes grupos de enemigos o ataques de jefes.
+  </Step>
+  <Step num="2" title="Dominando el Destello de Luz">
+    Esta habilidad es tu recurso principal para anular el daño de ráfaga predecible. En escenarios como ataques de aliento de dragón (por ejemplo, Kaladrax en la beta), un **Destello de Luz** perfectamente sincronizado puede permitir que todo tu equipo continúe infligiendo daño sin necesidad de reposicionarse. Considera el orbe de teletransporte para jugadas agresivas o reposicionamientos rápidos.
+  </Step>
+  <Step num="3" title="Curación Óptima con Luz Sagrada">
+    Aunque es una curación de ráfaga, su vasta área la hace increíblemente indulgente. Usa la **Luz Sagrada** cuando varios aliados estén recibiendo un daño significativo, incluso si están dispersos. Esto asegura un sustento generalizado y mantiene a tu equipo en la lucha por más tiempo.
+  </Step>
+  <Step num="4" title="Control de Masas y Disrupción">
+    Zeugladius también tiene habilidades que pueden reducir la velocidad de movimiento del enemigo y aturdir, lo cual es invaluable para controlar el campo de batalla. Úsalas para interrumpir lanzamientos enemigos peligrosos o para proteger a tus aliados.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Optimizando las Construcciones y el Equipo de Zeugladius">
+Para maximizar la efectividad de Zeugladius, considera construcciones que mejoren sus fortalezas principales: supervivencia, apoyo y utilidad. Las elecciones de orbes y artefactos impactarán significativamente su estilo de juego.
+
+<Callout type="info" title="Flexibilidad de Construcción">
+La personalización de habilidades de Drakantos con orbes y artefactos permite diversas construcciones. Experimenta durante las pruebas beta para encontrar lo que mejor se adapte a tu estilo de juego preferido y a las necesidades del equipo.
+</Callout>
+
+<Checklist
+  id="zeugladius-build"
+  title="Consideraciones Clave para la Construcción de Zeugladius:"
+  items={[
+    "Prioriza los orbes que mejoran la utilidad del **Escudo Divino** (velocidad de movimiento, ganancia de energía).",
+    "Selecciona artefactos que reduzcan los tiempos de reutilización del **Destello de Luz** o la **Luz Sagrada**.",
+    "Considera estadísticas defensivas como Salud, Defensa y Resistencia en el equipo.",
+    "Busca objetos que aumenten la curación o proporcionen escudos adicionales.",
+    "Experimenta con orbes para **Castigo** para aumentar el daño si se necesita más apoyo ofensivo."
+  ]}
+/>
+
+Durante la beta cerrada, los jugadores tuvieron acceso a Cajas Beta especiales que otorgaban Trofeos, Orbes y Artefactos de fin de juego. Esto permitió una extensa prueba de diferentes construcciones y estilos de juego. Para el lanzamiento completo, concéntrate en adquirir objetos que complementen su rol de Paladín, reforzando su resistencia y capacidades de apoyo.
+
+</Section>
+
+<Section icon={Sparkles} title="Drakantos Zeugladius: Preguntas Frecuentes">
+<Callout type="tip" title="Información de la Comunidad">
+Participa con la comunidad de Drakantos en foros y Discord para las últimas discusiones de construcción y estrategias para **Zeugladius**.
+</Callout>
+<FAQ items={[
+  {
+    question: "¿Cuál es el rol principal de Zeugladius en Drakantos?",
+    answer: "Zeugladius es principalmente un híbrido de apoyo y tanque, conocido como el arquetipo de Paladín. Sobresale protegiendo a los aliados, proporcionando curación y perturbando a los enemigos con control de masas."
+  },
+  {
+    question: "¿Cómo se compara el Escudo Divino de Zeugladius con otras habilidades de tanque?",
+    answer: "Aunque el Escudo Divino ofrece un 80% de reducción de daño (en comparación con el 100% de bloqueo de Liam), su principal ventaja es permitir que Zeugladius use otras habilidades mientras está activo y tener una duración más larga, ofreciendo mayor flexibilidad en el combate."
+  },
+  {
+    question: "¿Cuándo es más efectivo el Destello de Luz?",
+    answer: "El Destello de Luz es más efectivo cuando se usa para anular ataques de área predecibles y de alto daño de enemigos o jefes, proporcionando a los aliados una ventana crucial de invulnerabilidad de 1 segundo."
+  },
+  {
+    question: "¿Es la Luz Sagrada de Zeugladius una curación principal efectiva?",
+    answer: "Sí, la Luz Sagrada es una curación principal muy efectiva debido a su vasta área de efecto y su naturaleza de curación de ráfaga. Puede curar a múltiples aliados simultáneamente, incluso si están dispersos, lo que la hace excelente para el sustento de todo el grupo."
+  }
+]} />
+</Section>
