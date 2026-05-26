@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, User, Coins, Laptop } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Drakantos é Gratuito para Jogar: Guia de Lançamento 2026 e Detalhes de Monetização",
+  description: "Descubra se Drakantos é gratuito para jogar, explore sua monetização baseada em heróis e aprenda sobre as mecânicas do MMORPG pixelado de 2026 em nosso guia detalhado.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Drakantos+F2P+Guide",
+  date: "2026-05-26",
+  author: "Equipe Wiki Drakantos"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Drakantos é Gratuito para Jogar**: Sim, o jogo está confirmado como um título **gratuito para jogar** no Steam e planejado para plataformas móveis.
+- **Modelo de Monetização**: Foca em **cosméticos** e potenciais assinaturas opcionais para recursos de conveniência.
+- **Sistema de Heróis**: Apresenta mais de **20 heróis únicos** com mecânicas individuais em vez de um sistema de classes tradicional.
+- **Jogabilidade Central**: Combina **combate de ação rápido** com masmorras dinâmicas chamadas "Aventuras" e PvP sazonal.
+- **Disponibilidade da Plataforma**: Lançamento inicial para **PC (Steam)** com desenvolvimento móvel multiplataforma em andamento.
+</Callout>
+
+<Section icon={Shield} title="Status Gratuito para Jogar de Drakantos e Primeiras Impressões">
+
+Drakantos é um MMORPG pixel-art em desenvolvimento pela Winen Game Studios, uma equipe indie brasileira. O jogo tem atraído atenção significativa por sua estética nostálgica de 16 bits combinada com mecânicas modernas de RPG de ação. Como os jogadores frequentemente perguntam **se Drakantos é gratuito para jogar**, os desenvolvedores confirmaram que a experiência principal será acessível sem uma compra inicial. Isso reduz a barreira de entrada para um gênero que muitas vezes luta para manter uma base de jogadores consistente.
+
+**Destaques do Vídeo:**
+- **Visuais Nostálgicos**: Clara inspiração em RPGs clássicos e arquétipos de personagens de World of Warcraft.
+- **Aventuras Dinâmicas**: Masmorras escalam com base no número de jogadores na equipe.
+- **Design de UI**: Interface moderna, limpa e intuitiva que disfarça o estilo de arte retrô.
+- **Feedback Inicial**: Desenvolvedores corrigiram ativamente a rigidez de movimento e bloqueios de animação com base em dados de playtest.
+
+<YouTubeEmbed videoId="eYLDl2_lHyE" title="Drakantos - Novas Primeiras Impressões de MMORPG Pixelado" />
+
+<Callout type="tip" title="Capacidade de Resposta dos Desenvolvedores">
+Durante os playtests de 2025 e 2026, os desenvolvedores reduziram significativamente os requisitos de nível para desbloquear habilidades (de nível 5/10/15 para 4/8/12) com base no feedback da comunidade sobre o ritmo inicial do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Coins} title="Monetização e Economia do Jogador">
+
+Embora o jogo seja gratuito para jogar, a Winen Game Studios precisa sustentar as atualizações de serviço ao vivo. A estratégia de monetização é projetada para evitar as armadilhas de "pay-to-win", focando em progressão horizontal e estética. O mercado impulsionado pelos jogadores permite a troca da maioria dos itens, embora existam certas restrições para evitar a troca de dinheiro real (RMT) e manter a estabilidade econômica.
+
+| Recurso | Acesso Gratuito para Jogar | Assinatura Opcional / Paga |
+|:---|:---|:---|
+| **Conteúdo Principal** | Todas as missões de história e masmorras | Sem conteúdo de história restrito |
+| **Lista de Heróis** | Acesso a vários heróis gratuitos | Skins cosméticas e emotes |
+| **Mercado** | Capacidades completas de negociação | Potencial redução de imposto ou slots extras |
+| **Progressão** | Taxas padrão de XP e loot | Bônus de conveniência (Não-combate) |
+| **Arena PvP** | Acesso total a modos ranqueados | Cosméticos sazonais exclusivos |
+
+Os desenvolvedores estão considerando um modelo de assinatura para financiar o desenvolvimento a longo prazo, mas enfatizaram que não será obrigatório para o jogo competitivo. Artefatos e Relíquias, que definem o poder de um herói, são obtidos através da jogabilidade, e não por compra direta.
+
+<Callout type="warning" title="Segurança do Mercado">
+Para evitar inflação e botting, os desenvolvedores implementaram restrições rigorosas em certas negociações de itens de alto valor, garantindo que a economia permaneça saudável para jogadores genuínos.
+</Callout>
+
+</Section>
+
+<Section icon={User} title="O Sistema de Heróis: Abandonando as Classes Tradicionais">
+
+Uma das características mais distintas de Drakantos é a remoção do sistema de classes tradicional. Em vez de escolher um "Guerreiro" ou "Mago", os jogadores escolhem entre uma lista de heróis individuais. Cada herói apresenta dublagem, animações únicas e um papel específico dentro do mundo de Eldrass. Essa abordagem é semelhante aos "Hero Shooters" ou MOBAs, mas aplicada a um mundo MMORPG persistente.
+
+<CardGrid cols={3}>
+  <Card title="Yuki: Kitsune Congelada">
+    - **Função**: DPS à Distância / Controle de Multidão
+    - **Mecânica**: Usa poderes de gelo para congelar inimigos
+    - **Estilo de Jogo**: Alta mobilidade com kiting baseado em gelo
+  </Card>
+  <Card title="Iris: Tanque Ilusionista">
+    - **Função**: Suporte Defensivo / Mago
+    - **Mecânica**: Cria clones para distrair inimigos
+    - **Estilo de Jogo**: Posicionamento estratégico e mitigação de dano
+  </Card>
+  <Card title="Reya: Guerreira Mágica">
+    - **Função**: Lutadora Corpo a Corpo
+    - **Mecânica**: Combate com lança aprimorado por raios
+    - **Estilo de Jogo**: Engajamento agressivo na linha de frente
+  </Card>
+</CardGrid>
+
+Os heróis podem ser ainda mais personalizados usando três sistemas distintos:
+1. **Orbes**: Modificam propriedades específicas de habilidades.
+2. **Artefatos**: Concedem efeitos ativos ou passivos poderosos.
+3. **Relíquias**: Alteram fundamentalmente como o kit de um herói funciona.
+
+<Callout type="info" title="Gerenciamento de Elenco">
+Os jogadores são encorajados a manter um elenco de heróis. Alguns heróis podem ser mais adequados para mecânicas de chefes específicas em "Aventuras" de alto nível, tornando a versatilidade um componente chave do endgame.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Revisão de Combate de Ação e Movimento">
+
+Os primeiros playtests revelaram que o movimento original baseado em tiles parecia rígido para jogadores modernos. Em resposta, os desenvolvedores concluíram uma revisão massiva, transformando o jogo em um **sistema de movimento livre**. Essa mudança permite movimento de 360 graus em controles e combate mais fluido com mira de mouse. O combate agora é totalmente baseado em ação, exigindo que os jogadores mirem habilidades e desviem de ataques recebidos manualmente.
+
+| Elemento de Combate | Sistema Antigo (Pré-2026) | Novo Sistema Reformulado |
+|:---|:---|:---|
+| **Movimento** | Baseado em tiles / 8 direções | Totalmente livre / 360 graus |
+| **Mira** | Híbrido / Elementos de mira por tab | 100% Ação / Habilidades com mira |
+| **Ataques Básicos** | Cooldown fixo de 2 segundos | Sistema de "Carga" tipo estamina |
+| **Dash** | Tiles de distância fixa | Dashes fluidos direcionais |
+| **Interação** | Travada por animação | Bloqueio reduzido para melhor kiting |
+
+<Callout type="success" title="Suporte para Controle">
+O novo sistema de movimento é particularmente otimizado para controles, onde o analógico direito gerencia a direção do personagem, enquanto o analógico esquerdo lida com o movimento, criando uma sensação de "twin-stick" para heróis de longo alcance.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Como Começar a Jogar Drakantos">
+
+Entrar no mundo de Eldrass é um processo simples, embora o acesso possa variar dependendo da fase atual de desenvolvimento. O jogo passou por várias fases de beta fechado, com cada teste expandindo a capacidade do servidor nas regiões da América do Norte, América do Sul, Europa e Ásia.
+
+<Steps>
+  <Step num="1" title="Lista de Desejos do Steam">
+    Visite a página de Drakantos no Steam e adicione o jogo à sua lista de desejos. Isso garante que você receba notificações sobre os próximos testes de Beta Aberto e o lançamento oficial.
+  </Step>
+  <Step num="2" title="Solicitação de Acesso ao Beta">
+    Durante os períodos de teste ativo, clique no botão "Solicitar Acesso" na página da loja Steam. Os convites são enviados em ondas para gerenciar a carga do servidor.
+  </Step>
+  <Step num="3" title="Junte-se ao Programa de Criadores">
+    Se você é um criador de conteúdo, inscreva-se no Programa de Criadores de Drakantos para receber chaves de playtest, kits de mídia e funções exclusivas no Discord.
+  </Step>
+  <Step num="4" title="Vincule Contas Sociais">
+    Conecte suas contas Twitch e Discord nas configurações do jogo para ganhar recompensas temporárias do Beta e participar de eventos da comunidade.
+  </Step>
+</Steps>
+
+<Checklist
+  id="launch-prep"
+  title="Prontidão para o Dia do Lançamento:"
+  items={[
+    "Verificar os requisitos do sistema para PC",
+    "Selecionar sua região de servidor preferida (Bloqueada durante os testes)",
+    "Convidar até 3 amigos através do sistema de indicação de amigos do Steam",
+    "Revisar a lista de Heróis para escolher seu inicial",
+    "Juntar-se ao Discord oficial para status do servidor em tempo real"
+  ]}
+/>
+
+<Callout type="info" title="Progressão Cruzada">
+Embora o foco esteja atualmente no lançamento para PC, os desenvolvedores afirmaram que as versões móveis estão em desenvolvimento, com a intenção de suportar a progressão cruzada no futuro.
+</Callout>
+
+</Section>
+
+<Section icon={Laptop} title="Requisitos de Sistema e Desempenho">
+
+Apesar de seu estilo pixel art, Drakantos apresenta animações de alta fidelidade e efeitos de iluminação complexos. O jogo é projetado para rodar sem problemas em uma ampla gama de hardware, incluindo o Steam Deck, que tem sido uma escolha popular para testadores beta.
+
+| Componente | Requisitos Mínimos | Requisitos Recomendados |
+|:---|:---|:---|
+| **SO** | Windows 10 (64 bits) | Windows 11 (64 bits) |
+| **Processador** | Dual Core 2.0 GHz | Quad Core 3.0 GHz+ |
+| **Memória** | 4 GB RAM | 8 GB RAM |
+| **Gráficos** | Compatível com DirectX 11 | GTX 1050 / RX 560 ou superior |
+| **Armazenamento** | 5 GB de espaço disponível | SSD Recomendado |
+
+<Callout type="tip" title="Otimização para Steam Deck">
+Os testadores beta relataram excelente desempenho no Steam Deck. Para a melhor experiência, use o layout de controle "Movimento Livre" nas configurações do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes sobre Drakantos">
+
+<FAQ items={[
+  {
+    question: "Drakantos é gratuito para jogar em todas as plataformas?",
+    answer: "Sim, Drakantos é um título gratuito para jogar confirmado para Steam, com versões móveis planejadas para seguir o mesmo modelo de monetização."
+  },
+  {
+    question: "Drakantos tem um sistema pay-to-win?",
+    answer: "Os desenvolvedores afirmaram seu compromisso com uma experiência justa, focando a monetização em cosméticos e conveniência, em vez de vender poder ou equipamentos."
+  },
+  {
+    question: "Posso jogar Drakantos sozinho?",
+    answer: "Embora seja um MMORPG, as 'Aventuras' (masmorras) escalam dinamicamente. Você pode entrar sozinho, e a dificuldade se ajustará de acordo, embora algum conteúdo de endgame possa favorecer o jogo em grupo."
+  },
+  {
+    question: "Meu progresso do Beta será transferido para o lançamento completo?",
+    answer: "Não, como é padrão na maioria dos betas de MMORPG, todo o progresso será apagado antes do lançamento oficial para garantir um início justo para todos os jogadores."
+  }
+]} />
+
+<Callout type="success" title="Veredito Final">
+Drakantos oferece uma abordagem refrescante ao gênero MMORPG pixelado, focando em um design de heróis de alta qualidade e combate de ação responsivo. Se você gosta de jogos como Tibia ou ARPGs modernos, este é um título que vale a pena adicionar à sua lista de desejos em 2026.
+</Callout>
+
+</Section>

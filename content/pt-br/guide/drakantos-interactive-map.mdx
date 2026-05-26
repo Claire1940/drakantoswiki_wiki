@@ -1,0 +1,211 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Compass, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mapa Interativo de Drakantos: Guia de Navegação e Locais Chave",
+  description: "Domine o mapa interativo de Drakantos para encontrar recursos ocultos, navegar pelo mundo de Eldras e utilizar o auto-pathing para missões eficientes em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Drakantos+Map+Guide",
+  date: "2026-05-26",
+  author: "Equipe Wiki de Drakantos"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Mapa Interativo de Drakantos**: Acessível pela tecla 'M', com capacidade total de zoom e uma UI limpa e moderna para navegar por Eldras.
+- **Sistema de Auto-Pathing**: Uma característica central que permite aos jogadores clicar em qualquer ponto do mapa-múndi para que seu herói viaje automaticamente até o destino.
+- **Centros Principais**: As principais localizações incluem a movimentada cidade de **Casteron**, o estratégico **Akamond** e a aconchegante **Guilda dos Aventureiros**.
+- **Elementos Dinâmicos**: O mapa reflete ciclos de dia e noite, que influenciam o surgimento de inimigos e desafios ambientais.
+- **Marcadores PvE e PvP**: Distingue entre aventuras de mundo aberto, masmorras instanciadas e os 13 mapas de arena PvP únicos.
+</Callout>
+
+<Section icon={Map} title="Explorando o Mundo de Eldras através do Mapa Interativo de Drakantos">
+
+Navegar pelo vibrante mundo de pixel art de Eldras requer uma compreensão profunda do **mapa interativo de Drakantos**. Ao contrário dos RPGs retrô tradicionais que frequentemente deixam os jogadores perdidos em vastos mapas de blocos, Drakantos utiliza um sistema de mapa-múndi moderno e de alta resolução que fornece dados em tempo real sobre objetivos de missões, nós de recursos e aventuras multiplayer. Seja você um explorador solo ou parte de uma guilda de alto nível, o mapa é sua principal ferramenta para a progressão.
+
+**Destaques do Vídeo:**
+- **Estética Visual**: Uma olhada no charmoso estilo de pixel art retrô inspirado em MMOs clássicos como World of Warcraft.
+- **Interface do Mapa**: Demonstração da UI limpa, funcionalidade do mini-mapa e o zoom suave do mapa-múndi.
+- **Auto-Pathing**: Como usar o mapa para viajar entre grandes cidades como Casteron e Akamond automaticamente.
+- **Fluxo Inicial do Jogo**: Navegando da Vila dos Contos de Fadas até a Guilda dos Aventureiros para desbloquear suas primeiras habilidades.
+
+<YouTubeEmbed videoId="eYLDl2_lHyE" title="Drakantos - Novas Impressões de Gameplay e Mapa do MMORPG Pixel Art" />
+
+O mapa-múndi foi projetado para ser intuitivo. Ao pressionar a tecla 'M', os jogadores podem visualizar todo o continente de Eldras. A interface permite que você amplie para ver layouts específicos de edifícios em grandes cidades ou diminua o zoom para planejar viagens de longa distância através de diferentes biomas.
+
+<Callout type="tip" title="Dica de Navegação Profissional">
+Sempre fique de olho no mini-mapa no canto superior esquerdo. Ele exibe uma seta dourada apontando para o seu objetivo de missão ativo, garantindo que você nunca se perca durante missões complexas.
+</Callout>
+
+| Recurso de Navegação | Atalho/Ação | Descrição |
+| :--- | :--- | :--- |
+| **Abrir Mapa-Múndi** | Tecla M | Visualize o continente completo de Eldras e todas as regiões descobertas. |
+| **Auto-Pathing** | Clique Esquerdo (Mapa) | O personagem anda automaticamente para a coordenada do mapa selecionada. |
+| **Zoom In/Out** | Roda do Mouse | Ajusta a escala da visão continental ao detalhe de nível de rua. |
+| **Alternar Mini-mapa** | Configurações da UI | Personalize a visibilidade e escala do mini-mapa HUD. |
+| **Rastreamento de Missão** | Tecla J / Ícones do Mapa | Destaca áreas específicas onde os objetivos da missão estão localizados. |
+
+</Section>
+
+<Section icon={Compass} title="Principais Regiões e Pontos de Interesse">
+
+O **mapa interativo de Drakantos** revela uma paisagem diversa repleta de marcos únicos. Cada região serve a um propósito específico, desde a criação de equipamentos até aventuras de alto nível. Compreender esses centros é essencial para otimizar seu ciclo de jogo.
+
+<CardGrid cols={3}>
+  <Card title="Casteron">
+    - **Principal Centro Metropolitano**
+    - Acesso a sistemas de Mercado avançados
+    - NPCs de missões de alto nível
+  </Card>
+  <Card title="Akamond">
+    - **Sede Estratégica do Conselho**
+    - Central para a progressão da história principal
+    - Apresenta a grandiosa Academia de Magia
+  </Card>
+  <Card title="Guilda dos Aventureiros">
+    - **Centro Multiplayer**
+    - Junte-se para aventuras instanciadas
+    - Aprimore habilidades e artefatos de heróis
+  </Card>
+</CardGrid>
+
+Além dessas cidades, o mapa está repleto de zonas especializadas como a **Forja de Marcelo**, onde os jogadores podem adquirir seus primeiros artefatos, como a besta de mão. A transição entre essas zonas é suave, embora os desenvolvedores tenham notado que certas áreas podem ser bloqueadas por nível ou exigir pontuações de equipamento específicas para sobreviver.
+
+| Nome do Local | Função Principal | NPCs Notáveis |
+| :--- | :--- | :--- |
+| **Vila dos Contos de Fadas** | Zona Inicial | Gerente da Guilda, Comerciantes Locais |
+| **Forja de Marcelo** | Personalização de Equipamento | Marcelo (Ferreiro de Artefatos) |
+| **Kasteron** | Comércio e Economia | Supervisores de Mercado, Líderes de Facção |
+| **Templo Druida** | História e Missões | Sumos Sacerdotes, Guardiões da Natureza |
+| **A Academia** | Treinamento de Habilidades | Mestres Escribas, Treinadores de Habilidades |
+
+<Callout type="warning" title="Perigos Ambientais">
+O mapa também marca perigos ambientais. Por exemplo, jogadores iniciantes devem evitar "Colmeias" nas regiões florestais, pois elas podem facilmente aniquilar um grupo despreparado devido ao alto dano e mecânicas de bloqueio corporal.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Como Usar Marcadores de Mapa e Auto-Pathing">
+
+A eficiência é fundamental em qualquer MMORPG, e o **mapa interativo de Drakantos** oferece um dos sistemas de auto-pathing mais robustos do gênero pixel art. Este sistema permite que você se concentre em gerenciar seu inventário ou conversar com seus companheiros de guilda enquanto seu personagem viaja.
+
+<Steps>
+  <Step num="1" title="Identifique Seu Destino">
+    Abra o mapa-múndi (M) e localize o ícone do seu destino desejado. Os ícones são codificados por cores: Amarelo para missões, Azul para serviços e Vermelho para zonas de combate.
+  </Step>
+  <Step num="2" title="Inicie o Auto-Pathing">
+    Basta clicar com o botão esquerdo do mouse no local do mapa. Um caminho será desenhado no mini-mapa, e seu herói começará a se mover em direção ao alvo automaticamente.
+  </Step>
+  <Step num="3" title="Monitore Obstáculos">
+    Embora o auto-pathing seja confiável, esteja atento a "bloqueios corporais" de NPCs ou outros jogadores em áreas lotadas. Os desenvolvedores estão atualmente refinando o sistema de busca de caminho para minimizar essas colisões.
+  </Step>
+  <Step num="4" title="Chegada e Interação">
+    Assim que você chegar, o auto-pathing cessará. Você pode então interagir com NPCs ou entrar em aventuras instanciadas diretamente da interface do mapa.
+  </Step>
+</Steps>
+
+O sistema de auto-pathing é particularmente útil ao navegar pela enorme cidade de Casteron. Como o layout da cidade é complexo, usar o mapa para encontrar vendedores específicos, como o Ferreiro ou o Alquimista, economiza um tempo significativo.
+
+<Callout type="success" title="Recompensa de Exploração">
+Descobrir novas áreas no mapa frequentemente concede "XP de Aventureiro", que contribui para o seu nível geral de conta e desbloqueia novos níveis de missões.
+</Callout>
+
+| Tipo de Marcador | Aparência do Ícone | Uso |
+| :--- | :--- | :--- |
+| **Missão Principal** | Grande Exclamação Dourada | Pontos primários de progressão da história. |
+| **Missão Secundária** | Pequena Exclamação Prateada | Tarefas opcionais para recursos extras e XP. |
+| **Aventura** | Ícone de Portal/Portão | Pontos de entrada para missões instanciadas de 3 jogadores. |
+| **Mercado** | Ícone de Balança | Locais onde você pode trocar itens com jogadores. |
+| **Surgimento de Chefe** | Ícone de Crânio | Indica áreas onde chefes de mundo de elite podem aparecer. |
+
+</Section>
+
+<Section icon={Swords} title="Mapas PvP e Navegação na Arena">
+
+Drakantos não é apenas sobre exploração; o **mapa interativo de Drakantos** também cobre 13 mapas PvP dedicados em três modos distintos. Ao contrário do mundo aberto, esses mapas são simétricos e projetados para um equilíbrio competitivo.
+
+<CardGrid cols={2}>
+  <Card title="Modos de Arena">
+    - **Controle**: Capture e mantenha zonas específicas.
+    - **Escolta**: Guie um cristal até a base inimiga.
+    - **Assalto**: Empurrar lanes estilo MOBA com torres.
+  </Card>
+  <Card title="Layouts de Mapa">
+    - Apresenta verticalidade e arbustos para se esconder.
+    - Buffs dinâmicos surgem em intervalos de 3:30.
+    - Designs simétricos para garantir justiça.
+  </Card>
+</CardGrid>
+
+No PvP, o mapa fornece informações táticas cruciais. Para o modo **Escolta**, o mini-mapa rastreia a rota exata do cristal, enquanto em **Assalto**, ele mostra a saúde restante de suas torres e do núcleo.
+
+| Modo PvP | Foco do Mapa | Condição de Vitória |
+| :--- | :--- | :--- |
+| **Controle** | Zonas Centrais | Capture totalmente todos os pontos para vencer. |
+| **Escolta** | Caminhos Lineares | Mova o cristal para o destino final. |
+| **Assalto** | Rotas e Selva | Destrua o núcleo inimigo; proteja suas torres. |
+
+<Callout type="info" title="Escalonamento PvP">
+Ao entrar em um mapa PvP, todos os heróis são escalados para o nível máximo com equipamento otimizado. Isso garante que a vitória seja determinada pela habilidade e consciência do mapa, em vez de grind de equipamento.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sobrevivência e Nós de Coleta de Recursos">
+
+A coleta de recursos é uma parte vital da economia de Drakantos. O **mapa interativo de Drakantos** ajuda os jogadores a localizar materiais raros necessários para criar Orbes e Artefatos de alto nível. Esses nós são frequentemente encontrados nas seções de "Mundo Aberto" entre as principais instâncias de aventura.
+
+<Checklist
+  id="gathering-checklist"
+  title="Etapas de Caça a Recursos:"
+  items={[
+    "Verifique o mapa em busca de zonas 'Selvagens' com tonalidade verde",
+    "Procure por nós como Minério de Ferro, Madeira Antiga e Ervas Mágicas",
+    "Monitore o ciclo Dia/Noite; alguns recursos só surgem à noite",
+    "Use o auto-pathing para retornar a pontos de respawn de alto rendimento conhecidos",
+    "Equipe Artefatos de velocidade de coleta para maximizar seu rendimento"
+  ]}
+/>
+
+A UI do mapa exibe o "Nível de Poder" de cada zona. Entrar em uma zona onde o nível de poder recomendado excede o seu resultará em seu personagem recebendo significativamente mais dano de mobs. Sempre consulte os dados da zona do mapa antes de se aventurar nas profundezas selvagens de Eldras.
+
+<Callout type="warning" title="Movimento Baseado em Blocos vs. Movimento Livre">
+Atualizações recentes transicionaram o mapa do movimento baseado em blocos para o movimento totalmente livre. Isso significa que agora você pode cortar caminhos e mover-se diagonalmente, tornando a navegação muito mais rápida do que nos testes anteriores.
+</Callout>
+
+| Categoria de Recurso | Locais Comuns no Mapa | Nível de Raridade |
+| :--- | :--- | :--- |
+| **Minérios** | Regiões montanhosas, Cavernas | Comum a Mítico |
+| **Ervas** | Clareiras florestais, Vila dos Contos de Fadas | Comum a Raro |
+| **Relíquias** | Ruínas Antigas, Templos Druidas | Lendário |
+| **Drops de Monstros** | Pontos de Surgimento de Mobs Específicos (ver mapa) | Variável |
+
+</Section>
+
+<Section icon={Trophy} title="FAQ do Mapa de Drakantos">
+
+<FAQ items={[
+  {
+    question: "Como desbloqueio mais áreas no mapa interativo de Drakantos?",
+    answer: "As áreas são desbloqueadas viajando fisicamente até elas ou completando marcos específicos da história. Uma vez que uma região é 'descoberta', sua névoa de guerra é removida, e você pode usar o auto-pathing para retornar lá."
+  },
+  {
+    question: "Posso ver outros jogadores no mapa-múndi?",
+    answer: "Você pode ver os membros do grupo como pontos verdes tanto no mini-mapa quanto no mapa-múndi. Jogadores aleatórios no mundo aberto aparecem no mini-mapa, mas não no mapa-múndi global para evitar a desordem da UI."
+  },
+  {
+    question: "O mapa mostra onde os chefes surgem?",
+    answer: "Sim, os principais chefes de mundo e chefes de aventura são marcados com um ícone de caveira. Alguns chefes só aparecem durante horários específicos do ciclo dia-noite."
+  },
+  {
+    question: "Qual é a diferença entre 'Aventuras' e 'Mundo Aberto' no mapa?",
+    answer: "Aventuras são níveis instanciados para 3 jogadores com objetivos e saques específicos. O Mundo Aberto é um espaço compartilhado onde você coleta recursos, conversa com NPCs e viaja entre centros."
+  }
+]} />
+
+</Section>

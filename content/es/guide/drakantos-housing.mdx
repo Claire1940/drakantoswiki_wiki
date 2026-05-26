@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Home, Hammer, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Vivienda en Drakantos: Guía de Configuración y Consejos de Decoración",
+  description: "Domina el sistema de vivienda de Drakantos con nuestra guía sobre adquisición de terrenos, creación de muebles y estrategias de diseño de interiores para este MMORPG de píxeles.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Drakantos+Housing+Guide",
+  date: "2026-05-26",
+  author: "Equipo Wiki de Drakantos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La **vivienda en Drakantos** permite a los jugadores poseer terrenos privados y personalizar interiores con muebles únicos de pixel art.
+- La **adquisición** suele estar ligada a hitos de progresión y recolección de recursos en el mundo abierto.
+- La **personalización** implica el uso de orbes, artefactos y objetos fabricados para reflejar el viaje de tu héroe.
+- La **integración social** te permite invitar amigos a tu parcela, tendiendo puentes entre el juego en solitario y la interacción comunitaria del MMO.
+- El **valor económico** es alto, ya que los coleccionables raros y los objetos comercializados en el mercado se pueden exhibir como trofeos.
+</Callout>
+
+<Section icon={Home} title="Introducción a los sistemas de vivienda de Drakantos">
+
+Drakantos es un próximo MMORPG gratuito que combina el nostálgico pixel art con la mecánica moderna de los juegos de rol de acción. Si bien gran parte del enfoque de las primeras pruebas de juego se mantuvo en el combate de ritmo rápido y la estructura de misiones basada en héroes, el desarrollador, Wingeon Game Studios, ha confirmado que la **vivienda en Drakantos** servirá como un pilar social y de progresión principal. A diferencia de los MMO tradicionales donde la vivienda suele ser una ocurrencia tardía, aquí está integrada en el mundo de Derid, ofreciendo a los jugadores un santuario para exhibir sus logros y descansar entre agotadoras carreras por mazmorras.
+
+**Aspectos destacados del video:**
+- Descripción general de la encantadora estética pixel art e inspiraciones de World of Warcraft.
+- Demostración de la interfaz de usuario limpia y moderna utilizada para la navegación.
+- Información sobre la progresión basada en misiones y la mecánica de cambio de héroe.
+- Primer vistazo al acogedor Gremio de Aventureros, que establece el tono para los espacios de los jugadores.
+
+<YouTubeEmbed videoId="eYLDl2_lHyE" title="Drakantos - Nuevo MMORPG de píxeles '¿Vale la pena jugar?'" />
+
+El sistema de vivienda está diseñado para ser más que un simple complemento cosmético. Proporciona un sentido tangible de propiedad en un mundo lleno de misiones cambiantes y eventos dinámicos. Ya sea que juegues como un Stormlancer o un Kitsune, tu hogar se convierte en un reflejo de tu estilo de juego y de las rarezas que has descubierto durante tus aventuras.
+
+<Callout type="tip" title="Información del desarrollador">
+Los desarrolladores han enfatizado que la vivienda será una parte "viva" del juego, lo que significa que es probable que lleguen nuevos conjuntos de muebles y expansiones de terrenos con cada actualización importante de héroe.
+</Callout>
+
+| Característica | Descripción | Impacto en el juego |
+| :--- | :--- | :--- |
+| **Terreno privado** | Parcelas individuales ubicadas en varios biomas | Progresión personal y almacenamiento |
+| **Decoración** | Miles de objetos de pixel art colocables | Prestigio social y salida creativa |
+| **Exhibición de trofeos** | Muestra botines raros de jefes | Prueba visual de maestría en combate |
+| **Centro social** | Invita a miembros del grupo a tu casa | Interacción comunitaria mejorada |
+
+</Section>
+
+<Section icon={Target} title="Cómo adquirir tu primera parcela">
+
+Asegurar tu lugar en Derid requiere una combinación de progresión de la historia y gestión de recursos. Según la estructura actual del juego, los jugadores no comienzan con una casa. En cambio, debes demostrar tu valía a los gremios locales y acumular suficientes recursos para reclamar una parcela. La **vivienda en Drakantos** está limitada por el "Rango de Aventura", asegurando que los jugadores tengan una comprensión básica del mundo del juego antes de administrar un hogar.
+
+<Steps>
+  <Step num="1" title="Alcanza el Rango de Aventura 10">
+    Completa misiones de la historia principal y misiones secundarias en Fairyale Village y Casteron para aumentar tu nivel de poder general.
+  </Step>
+  <Step num="2" title="Reúne recursos esenciales">
+    Utiliza el sistema de recolección de recursos del mundo abierto para recolectar madera, piedra y minerales raros necesarios para la escritura de la tierra inicial.
+  </Step>
+  <Step num="3" title="Localiza al Gerente del Gremio">
+    Visita la ciudad central y habla con el Gerente del Gremio sobre refugio y provisiones para desbloquear la línea de misiones de vivienda.
+  </Step>
+  <Step num="4" title="Selecciona tu bioma">
+    Elige entre las regiones disponibles (como bosques exuberantes o arenas áridas) según tu preferencia estética.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Gestión de recursos">
+No vendas todos tus materiales de grado "Común" al principio. Muchas recetas básicas de muebles requieren grandes volúmenes de madera y piedra de bajo nivel que son tediosos de volver a recolectar más tarde.
+</Callout>
+
+| Tipo de Bioma | Estilo estético | Recursos comunes encontrados |
+| :--- | :--- | :--- |
+| **Bosque** | RPG clásico, verde, acogedor | Madera de roble, hierbas básicas, piedras |
+| **Desierto** | Arenisca, exótico, abierto | Madera de palma, cuarzo, minerales raros |
+| **Tundra** | Cubierto de nieve, tonos azules | Madera de pino, minerales congelados, pieles |
+| **Urbano** | Piedra pesada, adyacente a la ciudad | Ladrillos refinados, hierro, textiles |
+
+</Section>
+
+<Section icon={Hammer} title="Fabricación y personalización de muebles">
+
+El corazón de la experiencia de **vivienda en Drakantos** reside en su profunda personalización. El juego se aleja de las cuadrículas rígidas, permitiendo una colocación más orgánica de los objetos. Los jugadores pueden adquirir muebles a través de tres métodos principales: fabricación, comercio en el mercado y botines raros de las "Aventuras".
+
+<CardGrid cols={3}>
+  <Card title="Profesionales de la artesanía">
+    - **Herreros** para estructuras metálicas
+    - **Carpinteros** para muebles de madera
+    - **Sastres** para alfombras y cortinas
+  </Card>
+  <Card title="Botín de aventura">
+    - **Trofeos de jefes** de mazmorras
+    - **Pinturas raras** de misiones secundarias
+    - **Artefactos únicos** como botines raros
+  </Card>
+  <Card title="Mercado">
+    - **Comercia con jugadores** por oro
+    - **Compra conjuntos limitados** de eventos
+    - **Vende objetos fabricados** para obtener ganancias
+  </Card>
+</CardGrid>
+
+Los muebles se clasifican por rareza, desde Común hasta Mítico. Los objetos de alta rareza a menudo tienen animaciones o efectos de partículas únicos, como una chimenea que emite brasas de pixel art reales o una fuente que fluye en tiempo real.
+
+<Callout type="success" title="Bonificación por colección">
+Completar "Conjuntos de muebles" específicos (por ejemplo, el Conjunto Real de Casteron) puede otorgar pequeñas mejoras no relacionadas con el combate, como un aumento de la velocidad de movimiento en las ciudades o una reducción del tiempo de fabricación.
+</Callout>
+
+| Categoría de artículo | Ejemplos de artículos | Método de adquisición principal |
+| :--- | :--- | :--- |
+| **Asientos** | Bancos, trono, taburetes | Carpintería / Herrería |
+| **Iluminación** | Antorchas, candelabros, lámparas | Artesanía / Eventos especiales |
+| **Decoración** | Alfombras, cuadros, estatuas | Botines de jefes / Mercado |
+| **Funcional** | Cofres de almacenamiento, mesas de artesanía | Recompensas de progresión |
+
+</Section>
+
+<Section icon={Users} title="Integración social y vivienda de gremio">
+
+Drakantos es fundamentalmente una experiencia multijugador. Si bien la vivienda personal ofrece un retiro privado, el juego también cuenta con un sólido sistema de gremios. Los gremios pueden adquirir enormes parcelas de tierra para construir "Salones de Gremio", que sirven como cuartel general para las facciones más poderosas del continente. La **vivienda personal en Drakantos** a menudo se puede vincular a estos salones de gremio, creando una sensación de vecindario para las comunidades activas.
+
+**Características sociales clave de la vivienda:**
+- **Sistema de permisos:** Controla quién puede entrar, editar o interactuar con tu hogar.
+- **Fiestas en casa:** Organiza reuniones donde los jugadores pueden mostrar las "poses finales" y los cosméticos de sus héroes.
+- **Verificación de trofeos:** Los amigos pueden inspeccionar tus objetos raros para ver exactamente en qué rango de mazmorra se obtuvieron.
+- **Almacenamiento compartido:** Algunos niveles avanzados de vivienda permiten compartir objetos de forma limitada entre amigos de confianza.
+
+<Callout type="info" title="PvP y vivienda">
+Ten en cuenta que la vivienda es una "Zona Segura". A diferencia de las arenas PvP clasificatorias competitivas, tu hogar no puede ser atacado ni asaltado por otros jugadores, asegurando que tus decoraciones permanezcan permanentes.
+</Callout>
+
+| Característica | Vivienda personal | Vivienda de gremio |
+| :--- | :--- | :--- |
+| **Enfoque principal** | Expresión personal | Coordinación de grupo |
+| **Tamaño** | Pequeño a mediano | Grande a masivo |
+| **Costo** | Oro/recursos individuales | Fondos de gremio compartidos |
+| **Permisos** | Controlado por el propietario | Controlado por los oficiales |
+| **Beneficios** | Ventajas individuales | Bonificaciones para todo el gremio |
+
+</Section>
+
+<Section icon={Sparkles} title="Consejos avanzados para el diseño de interiores">
+
+Para dominar verdaderamente la **vivienda en Drakantos**, debes ir más allá de la simple colocación. El estilo pixel art permite técnicas inteligentes de "superposición". Al superponer ciertos objetos o usar combinaciones de iluminación específicas, puedes crear la ilusión de profundidad en un espacio inspirado en 2D.
+
+**Estrategias de diseño:**
+- **Zonificación:** Usa diferentes tipos de pisos o alfombras para separar tu "Área de artesanía" de tu "Área de descanso".
+- **Profundidad de iluminación:** Coloca antorchas detrás de objetos semitransparentes para crear un efecto de silueta brillante.
+- **Consistencia temática:** Mantén una paleta de colores que coincida con tu héroe principal. El hogar de un mago de hielo se ve mejor con iluminación de tonos azules y muebles de piedra.
+- **Verticalidad:** Usa estanterías y trofeos montados en la pared para atraer la vista hacia arriba, haciendo que las habitaciones pequeñas se sientan más grandes.
+
+<Checklist
+  id="housing-checklist"
+  title="Objetivos de finalización de vivienda:"
+  items={[
+    "Desbloquea tu primera parcela de tierra en Casteron",
+    "Fabrica un conjunto completo de muebles 'Básicos'",
+    "Exhibe un trofeo de una Aventura de Rango 3",
+    "Invita al menos a 3 amigos a tu casa",
+    "Alcanza el 'Nivel de confort' máximo para tu nivel"
+  ]}
+/>
+
+<Callout type="tip" title="Personalización de artefactos">
+Recuerda que los orbes y artefactos utilizados para modificar las habilidades de los héroes a veces se pueden usar como elementos decorativos si tienen propiedades visuales únicas. Revisa tu inventario en busca de etiquetas "Colocable" en el botín raro.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes sobre la vivienda en Drakantos">
+
+<FAQ items={[
+  {
+    question: "¿Es gratis jugar al sistema de vivienda de Drakantos?",
+    answer: "Sí, el sistema de vivienda básico y las parcelas iniciales se pueden obtener a través del juego. Si bien puede haber conjuntos de muebles cosméticos premium, la funcionalidad principal es accesible para todos los jugadores."
+  },
+  {
+    question: "¿Pueden otros jugadores robar mis muebles?",
+    answer: "No. La vivienda es una instancia protegida. Otros jugadores solo pueden entrar si les das permiso, y no pueden quitar ni robar tus objetos."
+  },
+  {
+    question: "¿Mi casa proporciona alguna estadística de combate?",
+    answer: "Los desarrolladores han declarado que las estadísticas de PvP se mantienen equilibradas para garantizar un entorno competitivo. Las mejoras de vivienda generalmente se limitan a ventajas no relacionadas con el combate, como la velocidad de fabricación o las bonificaciones de XP descansado."
+  },
+  {
+    question: "¿Puedo mover mi casa a un bioma diferente más tarde?",
+    answer: "Sí, aunque normalmente hay un costo en oro asociado con la reubicación de tu escritura. Tus muebles se almacenarán de forma segura en tu 'Inventario de vivienda' durante la mudanza."
+  }
+]} />
+
+</Section>

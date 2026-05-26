@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "drakantos single player: Guia de Progressão e Dungeon Crawling Solo",
+  description: "Domine o modo single player de Drakantos com nosso guia sobre mecânicas de dungeons solo, seleção de heróis e estratégias de progressão de 2026 para fãs de RPG indie.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Solo+Dungeon+Guide",
+  date: "2026-05-26",
+  author: "Equipe da Wiki de Drakantos",
+  keywords: "drakantos single player, guia solo, dungeons, progressão de herói, rpg de ação"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **drakantos single player**: Oferece uma experiência solo robusta onde os jogadores podem mergulhar em dungeons dinâmicas sem um grupo pré-formado.
+- **Combate de Ação**: O jogo mudou para um sistema de ação com movimentação livre de 360 graus, tornando o posicionamento solo crítico para a sobrevivência.
+- **Escalonamento de Heróis**: Embora as dungeons sejam projetadas para três jogadores, aventureiros solo podem ter sucesso ao dominar os padrões de telegrafia e os orbes de habilidade.
+- **Progressão**: Foque em atingir o nível 12 para desbloquear habilidades essenciais de sobrevivência, como curas e provocações (taunts), que são vitais para a sustentabilidade solo.
+- **Sistema de Equipamento**: Os equipamentos funcionam como "stat sticks" para aumentar seu nível de poder, permitindo que você atenda aos requisitos para conteúdo solo de nível superior.
+</Callout>
+
+<Section icon={Map} title="Explorando as Mecânicas de drakantos single player">
+
+A mudança do movimento baseado em blocos para um sistema de combate de ação totalmente fluido redefiniu a experiência **single player do Drakantos** em 2026. Os jogadores não estão mais restritos por uma grade, permitindo kiting e esquiva precisos contra hordas de inimigos. Embora o jogo enfatize o jogo cooperativo em seu marketing, a natureza dinâmica de suas dungeons garante que os jogadores solo ainda possam encontrar uma progressão significativa. Cada missão de dungeon muda ao longo do tempo, apresentando diferentes conjuntos de inimigos, armadilhas e objetivos que evitam que o grind solo se torne repetitivo.
+
+**Destaques do Vídeo:**
+- **Reformulação do Combate**: Demonstração do novo sistema de movimento livre e mira manual.
+- **Viabilidade Solo**: Limpeza de dungeon no início do jogo usando um Paladino contra um Berserker.
+- **Navegação na Interface**: Como entrar na fila para dungeons e gerenciar artefatos sozinho.
+- **Lacunas de Progressão**: O pico de dificuldade antes de atingir o nível 12.
+
+<YouTubeEmbed videoId="_GNZTOMdJAE" title="Drakantos Gameplay - Primeiras Impressões, Atualização e PVP" />
+
+<Callout type="tip" title="Dica de Sobrevivência Solo">
+Na versão de 2026, o bloqueio de corpo (body blocking) é uma mecânica central. Jogadores solo devem usar pontos de estrangulamento ambientais para evitar serem cercados por hordas de goblins ou chefes ursos.
+</Callout>
+
+| Recurso | Impacto Solo | Impacto no Grupo |
+| :--- | :--- | :--- |
+| **Movimento** | Esquiva em 360 graus é vital | Aggro compartilhado reduz necessidade de esquiva |
+| **Saque** | Individualizado, sem competição | Individualizado, velocidade compartilhada |
+| **Dificuldade** | Alta; requer domínio de padrões | Moderada; funções cobrem fraquezas |
+| **Ritmo** | Início mais lento devido a bloqueios de nível | Tempos de limpeza mais rápidos com sinergia |
+
+</Section>
+
+<Section icon={Swords} title="Melhores Heróis para Aventureiros Solo">
+
+Escolher o herói certo é a decisão mais significativa para uma jornada **single player no Drakantos**. Com mais de 15 heróis disponíveis, incluindo Liam, Marly e Zeugladius, os jogadores devem identificar quais mecânicas favorecem a autossuficiência. Ao contrário dos MMORPGs tradicionais, os heróis em Drakantos possuem características únicas que quebram o molde padrão da "Trindade Sagrada", embora funções como Tanque, DPS e Suporte ainda existam como diretrizes flexíveis.
+
+<CardGrid cols={3}>
+  <Card title="O Paladino">
+    - **Alta Defesa**: Habilidades naturais de escudo.
+    - **Autossuficiência**: Desbloqueia curas no nível 12.
+    - **Facilidade de Uso**: Ótimo para aprender telegrafias de chefes.
+  </Card>
+  <Card title="O Berserker">
+    - **Dano de Explosão**: Limpa hordas rapidamente.
+    - **Alto Risco**: Carece de utilidade defensiva no início.
+    - **Agressivo**: Melhor para jogadores experientes em combate de ação.
+  </Card>
+  <Card title="O Ilusionista">
+    - **Controle de Distância**: Mantém inimigos afastados.
+    - **Tático**: Usa clones para distrair chefes.
+    - **Frágil**: Requer posicionamento de alto nível.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Aviso de Início de Jogo">
+A maioria dos heróis não desbloqueia suas habilidades primárias de cura ou provocação até o nível 12. Jogadores solo devem esperar uma experiência "básica" nas primeiras horas de progressão.
+</Callout>
+
+| Função do Herói | Tier Solo | Mecânica Principal | Melhor Para |
+| :--- | :--- | :--- | :--- |
+| **Tanque** | Tier S | Escudo/Bloqueio de Corpo | Limpeza consistente |
+| **DPS** | Tier A | Alta Explosão/Mobilidade | Speed running |
+| **Suporte** | Tier B | CC/Curas Atrasadas | Jogadores táticos |
+| **Invocador** | Tier A | Torres/Lacaios | Distração de aggro |
+
+</Section>
+
+<Section icon={Target} title="Progressão Solo Passo a Passo">
+
+Avançar pelo mundo de Drakantos sozinho requer uma abordagem disciplinada aos níveis de poder e missões. O mundo aberto é vasto e entrelaçado com seções de carregamento, exigindo que os jogadores equilibrem as missões da história principal com o grind de dungeons para se manterem à frente da curva de dificuldade.
+
+<Steps>
+  <Step num="1" title="Conclua o Prólogo">
+    Siga o tutorial inicial para aprender a interface e o tempo dos ataques básicos. Esta fase apresenta o hub social e as mecânicas básicas de missão.
+  </Step>
+  <Step num="2" title="Desbloqueie a Guilda dos Aventureiros">
+    Avance pelos diálogos iniciais do mundo aberto para desbloquear a Guilda. Isso permite que você entre na fila para dungeons diretamente do seu inventário.
+  </Step>
+  <Step num="3" title="Grind de Nível de Poder 460">
+    Foque na progressão de equipamentos "stat stick". Equipe qualquer item que aumente seu nível de poder básico para desbloquear o acesso ao primeiro conjunto de dungeons.
+  </Step>
+  <Step num="4" title="Domine os Orbes de Artefato">
+    Use pontos de habilidade para melhorar seus ataques básicos e equipar Orbes. Os Orbes fornecem modificadores como velocidades de conjuração mais rápidas ou direções de habilidade alteradas.
+  </Step>
+  <Step num="5" title="Alcance o Marco do Nível 12">
+    Este é o ponto de virada para o jogo solo. Desbloquear a utilidade especializada do seu herói (curas, provocações ou torres) reduz significativamente a dificuldade solo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Sucesso na Progressão">
+As dungeons em Drakantos resetam suas recompensas frequentemente. Verifique o indicador no canto superior direito do seu inventário para ver quando novos saques estão disponíveis para farm solo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Customização e Estratégia de Equipamento">
+
+No **single player do Drakantos**, sua build é determinada por três fatores principais: Orbes, Artefatos e Troféus. Os Artefatos são particularmente interessantes, pois funcionam como consumíveis que se reabastecem após cada missão. Para um jogador solo, escolher um artefato que forneça controle de grupo ou vida adicional pode ser a diferença entre uma corrida bem-sucedida e uma penalidade de morte.
+
+<Checklist
+  id="solo-checklist"
+  title="Objetivos Solo Diários:"
+  items={[
+    "Verificar temporizadores de reset de dungeon para novos saques",
+    "Melhorar Orbes para sua habilidade principal de DPS",
+    "Equipar Artefatos que forneçam AoE ou CC",
+    "Participar de Eventos Globais para materiais de crafting",
+    "Limpar pelo menos 3 dungeons dinâmicas sozinho"
+  ]}
+/>
+
+| Tipo de Item | Função | Importância Solo |
+| :--- | :--- | :--- |
+| **Orbes** | Modifica o comportamento da habilidade | Alta (Personaliza alcance/velocidade) |
+| **Artefatos** | Consumíveis reabastecíveis | Crítica (Fornece utilidade extra) |
+| **Troféus** | Impulsionadores de stats de endgame | Moderada (Objetivo de longo prazo) |
+| **Equipamento** | Aumentos de stats base | Alta (Obrigatório para entrada) |
+
+<Callout type="info" title="Nota Cosmética">
+O equipamento em Drakantos atualmente funciona como stat sticks e não altera a aparência física do seu herói. Use o sistema de trajes PvP para desbloquear diferentes esquemas de cores para sua jornada solo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Domínio do Combate Solo & FAQ">
+
+O obstáculo final para os fãs de **single player do Drakantos** é dominar as telegrafias dos chefes. Chefes como o Grande Urso possuem ataques AoE massivos que são claramente marcados no chão. Como você não tem companheiros de equipe para revivê-lo, esquivar-se deles é obrigatório. Lembre-se de que as mortes resultam em uma penalidade de experiência, o que pode atrasar significativamente sua jornada até o nível 12 e além.
+
+<Callout type="tip" title="Combo de Artefato">
+Tente combinar o artefato "Colmeia" (Beehive) com um herói de alta mobilidade. A colmeia fornece dano passivo enquanto você se concentra em esquivar das mecânicas do chefe.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Posso jogar Drakantos inteiramente no modo single player?",
+    answer: "Sim, você pode explorar dungeons sozinho. Embora o jogo suporte co-op, o escalonamento e o combate de ação permitem que jogadores solo habilidosos progridam na maior parte do conteúdo PvE."
+  },
+  {
+    question: "Qual é a penalidade por morrer no modo solo?",
+    answer: "Morrer em uma dungeon ou no mundo aberto resulta em uma perda de pontos de experiência. Isso pode tornar o grind inicial até o nível 12 mais difícil se você não for cuidadoso."
+  },
+  {
+    question: "Recebo mais saque se jogar em um grupo?",
+    answer: "O saque é individualizado em Drakantos. Jogar em um grupo pode tornar as limpezas mais rápidas, mas você não perderá itens por escolher jogar sozinho."
+  },
+  {
+    question: "Como desbloqueio habilidades de cura para o jogo solo?",
+    answer: "A maioria dos heróis desbloqueia suas habilidades de utilidade e cura no nível 12. Até lá, você deve contar com orbes de vida deixados por inimigos ou artefatos específicos."
+  }
+]} />
+
+</Section>

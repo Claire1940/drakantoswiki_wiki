@@ -1,0 +1,211 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Compass, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Drakantos Interactive Map: Navigation Guide & Key Locations",
+  description: "Master the Drakantos interactive map to find hidden resources, navigate the world of Eldras, and utilize auto-pathing for efficient questing in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Drakantos+Map+Guide",
+  date: "2026-05-26",
+  author: "Drakantos Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Drakantos Interactive Map**: Accessible via the 'M' key, featuring full zoom capabilities and a clean, modern UI for navigating Eldras.
+- **Auto-Pathing System**: A core feature allowing players to click any point on the world map to have their hero automatically travel to that destination.
+- **Key Hubs**: Major locations include the bustling city of **Casteron**, the strategic **Akamond**, and the cozy **Adventurers Guild**.
+- **Dynamic Elements**: The map reflects day and night cycles, which influence enemy spawns and environmental challenges.
+- **PvE & PvP Markers**: Distinguishes between open-world adventures, instanced dungeons, and the 13 unique PvP arena maps.
+</Callout>
+
+<Section icon={Map} title="Exploring the World of Eldras via the Drakantos Interactive Map">
+
+Navigating the vibrant pixel-art world of Eldras requires a deep understanding of the **Drakantos interactive map**. Unlike traditional retro RPGs that often leave players lost in sprawling tiles, Drakantos utilizes a modern, high-resolution world map system that provides real-time data on quest objectives, resource nodes, and multiplayer adventures. Whether you are a solo explorer or part of a high-ranking guild, the map is your primary tool for progression.
+
+**Video Highlights:**
+- **Visual Aesthetic**: A look at the charming retro pixel art style inspired by classic MMOs like World of Warcraft.
+- **Map Interface**: Demonstration of the clean UI, mini-map functionality, and the smooth zooming of the world map.
+- **Auto-Pathing**: How to use the map to travel between major cities like Casteron and Akamond automatically.
+- **Early Game Flow**: Navigating from Fairytale Village to the Adventurers Guild to unlock your first abilities.
+
+<YouTubeEmbed videoId="eYLDl2_lHyE" title="Drakantos - New Pixel MMORPG Gameplay & Map Impressions" />
+
+The world map is designed to be intuitive. By pressing the 'M' key, players can view the entire continent of Eldras. The interface allows you to zoom in closely to see specific building layouts in major cities or zoom out to plan long-distance travel across different biomes.
+
+<Callout type="tip" title="Pro Navigation Tip">
+Always keep an eye on the top-left mini-map. It displays a gold arrow pointing toward your active quest objective, ensuring you never lose your way during complex missions.
+</Callout>
+
+| Navigation Feature | Keybind/Action | Description |
+| :--- | :--- | :--- |
+| **Open World Map** | M Key | View the full continent of Eldras and all discovered regions. |
+| **Auto-Pathing** | Left Click (Map) | Character automatically walks to the selected map coordinate. |
+| **Zoom In/Out** | Mouse Wheel | Adjust the scale from continental view to street-level detail. |
+| **Mini-map Toggle** | UI Settings | Customize the visibility and scale of the HUD mini-map. |
+| **Quest Tracking** | J Key / Map Icons | Highlights specific areas where quest objectives are located. |
+
+</Section>
+
+<Section icon={Compass} title="Major Regions and Points of Interest">
+
+The **Drakantos interactive map** reveals a diverse landscape filled with unique landmarks. Each region serves a specific purpose, from gear crafting to high-level adventuring. Understanding these hubs is essential for optimizing your gameplay loop.
+
+<CardGrid cols={3}>
+  <Card title="Casteron">
+    - **Major Metropolitan Hub**
+    - Access to advanced Market systems
+    - High-level NPC quest givers
+  </Card>
+  <Card title="Akamond">
+    - **Strategic Council Seat**
+    - Central to the main story progression
+    - Features the grand Magic Academy
+  </Card>
+  <Card title="Adventurers Guild">
+    - **Multiplayer Hub**
+    - Group up for instanced adventures
+    - Upgrade hero abilities and artifacts
+  </Card>
+</CardGrid>
+
+Beyond these cities, the map is dotted with specialized zones like **Marcelo's Forge**, where players can acquire their first artifacts, such as the hand crossbow. The transition between these zones is seamless, though the developers have noted that certain areas may be level-locked or require specific gear scores to survive.
+
+| Location Name | Primary Function | Notable NPCs |
+| :--- | :--- | :--- |
+| **Fairytale Village** | Starting Zone | Guild Manager, Local Traders |
+| **Marcelo's Forge** | Gear Customization | Marcelo (Artifact Smith) |
+| **Kasteron** | Trade & Economy | Market Overseers, Faction Leaders |
+| **Druid Temple** | Lore & Quests | High Priests, Nature Guardians |
+| **The Academy** | Skill Training | Master Scribes, Ability Trainers |
+
+<Callout type="warning" title="Environmental Hazards">
+The map also marks dangerous environmental hazards. For example, early-game players should avoid "Beehives" in the forest regions, as these can easily wipe out an unprepared party due to high damage and body-blocking mechanics.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Use Map Markers and Auto-Pathing">
+
+Efficiency is key in any MMORPG, and the **Drakantos interactive map** offers one of the most robust auto-pathing systems in the pixel-art genre. This system allows you to focus on managing your inventory or chatting with guildmates while your character travels.
+
+<Steps>
+  <Step num="1" title="Identify Your Destination">
+    Open the world map (M) and locate the icon for your desired destination. Icons are color-coded: Yellow for quests, Blue for services, and Red for combat zones.
+  </Step>
+  <Step num="2" title="Initiate Auto-Pathing">
+    Simply left-click on the map location. A path will be drawn on the mini-map, and your hero will begin moving toward the target automatically.
+  </Step>
+  <Step num="3" title="Monitor for Obstacles">
+    While auto-pathing is reliable, be wary of "body-blocking" from NPCs or other players in crowded areas. The developers are currently refining the pathfinding to minimize these collisions.
+  </Step>
+  <Step num="4" title="Arrival and Interaction">
+    Once you arrive, the auto-pathing will cease. You can then interact with NPCs or enter instanced adventures directly from the map interface.
+  </Step>
+</Steps>
+
+The auto-pathing system is particularly useful when navigating the massive city of Casteron. Because the city layout is complex, using the map to find specific vendors like the Blacksmith or the Alchemist saves significant time.
+
+<Callout type="success" title="Exploration Reward">
+Discovering new areas on the map often grants "Adventurer XP," which contributes to your overall account level and unlocks new tiers of missions.
+</Callout>
+
+| Marker Type | Icon Appearance | Usage |
+| :--- | :--- | :--- |
+| **Main Quest** | Large Gold Exclamation | Primary story progression points. |
+| **Side Quest** | Small Silver Exclamation | Optional tasks for extra resources and XP. |
+| **Adventure** | Portal/Gate Icon | Entry points for 3-player instanced missions. |
+| **Market** | Scales Icon | Locations where you can trade items with players. |
+| **Boss Spawn** | Skull Icon | Indicates areas where elite world bosses may appear. |
+
+</Section>
+
+<Section icon={Swords} title="PvP Maps and Arena Navigation">
+
+Drakantos isn't just about exploration; the **Drakantos interactive map** also covers 13 dedicated PvP maps across three distinct modes. Unlike the open world, these maps are symmetrical and designed for competitive balance.
+
+<CardGrid cols={2}>
+  <Card title="Arena Modes">
+    - **Control**: Capture and hold specific zones.
+    - **Escort**: Guide a crystal to the enemy base.
+    - **Assault**: MOBA-style lane pushing with towers.
+  </Card>
+  <Card title="Map Layouts">
+    - Features verticality and brush for hiding.
+    - Dynamic buffs spawn at 3:30 intervals.
+    - Symmetrical designs to ensure fairness.
+  </Card>
+</CardGrid>
+
+In PvP, the map provides critical tactical information. For the **Escort** mode, the mini-map tracks the exact route of the crystal, while in **Assault**, it shows the remaining health of your towers and core.
+
+| PvP Mode | Map Focus | Victory Condition |
+| :--- | :--- | :--- |
+| **Control** | Central Zones | Fully capture all points to win. |
+| **Escort** | Linear Paths | Move the crystal to the final destination. |
+| **Assault** | Lanes & Jungle | Destroy the enemy core; protect your towers. |
+
+<Callout type="info" title="PvP Scaling">
+When entering a PvP map, all heroes are scaled to maximum level with optimized equipment. This ensures that victory is determined by skill and map awareness rather than gear grind.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival and Resource Gathering Nodes">
+
+Resource gathering is a vital part of the Drakantos economy. The **Drakantos interactive map** helps players locate rare materials needed for crafting high-level Orbs and Artifacts. These nodes are often found in the "Open World" sections between major adventure instances.
+
+<Checklist
+  id="gathering-checklist"
+  title="Resource Hunting Steps:"
+  items={[
+    "Check the map for green-tinted 'Wilderness' zones",
+    "Look for nodes like Iron Ore, Ancient Wood, and Magic Herbs",
+    "Monitor the Day/Night cycle; some resources only spawn at night",
+    "Use auto-pathing to circle back to known high-yield respawn points",
+    "Equip gathering-speed Artifacts to maximize your yield"
+  ]}
+/>
+
+The map UI displays the "Power Level" of each zone. Entering a zone where the recommended power level exceeds your own will result in your character taking significantly more damage from mobs. Always consult the map's zone data before venturing into the deep wilds of Eldras.
+
+<Callout type="warning" title="Tile-Based vs Free Movement">
+Recent updates have transitioned the map from tile-based movement to fully free movement. This means you can now cut corners and move diagonally, making navigation much faster than in previous playtests.
+</Callout>
+
+| Resource Category | Common Map Locations | Rarity Level |
+| :--- | :--- | :--- |
+| **Ores** | Mountainous regions, Caves | Common to Mythic |
+| **Herbs** | Forest clearings, Fairytale Village | Common to Rare |
+| **Relics** | Ancient Ruins, Druid Temples | Legendary |
+| **Monster Drops** | Specific Mob Spawns (see map) | Variable |
+
+</Section>
+
+<Section icon={Trophy} title="Drakantos Map FAQ">
+
+<FAQ items={[
+  {
+    question: "How do I unlock more areas on the Drakantos interactive map?",
+    answer: "Areas are unlocked by physically traveling to them or completing specific story milestones. Once a region is 'discovered,' its fog of war is removed, and you can use auto-pathing to return there."
+  },
+  {
+    question: "Can I see other players on the world map?",
+    answer: "You can see party members as green dots on both the mini-map and the world map. Random players in the open world appear on the mini-map but not the global world map to prevent UI clutter."
+  },
+  {
+    question: "Does the map show where bosses spawn?",
+    answer: "Yes, major world bosses and adventure bosses are marked with a skull icon. Some bosses only appear during specific times of the day-night cycle."
+  },
+  {
+    question: "What is the difference between 'Adventures' and 'Open World' on the map?",
+    answer: "Adventures are instanced 3-player levels with specific objectives and loot. The Open World is a shared space where you gather resources, talk to NPCs, and travel between hubs."
+  }
+]} />
+
+</Section>

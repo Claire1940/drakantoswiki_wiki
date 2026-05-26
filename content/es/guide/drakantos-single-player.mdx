@@ -1,0 +1,171 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "drakantos single player: Guía de exploración de mazmorras en solitario y progresión",
+  description: "Domina el modo de un solo jugador de Drakantos con nuestra guía sobre mecánicas de mazmorras en solitario, selección de héroes y estrategias de progresión para 2026 para fans de los RPGs indie.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Solo+Dungeon+Guide",
+  date: "2026-05-26",
+  author: "Equipo Wiki de Drakantos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **drakantos single player**: Ofrece una sólida experiencia en solitario donde los jugadores pueden adentrarse en mazmorras dinámicas sin un grupo preestablecido.
+- **Combate de Acción**: El juego ha pasado a un sistema de acción con movimiento libre de 360 grados, haciendo que el posicionamiento en solitario sea crítico para la supervivencia.
+- **Escalado de Héroes**: Aunque las mazmorras están diseñadas para tres jugadores, los aventureros en solitario pueden tener éxito dominando los patrones de los telegrafiados y los orbes de habilidad.
+- **Progresión**: Concéntrate en alcanzar el nivel 12 para desbloquear habilidades de supervivencia esenciales como curaciones y provocaciones, que son vitales para la sostenibilidad en solitario.
+- **Sistema de Equipamiento**: El equipo actúa como "palos de estadísticas" para aumentar tu nivel de poder, permitiéndote cumplir los requisitos para contenido en solitario de mayor nivel.
+</Callout>
+
+<Section icon={Map} title="Explorando las mecánicas de drakantos single player">
+
+El cambio del movimiento basado en casillas a un sistema de combate de acción completamente fluido ha redefinido la experiencia de **drakantos single player** en 2026. Los jugadores ya no están restringidos por una cuadrícula, lo que permite un kiteo y esquiva precisos contra enjambres de enemigos. Aunque el juego enfatiza el juego cooperativo en su marketing, la naturaleza dinámica de sus mazmorras asegura que los jugadores en solitario aún puedan encontrar una progresión significativa. Cada misión de mazmorra cambia con el tiempo, presentando diferentes conjuntos de enemigos, trampas y objetivos que evitan que la rutina en solitario se vuelva repetitiva.
+
+**Puntos destacados del video:**
+- **Revisión del combate**: Demostración del nuevo sistema de movimiento libre y puntería manual.
+- **Viabilidad en solitario**: Limpieza de mazmorras al principio del juego usando un Paladín versus un Berserker.
+- **Navegación de la interfaz de usuario**: Cómo hacer cola para mazmorras y gestionar artefactos en solitario.
+- **Brechas de progresión**: El pico de dificultad antes de alcanzar el nivel 12.
+
+<YouTubeEmbed videoId="_GNZTOMdJAE" title="Drakantos Gameplay - Primeras Impresiones, Actualización y PVP" />
+
+<Callout type="tip" title="Consejo de supervivencia en solitario">
+En la versión de 2026, el bloqueo corporal es una mecánica fundamental. Los jugadores en solitario deben usar los puntos de estrangulamiento ambientales para evitar ser rodeados por enjambres de goblins o jefes oso.
+</Callout>
+
+| Característica | Impacto en solitario | Impacto en grupo |
+| :--- | :--- | :--- |
+| **Movimiento** | Esquivar 360 grados es vital | El aggro compartido reduce la necesidad de esquivar |
+| **Botín** | Individualizado, sin competencia | Individualizado, velocidad compartida |
+| **Dificultad** | Alta; requiere dominio de patrones | Moderada; los roles cubren las debilidades |
+| **Ritmo** | Comienzo más lento debido a las puertas de nivel | Tiempos de limpieza más rápidos con sinergia |
+
+</Section>
+
+<Section icon={Swords} title="Mejores héroes para aventureros en solitario">
+
+Elegir el héroe adecuado es la decisión más importante para una partida de **drakantos single player**. Con más de 15 héroes disponibles, incluyendo a Liam, Marly y Zeugladius, los jugadores deben identificar qué mecánicas favorecen la autosuficiencia. A diferencia de los MMORPGs tradicionales, los héroes en Drakantos tienen rasgos únicos que rompen el molde estándar de la "Santísima Trinidad", aunque roles como Tanque, DPS y Soporte todavía existen como pautas generales.
+
+<CardGrid cols={3}>
+  <Card title="El Paladín">
+    - **Alta Defensa**: Habilidades de escudo naturales.
+    - **Auto-Sostenimiento**: Desbloquea curaciones en el nivel 12.
+    - **Facilidad de Uso**: Ideal para aprender los telegrafiados de los jefes.
+  </Card>
+  <Card title="El Berserker">
+    - **Daño Explosivo**: Limpia grupos rápidamente.
+    - **Alto Riesgo**: Carece de utilidad defensiva al principio.
+    - **Agresivo**: Mejor para jugadores experimentados en combate de acción.
+  </Card>
+  <Card title="El Ilusionista">
+    - **Control de Rango**: Mantiene a los enemigos a distancia.
+    - **Táctico**: Usa clones para distraer a los jefes.
+    - **Frágil**: Requiere un posicionamiento de alto nivel.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia del juego temprano">
+La mayoría de los héroes no desbloquean sus habilidades principales de curación o provocación hasta el nivel 12. Los jugadores en solitario deben esperar una experiencia "básica" durante las primeras horas de progresión.
+</Callout>
+
+| Rol de Héroe | Nivel Solitario | Mecánica Principal | Mejor para |
+| :--- | :--- | :--- | :--- |
+| **Tanque** | Nivel S | Escudo/Bloqueo Corporal | Limpieza consistente |
+| **DPS** | Nivel A | Gran Daño/Movilidad | Recorridos rápidos |
+| **Soporte** | Nivel B | CC/Curaciones Retrasadas | Jugadores tácticos |
+| **Invocador** | Nivel A | Torretas/Esbirros | Distraer el aggro |
+
+</Section>
+
+<Section icon={Target} title="Progresión en solitario paso a paso">
+
+Avanzar por el mundo de Drakantos en solitario requiere un enfoque disciplinado en los niveles de poder y las misiones. El mundo abierto es vasto y está entrelazado con secciones de carga, lo que requiere que los jugadores equilibren las misiones de la historia principal con el farmeo de mazmorras para mantenerse por delante de la curva de dificultad.
+
+<Steps>
+  <Step num="1" title="Completa el Prólogo">
+    Sigue el tutorial inicial para aprender la interfaz de usuario y el tiempo de ataque básico. Esta etapa introduce el centro social y las mecánicas básicas de las misiones.
+  </Step>
+  <Step num="2" title="Desbloquea el Gremio de Aventureros">
+    Avanza a través del diálogo inicial del mundo abierto para desbloquear el Gremio. Esto te permite hacer cola para mazmorras directamente desde tu inventario.
+  </Step>
+  <Step num="3" title="Sube el Nivel de Poder a 460">
+    Concéntrate en la progresión del equipo "stat stick". Equipa cualquier objeto que aumente tu nivel de poder base para desbloquear el acceso al primer conjunto de mazmorras.
+  </Step>
+  <Step num="4" title="Domina los Orbes de Artefacto">
+    Usa puntos de habilidad para mejorar tus ataques básicos y equipar Orbes. Los Orbes proporcionan modificadores como velocidades de lanzamiento más rápidas o direcciones de habilidad cambiadas.
+  </Step>
+  <Step num="5" title="Alcanza el Hito del Nivel 12">
+    Este es el punto de inflexión para el juego en solitario. Desbloquear la utilidad especializada de tu héroe (curaciones, provocaciones o torretas) reduce significativamente la dificultad en solitario.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Éxito de la progresión">
+Las mazmorras en Drakantos reinician sus recompensas con frecuencia. Revisa el indicador superior derecho en tu inventario para ver cuándo hay nuevas caídas de botín disponibles para el farmeo en solitario.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Personalización y Estrategia de Equipo">
+
+En **drakantos single player**, tu construcción está determinada por tres factores principales: Orbes, Artefactos y Trofeos. Los Artefactos son particularmente interesantes ya que actúan como consumibles que se reponen después de cada misión. Para un jugador en solitario, elegir un artefacto que proporcione control de multitudes o salud adicional puede ser la diferencia entre una carrera exitosa y una penalización por muerte.
+
+<Checklist
+  id="solo-checklist"
+  title="Objetivos diarios en solitario:"
+  items={[
+    "Comprueba los temporizadores de reinicio de la mazmorra para obtener botín fresco",
+    "Mejora los Orbes para tu habilidad principal de DPS",
+    "Equipa Artefactos que proporcionen AoE o CC",
+    "Participa en Eventos Globales para materiales de crafteo",
+    "Supera al menos 3 mazmorras dinámicas en solitario"
+  ]}
+/>
+
+| Tipo de Objeto | Función | Importancia en solitario |
+| :--- | :--- | :--- |
+| **Orbes** | Modifica el comportamiento de la habilidad | Alta (Personaliza el alcance/velocidad) |
+| **Artefactos** | Consumibles reponibles | Crítica (Proporciona utilidad extra) |
+| **Trofeos** | Potenciadores de estadísticas de juego final | Moderada (Objetivo a largo plazo) |
+| **Equipo** | Aumentos de estadísticas base | Alta (Requerido para la entrada) |
+
+<Callout type="info" title="Nota cosmética">
+El equipo en Drakantos actualmente funciona como "stat sticks" y no cambia la apariencia física de tu héroe. Utiliza el sistema de disfraces PvP para desbloquear diferentes esquemas de color para tu viaje en solitario.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Dominio del combate en solitario y preguntas frecuentes">
+
+El último obstáculo para los fans de **drakantos single player** es dominar los telegrafiados de los jefes. Jefes como el Gran Oso tienen ataques de área masivos que están claramente marcados en el suelo. Debido a que no tienes compañeros de equipo que te revivan, esquivarlos es obligatorio. Recuerda que las muertes resultan en una penalización de experiencia, lo que puede ralentizar significativamente tu viaje al nivel 12 y más allá.
+
+<Callout type="tip" title="Combo de Artefactos">
+Intenta combinar el artefacto "Colmena" con un héroe de alta movilidad. La colmena proporciona daño pasivo mientras te concentras en esquivar las mecánicas del jefe.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Puedo jugar Drakantos completamente como un solo jugador?",
+    answer: "Sí, puedes adentrarte en mazmorras en solitario. Aunque el juego admite el modo cooperativo, la escala y el combate de acción permiten a los jugadores solitarios hábiles progresar a través de la mayor parte del contenido PvE."
+  },
+  {
+    question: "¿Cuál es la penalización por morir en modo solitario?",
+    answer: "Morir en una mazmorra o en el mundo abierto resulta en una pérdida de puntos de experiencia. Esto puede hacer que el inicio del juego hasta el nivel 12 sea más difícil si no tienes cuidado."
+  },
+  {
+    question: "¿Obtengo más botín si juego en grupo?",
+    answer: "El botín es individualizado en Drakantos. Jugar en grupo podría acelerar las limpiezas, pero no perderás objetos por elegir jugar en solitario."
+  },
+  {
+    question: "¿Cómo desbloqueo habilidades de curación para jugar en solitario?",
+    answer: "La mayoría de los héroes desbloquean sus habilidades de utilidad y curación en el nivel 12. Hasta entonces, debes depender de los orbes de salud que sueltan los enemigos o de artefactos específicos."
+  }
+]} />
+
+</Section>

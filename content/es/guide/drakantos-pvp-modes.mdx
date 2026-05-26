@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Modos PvP de Drakantos: Estrategias de Arena y Campo de Batalla",
+  description: "Sumérgete en los modos PvP de Drakantos, incluyendo la Arena de ritmo rápido y el Asalto tipo MOBA. Aprende estrategias, progresión de personajes y cómo dominar el campo de batalla.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Drakantos+PvP+Modes",
+  date: "2026-05-26",
+  author: "Equipo de Wiki de Drakantos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Los **Modos PvP de Drakantos** se centran en **combates a pequeña escala basados en instancias**.
+- La **Arena** ofrece dos modos principales: **Control/Escolta** y **Asalto**.
+- La progresión del personaje se puede lograr a través de **actividades PvP y PvE**.
+- Comprender las **habilidades del héroe y la composición del equipo** es crucial para la victoria.
+- La **habilidad y la estrategia** son primordiales, ya que las estadísticas a menudo se normalizan en PvP.
+</Callout>
+
+<Section icon={Swords} title="Comprendiendo los Modos PvP de Drakantos">
+Drakantos pone un énfasis significativo en su contenido Jugador contra Jugador (PvP), particularmente dentro de su sistema de arena estructurado. Durante la fase beta, el PvP fue destacado como una experiencia central, con los desarrolladores buscando proporcionar un entorno competitivo donde la habilidad y la estrategia prevalecieran sobre las estadísticas brutas. Este enfoque asegura un campo de juego nivelado, haciendo de cada partida una prueba de destreza táctica y trabajo en equipo.
+
+El juego ofrece distintos modos PvP, cada uno con objetivos y dinámicas de juego únicas, que se adaptan a diferentes estilos de juego y preferencias. Estos modos están diseñados para combates a pequeña escala basados en instancias, lo que permite a los jugadores hacer cola rápidamente y participar en intensas batallas.
+
+**Puntos destacados del video:**
+- La prueba beta se centró en gran medida en el PvP, enfatizando el juego en arena.
+- Los modos PvP están basados en instancias, soportando hasta tres jugadores por grupo.
+- La progresión se puede obtener por igual a través de actividades PvP o PvE.
+- El juego presenta colas rápidas y partidas agradables, haciendo que el PvP sea accesible.
+- El combate se describe como táctico, con bloqueos de animación claros que requieren una sincronización precisa.
+
+<YouTubeEmbed videoId="XbVvf6RN41A" title="Drakantos - Reseña y Calificación de la Beta Final" />
+
+<Callout type="tip">
+Para los nuevos jugadores, centrarse en comprender las habilidades de su héroe y cómo se sinergizan con sus compañeros de equipo es más importante que grindear por equipo en PvP, ya que las estadísticas a menudo se normalizan.
+</Callout>
+
+### Ofertas PvP Principales
+
+<CardGrid cols={2}>
+  <Card title="Arena: Control/Escolta">
+    Este modo es similar a los populares juegos basados en objetivos, donde los equipos compiten por el control de puntos específicos o escoltan cargas a través del mapa. Las partidas suelen ser de ritmo rápido y requieren una coordinación constante y un posicionamiento estratégico. Piense en ello como una mezcla de King of the Hill y misiones de escolta al estilo Overwatch.
+  </Card>
+  <Card title="Arena: Asalto (tipo MOBA)">
+    El modo Asalto se inspira en juegos MOBA como League of Legends, ofreciendo una experiencia simplificada pero atractiva. Los equipos empujan líneas, destruyen objetivos y participan en peleas de equipo para asegurar la victoria. Este modo exige una buena comprensión de la gestión de olas y el control de objetivos.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Progresión y Recompensas PvP">
+Uno de los aspectos atractivos del PvP de Drakantos es su sistema de progresión integrado. Los jugadores pueden avanzar sus personajes, adquirir recursos valiosos y mejorar habilidades simplemente participando en partidas PvP. Esta filosofía de diseño tiene como objetivo asegurar que tanto los entusiastas del PvP como del PvE tengan caminos igualmente viables para fortalecer a sus héroes.
+
+### Ganando tu Camino a Través del Combate
+
+| Tipo de Recompensa | Método de Adquisición | Impacto en el Personaje |
+| :---------- | :----------------- | :------------------ |
+| **Artefactos** | Victorias PvP, participación en Arena | Mejoran las habilidades del héroe, proporcionan beneficios únicos |
+| **Trofeos** | Victorias PvP, desafíos específicos | Aumentan las estadísticas, ofrecen bonificaciones pasivas |
+| **Orbes de Habilidad** | Victorias PvP, progresión del personaje | Desbloquean y mejoran las habilidades del héroe |
+| **Mejoras de Equipo** | Recompensas de partida, caídas de materiales | Mejoran las estadísticas, defensa y daño del equipo |
+| **Puntos de Experiencia** | Participación en partidas | Suben de nivel a los héroes, desbloquean nuevos talentos |
+
+<Callout type="success" title="Caminos de Progresión Iguales">
+Los desarrolladores de Drakantos buscan que los jugadores progresen sus personajes por igual a través de los **modos PvP de Drakantos** o el contenido PvE. Esto significa que puedes concentrarte en tu estilo de juego preferido sin sentirte en desventaja.
+</Callout>
+
+### Cómo Funciona la Progresión
+
+<Steps>
+  <Step num="1" title="Cola para la Arena">
+    Selecciona tu modo PvP preferido (Control/Escolta o Asalto) y haz cola. Puedes hacer cola solo, en dúo o en trío con amigos.
+  </Step>
+  <Step num="2" title="Participa en las Partidas">
+    Participa en la batalla PvP, centrándote en los objetivos y la coordinación del equipo. Ganar es ideal, pero incluso la participación contribuye a la progresión.
+  </Step>
+  <Step num="3" title="Gana Recompensas">
+    Al finalizar la partida, recibe varias recompensas, incluyendo artefactos, trofeos y materiales de mejora de habilidades. Estos son cruciales para el desarrollo del personaje.
+  </Step>
+  <Step num="4" title="Mejora a tu Héroe">
+    Usa los objetos y materiales adquiridos para mejorar las habilidades de tu héroe, equipar mejor equipo y personalizar tu construcción para futuros encuentros.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Combate Estratégico y Construcciones de Héroes">
+Drakantos presenta un sistema de combate táctico con bloqueos de animación claros, lo que hace que la sincronización y el posicionamiento precisos sean vitales. Cada héroe posee mecánicas y habilidades únicas que pueden personalizarse aún más con orbes y artefactos. Esta profunda personalización permite diversos estilos de juego y composiciones de equipo estratégicas en los **modos PvP de Drakantos**.
+
+<Callout type="warning" title="Matices del Combate">
+El sistema de combate, aunque táctico, puede sentirse rígido inicialmente debido a los bloqueos de animación. Dominar estas animaciones y comprender las hitboxes de tu héroe es clave para sobresalir en PvP.
+</Callout>
+
+### Ejemplo: Guía de Construcción de Arena PvP para Marley
+
+El personaje Sacerdotisa, Marley, demuestra cómo las construcciones especializadas pueden dominar en la arena. Su fuerza reside en sus capacidades de escudo y denegación de área, lo que la convierte en una elección de nivel S en los modos de Control y Escolta.
+
+<YouTubeEmbed videoId="OAWTGm9Y2tA" title="Drakantos - Guía de Construcción de Arena PvP para Marley" />
+
+**Habilidades clave para Marley:**
+
+| Habilidad           | Orbe/Pasiva | Efecto                                   | Prioridad PvP |
+| :---------------- | :---------- | :--------------------------------------- | :----------- |
+| **Protección Divina** | 4º Orbe     | El quiebre del escudo daña/derriba a los enemigos | Alta         |
+| **Luz Sagrada**    | 3ª Pasiva | Velocidad de lanzamiento aumentada                     | Media       |
+| **Castigo**      | 3ª Pasiva | Tiempo de carga más corto para la raíz de área de efecto         | Alta         |
+| **Nova Sagrada**     | 2ª Pasiva | Escuda a los aliados por el 18% del HP máximo            | Crítica     |
+| **Luz Guardiana**| Predeterminado     | Inflige daño basado en los enemigos golpeados        | Media       |
+
+### Artefactos y Trofeos para PvP
+
+Elegir los artefactos y trofeos adecuados puede influir significativamente en tu rendimiento. Para personajes como Marley, los objetos que mejoran el daño de área de efecto (AoE), los ataques a distancia o las defensas son muy beneficiosos.
+
+| Tipo de Objeto | Rasgos Recomendados        | Ejemplos de Objetos                               | Propósito en PvP                               |
+| :-------- | :------------------------ | :------------------------------------------ | :------------------------------------------- |
+| **Artefactos** | Daño AoE, Ataque a distancia, Denegación de área | **Pergamino de Llamas Ardientes**, Runa Abisal | Aumenta las capacidades ofensivas, controla puntos |
+| **Trofeos**  | Daño crítico, Defensa, Regeneración de HP | Trofeo Earhow (Crítico), Trofeo Byron (Defensa) | Mejora la supervivencia, potencial de ráfaga       |
+
+<Checklist
+  id="pvp-strategy-checklist"
+  title="Lista de Verificación de Dominio PvP:"
+  items={[
+    "Comprende las habilidades principales de tu héroe y sus mejoras de orbe/pasivas.",
+    "Experimenta con diferentes combinaciones de artefactos y trofeos.",
+    "Aprende los mapas y la disposición de los objetivos para cada modo.",
+    "Comunícate eficazmente con tu equipo para una coordinación óptima.",
+    "Practica el movimiento y la sincronización del combate para dominar los bloqueos de animación."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="El Futuro del PvP de Drakantos">
+A medida que Drakantos avanza hacia su lanzamiento de acceso anticipado, se espera que el sistema PvP evolucione aún más. Si bien la beta proporcionó una base sólida, los desarrolladores han indicado planes para actualizaciones continuas, incluyendo nuevos héroes, modos de juego y refinamientos de los sistemas existentes. El compromiso con un entorno competitivo equilibrado y basado en la habilidad sigue siendo un enfoque central.
+
+### Próximas Características y Mejoras
+
+*   **Sistema Clasificatorio:** Una robusta escalera clasificatoria permitirá a los jugadores competir por el reconocimiento global y ascender a través de las divisiones.
+*   **Torneos Semanales:** Los torneos regulares dentro del juego ofrecerán desafíos competitivos y recompensas exclusivas.
+*   **Nuevos Héroes:** Cada actualización promete introducir nuevos héroes, añadiendo más profundidad estratégica y variedad a las composiciones de equipo.
+*   **Ajustes de Equilibrio:** Equilibrio continuo de héroes y habilidades para mantener un meta justo y competitivo.
+
+<Callout type="info" title="Visión del Desarrollador">
+Los desarrolladores de Drakantos están comprometidos a crear una experiencia de "combate PvP intenso" inspirada en títulos como Overwatch, Brawl Stars y League of Legends, con sistemas clasificatorios y torneos semanales.
+</Callout>
+
+### Comunidad y Juego Competitivo
+
+La naturaleza a pequeña escala del PvP de Drakantos, con un máximo de 50 jugadores por capa en el mundo abierto y pequeñas arenas instanciadas, fomenta una comunidad competitiva enfocada. También se planean gremios para soportar entre 20 y 40 miembros, fomentando el juego en equipo organizado y la rivalidad.
+
+<CardGrid cols={2}>
+  <Card title="Características Sociales">
+    - Burbujas de chat para la comunicación dentro del juego.
+    - Sistema de gremios para el juego en equipo organizado.
+    - Listas de amigos para una fácil formación de grupos.
+  </Card>
+  <Card title="Entorno Competitivo">
+    - Combate basado en la habilidad y la estrategia.
+    - Sistema clasificatorio para la progresión competitiva.
+    - Torneos regulares para los mejores jugadores.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<FAQ items={[
+  {
+    question: "¿Cuáles son los principales modos PvP de Drakantos?",
+    answer: "Los principales modos PvP de Drakantos disponibles durante la beta fueron Arena, con dos tipos distintos: Control/Escolta (basado en objetivos, similar a Overwatch) y Asalto (una experiencia simplificada tipo MOBA)."
+  },
+  {
+    question: "¿Puedo progresar a mi personaje jugando solo PvP en Drakantos?",
+    answer: "Sí, los desarrolladores tienen la intención de que los jugadores puedan progresar a sus personajes por igual a través de actividades PvP y PvE, lo que significa que puedes ganar artefactos, trofeos y mejoras de habilidades centrándote únicamente en el PvP."
+  },
+  {
+    question: "¿Se normalizan las estadísticas de los jugadores en el PvP de Drakantos?",
+    answer: "Sí, en el PvP de Drakantos, solo importan la habilidad y la estrategia, ya que las estadísticas de los jugadores se igualan para garantizar un entorno competitivo y justo. Esto pone el foco en la habilidad del jugador y las elecciones tácticas."
+  },
+  {
+    question: "¿Cuál es el tamaño del grupo para los modos Arena PvP de Drakantos?",
+    answer: "Los modos Arena PvP de Drakantos admiten hasta tres jugadores por grupo. Puedes elegir hacer cola solo, en dúo o en trío con tus amigos."
+  }
+]} />
