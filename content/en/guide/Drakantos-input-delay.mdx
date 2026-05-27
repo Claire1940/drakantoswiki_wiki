@@ -1,0 +1,156 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle, Lightbulb } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Drakantos Input Delay: Troubleshooting & Optimization Guide",
+  description: "Resolve Drakantos input delay issues with our comprehensive guide, covering network, hardware, and in-game settings for a smoother experience.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Drakantos+Input+Delay",
+  date: "2026-05-27",
+  author: "Drakantos Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- Address **Drakantos input delay** by optimizing network settings.
+- Ensure your PC hardware meets the game's requirements and is up-to-date.
+- Adjust in-game graphics and control settings for improved responsiveness.
+- Consider playing on servers geographically closer to reduce latency.
+- Report persistent issues to the **Drakantos** development team for support.
+</Callout>
+
+<Section icon={AlertTriangle} title="Understanding Drakantos Input Delay">
+Input delay, often a source of frustration for gamers, can significantly impact your performance and enjoyment in fast-paced titles like Drakantos. This issue can manifest as a noticeable lag between your actions (e.g., clicking a mouse or pressing a key) and the corresponding response in the game. In Drakantos, where precise movement and combat are crucial, even a slight delay can lead to missed attacks, failed dodges, or overall sluggish gameplay.
+
+During its beta phases, Drakantos underwent significant gameplay changes, moving from tile-based movement to free movement and revamping controls for full action combat. While these changes aimed for a smoother and more fluid experience, some players reported feeling "laggy/delayed movement that isn't snappy" and "awkward and slow combat." This feedback highlights the importance of optimizing your setup to minimize input delay, especially for abilities like dashes that require quick, responsive execution.
+
+<Callout type="warning" title="Beta Phase Specifics">
+During early beta tests, the Drakantos development team acknowledged that major gameplay changes led to significantly heavier server loads. They implemented a queue system to manage stability while scaling server capacity. This often means that early access or beta periods might inherently have more latency issues than the full release.
+</Callout>
+
+</Section>
+
+<Section icon={Lightbulb} title="Identifying the Source of Input Delay">
+Pinpointing the exact cause of Drakantos input delay can be challenging, as it often stems from a combination of factors. These can range from your internet connection and network infrastructure to your local hardware and even the game's own server performance. A systematic approach to diagnosis is key to effectively resolving the problem.
+
+Here's a breakdown of common areas where input delay originates:
+
+| Category          | Potential Issues                                        | Impact on Gameplay                                     |
+| :---------------- | :------------------------------------------------------ | :----------------------------------------------------- |
+| **Network**       | High ping, packet loss, unstable Wi-Fi                  | Delayed skill execution, unresponsive movement         |
+| **Hardware**      | Outdated drivers, insufficient CPU/GPU, slow storage    | Low frame rates, stuttering, general sluggishness      |
+| **Software**      | Background applications, conflicting software, OS settings | Resource contention, reduced game performance          |
+| **In-Game Settings** | High graphics settings, V-Sync, incorrect control setup | Visual lag, perceived input delay, uncomfortable controls |
+| **Server**        | Server load, regional distance, server-side issues      | Global lag spikes, inconsistent responsiveness         |
+
+<Callout type="tip" title="Check Server Region">
+Drakantos beta tests offered multiple server regions (NA, SA, EU, AS). Always ensure you are connecting to the server closest to your geographical location to minimize network latency. Once a region is selected, it typically cannot be changed during a test session.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Troubleshooting for Drakantos Input Delay">
+Follow these steps to systematically diagnose and resolve input delay issues you might be experiencing in Drakantos.
+
+<Steps>
+  <Step num="1" title="Optimize Network Connection">
+    A stable and fast internet connection is paramount for online gaming.
+    - **Use a wired connection:** Ethernet cables provide a more stable and faster connection than Wi-Fi, reducing latency and packet loss.
+    - **Check your ping:** Use in-game or external tools (like `ping google.com` in Command Prompt) to monitor your latency. High ping (above 50-80ms) will always result in noticeable delay.
+    - **Close bandwidth-heavy applications:** Streaming services, large downloads, or other online games can consume bandwidth, impacting your game's performance.
+    - **Restart your router/modem:** A simple restart can often resolve temporary network glitches.
+  </Step>
+  <Step num="2" title="Update Drivers and System Software">
+    Outdated drivers can lead to performance bottlenecks and input issues.
+    - **Graphics Card Drivers:** Update to the latest drivers from NVIDIA, AMD, or Intel. These updates often include game-specific optimizations.
+    - **Operating System:** Ensure your Windows (or other OS) is fully updated.
+    - **Peripheral Drivers:** Check for updates for your mouse, keyboard, or controller.
+  </Step>
+  <Step num="3" title="Adjust In-Game Settings">
+    Drakantos offers various settings that can impact performance.
+    - **Graphics Settings:** Lowering settings like resolution, texture quality, shadow quality, and anti-aliasing can significantly boost FPS and reduce perceived input delay.
+    - **V-Sync:** While V-Sync prevents screen tearing, it often introduces input lag. Try disabling it and see if the responsiveness improves. If tearing is an issue, consider using G-Sync or FreeSync if your monitor supports it.
+    - **Mouse/Controller Sensitivity:** Experiment with these settings to find a comfortable and responsive level.
+  </Step>
+  <Step num="4" title="Check Hardware Performance">
+    Ensure your PC can handle Drakantos smoothly.
+    - **Monitor CPU/GPU Usage:** Use tools like Task Manager (Windows) or MSI Afterburner to see if your CPU or GPU are consistently at 100% usage during gameplay. High usage indicates a bottleneck.
+    - **RAM:** Ensure you have sufficient RAM. Drakantos, as an MMORPG, might benefit from 16GB RAM or more.
+    - **Storage:** While less impactful on input delay directly, a slow HDD can cause longer loading times and occasional stutters. An SSD is always recommended for gaming.
+  </Step>
+  <Step num="5" title="Minimize Background Processes">
+    Unnecessary applications running in the background can compete for resources.
+    - **Task Manager:** Open Task Manager (Ctrl+Shift+Esc) and close any non-essential applications or processes that are consuming significant CPU, RAM, or disk resources.
+    - **Startup Programs:** Disable unnecessary programs from launching with Windows via Task Manager's "Startup" tab.
+    - **Game Mode:** Enable Windows Game Mode (Settings > Gaming > Game Mode) to prioritize game performance.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Swords} title="Advanced Optimization Techniques">
+For players still struggling with Drakantos input delay, these advanced techniques might offer further improvements.
+
+| Optimization Area      | Technique                                         | Benefit                                                               |
+| :--------------------- | :------------------------------------------------ | :-------------------------------------------------------------------- |
+| **Network**            | **QoS Settings (Router)**                         | Prioritizes game traffic over other network activities.               |
+|                        | **DNS Server Change**                             | Can sometimes provide a faster route to game servers.                 |
+| **Graphics**           | **NVIDIA/AMD Control Panel Settings**             | Fine-tune graphics settings beyond in-game options for performance.   |
+|                        | **Reduce Pre-Rendered Frames (NVIDIA)**           | Reduces latency by processing frames closer to real-time.             |
+| **Input Devices**      | **Polling Rate Adjustment (Mouse/Keyboard)**      | Higher polling rates (e.g., 1000Hz) can reduce micro-delays.         |
+|                        | **Disable Mouse Acceleration**                    | Ensures consistent mouse input without software interference.         |
+| **Power Management**   | **High Performance Power Plan**                   | Prevents CPU from downclocking, ensuring maximum performance.         |
+| **Game Files**         | **Verify Game File Integrity (Steam)**            | Fixes corrupted game files that might cause performance issues.       |
+
+<Callout type="success" title="Controller vs. Keyboard/Mouse">
+Drakantos has shifted to full action combat with revamped mouse controls. The developers noted that controller movement feels smoother and more fluid due to 360° movement, while keyboard and mouse should feel easier overall, though controller movement might take some getting used to. If you experience significant input delay with one, try the other.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="When to Contact Support">
+If you've tried all the above troubleshooting steps and are still experiencing significant Drakantos input delay, it's time to reach out to the game's official support channels. Provide them with as much detail as possible about your system, network, and the specific issues you're encountering.
+
+<Checklist
+  id="support-prep"
+  title="Before Contacting Support:"
+  items={[
+    "Document your system specifications (CPU, GPU, RAM, OS)",
+    "Note your internet speed and ping to game servers",
+    "List all troubleshooting steps you've already attempted",
+    "Provide screenshots or video clips demonstrating the delay",
+    "Specify the server region you are playing on"
+  ]}
+/>
+
+Remember that during beta phases, the development team is actively working to resolve bugs and optimize performance. Your detailed feedback is invaluable in helping them improve the game for everyone. Community forums and Discord channels can also be great places to seek advice from other players and share your experiences.
+
+</Section>
+
+<Section icon={Trophy} title="Drakantos Input Delay FAQ">
+
+<FAQ items={[
+  {
+    question: "What is Drakantos input delay?",
+    answer: "Drakantos input delay refers to the time lag between a player's action (like a mouse click or keypress) and the game's response. This can make movement and combat feel unresponsive or 'snappy'."
+  },
+  {
+    question: "Why am I experiencing input delay in Drakantos?",
+    answer: "Input delay can be caused by various factors, including high network latency (ping), outdated hardware drivers, insufficient system resources, high in-game graphics settings, or even server-side issues during heavy load or beta phases."
+  },
+  {
+    question: "Does using a controller reduce input delay in Drakantos?",
+    answer: "The developers have stated that controller movement in Drakantos feels smoother and more fluid due to full 360° movement capabilities. While it might not inherently reduce network-related delay, it can offer a more responsive feel for movement compared to keyboard input for some players."
+  },
+  {
+    question: "Can V-Sync cause input delay in Drakantos?",
+    answer: "Yes, V-Sync (Vertical Synchronization) is known to introduce input lag as it synchronizes your game's frame rate with your monitor's refresh rate to prevent screen tearing. Disabling it can often reduce input delay, though it might lead to screen tearing."
+  }
+]} />
+
+</Section>

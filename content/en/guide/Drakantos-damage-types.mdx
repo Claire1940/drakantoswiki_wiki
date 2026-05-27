@@ -1,0 +1,212 @@
+import { Map, Swords, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Drakantos Damage Types: A Comprehensive Breakdown",
+  description: "Understand the various damage types in Drakantos and how they affect combat, class choices, and overall strategy in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/800080/fff?text=Drakantos+Damage+Types",
+  date: "2026-05-27",
+  author: "Drakantos Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Drakantos damage types** vary by class, impacting combat strategy.
+- Tanks, Healers, and DPS classes each have unique **damage mechanics**.
+- Understanding **skill orb modifiers** can significantly enhance damage output.
+- Equipment's **power level** is currently the primary stat, but more depth is desired.
+- Effective targeting and **AOE management** are crucial for all classes.
+</Callout>
+
+<Section icon={Swords} title="Understanding Drakantos Damage Types">
+In Drakantos, combat revolves around a diverse set of **damage types** and abilities unique to each class. Whether you prefer to stand on the front lines, support your allies, or unleash devastating attacks, knowing the intricacies of **Drakantos damage types** is essential for optimizing your gameplay. The game features a balanced approach to its 15 available classes in the current playtest, categorizing them into Tanks, Healers, and DPS, each with distinct combat roles and damage applications.
+
+**Video Highlights:**
+- Demonstrates various character classes in action.
+- Shows gameplay mechanics including movement and combat.
+- Provides a first look at different abilities and their visual effects.
+
+<YouTubeEmbed videoId="A6JQL2ukAEY" title="Drakantos gameplay - closed beta build" />
+
+Each class brings a unique flavor to the battlefield, employing different methods to deal damage, mitigate incoming harm, or restore health to allies. For instance, a Knight might rely on physical slashes and area-of-effect (AOE) ground smashes, while an Archmage could utilize elemental missiles and powerful Meteor spells.
+
+<Callout type="tip">
+Familiarize yourself with the damage types and abilities of your chosen class, as well as those of your potential enemies. This knowledge is key to developing effective combat strategies and maximizing your impact in battles.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tank Damage & Utility">
+Tanks in Drakantos are designed to absorb damage and control the battlefield, but they also contribute to **Drakantos damage types** through various offensive abilities. Their damage often comes with added utility, such as crowd control or debuffs, making them invaluable in group encounters.
+
+<CardGrid cols={3}>
+  <Card title="Knight (Liam Redner)">
+    - **Giant Slash**: Inflicts movement slow.
+    - **Giant Smash**: AOE damage.
+    - **Heroic Strike**: Leaps and deals damage, reduces movement speed.
+    - **Earth Shatter**: Ground smash, reduces movement speed.
+  </Card>
+  <Card title="Illusionist (Iris Dreyl)">
+    - **Magic Missile**: Fires three missiles.
+    - **Ether Blast**: Frontal AOE, reduces movement speed.
+    - **Astral Burst**: AOE damage, reduces movement speed.
+    - **Ethereal Illusions**: Marks enemies for extra magical explosions.
+  </Card>
+  <Card title="Berserker (Korz Durorag)">
+    - **Axe Blow**: Deals direct damage.
+    - **Guillotine**: Frontal slash, can be charged for increased damage.
+    - **Decimate**: Charges, throws enemies, deals damage, reduces movement speed.
+    - **Bladestorm**: Spins to deal AOE damage.
+  </Card>
+</CardGrid>
+
+These tank classes showcase a blend of direct damage, area damage, and crowd control effects. For example, the **Knight's Giant Smash** not only deals damage but also slows enemies, enabling better positioning for the team. Similarly, the **Illusionist's Ether Blast** can reduce enemy movement speed, making them easier targets for DPS.
+
+<Callout type="warning" title="Targeting Challenges">
+One common feedback from playtests is the targeting system, especially with keyboard arrows. Players often find it slow and difficult to aim AOE spells at groups of weak enemies without switching their main target from a strong monster. This can be particularly annoying for classes that rely on precise placement of their damage.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Healer Damage & Support">
+While primarily focused on healing and support, Healers in Drakantos also possess abilities that deal **Drakantos damage types** to enemies. These offensive spells often come with secondary effects that benefit the team, such as rooting enemies or providing defensive buffs.
+
+<CardGrid cols={2}>
+  <Card title="Priestess (Marly Argento)">
+    - **Holy Light**: Shoots a ball of light.
+    - **Chastise**: Frontal cone damage, roots enemies.
+    - **Holy Nova**: Blasts Holy Light in an AOE, reduces movement speed.
+  </Card>
+  <Card title="Archmage (Byron Grimward)">
+    - **Elemental Missile**: Changes element based on last attack.
+    - **Wind Blast/Fireball**: Deals damage, Fireball ignites enemies.
+    - **Meteor**: Summons a Meteor, deals damage and stuns.
+  </Card>
+</CardGrid>
+
+The Priestess, for example, can use **Chastise** to root enemies, making them vulnerable, while the Archmage's **Meteor** can stun foes, disrupting their attacks. This offensive capability allows healers to contribute to overall damage output, especially when healing is not immediately required.
+
+<Callout type="success">
+Healer damage abilities are not just for offense; they often provide crucial crowd control or debuffs that can turn the tide of battle. Use them strategically to support your team beyond just healing.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="DPS Damage Output & Mechanics">
+DPS classes are the primary source of raw **Drakantos damage types**, focusing on maximizing their offensive potential. Each DPS class has unique mechanics that reward skillful play and strategic ability usage.
+
+<CardGrid cols={3}>
+  <Card title="Rogue (Ozul)">
+    - **Dagger Stab**: Direct damage.
+    - **Sinister Strike**: Frontal AOE, reduces movement speed, bonus damage from behind.
+    - **Phantom Daggers**: Increases attack range, daggers pursue enemies.
+  </Card>
+  <Card title="Mystic Archer (Arryn Valfeena)">
+    - **Arrow Shot**: Direct damage.
+    - **Power Shot**: Hits nearby enemies, can trigger follow-up shots.
+    - **Enhanced Ricochet**: Bounces, hits all enemies, reduces movement speed.
+  </Card>
+  <Card title="Gadgeteer Hunter (Orbryn Strongfoot)">
+    - **Bolt Shot**: Direct damage.
+    - **Special Bolt**: Slimy explosion, applies poison, reduces movement speed.
+    - **Steam Turret**: Deploys a turret that attacks enemies in an AOE.
+  </Card>
+</CardGrid>
+
+The Rogue's **Sinister Strike** benefits greatly from positioning, dealing bonus damage when striking from behind. The Mystic Archer's **Enhanced Ricochet** can hit multiple enemies and apply a significant movement speed reduction, making them ideal for clearing groups. The Gadgeteer Hunter's **Special Bolt** not only damages but also applies a poison effect, dealing sustained damage over time.
+
+<Callout type="info">
+Many DPS abilities in Drakantos have "HOLD" mechanics, allowing you to charge them for increased damage or extended effects. Mastering these charges can significantly boost your overall damage output.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Equipment and Damage Enhancement">
+Equipment plays a crucial role in enhancing **Drakantos damage types**. While the current playtest focuses on "power level" as the main stat, there are discussions and player feedback suggesting a desire for more intricate customization options, such as rare gems or enchanting systems.
+
+| Equipment Type | Potential Stat Enhancements | Impact on Damage Types |
+|---|---|---|
+| Weapons | Attack Power, Crit Chance, Elemental Damage | Direct increase to all offensive abilities |
+| Armor | Defense, Health, Damage Reduction | Indirectly boosts damage by increasing survivability |
+| Accessories | Skill Cooldown Reduction, Movement Speed, Resource Regen | Enables more frequent ability usage, better positioning for optimal damage |
+| Skill Orbs | AOE conversion, Damage Multipliers, Debuff Duration | Transforms abilities, amplifies specific damage types |
+
+Players have expressed a desire for more depth in equipment customization, such as adding gem slots to items that could provide random stat bonuses. This would allow for more diverse character builds and make the pursuit of optimal gear more engaging.
+
+<Steps>
+  <Step num="1" title="Acquire Equipment">
+    Complete quests, defeat monsters, and participate in dungeons to obtain new gear. Focus on items with higher "power levels" initially.
+  </Step>
+  <Step num="2" title="Upgrade Abilities">
+    Use skill points to upgrade your character's abilities. Some upgrades can significantly alter a skill's damage type or add new effects, such as making a single-target spell into an AOE.
+  </Step>
+  <Step num="3" title="Customize with Artifacts">
+    Collect and equip artifacts that provide passive bonuses. These can range from healing over time to increased damage for specific ability types. Experiment with different combinations to find what works best for your playstyle.
+  </Step>
+</Steps>
+
+<Callout type="tip">
+Don't underestimate the power of **Artifacts**. These items can provide unique bonuses that complement your class's damage types and abilities, offering strategic advantages in various combat scenarios.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Targeting and Combat Strategy">
+Effective targeting and strategic combat are vital for maximizing **Drakantos damage types**. The game's targeting system, which currently relies on keyboard arrows, has been noted by players as an area for improvement, particularly the inability to quickly switch targets or aim AOE spells effectively.
+
+| Combat Aspect | Description | Impact on Damage Output |
+|---|---|---|
+| **Targeting** | Automatic nearest target selection, limited manual control. | Can hinder efficient AOE targeting or focusing priority enemies. |
+| **Attack Animations** | Cannot be canceled, leading to vulnerability during casts. | Requires careful timing to avoid incoming damage while maximizing outgoing damage. |
+| **Movement & Positioning** | Crucial for avoiding telegraphed enemy attacks and optimizing AOE placement. | Directly affects survivability and the ability to consistently deal damage. |
+| **Skill Orb Usage** | Modifiers that change skill effects (e.g., single target to AOE). | Unlocks new ways to apply damage and manage groups of enemies. |
+| **Enemy AI** | Monsters may target high DPS players more often. | Requires tanks to adapt and potentially use taunt abilities if available. |
+
+<Callout type="warning" title="Animation Lock">
+Players have reported issues with being locked into attack animations, making it difficult to dodge incoming enemy attacks, especially when monsters finish their casts quicker. This highlights the importance of anticipating enemy moves.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Future of Damage Types and Customization">
+The developers of Drakantos are actively incorporating player feedback, with plans to expand customization options beyond simple "power level" increases. This includes introducing more diverse stats on equipment and potentially a gem/enchanting system to allow players to tailor their characters more uniquely.
+
+| Current System | Proposed Enhancements | Player Impact |
+|---|---|---|
+| **"Power Level" only** | Add specific stats (e.g., Crit, Haste, Elemental Resistances) | Deeper build customization, more strategic gear choices |
+| **Limited skill customization** | Introduce rare gems/enchants for equipment slots | Unique item builds, increased replayability through "gem hunting" |
+| **Class balance** | Continue fine-tuning damage numbers and utility of all classes | Ensures all **Drakantos damage types** and roles remain viable |
+| **Map exploration rewards** | Introduce unique drops from chests, mark resource locations | Incentivizes exploration and provides valuable materials for upgrades |
+
+These proposed changes aim to make each class feel more distinct and provide players with more meaningful ways to customize their characters, moving beyond the "numbers go up" feeling. The goal is to create a richer MMORPG experience where players can truly differentiate their playstyle and build.
+
+</Section>
+
+<Section icon={Map} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What are the main Drakantos damage types?",
+    answer: "Drakantos features a variety of damage types, primarily categorized by the class roles: Tanks often deal physical and area-of-effect (AOE) damage with crowd control, Healers use magical damage with supporting effects, and DPS classes focus on high physical or magical damage output, often with intricate combo mechanics."
+  },
+  {
+    question: "Does equipment affect damage types?",
+    answer: "Yes, equipment primarily affects your 'power level,' which scales your overall damage. However, player feedback indicates a desire for more detailed stats and customization options, such as gems, to further influence specific Drakantos damage types and abilities."
+  },
+  {
+    question: "How can I improve my damage output in Drakantos?",
+    answer: "To improve your damage output, focus on upgrading your abilities with skill points, strategically using 'HOLD' mechanics for charged attacks, and equipping artifacts that complement your class's damage types. Mastering targeting and positioning is also crucial for consistent damage."
+  },
+  {
+    question: "Are there any issues with targeting specific Drakantos damage types?",
+    answer: "During playtests, players noted that the keyboard-based targeting can be slow, making it difficult to aim AOE spells or switch targets efficiently. This can impact the effective application of certain damage types, especially in crowded combat scenarios."
+  }
+]} />
+
+</Section>
