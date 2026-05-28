@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Drakantos Berserker: Guía de Héroe y Equipo de Combate 2026",
+  description: "Domina al Drakantos Berserker con nuestra guía de 2026. Explora mecánicas de combate de acción, estrategias de Asalto PvP y construcciones de artefactos para la beta cerrada.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Drakantos+Berserker+Guide",
+  date: "2026-05-28",
+  author: "Equipo Wiki de Drakantos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Drakantos Berserker**: Un héroe cuerpo a cuerpo de alto impacto, especializado en combate frontal agresivo y daño de área de efecto.
+- **Combate de Acción**: La versión de 2026 presenta un sistema de acción completo con puntería manual y sin el tradicional sistema de selección por tabulador.
+- **Progresión de la Beta**: Utiliza las exclusivas Cajas Beta para desbloquear Trofeos y Orbes de fin de juego para la experimentación de builds.
+- **Dominio PvP**: Concéntrate en el modo Asalto para obtener las máximas recompensas y probar la viabilidad del héroe en partidas estilo MOBA.
+- **Métodos de Entrada**: Mientras que el teclado y el ratón ofrecen precisión, los controladores proporcionan un movimiento fluido de 360 grados para las clases cuerpo a cuerpo.
+</Callout>
+
+<Section icon={Swords} title="Descripción General del Héroe Drakantos Berserker">
+
+El **Drakantos Berserker** representa la cúspide del juego cuerpo a cuerpo agresivo en la beta cerrada de 2026. Como un héroe diseñado para las líneas frontales, el Berserker prospera en encuentros de alto riesgo y alta recompensa donde el posicionamiento y el tiempo son críticos. A diferencia de las iteraciones anteriores del juego que dependían del movimiento basado en casillas, la versión actual permite una acción de forma libre, haciendo que las habilidades de cierre de brechas y los golpes contundentes del Berserker sean más impactantes que nunca.
+
+**Aspectos Destacados del Video:**
+- Vista detallada de la pantalla de selección de héroe y personalización de personajes.
+- Exploración del nuevo sistema de movimiento libre y los controles de ratón renovados.
+- Jugabilidad de primera mano del sistema de misiones e interacciones de diálogo.
+- Demostración de la gestión del inventario y la interfaz de mejora de artefactos.
+
+<YouTubeEmbed videoId="A6JQL2ukAEY" title="Drakantos gameplay - closed beta build" />
+
+<Callout type="tip" title="Consejo Profesional">
+Al jugar como un héroe cuerpo a cuerpo, concéntrate en la dirección de tu personaje. El nuevo sistema de combate alinea automáticamente tus ataques con el cursor del ratón, lo cual es esencial para acertar los potentes ataques de carga del Berserker.
+</Callout>
+
+En el entorno beta actual, los jugadores tienen acceso a 15 héroes distintos, incluyendo a Liam, Marly y Korz. El arquetipo Berserker, a menudo denominado Berserker de Escarcha en pruebas de juego recientes, sobresale en la interrupción de formaciones enemigas. El cambio a un combate de acción completo significa que debes anticipar y dirigir tus ataques hacia tus objetivos, ya que ya no hay un sistema de fijación de objetivos que ayude a tus golpes.
+
+</Section>
+
+<Section icon={Shield} title="Mecánicas de Combate de Acción y Movimiento">
+
+La transición de un sistema híbrido a un sistema de combate 100% de acción ha cambiado fundamentalmente cómo funciona el **Drakantos Berserker** tanto en PvE como en PvP. Cada ataque básico y habilidad especial debe ser apuntado manualmente. Hacer clic izquierdo realiza tu combo estándar, mientras que mantener presionado el botón derecho del ratón activa un ataque especial mejorado. Para el Berserker, esto a menudo resulta en una explosión masiva de AoE o una poderosa embestida hacia adelante que puede diezmar grupos de PNJ más pequeños.
+
+| Mecánica | Teclado y Ratón | Soporte de Mando |
+| :--- | :--- | :--- |
+| **Movimiento** | Movimiento de 8 direcciones | Movimiento fluido completo de 360 grados |
+| **Puntería** | Apuntado a través del cursor del ratón | Apuntado a través del stick analógico derecho |
+| **Ataque** | Clic izquierdo (Básico) / Clic derecho (Especial) | Entradas basadas en gatillos |
+| **Precisión** | Alta precisión para tiros de habilidad | Mayor movilidad y comodidad |
+| **Complejidad** | Fácil de aprender para veteranos de PC | Requiere tiempo para dominar la puntería de 360 grados |
+
+<Callout type="warning" title="Importante">
+El sistema de puntería puede sentirse "pegajoso" en la versión beta actual. Si tu personaje no está mirando en la dirección correcta, las habilidades pueden no dispararse en la dirección del ratón. Asegúrate siempre de que el modelo de tu personaje esté orientado hacia la amenaza antes de comprometerte con una animación de carga larga.
+</Callout>
+
+El movimiento ya no está restringido a una cuadrícula. Puedes correr y esquivar en cualquier dirección, lo cual es vital para una clase cuerpo a cuerpo que necesita evitar ataques de jefes predecibles. Los ataques cuerpo a cuerpo en Drakantos tienen una cualidad de "resistencia"; aunque puedes usarlos fuera de los tiempos de recarga, cronometrar tus golpes cada dos segundos sigue siendo la forma más óptima de mantener un alto DPS sin agotar el flujo de combate de tu personaje.
+
+</Section>
+
+<Section icon={Map} title="Modos PvP y Estrategia Competitiva">
+
+Drakantos permite a los jugadores progresar completamente a través del PvP si así lo desean. Este es un cambio significativo para el género MMORPG, proporcionando una alternativa viable a las misiones tradicionales. El **Drakantos Berserker** es particularmente fuerte en modos que requieren defensa de puntos o empujes agresivos contra estructuras enemigas.
+
+<CardGrid cols={3}>
+  <Card title="Modo Control">
+    - **Objetivo**: Ocupar una o dos zonas de captura.
+    - **Rol del Berserker**: Usar AoE para despejar zonas y empujar a los enemigos.
+    - **Victoria**: Alcanzar el 100% de progreso antes que el equipo enemigo.
+  </Card>
+  <Card title="Modo Escolta">
+    - **Objetivo**: Mover un cristal al destino final.
+    - **Rol del Berserker**: Actuar como escudo humano para evitar que los enemigos detengan el cristal.
+    - **Victoria**: Alcanzar la meta o progresar más que el oponente.
+  </Card>
+  <Card title="Modo Asalto">
+    - **Objetivo**: Destruir torres enemigas y el núcleo.
+    - **Rol del Berserker**: Lanzarse contra héroes enemigos y limpiar oleadas de esbirros.
+    - **Victoria**: Destruir la base enemiga (estilo MOBA).
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Equilibrio del Juego">
+En PvP, todos los jugadores se escalan al nivel máximo con equipo al máximo. Esto asegura un campo de juego equitativo donde la habilidad y la sinergia de la construcción importan más que el tiempo dedicado a la molienda.
+</Callout>
+
+El modo Asalto es el más complejo, presentando barras de salud compartidas para las torres y un buff central que aparece cada 3 minutos y 30 segundos. Este buff proporciona un aumento del 25% de ataque durante 60 segundos, lo cual cambia el juego para un Berserker que busca derribar el núcleo enemigo. Los logros y recompensas se obtienen más rápido en Control y Escolta debido a la menor duración de las partidas, pero Asalto ofrece las recompensas más sustanciales por partida.
+
+</Section>
+
+<Section icon={Sparkles} title="Optimización de Builds: Artefactos y Orbes">
+
+La progresión para el **Drakantos Berserker** implica más que solo subir de nivel. El juego presenta un sistema profundo de Orbes, Artefactos y Trofeos que modifican tus habilidades. Durante la beta, los jugadores reciben Cajas Beta especiales para ayudarles a probar builds de alto nivel que normalmente tardarían semanas en adquirir.
+
+| Tipo de Objeto | Función | Mecánica de Garantía |
+| :--- | :--- | :--- |
+| **Caja de Orbes** | Otorga modificadores de habilidad específicos del héroe | 1 de 3 opciones es para tu héroe actual |
+| **Caja de Artefactos** | Proporciona bonificaciones de combate pasivas | Selección aleatoria de 3 artefactos |
+| **Caja de Trofeos** | Ofrece mejoras de estadísticas de fin de juego | Selección aleatoria de 3 trofeos |
+| **Orbes de Habilidad** | Cambia el comportamiento de la habilidad (ej. Orbe de Fuego Piro) | Debe aplicarse a través del menú de personaje |
+
+<Callout type="success" title="Consejo de Build">
+Al abrir una Caja de Orbes, asegúrate siempre de estar jugando con el héroe para el que quieres el orbe. El juego garantiza que al menos una de las tres opciones será compatible con tu personaje activo.
+</Callout>
+
+Para una build de Berserker, busca artefactos que proporcionen regeneración de salud o reducción de daño. El artefacto "Piel de Agua", por ejemplo, puede proporcionar 40 de salud por segundo durante 10 segundos después de una batalla, reduciendo significativamente el tiempo de inactividad entre encuentros. También puedes encontrar modificadores de habilidad como el orbe de fuego piro, que inflige 80 de daño en un área pequeña, perfecto para limpiar infestaciones de arañas o grupos de PNJ en mazmorras.
+
+</Section>
+
+<Section icon={Target} title="Configuración y Participación en la Beta">
+
+Si buscas adentrarte en el mundo de Drakantos y probar el **Drakantos Berserker** por ti mismo, hay algunos pasos técnicos que debes seguir para asegurar una experiencia fluida. La beta de 2026 incluye un sistema de Twitch Drop que proporciona recompensas temporales por ver transmisiones de la comunidad.
+
+<Steps>
+  <Step num="1" title="Solicitar Acceso">
+    Solicita acceso a través de la página oficial de Steam. Se envían nuevas invitaciones gradualmente según la capacidad del servidor.
+  </Step>
+  <Step num="2" title="Vincular Cuenta de Twitch">
+    Ve a Configuración > Cuenta > Twitch en el menú del juego. Vincula tu cuenta para ser elegible para las recompensas exclusivas de la beta.
+  </Step>
+  <Step num="3" title="Configurar Pantalla">
+    Si la interfaz de usuario no se escala correctamente en el modo Ventana, es posible que debas realizar una edición manual del archivo o restablecer la escala de la interfaz de usuario en la configuración.
+  </Step>
+  <Step num="4" title="Unirse al Gremio">
+    Dirígete al Gremio Aventurero en la ciudad principal para recoger tu primer conjunto de misiones y desbloquear la capacidad de rehacer puntos.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Aviso de Beta">
+Todo el progreso realizado durante la beta cerrada se borrará antes del lanzamiento oficial. Aprovecha este tiempo para experimentar con diferentes combinaciones de artefactos y clases de héroes sin preocuparte por las consecuencias a largo plazo.
+</Callout>
+
+Para los creadores, existe un programa dedicado que ofrece claves de prueba de juego y acceso a un canal privado de Discord. Los desarrolladores buscan miembros activos de la comunidad con al menos 25 espectadores concurrentes o 1.000 vistas promedio en YouTube para ayudar a difundir la palabra y proporcionar retroalimentación sobre las nuevas mecánicas de combate de acción.
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos y Lista de Verificación de la Beta">
+
+Para aprovechar al máximo tu tiempo limitado en la beta cerrada de Drakantos, sigue esta lista de verificación para asegurarte de experimentar todos los sistemas principales.
+
+<Checklist
+  id="beta-progression"
+  title="Hitos de la Beta Cerrada:"
+  items={[
+    "Alcanza el nivel 30 para desbloquear ranuras de artefactos avanzadas",
+    "Participa en al menos una partida PvP de Asalto",
+    "Desbloquea y equipa un Orbe de Habilidad específico de héroe",
+    "Completa la misión secundaria 'Vino Perdido' en Fairdale",
+    "Vincula tu cuenta de Twitch para obtener recompensas exclusivas de la beta"
+  ]}
+/>
+
+<Callout type="info" title="Información del Servidor">
+Hay cuatro regiones de servidor principales: NA, SA, EU y AS. Ten en cuenta que una vez que seleccionas una región, no puedes cambiarla durante la duración de la prueba beta.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes del Drakantos Berserker">
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo al héroe Berserker en Drakantos?",
+    answer: "En la beta cerrada de 2026, todos los jugadores tienen acceso inmediato a 15 héroes, incluidos los arquetipos cuerpo a cuerpo. Puedes seleccionarlos directamente desde la creación de personajes o el menú de cambio de héroe."
+  },
+  {
+    question: "¿Por qué no puedo moverme mientras cargo mis habilidades de Berserker?",
+    answer: "El sistema actual de combate de acción requiere que te comprometas con ciertas animaciones. Sin embargo, puedes dirigir tu dirección de frente con el ratón para asegurar que el golpe impacte si el enemigo se mueve ligeramente."
+  },
+  {
+    question: "¿Cuál es la mejor manera de conseguir equipo nuevo en la beta?",
+    answer: "La forma más rápida de equiparse es obteniendo Cajas Beta a través de actividades PvP. Estas cajas proporcionan artefactos y trofeos de nivel de fin de juego que no están disponibles a través de las misiones normales de principios de juego."
+  },
+  {
+    question: "¿Puedo jugar Drakantos en solitario como Berserker?",
+    answer: "Aunque el contenido PvE se puede abordar en solitario, el juego está diseñado para el juego en grupo. Para infestaciones desafiantes y modos PvP como Asalto, se recomienda encarecidamente formar equipo con otros jugadores."
+  }
+]} />
+
+</Section>
