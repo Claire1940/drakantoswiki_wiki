@@ -1,0 +1,190 @@
+import { Monitor, Cpu, Swords, Zap, Shield, Trophy, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Requisitos del sistema de Drakantos: Guía de configuración de PC y rendimiento",
+  description: "Requisitos oficiales del sistema de Drakantos para 2026. Especificaciones mínimas y recomendadas de PC para Windows y Linux, además de consejos de optimización para este MMORPG de pixel-art.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Drakantos+System+Requirements",
+  date: "2026-05-30",
+  author: "Equipo de la Wiki de Drakantos",
+  keywords: "Drakantos, requisitos del sistema, especificaciones de PC, MMORPG, guía de rendimiento"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Requisitos del sistema de Drakantos**: El juego está altamente optimizado, requiriendo solo un **Intel Core i3** y **4 GB de RAM** para el juego básico.
+- **Necesidades de almacenamiento**: Necesitarás al menos **1 GB de espacio disponible** en tu disco, lo que lo convierte en uno de los MMORPG más ligeros de 2026.
+- **Estándares gráficos**: Es necesaria una GPU con **1 GB de memoria de video** y soporte para Shader Model 3.0+ para los visuales de pixel-art.
+- **Sistema operativo**: Compatible con **Windows 7+** y distribuciones de **Linux de 64 bits**.
+- **Requisito de Internet**: Una **conexión de banda ancha** estable es obligatoria debido a la naturaleza de combate de acción del juego.
+</Callout>
+
+<Section icon={Monitor} title="Requisitos oficiales del sistema de Drakantos">
+
+Comprender los **requisitos del sistema de Drakantos** es el primer paso para cualquier aventurero que busque explorar el mundo de Derid. Desarrollado por Wingeon Game Studios, este próximo MMORPG combina una estética nostálgica de pixel-art con un sofisticado sistema de combate de acción. Debido a su estilo artístico, la barrera de entrada es significativamente más baja que la de los títulos 3D modernos, lo que permite que jugadores con hardware más antiguo participen en las pruebas beta de 2026 y en el lanzamiento completo.
+
+**Aspectos destacados del video:**
+- Resumen del rediseño de combate y movimiento de 2026.
+- Mirada detallada a los 12 héroes iniciales y sus mecánicas únicas.
+- Vista previa de los tres modos principales de PvP: Defensa, Escolta y estilo MOBA.
+- Instrucciones sobre cómo asegurar claves de la beta a través de Steam y Twitch.
+
+<YouTubeEmbed videoId="1Gf9GJ_mCIw" title="¡TODO lo que sabemos sobre Drakantos en 2026! ¡Nuevas claves beta!" />
+
+Las siguientes tablas detallan las especificaciones oficiales de hardware proporcionadas por los desarrolladores en la plataforma Steam. Estas especificaciones están diseñadas para garantizar que el juego funcione sin problemas incluso durante encuentros PvP de alta intensidad.
+
+| Componente | Especificaciones mínimas de Windows | Especificaciones mínimas de Linux |
+| :--- | :--- | :--- |
+| **SO** | Windows 7 o posterior | Linux 64 bits |
+| **Procesador** | Intel Core i3 | Intel Core i3 |
+| **Memoria** | 4 GB de RAM | 4 GB de RAM |
+| **Gráficos** | 1GB VRAM / Shader Model 3.0+ | 1GB VRAM / Shader Model 3.0+ |
+| **DirectX** | Versión 9.0c | N/A (Vulkan/OpenGL) |
+| **Almacenamiento** | 1 GB de espacio disponible | 1 GB de espacio disponible |
+
+<Callout type="success" title="Baja barrera de hardware">
+La naturaleza ligera del juego significa que la mayoría de las computadoras portátiles de la última década pueden manejar los **requisitos del sistema de Drakantos** sin necesidad de una GPU dedicada para juegos.
+</Callout>
+
+</Section>
+
+<Section icon={Cpu} title="Análisis de hardware y optimización del rendimiento">
+
+Si bien los **requisitos mínimos del sistema de Drakantos** son modestos, lograr una alta tasa de fotogramas es crucial para el combate de acción de ritmo rápido del juego. A diferencia de los MMO tradicionales de selección de objetivos, Drakantos depende de una puntería precisa con el mouse o el controlador. Cualquier tartamudeo o caída de fotogramas puede provocar habilidades fallidas o esquivas fallidas durante las peleas contra jefes.
+
+| Parte del hardware | Impacto en el juego | Recomendación para 2026 |
+| :--- | :--- | :--- |
+| **CPU** | Maneja la lógica de IA y física | Core i5 o Ryzen 5 para 60 FPS estables |
+| **GPU** | Renderiza el pixel art y la iluminación | GTX 1050 o RX 560 para ajustes máximos |
+| **RAM** | Gestiona activos y datos multijugador | 8 GB de RAM para evitar lag en segundo plano |
+| **Red** | Crítico para el registro de impactos | Ethernet cableado sobre Wi-Fi |
+
+Para optimizar tu experiencia, asegúrate de que los controladores de gráficos estén actualizados a las últimas versiones de 2026. Aunque el juego solo requiere 1 GB de almacenamiento, instalarlo en un SSD reducirá significativamente los tiempos de carga entre la ciudad y las diversas mazmorras dinámicas.
+
+<CardGrid cols={2}>
+  <Card title="Configuración de pantalla">
+    - **Resolución**: Se recomienda la resolución nativa del monitor.
+    - **V-Sync**: Actívalo si experimentas desgarro de pantalla durante movimientos rápidos.
+    - **Modo de ventana**: Ventana sin bordes permite cambiar más rápido a las guías (Alt-Tab).
+  </Card>
+  <Card title="Optimización de entrada">
+    - **Soporte de controlador**: Totalmente compatible con controladores de Xbox y PlayStation.
+    - **Puntería con el mouse**: Asegúrate de que la aceleración del mouse esté desactivada en Windows para una mejor precisión.
+    - **Asignación de teclas**: El soporte para personalizar WASD o el movimiento del mouse está incluido en el nuevo rediseño.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Nota sobre el rediseño del movimiento">
+La beta de 2026 introdujo un rediseño del movimiento que permite el movimiento diagonal y cajas de impacto (hitboxes) perfectas a nivel de píxel. Si sientes que el movimiento es "flotante", verifica tu configuración de ping en el menú de opciones.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de juego y lista de héroes">
+
+Cumplir con los **requisitos del sistema de Drakantos** te permite acceder a una lista diversa de héroes. A diferencia de los MMORPG estándar que utilizan un sistema de clases rígido, Drakantos presenta héroes únicos con roles predefinidos que se pueden personalizar a través de artefactos y orbes. A partir de la beta de mayo de 2026, hay 12 héroes jugables, con un total de 21 planeados para el lanzamiento completo.
+
+| Nombre del héroe | Estilo de combate | Habilidad clave |
+| :--- | :--- | :--- |
+| **Yura** | Samurái / Melee | Golpes de espada de alta velocidad |
+| **Sokladius** | Paladín / Tanque | Control de masas basado en martillo |
+| **Andar** | Druida / Apoyo | Cambio de forma y trampas de enredaderas |
+| **Iris** | Mago / DPS | Clones arcanos y desintegración |
+| **Thomas** | Bardo / Utilidad | Confusión de enemigos basada en canciones |
+| **Yuki** | Asesino / Móvil | Congelación y fragmentación basada en hielo |
+
+El combate se ha alejado de las restricciones basadas en casillas hacia un sistema de acción más fluido. Este cambio hace que el juego se sienta más como un brawler moderno o un ARPG, manteniendo la estética de títulos clásicos como Tibia o RuneScape. Los jugadores pueden personalizar sus builds usando orbes para cambiar los elementos de las habilidades (por ejemplo, convertir un golpe de luz en un ataque de fuego) y trofeos que proporcionan mejoras pasivas de estadísticas.
+
+<Callout type="info" title="Variedad de builds">
+La combinación de artefactos, trofeos y orbes que modifican habilidades garantiza que dos jugadores que usen el mismo héroe puedan tener estilos de juego y perfiles de rendimiento completamente diferentes.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Cómo acceder a la beta de 2026">
+
+Si tu PC cumple con los **requisitos del sistema de Drakantos**, puedes participar en las fases de prueba en curso. Los desarrolladores suelen realizar fines de semana de "Beta Cerrada" para probar la estabilidad del servidor y el equilibrio del combate.
+
+<Steps>
+  <Step num="1" title="Solicitud en Steam">
+    Navega a la página de Steam de Drakantos y haz clic en el botón "Solicitar acceso" bajo la sección de Playtest.
+  </Step>
+  <Step num="2" title="Canje de claves">
+    Si recibes una clave de un streamer o sorteo, ve a "Activar un producto en Steam" e ingresa tu código.
+  </Step>
+  <Step num="3" title="Twitch Drops">
+    Vincula tu cuenta de Drakantos a Twitch y mira a los streamers participantes durante los fines de semana de beta para ganar artefactos y equipo.
+  </Step>
+  <Step num="4" title="Selección de servidor">
+    Elige el servidor más cercano a tu región (Asia, América, Europa o Australia), ya que los personajes están actualmente bloqueados por servidor.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Progreso de la beta">
+Ten en cuenta que el progreso realizado durante las pruebas beta generalmente se borra antes del lanzamiento oficial, aunque algunas recompensas cosméticas pueden conservarse.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Modos PvP y contenido de juego final">
+
+Drakantos no se trata solo de explorar mazmorras; cuenta con un sólido sistema PvP donde las estadísticas de los jugadores se normalizan para garantizar un entorno competitivo. Esto significa que incluso si apenas cumples con los **requisitos del sistema de Drakantos**, no estarás en desventaja contra jugadores con equipo de alta gama en la arena.
+
+| Modo PvP | Objetivo | Tamaño del equipo |
+| :--- | :--- | :--- |
+| **Defensa** | Capturar y retener un nodo central | 3v3 / 5v5 |
+| **Escolta** | Mover una carga a la base enemiga | 5v5 |
+| **Modo MOBA** | Destruir torres y el núcleo enemigo | 5v5 |
+
+El modo de estilo MOBA es particularmente único, incorporando elementos PvE como monstruos de jungla y súbditos de carril en el motor de combate del MMORPG. Este modo ofrece las recompensas más altas, pero también requiere la mayor coordinación y tiempo.
+
+<Checklist
+  id="beta-goals"
+  title="Lista de finalización de la beta de 2026:"
+  items={[
+    "Alcanzar el nivel máximo con al menos un héroe",
+    "Participar en un torneo PvP clasificado",
+    "Desbloquear y equipar un Artefacto Legendario",
+    "Completar el evento global 'World Boss'",
+    "Probar el sistema de vivienda y decoración"
+  ]}
+/>
+
+<Callout type="success" title="Juego Limpio">
+En PvP, solo importan tu habilidad y estrategia. El juego equilibra automáticamente las estadísticas para que los nuevos jugadores puedan competir con los veteranos en igualdad de condiciones.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuáles son los requisitos mínimos del sistema para Drakantos en 2026?",
+    answer: "Los requisitos mínimos incluyen un procesador Intel Core i3, 4 GB de RAM, 1 GB de memoria de video y 1 GB de espacio de almacenamiento en Windows 7+ o Linux de 64 bits."
+  },
+  {
+    question: "¿Puedo ejecutar Drakantos en una computadora portátil sin tarjeta gráfica?",
+    answer: "Sí, siempre que tus gráficos integrados admitan Shader Model 3.0 y tengas al menos 1 GB de VRAM asignado, el juego debería ejecutar los visuales de pixel-art sin problemas."
+  },
+  {
+    question: "¿Hay una tarifa de suscripción para Drakantos?",
+    answer: "El juego será gratuito (free-to-play), pero habrá una suscripción opcional similar a RuneScape o Albion Online que proporciona ciertas ventajas que no afectan el equilibrio de poder (non-pay-to-win)."
+  },
+  {
+    question: "¿Drakantos admite el juego multiplataforma?",
+    answer: "Actualmente el juego se centra en PC (Windows y Linux), pero cuenta con soporte total para controladores, lo que sugiere posibles expansiones a otras plataformas en el futuro."
+  }
+]} />
+
+<Callout type="info" title="Veredicto Final">
+Drakantos es un soplo de aire fresco para el género MMORPG en 2026. Sus bajos requisitos de sistema, combinados con un combate de acción profundo y un hermoso pixel art, lo hacen accesible para casi cualquier persona con una PC.
+</Callout>
+
+</Section>
