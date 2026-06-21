@@ -1,0 +1,1546 @@
+{
+  "en": {
+    "beta": [
+      {
+        "slug": "Drakantos-beta-access",
+        "file": "Drakantos-beta-access"
+      },
+      {
+        "slug": "Drakantos-beta-key",
+        "file": "Drakantos-beta-key"
+      },
+      {
+        "slug": "Drakantos-beta-test",
+        "file": "Drakantos-beta-test"
+      },
+      {
+        "slug": "Drakantos-closed-beta",
+        "file": "Drakantos-closed-beta"
+      },
+      {
+        "slug": "Drakantos-next-beta",
+        "file": "Drakantos-next-beta"
+      },
+      {
+        "slug": "Drakantos-open-beta",
+        "file": "Drakantos-open-beta"
+      },
+      {
+        "slug": "Drakantos-playtest",
+        "file": "Drakantos-playtest"
+      },
+      {
+        "slug": "Drakantos-twitch-drops",
+        "file": "Drakantos-twitch-drops"
+      },
+      {
+        "slug": "drakantos-beta-rewards",
+        "file": "drakantos-beta-rewards"
+      },
+      {
+        "slug": "drakantos-beta-sign-up",
+        "file": "drakantos-beta-sign-up"
+      },
+      {
+        "slug": "drakantos-ophis-fight",
+        "file": "drakantos-ophis-fight"
+      }
+    ],
+    "classes": [
+      {
+        "slug": "Drakantos-Thomas",
+        "file": "Drakantos-Thomas"
+      },
+      {
+        "slug": "Drakantos-Yuki",
+        "file": "Drakantos-Yuki"
+      },
+      {
+        "slug": "Drakantos-Yura",
+        "file": "Drakantos-Yura"
+      },
+      {
+        "slug": "Drakantos-best-class",
+        "file": "Drakantos-best-class"
+      },
+      {
+        "slug": "Drakantos-character-tier-list",
+        "file": "Drakantos-character-tier-list"
+      },
+      {
+        "slug": "Drakantos-characters",
+        "file": "Drakantos-characters"
+      },
+      {
+        "slug": "Drakantos-class-tier-list",
+        "file": "Drakantos-class-tier-list"
+      },
+      {
+        "slug": "Drakantos-classes",
+        "file": "Drakantos-classes"
+      },
+      {
+        "slug": "Drakantos-healer",
+        "file": "Drakantos-healer"
+      },
+      {
+        "slug": "Drakantos-heroes",
+        "file": "Drakantos-heroes"
+      },
+      {
+        "slug": "Drakantos-necromancer",
+        "file": "Drakantos-necromancer"
+      },
+      {
+        "slug": "drakantos-bard",
+        "file": "drakantos-bard"
+      },
+      {
+        "slug": "drakantos-berserker",
+        "file": "drakantos-berserker"
+      },
+      {
+        "slug": "drakantos-best-hero",
+        "file": "drakantos-best-hero"
+      },
+      {
+        "slug": "drakantos-character-creation",
+        "file": "drakantos-character-creation"
+      },
+      {
+        "slug": "drakantos-classes-tier-list",
+        "file": "drakantos-classes-tier-list"
+      },
+      {
+        "slug": "drakantos-frost",
+        "file": "drakantos-frost"
+      },
+      {
+        "slug": "drakantos-heroes-skills",
+        "file": "drakantos-heroes-skills"
+      },
+      {
+        "slug": "drakantos-illusionist",
+        "file": "drakantos-illusionist"
+      },
+      {
+        "slug": "drakantos-races",
+        "file": "drakantos-races"
+      },
+      {
+        "slug": "drakantos-rogue",
+        "file": "drakantos-rogue"
+      },
+      {
+        "slug": "drakantos-wingeon",
+        "file": "drakantos-wingeon"
+      },
+      {
+        "slug": "drakantos-zeugladius",
+        "file": "drakantos-zeugladius"
+      },
+      {
+        "slug": "drakantos-zeus",
+        "file": "drakantos-zeus"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Drakantos-artifacts",
+        "file": "Drakantos-artifacts"
+      },
+      {
+        "slug": "Drakantos-beginner-guide",
+        "file": "Drakantos-beginner-guide"
+      },
+      {
+        "slug": "Drakantos-boss",
+        "file": "Drakantos-boss"
+      },
+      {
+        "slug": "Drakantos-build",
+        "file": "Drakantos-build"
+      },
+      {
+        "slug": "Drakantos-combat",
+        "file": "Drakantos-combat"
+      },
+      {
+        "slug": "Drakantos-crafting",
+        "file": "Drakantos-crafting"
+      },
+      {
+        "slug": "Drakantos-damage-types",
+        "file": "Drakantos-damage-types"
+      },
+      {
+        "slug": "Drakantos-dungeons",
+        "file": "Drakantos-dungeons"
+      },
+      {
+        "slug": "Drakantos-equipment",
+        "file": "Drakantos-equipment"
+      },
+      {
+        "slug": "Drakantos-fishing",
+        "file": "Drakantos-fishing"
+      },
+      {
+        "slug": "Drakantos-guide",
+        "file": "Drakantos-guide"
+      },
+      {
+        "slug": "Drakantos-how-to-play",
+        "file": "Drakantos-how-to-play"
+      },
+      {
+        "slug": "Drakantos-input-delay",
+        "file": "Drakantos-input-delay"
+      },
+      {
+        "slug": "Drakantos-items",
+        "file": "Drakantos-items"
+      },
+      {
+        "slug": "Drakantos-lore",
+        "file": "Drakantos-lore"
+      },
+      {
+        "slug": "Drakantos-raids",
+        "file": "Drakantos-raids"
+      },
+      {
+        "slug": "Drakantos-trading",
+        "file": "Drakantos-trading"
+      },
+      {
+        "slug": "drakantos-calendar",
+        "file": "drakantos-calendar"
+      },
+      {
+        "slug": "drakantos-character-customization",
+        "file": "drakantos-character-customization"
+      },
+      {
+        "slug": "drakantos-endgame",
+        "file": "drakantos-endgame"
+      },
+      {
+        "slug": "drakantos-find-gus",
+        "file": "drakantos-find-gus"
+      },
+      {
+        "slug": "drakantos-gameplay",
+        "file": "drakantos-gameplay"
+      },
+      {
+        "slug": "drakantos-guild",
+        "file": "drakantos-guild"
+      },
+      {
+        "slug": "drakantos-horse",
+        "file": "drakantos-horse"
+      },
+      {
+        "slug": "drakantos-housing",
+        "file": "drakantos-housing"
+      },
+      {
+        "slug": "drakantos-interactive-map",
+        "file": "drakantos-interactive-map"
+      },
+      {
+        "slug": "drakantos-invite",
+        "file": "drakantos-invite"
+      },
+      {
+        "slug": "drakantos-map",
+        "file": "drakantos-map"
+      },
+      {
+        "slug": "drakantos-mount",
+        "file": "drakantos-mount"
+      },
+      {
+        "slug": "drakantos-movement",
+        "file": "drakantos-movement"
+      },
+      {
+        "slug": "drakantos-offline",
+        "file": "drakantos-offline"
+      },
+      {
+        "slug": "drakantos-pve",
+        "file": "drakantos-pve"
+      },
+      {
+        "slug": "drakantos-pvp-modes",
+        "file": "drakantos-pvp-modes"
+      },
+      {
+        "slug": "drakantos-pvp",
+        "file": "drakantos-pvp"
+      },
+      {
+        "slug": "drakantos-quest",
+        "file": "drakantos-quest"
+      },
+      {
+        "slug": "drakantos-review",
+        "file": "drakantos-review"
+      },
+      {
+        "slug": "drakantos-single-player",
+        "file": "drakantos-single-player"
+      },
+      {
+        "slug": "drakantos-skill-tree",
+        "file": "drakantos-skill-tree"
+      },
+      {
+        "slug": "drakantos-skills",
+        "file": "drakantos-skills"
+      },
+      {
+        "slug": "drakantos-steam-charts",
+        "file": "drakantos-steam-charts"
+      },
+      {
+        "slug": "drakantos-vs-tibia",
+        "file": "drakantos-vs-tibia"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Drakantos-android",
+        "file": "Drakantos-android"
+      },
+      {
+        "slug": "Drakantos-download",
+        "file": "Drakantos-download"
+      },
+      {
+        "slug": "Drakantos-ios",
+        "file": "Drakantos-ios"
+      },
+      {
+        "slug": "Drakantos-mac",
+        "file": "Drakantos-mac"
+      },
+      {
+        "slug": "Drakantos-mobile",
+        "file": "Drakantos-mobile"
+      },
+      {
+        "slug": "Drakantos-pc-download",
+        "file": "Drakantos-pc-download"
+      },
+      {
+        "slug": "Drakantos-ps5",
+        "file": "Drakantos-ps5"
+      },
+      {
+        "slug": "Drakantos-steam",
+        "file": "Drakantos-steam"
+      },
+      {
+        "slug": "Drakantos-switch",
+        "file": "Drakantos-switch"
+      },
+      {
+        "slug": "Drakantos-xbox",
+        "file": "Drakantos-xbox"
+      },
+      {
+        "slug": "drakantos-download-size",
+        "file": "drakantos-download-size"
+      },
+      {
+        "slug": "drakantos-epic-games",
+        "file": "drakantos-epic-games"
+      },
+      {
+        "slug": "drakantos-linux",
+        "file": "drakantos-linux"
+      },
+      {
+        "slug": "drakantos-steam-deck",
+        "file": "drakantos-steam-deck"
+      },
+      {
+        "slug": "drakantos-system-requirements",
+        "file": "drakantos-system-requirements"
+      },
+      {
+        "slug": "drakantos-xbox-release-date",
+        "file": "drakantos-xbox-release-date"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Drakantos-early-access",
+        "file": "Drakantos-early-access"
+      },
+      {
+        "slug": "Drakantos-launch-date",
+        "file": "Drakantos-launch-date"
+      },
+      {
+        "slug": "Drakantos-release-date-2026",
+        "file": "Drakantos-release-date-2026"
+      },
+      {
+        "slug": "Drakantos-release-date",
+        "file": "Drakantos-release-date"
+      },
+      {
+        "slug": "Drakantos-roadmap",
+        "file": "Drakantos-roadmap"
+      },
+      {
+        "slug": "Drakantos-when-release",
+        "file": "Drakantos-when-release"
+      },
+      {
+        "slug": "drakantos-console-release-date",
+        "file": "drakantos-console-release-date"
+      },
+      {
+        "slug": "drakantos-mobile-release-date",
+        "file": "drakantos-mobile-release-date"
+      },
+      {
+        "slug": "is-drakantos-free-to-play",
+        "file": "is-drakantos-free-to-play"
+      }
+    ]
+  },
+  "es": {
+    "beta": [
+      {
+        "slug": "Drakantos-beta-access",
+        "file": "Drakantos-beta-access"
+      },
+      {
+        "slug": "Drakantos-beta-key",
+        "file": "Drakantos-beta-key"
+      },
+      {
+        "slug": "Drakantos-beta-test",
+        "file": "Drakantos-beta-test"
+      },
+      {
+        "slug": "Drakantos-closed-beta",
+        "file": "Drakantos-closed-beta"
+      },
+      {
+        "slug": "Drakantos-next-beta",
+        "file": "Drakantos-next-beta"
+      },
+      {
+        "slug": "Drakantos-open-beta",
+        "file": "Drakantos-open-beta"
+      },
+      {
+        "slug": "Drakantos-playtest",
+        "file": "Drakantos-playtest"
+      },
+      {
+        "slug": "Drakantos-twitch-drops",
+        "file": "Drakantos-twitch-drops"
+      },
+      {
+        "slug": "drakantos-beta-rewards",
+        "file": "drakantos-beta-rewards"
+      },
+      {
+        "slug": "drakantos-beta-sign-up",
+        "file": "drakantos-beta-sign-up"
+      },
+      {
+        "slug": "drakantos-ophis-fight",
+        "file": "drakantos-ophis-fight"
+      }
+    ],
+    "classes": [
+      {
+        "slug": "Drakantos-Thomas",
+        "file": "Drakantos-Thomas"
+      },
+      {
+        "slug": "Drakantos-Yuki",
+        "file": "Drakantos-Yuki"
+      },
+      {
+        "slug": "Drakantos-Yura",
+        "file": "Drakantos-Yura"
+      },
+      {
+        "slug": "Drakantos-best-class",
+        "file": "Drakantos-best-class"
+      },
+      {
+        "slug": "Drakantos-character-tier-list",
+        "file": "Drakantos-character-tier-list"
+      },
+      {
+        "slug": "Drakantos-characters",
+        "file": "Drakantos-characters"
+      },
+      {
+        "slug": "Drakantos-class-tier-list",
+        "file": "Drakantos-class-tier-list"
+      },
+      {
+        "slug": "Drakantos-classes",
+        "file": "Drakantos-classes"
+      },
+      {
+        "slug": "Drakantos-heroes",
+        "file": "Drakantos-heroes"
+      },
+      {
+        "slug": "drakantos-bard",
+        "file": "drakantos-bard"
+      },
+      {
+        "slug": "drakantos-berserker",
+        "file": "drakantos-berserker"
+      },
+      {
+        "slug": "drakantos-best-hero",
+        "file": "drakantos-best-hero"
+      },
+      {
+        "slug": "drakantos-character-creation",
+        "file": "drakantos-character-creation"
+      },
+      {
+        "slug": "drakantos-classes-tier-list",
+        "file": "drakantos-classes-tier-list"
+      },
+      {
+        "slug": "drakantos-frost",
+        "file": "drakantos-frost"
+      },
+      {
+        "slug": "drakantos-heroes-skills",
+        "file": "drakantos-heroes-skills"
+      },
+      {
+        "slug": "drakantos-illusionist",
+        "file": "drakantos-illusionist"
+      },
+      {
+        "slug": "drakantos-races",
+        "file": "drakantos-races"
+      },
+      {
+        "slug": "drakantos-rogue",
+        "file": "drakantos-rogue"
+      },
+      {
+        "slug": "drakantos-wingeon",
+        "file": "drakantos-wingeon"
+      },
+      {
+        "slug": "drakantos-zeugladius",
+        "file": "drakantos-zeugladius"
+      },
+      {
+        "slug": "drakantos-zeus",
+        "file": "drakantos-zeus"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Drakantos-artifacts",
+        "file": "Drakantos-artifacts"
+      },
+      {
+        "slug": "Drakantos-beginner-guide",
+        "file": "Drakantos-beginner-guide"
+      },
+      {
+        "slug": "Drakantos-build",
+        "file": "Drakantos-build"
+      },
+      {
+        "slug": "Drakantos-combat",
+        "file": "Drakantos-combat"
+      },
+      {
+        "slug": "Drakantos-equipment",
+        "file": "Drakantos-equipment"
+      },
+      {
+        "slug": "Drakantos-guide",
+        "file": "Drakantos-guide"
+      },
+      {
+        "slug": "Drakantos-how-to-play",
+        "file": "Drakantos-how-to-play"
+      },
+      {
+        "slug": "drakantos-calendar",
+        "file": "drakantos-calendar"
+      },
+      {
+        "slug": "drakantos-character-customization",
+        "file": "drakantos-character-customization"
+      },
+      {
+        "slug": "drakantos-endgame",
+        "file": "drakantos-endgame"
+      },
+      {
+        "slug": "drakantos-find-gus",
+        "file": "drakantos-find-gus"
+      },
+      {
+        "slug": "drakantos-gameplay",
+        "file": "drakantos-gameplay"
+      },
+      {
+        "slug": "drakantos-guild",
+        "file": "drakantos-guild"
+      },
+      {
+        "slug": "drakantos-horse",
+        "file": "drakantos-horse"
+      },
+      {
+        "slug": "drakantos-housing",
+        "file": "drakantos-housing"
+      },
+      {
+        "slug": "drakantos-interactive-map",
+        "file": "drakantos-interactive-map"
+      },
+      {
+        "slug": "drakantos-invite",
+        "file": "drakantos-invite"
+      },
+      {
+        "slug": "drakantos-map",
+        "file": "drakantos-map"
+      },
+      {
+        "slug": "drakantos-mount",
+        "file": "drakantos-mount"
+      },
+      {
+        "slug": "drakantos-movement",
+        "file": "drakantos-movement"
+      },
+      {
+        "slug": "drakantos-offline",
+        "file": "drakantos-offline"
+      },
+      {
+        "slug": "drakantos-pve",
+        "file": "drakantos-pve"
+      },
+      {
+        "slug": "drakantos-pvp-modes",
+        "file": "drakantos-pvp-modes"
+      },
+      {
+        "slug": "drakantos-pvp",
+        "file": "drakantos-pvp"
+      },
+      {
+        "slug": "drakantos-quest",
+        "file": "drakantos-quest"
+      },
+      {
+        "slug": "drakantos-review",
+        "file": "drakantos-review"
+      },
+      {
+        "slug": "drakantos-single-player",
+        "file": "drakantos-single-player"
+      },
+      {
+        "slug": "drakantos-skill-tree",
+        "file": "drakantos-skill-tree"
+      },
+      {
+        "slug": "drakantos-skills",
+        "file": "drakantos-skills"
+      },
+      {
+        "slug": "drakantos-steam-charts",
+        "file": "drakantos-steam-charts"
+      },
+      {
+        "slug": "drakantos-vs-tibia",
+        "file": "drakantos-vs-tibia"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Drakantos-android",
+        "file": "Drakantos-android"
+      },
+      {
+        "slug": "Drakantos-download",
+        "file": "Drakantos-download"
+      },
+      {
+        "slug": "Drakantos-ios",
+        "file": "Drakantos-ios"
+      },
+      {
+        "slug": "Drakantos-mac",
+        "file": "Drakantos-mac"
+      },
+      {
+        "slug": "Drakantos-mobile",
+        "file": "Drakantos-mobile"
+      },
+      {
+        "slug": "Drakantos-pc-download",
+        "file": "Drakantos-pc-download"
+      },
+      {
+        "slug": "Drakantos-ps5",
+        "file": "Drakantos-ps5"
+      },
+      {
+        "slug": "Drakantos-steam",
+        "file": "Drakantos-steam"
+      },
+      {
+        "slug": "Drakantos-switch",
+        "file": "Drakantos-switch"
+      },
+      {
+        "slug": "Drakantos-xbox",
+        "file": "Drakantos-xbox"
+      },
+      {
+        "slug": "drakantos-download-size",
+        "file": "drakantos-download-size"
+      },
+      {
+        "slug": "drakantos-epic-games",
+        "file": "drakantos-epic-games"
+      },
+      {
+        "slug": "drakantos-linux",
+        "file": "drakantos-linux"
+      },
+      {
+        "slug": "drakantos-steam-deck",
+        "file": "drakantos-steam-deck"
+      },
+      {
+        "slug": "drakantos-system-requirements",
+        "file": "drakantos-system-requirements"
+      },
+      {
+        "slug": "drakantos-xbox-release-date",
+        "file": "drakantos-xbox-release-date"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Drakantos-early-access",
+        "file": "Drakantos-early-access"
+      },
+      {
+        "slug": "Drakantos-launch-date",
+        "file": "Drakantos-launch-date"
+      },
+      {
+        "slug": "Drakantos-release-date-2026",
+        "file": "Drakantos-release-date-2026"
+      },
+      {
+        "slug": "Drakantos-release-date",
+        "file": "Drakantos-release-date"
+      },
+      {
+        "slug": "Drakantos-roadmap",
+        "file": "Drakantos-roadmap"
+      },
+      {
+        "slug": "Drakantos-when-release",
+        "file": "Drakantos-when-release"
+      },
+      {
+        "slug": "drakantos-console-release-date",
+        "file": "drakantos-console-release-date"
+      },
+      {
+        "slug": "drakantos-mobile-release-date",
+        "file": "drakantos-mobile-release-date"
+      },
+      {
+        "slug": "is-drakantos-free-to-play",
+        "file": "is-drakantos-free-to-play"
+      }
+    ]
+  },
+  "fr": {
+    "beta": [
+      {
+        "slug": "Drakantos-beta-access",
+        "file": "Drakantos-beta-access"
+      },
+      {
+        "slug": "Drakantos-beta-key",
+        "file": "Drakantos-beta-key"
+      },
+      {
+        "slug": "Drakantos-beta-test",
+        "file": "Drakantos-beta-test"
+      },
+      {
+        "slug": "Drakantos-closed-beta",
+        "file": "Drakantos-closed-beta"
+      },
+      {
+        "slug": "Drakantos-next-beta",
+        "file": "Drakantos-next-beta"
+      },
+      {
+        "slug": "Drakantos-open-beta",
+        "file": "Drakantos-open-beta"
+      },
+      {
+        "slug": "Drakantos-playtest",
+        "file": "Drakantos-playtest"
+      },
+      {
+        "slug": "Drakantos-twitch-drops",
+        "file": "Drakantos-twitch-drops"
+      }
+    ],
+    "classes": [
+      {
+        "slug": "Drakantos-Thomas",
+        "file": "Drakantos-Thomas"
+      },
+      {
+        "slug": "Drakantos-Yuki",
+        "file": "Drakantos-Yuki"
+      },
+      {
+        "slug": "Drakantos-Yura",
+        "file": "Drakantos-Yura"
+      },
+      {
+        "slug": "Drakantos-best-class",
+        "file": "Drakantos-best-class"
+      },
+      {
+        "slug": "Drakantos-character-tier-list",
+        "file": "Drakantos-character-tier-list"
+      },
+      {
+        "slug": "Drakantos-characters",
+        "file": "Drakantos-characters"
+      },
+      {
+        "slug": "Drakantos-class-tier-list",
+        "file": "Drakantos-class-tier-list"
+      },
+      {
+        "slug": "Drakantos-classes",
+        "file": "Drakantos-classes"
+      },
+      {
+        "slug": "Drakantos-heroes",
+        "file": "Drakantos-heroes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Drakantos-artifacts",
+        "file": "Drakantos-artifacts"
+      },
+      {
+        "slug": "Drakantos-beginner-guide",
+        "file": "Drakantos-beginner-guide"
+      },
+      {
+        "slug": "Drakantos-build",
+        "file": "Drakantos-build"
+      },
+      {
+        "slug": "Drakantos-combat",
+        "file": "Drakantos-combat"
+      },
+      {
+        "slug": "Drakantos-equipment",
+        "file": "Drakantos-equipment"
+      },
+      {
+        "slug": "Drakantos-guide",
+        "file": "Drakantos-guide"
+      },
+      {
+        "slug": "Drakantos-how-to-play",
+        "file": "Drakantos-how-to-play"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Drakantos-android",
+        "file": "Drakantos-android"
+      },
+      {
+        "slug": "Drakantos-download",
+        "file": "Drakantos-download"
+      },
+      {
+        "slug": "Drakantos-ios",
+        "file": "Drakantos-ios"
+      },
+      {
+        "slug": "Drakantos-mac",
+        "file": "Drakantos-mac"
+      },
+      {
+        "slug": "Drakantos-mobile",
+        "file": "Drakantos-mobile"
+      },
+      {
+        "slug": "Drakantos-pc-download",
+        "file": "Drakantos-pc-download"
+      },
+      {
+        "slug": "Drakantos-ps5",
+        "file": "Drakantos-ps5"
+      },
+      {
+        "slug": "Drakantos-steam",
+        "file": "Drakantos-steam"
+      },
+      {
+        "slug": "Drakantos-switch",
+        "file": "Drakantos-switch"
+      },
+      {
+        "slug": "Drakantos-xbox",
+        "file": "Drakantos-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Drakantos-early-access",
+        "file": "Drakantos-early-access"
+      },
+      {
+        "slug": "Drakantos-launch-date",
+        "file": "Drakantos-launch-date"
+      },
+      {
+        "slug": "Drakantos-release-date-2026",
+        "file": "Drakantos-release-date-2026"
+      },
+      {
+        "slug": "Drakantos-release-date",
+        "file": "Drakantos-release-date"
+      },
+      {
+        "slug": "Drakantos-roadmap",
+        "file": "Drakantos-roadmap"
+      },
+      {
+        "slug": "Drakantos-when-release",
+        "file": "Drakantos-when-release"
+      }
+    ]
+  },
+  "ja": {
+    "beta": [
+      {
+        "slug": "drakantos-beta-rewards",
+        "file": "drakantos-beta-rewards"
+      },
+      {
+        "slug": "drakantos-beta-sign-up",
+        "file": "drakantos-beta-sign-up"
+      },
+      {
+        "slug": "drakantos-ophis-fight",
+        "file": "drakantos-ophis-fight"
+      }
+    ],
+    "classes": [
+      {
+        "slug": "drakantos-bard",
+        "file": "drakantos-bard"
+      },
+      {
+        "slug": "drakantos-berserker",
+        "file": "drakantos-berserker"
+      },
+      {
+        "slug": "drakantos-best-hero",
+        "file": "drakantos-best-hero"
+      },
+      {
+        "slug": "drakantos-character-creation",
+        "file": "drakantos-character-creation"
+      },
+      {
+        "slug": "drakantos-classes-tier-list",
+        "file": "drakantos-classes-tier-list"
+      },
+      {
+        "slug": "drakantos-frost",
+        "file": "drakantos-frost"
+      },
+      {
+        "slug": "drakantos-heroes-skills",
+        "file": "drakantos-heroes-skills"
+      },
+      {
+        "slug": "drakantos-illusionist",
+        "file": "drakantos-illusionist"
+      },
+      {
+        "slug": "drakantos-races",
+        "file": "drakantos-races"
+      },
+      {
+        "slug": "drakantos-rogue",
+        "file": "drakantos-rogue"
+      },
+      {
+        "slug": "drakantos-wingeon",
+        "file": "drakantos-wingeon"
+      },
+      {
+        "slug": "drakantos-zeugladius",
+        "file": "drakantos-zeugladius"
+      },
+      {
+        "slug": "drakantos-zeus",
+        "file": "drakantos-zeus"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "drakantos-calendar",
+        "file": "drakantos-calendar"
+      },
+      {
+        "slug": "drakantos-character-customization",
+        "file": "drakantos-character-customization"
+      },
+      {
+        "slug": "drakantos-endgame",
+        "file": "drakantos-endgame"
+      },
+      {
+        "slug": "drakantos-find-gus",
+        "file": "drakantos-find-gus"
+      },
+      {
+        "slug": "drakantos-gameplay",
+        "file": "drakantos-gameplay"
+      },
+      {
+        "slug": "drakantos-guild",
+        "file": "drakantos-guild"
+      },
+      {
+        "slug": "drakantos-horse",
+        "file": "drakantos-horse"
+      },
+      {
+        "slug": "drakantos-housing",
+        "file": "drakantos-housing"
+      },
+      {
+        "slug": "drakantos-interactive-map",
+        "file": "drakantos-interactive-map"
+      },
+      {
+        "slug": "drakantos-invite",
+        "file": "drakantos-invite"
+      },
+      {
+        "slug": "drakantos-map",
+        "file": "drakantos-map"
+      },
+      {
+        "slug": "drakantos-mount",
+        "file": "drakantos-mount"
+      },
+      {
+        "slug": "drakantos-movement",
+        "file": "drakantos-movement"
+      },
+      {
+        "slug": "drakantos-offline",
+        "file": "drakantos-offline"
+      },
+      {
+        "slug": "drakantos-pve",
+        "file": "drakantos-pve"
+      },
+      {
+        "slug": "drakantos-pvp-modes",
+        "file": "drakantos-pvp-modes"
+      },
+      {
+        "slug": "drakantos-pvp",
+        "file": "drakantos-pvp"
+      },
+      {
+        "slug": "drakantos-quest",
+        "file": "drakantos-quest"
+      },
+      {
+        "slug": "drakantos-review",
+        "file": "drakantos-review"
+      },
+      {
+        "slug": "drakantos-single-player",
+        "file": "drakantos-single-player"
+      },
+      {
+        "slug": "drakantos-skill-tree",
+        "file": "drakantos-skill-tree"
+      },
+      {
+        "slug": "drakantos-skills",
+        "file": "drakantos-skills"
+      },
+      {
+        "slug": "drakantos-steam-charts",
+        "file": "drakantos-steam-charts"
+      },
+      {
+        "slug": "drakantos-vs-tibia",
+        "file": "drakantos-vs-tibia"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "drakantos-download-size",
+        "file": "drakantos-download-size"
+      },
+      {
+        "slug": "drakantos-epic-games",
+        "file": "drakantos-epic-games"
+      },
+      {
+        "slug": "drakantos-linux",
+        "file": "drakantos-linux"
+      },
+      {
+        "slug": "drakantos-steam-deck",
+        "file": "drakantos-steam-deck"
+      },
+      {
+        "slug": "drakantos-system-requirements",
+        "file": "drakantos-system-requirements"
+      },
+      {
+        "slug": "drakantos-xbox-release-date",
+        "file": "drakantos-xbox-release-date"
+      }
+    ],
+    "release": [
+      {
+        "slug": "drakantos-console-release-date",
+        "file": "drakantos-console-release-date"
+      },
+      {
+        "slug": "drakantos-mobile-release-date",
+        "file": "drakantos-mobile-release-date"
+      },
+      {
+        "slug": "is-drakantos-free-to-play",
+        "file": "is-drakantos-free-to-play"
+      }
+    ]
+  },
+  "pt": {
+    "beta": [
+      {
+        "slug": "Drakantos-beta-access",
+        "file": "Drakantos-beta-access"
+      },
+      {
+        "slug": "Drakantos-beta-key",
+        "file": "Drakantos-beta-key"
+      },
+      {
+        "slug": "Drakantos-beta-test",
+        "file": "Drakantos-beta-test"
+      },
+      {
+        "slug": "Drakantos-closed-beta",
+        "file": "Drakantos-closed-beta"
+      },
+      {
+        "slug": "Drakantos-next-beta",
+        "file": "Drakantos-next-beta"
+      },
+      {
+        "slug": "Drakantos-open-beta",
+        "file": "Drakantos-open-beta"
+      },
+      {
+        "slug": "Drakantos-playtest",
+        "file": "Drakantos-playtest"
+      },
+      {
+        "slug": "Drakantos-twitch-drops",
+        "file": "Drakantos-twitch-drops"
+      }
+    ],
+    "classes": [
+      {
+        "slug": "Drakantos-Thomas",
+        "file": "Drakantos-Thomas"
+      },
+      {
+        "slug": "Drakantos-Yuki",
+        "file": "Drakantos-Yuki"
+      },
+      {
+        "slug": "Drakantos-Yura",
+        "file": "Drakantos-Yura"
+      },
+      {
+        "slug": "Drakantos-best-class",
+        "file": "Drakantos-best-class"
+      },
+      {
+        "slug": "Drakantos-character-tier-list",
+        "file": "Drakantos-character-tier-list"
+      },
+      {
+        "slug": "Drakantos-characters",
+        "file": "Drakantos-characters"
+      },
+      {
+        "slug": "Drakantos-class-tier-list",
+        "file": "Drakantos-class-tier-list"
+      },
+      {
+        "slug": "Drakantos-classes",
+        "file": "Drakantos-classes"
+      },
+      {
+        "slug": "Drakantos-heroes",
+        "file": "Drakantos-heroes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Drakantos-artifacts",
+        "file": "Drakantos-artifacts"
+      },
+      {
+        "slug": "Drakantos-beginner-guide",
+        "file": "Drakantos-beginner-guide"
+      },
+      {
+        "slug": "Drakantos-build",
+        "file": "Drakantos-build"
+      },
+      {
+        "slug": "Drakantos-combat",
+        "file": "Drakantos-combat"
+      },
+      {
+        "slug": "Drakantos-equipment",
+        "file": "Drakantos-equipment"
+      },
+      {
+        "slug": "Drakantos-guide",
+        "file": "Drakantos-guide"
+      },
+      {
+        "slug": "Drakantos-how-to-play",
+        "file": "Drakantos-how-to-play"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Drakantos-android",
+        "file": "Drakantos-android"
+      },
+      {
+        "slug": "Drakantos-download",
+        "file": "Drakantos-download"
+      },
+      {
+        "slug": "Drakantos-ios",
+        "file": "Drakantos-ios"
+      },
+      {
+        "slug": "Drakantos-mac",
+        "file": "Drakantos-mac"
+      },
+      {
+        "slug": "Drakantos-mobile",
+        "file": "Drakantos-mobile"
+      },
+      {
+        "slug": "Drakantos-pc-download",
+        "file": "Drakantos-pc-download"
+      },
+      {
+        "slug": "Drakantos-ps5",
+        "file": "Drakantos-ps5"
+      },
+      {
+        "slug": "Drakantos-steam",
+        "file": "Drakantos-steam"
+      },
+      {
+        "slug": "Drakantos-switch",
+        "file": "Drakantos-switch"
+      },
+      {
+        "slug": "Drakantos-xbox",
+        "file": "Drakantos-xbox"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Drakantos-early-access",
+        "file": "Drakantos-early-access"
+      },
+      {
+        "slug": "Drakantos-launch-date",
+        "file": "Drakantos-launch-date"
+      },
+      {
+        "slug": "Drakantos-release-date-2026",
+        "file": "Drakantos-release-date-2026"
+      },
+      {
+        "slug": "Drakantos-release-date",
+        "file": "Drakantos-release-date"
+      },
+      {
+        "slug": "Drakantos-roadmap",
+        "file": "Drakantos-roadmap"
+      },
+      {
+        "slug": "Drakantos-when-release",
+        "file": "Drakantos-when-release"
+      }
+    ]
+  },
+  "pt-br": {
+    "beta": [
+      {
+        "slug": "drakantos-beta-rewards",
+        "file": "drakantos-beta-rewards"
+      },
+      {
+        "slug": "drakantos-beta-sign-up",
+        "file": "drakantos-beta-sign-up"
+      },
+      {
+        "slug": "drakantos-ophis-fight",
+        "file": "drakantos-ophis-fight"
+      }
+    ],
+    "classes": [
+      {
+        "slug": "drakantos-bard",
+        "file": "drakantos-bard"
+      },
+      {
+        "slug": "drakantos-berserker",
+        "file": "drakantos-berserker"
+      },
+      {
+        "slug": "drakantos-best-hero",
+        "file": "drakantos-best-hero"
+      },
+      {
+        "slug": "drakantos-character-creation",
+        "file": "drakantos-character-creation"
+      },
+      {
+        "slug": "drakantos-classes-tier-list",
+        "file": "drakantos-classes-tier-list"
+      },
+      {
+        "slug": "drakantos-frost",
+        "file": "drakantos-frost"
+      },
+      {
+        "slug": "drakantos-heroes-skills",
+        "file": "drakantos-heroes-skills"
+      },
+      {
+        "slug": "drakantos-illusionist",
+        "file": "drakantos-illusionist"
+      },
+      {
+        "slug": "drakantos-races",
+        "file": "drakantos-races"
+      },
+      {
+        "slug": "drakantos-rogue",
+        "file": "drakantos-rogue"
+      },
+      {
+        "slug": "drakantos-wingeon",
+        "file": "drakantos-wingeon"
+      },
+      {
+        "slug": "drakantos-zeugladius",
+        "file": "drakantos-zeugladius"
+      },
+      {
+        "slug": "drakantos-zeus",
+        "file": "drakantos-zeus"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "drakantos-calendar",
+        "file": "drakantos-calendar"
+      },
+      {
+        "slug": "drakantos-character-customization",
+        "file": "drakantos-character-customization"
+      },
+      {
+        "slug": "drakantos-endgame",
+        "file": "drakantos-endgame"
+      },
+      {
+        "slug": "drakantos-find-gus",
+        "file": "drakantos-find-gus"
+      },
+      {
+        "slug": "drakantos-gameplay",
+        "file": "drakantos-gameplay"
+      },
+      {
+        "slug": "drakantos-guild",
+        "file": "drakantos-guild"
+      },
+      {
+        "slug": "drakantos-horse",
+        "file": "drakantos-horse"
+      },
+      {
+        "slug": "drakantos-housing",
+        "file": "drakantos-housing"
+      },
+      {
+        "slug": "drakantos-interactive-map",
+        "file": "drakantos-interactive-map"
+      },
+      {
+        "slug": "drakantos-invite",
+        "file": "drakantos-invite"
+      },
+      {
+        "slug": "drakantos-map",
+        "file": "drakantos-map"
+      },
+      {
+        "slug": "drakantos-mount",
+        "file": "drakantos-mount"
+      },
+      {
+        "slug": "drakantos-movement",
+        "file": "drakantos-movement"
+      },
+      {
+        "slug": "drakantos-offline",
+        "file": "drakantos-offline"
+      },
+      {
+        "slug": "drakantos-pve",
+        "file": "drakantos-pve"
+      },
+      {
+        "slug": "drakantos-pvp-modes",
+        "file": "drakantos-pvp-modes"
+      },
+      {
+        "slug": "drakantos-pvp",
+        "file": "drakantos-pvp"
+      },
+      {
+        "slug": "drakantos-quest",
+        "file": "drakantos-quest"
+      },
+      {
+        "slug": "drakantos-review",
+        "file": "drakantos-review"
+      },
+      {
+        "slug": "drakantos-single-player",
+        "file": "drakantos-single-player"
+      },
+      {
+        "slug": "drakantos-skill-tree",
+        "file": "drakantos-skill-tree"
+      },
+      {
+        "slug": "drakantos-skills",
+        "file": "drakantos-skills"
+      },
+      {
+        "slug": "drakantos-steam-charts",
+        "file": "drakantos-steam-charts"
+      },
+      {
+        "slug": "drakantos-vs-tibia",
+        "file": "drakantos-vs-tibia"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "drakantos-download-size",
+        "file": "drakantos-download-size"
+      },
+      {
+        "slug": "drakantos-epic-games",
+        "file": "drakantos-epic-games"
+      },
+      {
+        "slug": "drakantos-linux",
+        "file": "drakantos-linux"
+      },
+      {
+        "slug": "drakantos-steam-deck",
+        "file": "drakantos-steam-deck"
+      },
+      {
+        "slug": "drakantos-system-requirements",
+        "file": "drakantos-system-requirements"
+      },
+      {
+        "slug": "drakantos-xbox-release-date",
+        "file": "drakantos-xbox-release-date"
+      }
+    ],
+    "release": [
+      {
+        "slug": "drakantos-console-release-date",
+        "file": "drakantos-console-release-date"
+      },
+      {
+        "slug": "drakantos-mobile-release-date",
+        "file": "drakantos-mobile-release-date"
+      },
+      {
+        "slug": "is-drakantos-free-to-play",
+        "file": "is-drakantos-free-to-play"
+      }
+    ]
+  }
+}
